@@ -1,50 +1,32 @@
 ---
-title: "Tina Cloud Starter"
+title: Tina Cloud Starter
 blocks:
-  - headline: Welcome to the Tina Starter
-    text: >
-      This project is set up to show you the basics of working with Tina. You're
-      looking at the landing page, which pulls content from
-      content/pages/home.md, components from components/blocks, and puts them
-      all together in pages/\[filename].tsx, all based on a schema defined in
-      .tina/schema.ts.
-    actions:
-      - label: Get Started
-        type: button
-        icon: true
-        link: /posts
-      - label: Read Blog
-        type: link
-        icon: false
-        link: /posts
-    image:
-      src: /uploads/tina-illustration.webp
-      alt: Tina
-    color: default
+  - subtitle: >-
+      We’re building a community of UX leaders with a passion for helping solve
+      real-world product issues.
+    imageLeft:
+      src: /uploads/manyhands-faces-01.webp
+    iconLeft:
+      src: /uploads/point-up.svg
     _template: hero
-  - items:
+  - heading: How it works
+    items:
       - icon:
-          color: red
-          style: float
-          name: code
-        title: Amazing Feature
+          name: ''
+        title: Here's Another Feature
         text: >-
-          Aliquam blandit felis rhoncus, eleifend ipsum in, condimentum nibh.
-          Praesent ac faucibus risus, eu lacinia enim.
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
       - icon:
-          color: primary
-          style: float
-          name: like
-        title: This Is a Feature
-        text: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
+          name: ''
+        title: Here's 2nd thingy
+        text: beep boop
       - icon:
-          color: green
-          style: float
-          name: palette
-        title: Configurable Theme
+          name: ''
+        title: Here's Another Feature
         text: >-
-          Edit global theme configuration with Tina. Change your theme's primary
-          color, font, or icon set.
-    color: tint
-    _template: features
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+    _template: howItWorks
 ---
+

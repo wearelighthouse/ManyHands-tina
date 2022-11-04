@@ -1,22 +1,15 @@
 import React from "react";
-import { Container } from "../util/container";
-import { Section } from "../util/section";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import type { TinaTemplate } from "tinacms";
 
 export const Content = ({ data, parentField = "" }) => {
   return (
-    <Section color={data.color}>
-      <Container
-        className={`max-w-4xl prose prose-lg ${
-          data.color === "primary" ? `prose-primary` : `dark:prose-dark`
-        }`}
-        data-tinafield={`${parentField}.body`}
-        size="large"
-      >
-        <TinaMarkdown content={data.body} />
-      </Container>
-    </Section>
+    <div
+      className={`max-w-4xl prose prose-lg`}
+      data-tinafield={`${parentField}.body`}
+    >
+      <TinaMarkdown content={data.body} />
+    </div>
   );
 };
 

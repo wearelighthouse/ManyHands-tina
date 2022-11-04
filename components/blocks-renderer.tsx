@@ -1,7 +1,7 @@
 import React from "react";
 import type { Page } from "../.tina/__generated__/types";
 import { Content } from "./blocks/content";
-import { Features } from "./blocks/features";
+import { HowItWorks } from "./blocks/how-it-works";
 import { Hero } from "./blocks/hero";
 import { Testimonial } from "./blocks/testimonial";
 
@@ -29,13 +29,13 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
                     <Hero data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
-              case "PageBlocksFeatures":
+              case "PageBlocksHowItWorks":
                 return (
                   <div
                     data-tinafield={`blocks.${i}`}
                     key={i + block.__typename}
                   >
-                    <Features data={block} parentField={`blocks.${i}`} />
+                    <HowItWorks data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
               case "PageBlocksTestimonial":
