@@ -4,12 +4,12 @@ import type { TinaTemplate } from "tinacms";
 
 export const Content = ({ data, parentField = "" }) => {
   return (
-    <div
-      className={`max-w-4xl prose prose-lg`}
+    <section
+      className="py-16 flex"
       data-tinafield={`${parentField}.body`}
     >
       <TinaMarkdown content={data.body} />
-    </div>
+    </section>
   );
 };
 
@@ -27,16 +27,6 @@ export const contentBlockSchema: TinaTemplate = {
       type: "rich-text",
       label: "Body",
       name: "body",
-    },
-    {
-      type: "string",
-      label: "Color",
-      name: "color",
-      options: [
-        { label: "Default", value: "default" },
-        { label: "Tint", value: "tint" },
-        { label: "Primary", value: "primary" },
-      ],
     },
   ],
 };

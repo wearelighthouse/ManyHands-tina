@@ -21,7 +21,7 @@ export const Quote = ({ data, tinaField }) => (
     <div className="max-w-xl">
       {data.quote && (
         <q
-          data-tinaField={`${tinaField}.icon`}
+          data-tinafield={`${tinaField}.quote`}
           className="text-lg tablet:text-xl desktop:text-2xl"
         >
           {data.quote}
@@ -121,41 +121,41 @@ export const testimonialsBlockSchema: TinaTemplate = {
       label: "Heading",
       name: "heading",
     },
-    {
-      type: "object",
-      label: "Logos",
-      name: "logos",
-      list: true,
-      ui: {
-        itemProps: (item) => {
-          return {
-            label: item?.alt,
-          };
-        },
-        defaultItem: {
+    // {
+    //   type: "object",
+    //   label: "Logos",
+    //   name: "logos",
+    //   list: true,
+    //   ui: {
+    //     itemProps: (item) => {
+    //       return {
+    //         label: item?.alt,
+    //       };
+    //     },
+    //     defaultItem: {
 
-        },
-      },
-      fields: [
-        {
-          type: "object",
-          label: "Logo",
-          name: "logo",
-          fields: [
-            {
-              name: "src",
-              label: "Logo Source",
-              type: "image",
-            },
-            {
-              name: "alt",
-              label: "Alt Text",
-              type: "string",
-            },
-          ],
-        },
-      ],
-    },
+    //     },
+    //   },
+    //   fields: [
+    //     {
+    //       type: "object",
+    //       label: "Logo",
+    //       name: "logo",
+    //       fields: [
+    //         {
+    //           name: "src",
+    //           label: "Logo Source",
+    //           type: "image",
+    //         },
+    //         {
+    //           name: "alt",
+    //           label: "Alt Text",
+    //           type: "string",
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
     {
       type: "object",
       label: "Quotes",

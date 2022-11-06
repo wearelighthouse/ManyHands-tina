@@ -14,6 +14,9 @@ blocks:
   - icon:
       name: ''
     _template: hr
+  - body: |
+      test
+    _template: content
   - heading: How it works
     items:
       - icon:
