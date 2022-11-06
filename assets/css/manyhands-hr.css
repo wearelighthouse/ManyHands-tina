@@ -1,0 +1,8 @@
+.manyhands-hr {
+  @apply flex items-center justify-center text-light-gray border overflow-visible;
+}
+
+.manyhands-hr::after {
+  @apply flex bg-current rounded-full p-3 aspect-square;
+  content: url('../hand-icons/horns.svg');
+}

@@ -1,6 +1,7 @@
 import { Icon } from "../util/icon";
 import type { TinaTemplate } from "tinacms";
 import { iconSchema } from "../util/icon";
+import toKebabCase from "../util/to-kebab-case";
 
 export const HowItWorksItem = ({ data, tinaField }) => (
   <li className="max-w-2xs">
@@ -31,30 +32,31 @@ export const HowItWorksItem = ({ data, tinaField }) => (
   </li>
 );
 
-export const HowItWorks = ({ data, parentField }) => {
-  return (
-    <section className="px-4 my-24 desktop:my-32 text-center">
-      <h2
-        className="h2"
-        data-tinafield={`${parentField}.heading`}
-      >
-        {data.heading}
-      </h2>
+export const HowItWorks = ({ data, parentField }) => (
+  <section
+    id={toKebabCase(data.heading)}
+    className="px-4 my-24 desktop:my-32 text-center"
+  >
+    <h2
+      className="h2"
+      data-tinafield={`${parentField}.heading`}
+    >
+      {data.heading}
+    </h2>
 
-      {data.items && (
-        <ol className="flex flex-col gap-6 tablet:flex-row desktop:text-2xl justify-center items-center tablet:items-stretch">
-          {data.items.map((block, i) => (
-            <HowItWorksItem
-              tinaField={`${parentField}.items.${i}`}
-              data={block}
-              key={i}
-            />
-          ))}
-        </ol>
-      )}
-    </section>
-  );
-};
+    {data.items && (
+      <ol className="flex flex-col gap-6 tablet:flex-row desktop:text-2xl justify-center items-center tablet:items-stretch">
+        {data.items.map((block, i) => (
+          <HowItWorksItem
+            tinaField={`${parentField}.items.${i}`}
+            data={block}
+            key={i}
+          />
+        ))}
+      </ol>
+    )}
+  </section>
+);
 
 const defaultItem = {
   title: "Here's Another How It Works Items",

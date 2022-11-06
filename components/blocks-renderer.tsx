@@ -2,6 +2,8 @@ import React from "react";
 import type { Page } from "../.tina/__generated__/types";
 import { Content } from "./blocks/content";
 import { HowItWorks } from "./blocks/how-it-works";
+import { EventTicket } from "./blocks/event-ticket";
+import { Hr } from "./blocks/hr";
 import { Hero } from "./blocks/hero";
 import { Testimonial } from "./blocks/testimonial";
 
@@ -36,6 +38,24 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
                     key={i + block.__typename}
                   >
                     <HowItWorks data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+              case "PageBlocksEventTicket":
+                return (
+                  <div
+                    data-tinafield={`blocks.${i}`}
+                    key={i + block.__typename}
+                  >
+                    <EventTicket data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+              case "PageBlocksHr":
+                return (
+                  <div
+                    data-tinafield={`blocks.${i}`}
+                    key={i + block.__typename}
+                  >
+                    <Hr data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
               case "PageBlocksTestimonial":

@@ -1,6 +1,8 @@
 import { defineStaticConfig } from "tinacms";
 import { contentBlockSchema } from "../components/blocks/content";
 import { howItWorksBlockSchema } from "../components/blocks/how-it-works";
+import { eventTicketBlockSchema } from "../components/blocks/event-ticket";
+import { hrBlockSchema } from "../components/blocks/hr";
 import { heroBlockSchema } from "../components/blocks/hero";
 import { testimonialBlockSchema } from "../components/blocks/testimonial";
 import { iconSchema } from "../components/util/icon";
@@ -394,6 +396,8 @@ const config = defineStaticConfig({
             },
             templates: [
               heroBlockSchema,
+              eventTicketBlockSchema,
+              hrBlockSchema,
               howItWorksBlockSchema,
               contentBlockSchema,
               testimonialBlockSchema,

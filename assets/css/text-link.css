@@ -1,0 +1,9 @@
+.text-link .arrow {
+  transition: transform .2s;
+  flex-shrink: 0;
+}
+
+.text-link:hover .arrow,
+.text-link:focus .arrow {
+  transform: translateX(4px);
+}

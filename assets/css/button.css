@@ -1,0 +1,17 @@
+.button {
+  @apply bg-pink text-white text-2xl font-medium rounded gap-2 mobile:gap-6 px-4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+}
+
+.button .arrow {
+  transition: transform .2s;
+  flex-shrink: 0;
+}
+
+.button:hover .arrow,
+.button:focus .arrow {
+  transform: translateX(4px);
+}

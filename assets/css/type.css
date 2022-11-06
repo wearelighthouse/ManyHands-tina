@@ -1,0 +1,7 @@
+.h1 {
+  @apply font-tiempos font-bold text-4xl tablet:text-5xl desktop:text-6xl leading-tight;
+}
+
+.h2 {
+  @apply font-tiempos font-semibold text-2xl tablet:text-3xl desktop:text-3.5xl mb-8 tablet:mb-10 desktop:mb-12;
+}

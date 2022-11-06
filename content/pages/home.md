@@ -9,10 +9,15 @@ blocks:
     iconLeft:
       src: /uploads/point-up.svg
     _template: hero
+  - heading: Next event test
+    _template: eventTicket
+  - icon:
+      name: ''
+    _template: hr
   - heading: How it works
     items:
       - icon:
-          name: ''
+          name: wave
         title: Here's Another Feature
         text: >-
           This is where you might talk about the feature, if this wasn't just

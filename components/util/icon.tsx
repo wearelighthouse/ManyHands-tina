@@ -1,15 +1,17 @@
 import * as React from "react";
 import TinaIconSvg from "../../public/tina.svg";
+import WavingHandSvg from "../../assets/hand-icons/waving-hand.svg";
 import type { TinaField } from "tinacms";
 
 const iconOptions = {
-  tina: { bi: TinaIconSvg, hi: TinaIconSvg },
+  tina: TinaIconSvg,
+  wave: WavingHandSvg,
 };
 
 const iconSizeClass = {
   small: "w-8 h-8",
   medium: "w-12 h-12",
-  large: "w-14 h-14",
+  large: "w-16 h-16",
 };
 
 export const Icon = ({
@@ -18,16 +20,16 @@ export const Icon = ({
   tinaField = "",
 }) => {
   const iconName = data.name || Object.keys(iconOptions)[0];
-  // const IconSVG = ???
-
+  const IconSVG = iconOptions[iconName]
   const iconSizeClasses = data.size && iconSizeClass[data.size];
 
   return (
-    // <IconSVG
-    //   data-tinafield={tinaField}
-    //   className={`${iconSizeClasses} ${className}`}
-    // />
-    <div></div>
+    <IconSVG
+      // All icons are hidden, for now. Alt text would be good.
+      aria-hidden="true"
+      data-tinafield={tinaField}
+      className={`${iconSizeClasses} ${className}`}
+    />
   );
 };
 
