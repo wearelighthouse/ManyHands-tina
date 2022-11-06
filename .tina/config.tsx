@@ -1,10 +1,11 @@
 import { defineStaticConfig } from "tinacms";
+import { broughtToYouByBlockSchema } from "../components/blocks/brought-to-you-by";
 import { contentBlockSchema } from "../components/blocks/content";
 import { howItWorksBlockSchema } from "../components/blocks/how-it-works";
 import { eventTicketBlockSchema } from "../components/blocks/event-ticket";
 import { hrBlockSchema } from "../components/blocks/hr";
 import { heroBlockSchema } from "../components/blocks/hero";
-import { testimonialBlockSchema } from "../components/blocks/testimonial";
+import { testimonialsBlockSchema } from "../components/blocks/testimonials";
 import { iconSchema } from "../components/util/icon";
 
 const config = defineStaticConfig({
@@ -201,49 +202,6 @@ const config = defineStaticConfig({
           },
           {
             type: "object",
-            label: "Footer",
-            name: "footer",
-            fields: [
-              {
-                type: "string",
-                label: "Color",
-                name: "color",
-                options: [
-                  { label: "Default", value: "default" },
-                  { label: "Primary", value: "primary" },
-                ],
-              },
-              {
-                type: "object",
-                label: "Social Links",
-                name: "social",
-                fields: [
-                  {
-                    type: "string",
-                    label: "Facebook",
-                    name: "facebook",
-                  },
-                  {
-                    type: "string",
-                    label: "Twitter",
-                    name: "twitter",
-                  },
-                  {
-                    type: "string",
-                    label: "Instagram",
-                    name: "instagram",
-                  },
-                  {
-                    type: "string",
-                    label: "Github",
-                    name: "github",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            type: "object",
             label: "Theme",
             name: "theme",
             fields: [
@@ -395,12 +353,13 @@ const config = defineStaticConfig({
               visualSelector: true,
             },
             templates: [
+              broughtToYouByBlockSchema,
               heroBlockSchema,
               eventTicketBlockSchema,
               hrBlockSchema,
               howItWorksBlockSchema,
               contentBlockSchema,
-              testimonialBlockSchema,
+              testimonialsBlockSchema,
             ],
           },
         ],

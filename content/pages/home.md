@@ -33,5 +33,14 @@ blocks:
           This is where you might talk about the feature, if this wasn't just
           filler text.
     _template: howItWorks
+  - heading: Loved by designers from…
+    quotes:
+      - quote: >-
+          Thank you for introducing me to these inspiring and interesting
+          people! I really enjoyed it.
+        author: Magdalena R.
+        jobTitle: Product Designer
+    _template: testimonials
+  - _template: broughtToYouBy
 ---
 

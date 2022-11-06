@@ -5,6 +5,8 @@
 import * as React from "react";
 import type { TinaTemplate } from "tinacms";
 
+import PointDownBackSvg from "../../assets/hand-icons/point-down-back.svg";
+
 import toKebabCase from "../util/to-kebab-case";
 
 export const EventTicket = ({ data, parentField }) => (
@@ -43,12 +45,10 @@ export const EventTicket = ({ data, parentField }) => (
         </div>
 
         <div className="ticket-divider z-10 relative flex items-center justify-center">
-          <img
-            src="./assets/svg/point-down-back.svg"
+          <PointDownBackSvg
             className="absolute -translate-y-4"
-            alt="Backhand index finger pointing down"
-            width="100px"
-            height="100pc"
+            width="100"
+            height="100"
           />
         </div>
 
