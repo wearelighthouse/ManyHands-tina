@@ -18,8 +18,23 @@ export const contentBlockSchema: TinaTemplate = {
   label: "Content",
   ui: {
     previewSrc: "/blocks/content.png",
-    defaultItem: {
-      body: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.",
+    defaultItem: () => {
+      return {
+        body: {
+          type: 'root',
+          children: [
+            {
+              type: 'p',
+              children: [
+                {
+                  type: 'text',
+                  text: 'Default Text',
+                },
+              ],
+            },
+          ],
+        },
+      }
     },
   },
   fields: [

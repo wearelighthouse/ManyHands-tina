@@ -2205,6 +2205,13 @@
   dependencies:
     "zod" "^3.14.3"
 
+"@tinacms/schema-tools@0.2.2":
+  "integrity" "sha512-yIsJhBBl9LzvtsYtb2XXKmjO/TL5LladprWtUfWU/lc4SWqTbeOQQHizgIrb/pHWyf39NxjJGCy9xejUl8+GNg=="
+  "resolved" "https://registry.npmjs.org/@tinacms/schema-tools/-/schema-tools-0.2.2.tgz"
+  "version" "0.2.2"
+  dependencies:
+    "zod" "^3.14.3"
+
 "@tinacms/sharedctx@0.1.3":
   "integrity" "sha512-iIDpR1gZdMPp4NZT2RnDyj9acgcIJuD90gP/XhlMJ9vBE8feP1R/cqzYleHA7K9BLhhjOBG1+ji3KHDv6W7Djw=="
   "resolved" "https://registry.npmjs.org/@tinacms/sharedctx/-/sharedctx-0.1.3.tgz"
@@ -8367,7 +8374,23 @@
   "resolved" "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz"
   "version" "3.1.1"
 
-"styled-components@^5.1.3", "styled-components@>= 2", "styled-components@5.3.5":
+"styled-components@^5.3.6", "styled-components@>= 2":
+  "integrity" "sha512-hGTZquGAaTqhGWldX7hhfzjnIYBZ0IXQXkCYdvF1Sq3DsUaLx6+NTHC5Jj1ooM2F68sBiVz3lvhfwQs/S3l6qg=="
+  "resolved" "https://registry.npmjs.org/styled-components/-/styled-components-5.3.6.tgz"
+  "version" "5.3.6"
+  dependencies:
+    "@babel/helper-module-imports" "^7.0.0"
+    "@babel/traverse" "^7.4.5"
+    "@emotion/is-prop-valid" "^1.1.0"
+    "@emotion/stylis" "^0.8.4"
+    "@emotion/unitless" "^0.7.4"
+    "babel-plugin-styled-components" ">= 1.12.0"
+    "css-to-react-native" "^3.0.0"
+    "hoist-non-react-statics" "^3.0.0"
+    "shallowequal" "^1.1.0"
+    "supports-color" "^5.5.0"
+
+"styled-components@5.3.5":
   "integrity" "sha512-ndETJ9RKaaL6q41B69WudeqLzOpY1A/ET/glXkNZ2T7dPjPqpPCXXQjDFYZWwNnE5co0wX+gTCqx9mfxTmSIPg=="
   "resolved" "https://registry.npmjs.org/styled-components/-/styled-components-5.3.5.tgz"
   "version" "5.3.5"
@@ -8506,16 +8529,16 @@
   "resolved" "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz"
   "version" "0.2.0"
 
-"tinacms@^0.70.0":
-  "integrity" "sha512-qX/s45DKLZwZ9uDa4i+ZBQnujEjtY+h6rXzyYzhQtge3ipRtCVafRvQB1UGKwAQRJg9EPpi1cH0N6LGEjvrKkQ=="
-  "resolved" "https://registry.npmjs.org/tinacms/-/tinacms-0.70.0.tgz"
-  "version" "0.70.0"
+"tinacms@^0.70.2":
+  "integrity" "sha512-5cBrsH+5tN/21DwLA1Jv547+95qESls8H9163lxmUiW1FWONJ/vPCTt/l1RPlKjArSFB1uIVENajQ6tdUqjmLw=="
+  "resolved" "https://registry.npmjs.org/tinacms/-/tinacms-0.70.2.tgz"
+  "version" "0.70.2"
   dependencies:
     "@graphql-tools/relay-operation-optimizer" "^6.4.1"
     "@headlessui/react" "^1.5.0"
     "@heroicons/react" "^1.0.4"
     "@react-hook/window-size" "^3.0.7"
-    "@tinacms/schema-tools" "0.2.0"
+    "@tinacms/schema-tools" "0.2.2"
     "@tinacms/sharedctx" "0.1.3"
     "@tinacms/toolkit" "0.58.5"
     "crypto-js" "^4.0.0"
