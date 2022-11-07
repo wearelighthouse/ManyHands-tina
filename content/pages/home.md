@@ -1,11 +1,13 @@
 ---
 title: Tina Cloud Starter
 blocks:
-  - body: |
-      Default Text
-    _template: content
-  - body: >
-      [![](/uploads/linkedin\(1\).png)](https://www.linkedin.com/company/manyhands-from-lighthouse/)
+  - body: |+
+
+
+      <Center>
+        [![](/uploads/linkedin\(1\).png)](https://www.linkedin.com/company/manyhands-from-lighthouse/)
+      </Center>
+
     _template: content
   - subtitle: >-
       We’re building a community of UX leaders with a passion for helping solve

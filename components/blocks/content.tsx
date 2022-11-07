@@ -1,6 +1,19 @@
 import React from "react";
+import type { Template } from "tinacms";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
-import type { TinaTemplate } from "tinacms";
+import type { TinaMarkdownContent, Components } from "tinacms/dist/rich-text";
+
+const components: Components<{
+  Center: {
+    children: TinaMarkdownContent;
+  };
+}> = {
+  Center: (props) => (
+    <div className="text-center mx-auto">
+      <TinaMarkdown content={props.children} />
+    </div>
+  ),
+};
 
 export const Content = ({ data, parentField = "" }) => {
   return (
@@ -8,12 +21,12 @@ export const Content = ({ data, parentField = "" }) => {
       className="py-16 flex"
       data-tinafield={`${parentField}.body`}
     >
-      <TinaMarkdown content={data.body} />
+      <TinaMarkdown components={components} content={data.body} />
     </section>
   );
 };
 
-export const contentBlockSchema: TinaTemplate = {
+export const contentBlockSchema: Template = {
   name: "content",
   label: "Content",
   ui: {
@@ -42,6 +55,19 @@ export const contentBlockSchema: TinaTemplate = {
       type: "rich-text",
       label: "Body",
       name: "body",
+      templates: [
+        {
+          name: "Center",
+          label: "Center",
+          fields: [
+            {
+              name: "children",
+              label: "Children",
+              type: "rich-text",
+            },
+          ],
+        },
+      ],
     },
   ],
 };
