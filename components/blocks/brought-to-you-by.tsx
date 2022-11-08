@@ -5,8 +5,6 @@ import LighthouseLogoSvg from "../../assets/img/lighthouse-logo.svg";
 import ClutchSvg from "../../assets/img/clutch.svg";
 
 export const BroughtToYouBy = ({ data, parentField }) => {
-  console.log(JSON.stringify(LhBackgroundGradientSvg));
-
   return (
     <section className="relative px-6 py-16 tablet:py-20 tablet:px-16 tablet:m-4 text-white flex flex-wrap gap-24 desktop:gap-x-48 items-center">
       <div className="max-w-2xl">
