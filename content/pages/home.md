@@ -1,14 +1,6 @@
 ---
 title: Tina Cloud Starter
 blocks:
-  - body: |+
-
-
-      <Center>
-        [![](/uploads/linkedin\(1\).png)](https://www.linkedin.com/company/manyhands-from-lighthouse/)
-      </Center>
-
-    _template: content
   - subtitle: >-
       We’re building a community of UX leaders with a passion for helping solve
       real-world product issues.
@@ -17,11 +9,6 @@ blocks:
     iconLeft:
       src: /uploads/point-up.svg
     _template: hero
-  - heading: Next event test
-    _template: eventTicket
-  - icon:
-      name: ''
-    _template: hr
   - heading: How it works
     items:
       - icon:
@@ -41,6 +28,16 @@ blocks:
           This is where you might talk about the feature, if this wasn't just
           filler text.
     _template: howItWorks
+  - heading: Next event test
+    _template: eventTicket
+  - icon:
+      name: ''
+    _template: hr
+  - body: |
+      <Center>
+        [![](/uploads/linkedin\(1\).png)](https://www.linkedin.com/company/manyhands-from-lighthouse/)
+      </Center>
+    _template: content
   - heading: Loved by designers from…
     quotes:
       - quote: >-

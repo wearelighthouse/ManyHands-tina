@@ -3,7 +3,7 @@ import type { TinaTemplate } from "tinacms";
 import { iconSchema } from "../util/icon";
 import toKebabCase from "../util/to-kebab-case";
 
-export const HowItWorksItem = ({ data, tinaField }) => (
+export const HowItWorksItem = ({ data, tinaField, index }) => (
   <li className="max-w-2xs">
     <div
       className="mx-auto flex justify-center items-center w-[64px] h-[64px] desktop:w-[96px] desktop:h-[96px]"
@@ -21,7 +21,7 @@ export const HowItWorksItem = ({ data, tinaField }) => (
         data-tinafield={`${tinaField}.title`}
         className="font-medium pt-5"
       >
-        {data.title}
+        {index + 1}. {data.title}
       </h3>
     )}
     {data.text && (
@@ -50,6 +50,7 @@ export const HowItWorks = ({ data, parentField }) => (
           <HowItWorksItem
             tinaField={`${parentField}.items.${i}`}
             data={block}
+            index={i}
             key={i}
           />
         ))}
