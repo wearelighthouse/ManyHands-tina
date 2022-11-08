@@ -1,0 +1,9 @@
+.content {
+  img {
+    @apply transition;
+  }
+
+  a:hover > img {
+    @apply opacity-90;
+  }
+}

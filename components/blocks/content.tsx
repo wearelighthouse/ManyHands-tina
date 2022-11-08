@@ -18,7 +18,7 @@ const components: Components<{
 export const Content = ({ data, parentField = "" }) => {
   return (
     <section
-      className="py-16 flex"
+      className="py-16 flex content"
       data-tinafield={`${parentField}.body`}
     >
       <TinaMarkdown components={components} content={data.body} />
