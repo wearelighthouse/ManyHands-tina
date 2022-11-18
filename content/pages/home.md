@@ -19,7 +19,7 @@ blocks:
           filler text.
       - icon:
           name: ''
-        title: Here's 2nd thingy
+        title: Here's 2nd point
         text: beep boop
       - icon:
           name: ''
@@ -28,7 +28,7 @@ blocks:
           This is where you might talk about the feature, if this wasn't just
           filler text.
     _template: howItWorks
-  - heading: Next event test
+  - heading: Next event
     _template: eventTicket
   - icon:
       name: ''
