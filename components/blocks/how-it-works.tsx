@@ -1,5 +1,5 @@
 import { Icon } from "../util/icon";
-import type { TinaTemplate } from "tinacms";
+import type { Template } from "tinacms";
 import { iconSchema } from "../util/icon";
 import toKebabCase from "../util/to-kebab-case";
 
@@ -67,7 +67,7 @@ const defaultItem = {
   },
 };
 
-export const howItWorksBlockSchema: TinaTemplate = {
+export const howItWorksBlockSchema: Template = {
   name: "howItWorks",
   label: "How It Works",
   ui: {

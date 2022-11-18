@@ -1,5 +1,5 @@
 import * as React from "react";
-import type { TinaTemplate } from "tinacms";
+import type { Template } from "tinacms";
 import LhBackgroundGradientSvg from "../../assets/img/lh-background-gradient.svg";
 import LighthouseLogoSvg from "../../assets/img/lighthouse-logo.svg";
 import ClutchSvg from "../../assets/img/clutch.svg";
@@ -29,7 +29,13 @@ export const BroughtToYouBy = ({ data, parentField }) => {
 
         <hr className="w-14 border-t-2 my-8"/>
 
-        <p className="font-medium text-3.5xl mobile:text-4xl tablet:text-5xl leading-tight">The <em className="text-smoke">number one UX / UI design partner</em> for digital product teams</p>
+        <p
+          className="font-medium text-3.5xl mobile:text-4xl tablet:text-5xl leading-tight [&>bold]:text-smoke"
+          data-tinafield={`${parentField}.heading`}
+        >
+          {data.heading}
+          The <em>number one UX / UI design partner</em> for digital product teams
+        </p>
 
         <a
           href="https://wearelighthouse.com/"
@@ -80,7 +86,7 @@ export const BroughtToYouBy = ({ data, parentField }) => {
   );
 };
 
-export const broughtToYouByBlockSchema: TinaTemplate = {
+export const broughtToYouByBlockSchema: Template = {
   name: "broughtToYouBy",
   label: "Brought to you by",
   ui: {
@@ -88,9 +94,9 @@ export const broughtToYouByBlockSchema: TinaTemplate = {
   },
   fields: [
     {
-      type: "string",
       label: "Heading",
       name: "heading",
+      type: "rich-text",
     },
   ],
 };

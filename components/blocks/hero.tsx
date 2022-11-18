@@ -1,5 +1,5 @@
 import * as React from "react";
-import type { TinaTemplate } from "tinacms";
+import type { Template } from "tinacms";
 
 export const Hero = ({ data, parentField }) => (
   <div className="bg-mimosa px-6 pt-14 tablet:px-16 pb-20 desktop:pb-32 o-section-clip--ramp-bottom-right tablet:m-4 text-center">
@@ -93,7 +93,7 @@ export const Hero = ({ data, parentField }) => (
   </div>
 );
 
-export const heroBlockSchema: TinaTemplate = {
+export const heroBlockSchema: Template = {
   name: "hero",
   label: "Hero",
   ui: {

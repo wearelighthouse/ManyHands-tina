@@ -46,6 +46,4 @@ blocks:
         author: Magdalena R.
         jobTitle: Product Designer
     _template: testimonials
-  - _template: broughtToYouBy
 ---
-

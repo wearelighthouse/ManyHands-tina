@@ -1,5 +1,5 @@
 import React from "react";
-import type { TinaTemplate } from "tinacms";
+import type { Template } from "tinacms";
 
 export const Quote = ({ data, tinaField }) => (
   <blockquote className="pt-11 grid justify-items-center gap-5" data-tinafield={tinaField}>
@@ -104,7 +104,7 @@ const defaultQuote = {
   jobTitle: "Product Designer",
 };
 
-export const testimonialsBlockSchema: TinaTemplate = {
+export const testimonialsBlockSchema: Template = {
   name: "testimonials",
   label: "Testimonials",
   ui: {

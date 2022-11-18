@@ -1,9 +1,9 @@
 // import { Icon } from "../util/icon";
-// import type { TinaTemplate } from "tinacms";
+// import type { Template } from "tinacms";
 // import { iconSchema } from "../util/icon";
 
 import * as React from "react";
-import type { TinaTemplate } from "tinacms";
+import type { Template } from "tinacms";
 
 import PointDownBackSvg from "../../assets/hand-icons/point-down-back.svg";
 
@@ -81,7 +81,7 @@ export const EventTicket = ({ data, parentField }) => (
   </section>
 );
 
-export const eventTicketBlockSchema: TinaTemplate = {
+export const eventTicketBlockSchema: Template = {
   name: "eventTicket",
   label: "Event Ticket",
   ui: {
