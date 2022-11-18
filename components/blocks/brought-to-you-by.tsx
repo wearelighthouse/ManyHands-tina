@@ -1,5 +1,6 @@
 import * as React from "react";
 import type { Template } from "tinacms";
+import { TinaMarkdown } from "tinacms/dist/rich-text";
 import LhBackgroundGradientSvg from "../../assets/img/lh-background-gradient.svg";
 import LighthouseLogoSvg from "../../assets/img/lighthouse-logo.svg";
 import ClutchSvg from "../../assets/img/clutch.svg";
@@ -29,22 +30,21 @@ export const BroughtToYouBy = ({ data, parentField }) => {
 
         <hr className="w-14 border-t-2 my-8"/>
 
-        <p
-          className="font-medium text-3.5xl mobile:text-4xl tablet:text-5xl leading-tight [&>bold]:text-smoke"
-          data-tinafield={`${parentField}.heading`}
+        <div
+          className="mb-6 font-medium text-3.5xl mobile:text-4xl tablet:text-5xl leading-tight [&>p>strong]:text-smoke"
+          data-tinafield={`${parentField}.largeText`}
         >
-          {data.heading}
-          The <em>number one UX / UI design partner</em> for digital product teams
-        </p>
+          <TinaMarkdown content={data.largeText} />
+        </div>
 
         <a
           href="https://wearelighthouse.com/"
           rel="noopener"
-          className="inline-flex items-center text-link text-xl mt-6 mb-2"
+          className="inline-flex gap-1 items-center text-link text-xl hover:bg-white/10 -mx-2 px-2 py-1 rounded transition duration-300"
         >
           <span>wearelighthouse.com</span>
           <svg width="18px" height="15px" viewBox="0 0 12 10" className="arrow" aria-hidden="true">
-            <path fill="none" stroke="currentColor" d="M2 5l8 0M7 2l3 3 l-3 3"/>
+            <path fill="none" stroke="currentColor" d="M1 5l8 0M6 2l3 3 l-3 3"/>
           </svg>
         </a>
       </div>
@@ -86,16 +86,43 @@ export const BroughtToYouBy = ({ data, parentField }) => {
   );
 };
 
+const defaultLargeText = {
+  type: 'root',
+  children: [
+    {
+      type: 'p',
+      children: [
+        {
+          type: 'text',
+          text: 'The ',
+        },
+        {
+          type: 'text',
+          bold: true,
+          text: 'number one UX / UI design partner',
+        },
+        {
+          type: 'text',
+          text: ' for digital product teams',
+        },
+      ],
+    },
+  ],
+};
+
 export const broughtToYouByBlockSchema: Template = {
   name: "broughtToYouBy",
   label: "Brought to you by",
   ui: {
     previewSrc: "/blocks/hero.png",
+    defaultItem: () => ({
+      largeText: defaultLargeText,
+    }),
   },
   fields: [
     {
       label: "Heading",
-      name: "heading",
+      name: "largeText",
       type: "rich-text",
     },
   ],
