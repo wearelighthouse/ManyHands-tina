@@ -1,3 +1,6 @@
+/* Disable no-explicity-any because it's tina's code not ours */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { Blocks } from "../components/blocks-renderer";
 import { useTina } from "tinacms/dist/react";
 import { Layout } from "../components/layout";

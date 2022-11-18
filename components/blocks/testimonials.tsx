@@ -48,7 +48,7 @@ export const Testimonials = ({ data, parentField = "" }) => (
       {/* Repeatable CMS field complication: py- is different per SVG */}
       {data.logos && (
         <div className="grid desktop:flex justify-items-center justify-center desktop:justify-between items-center my-14">
-          {data.logos.filter((logo: any) => logo?.src).map((logo: any, i: number) => (
+          {data.logos.filter((logo) => logo?.src).map((logo, i: number) => (
             <img
               src={logo.src}
               alt={logo.alt}
@@ -62,7 +62,7 @@ export const Testimonials = ({ data, parentField = "" }) => (
 
       <hr className="text-gray"/>
 
-      {data.quotes && data.quotes.map((block: any, i: number) => (
+      {data.quotes && data.quotes.map((block, i: number) => (
         <Quote
           tinaField={`${parentField}.quotes.${i}`}
           data={block}

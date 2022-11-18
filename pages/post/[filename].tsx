@@ -1,3 +1,6 @@
+/* Disable no-explicity-any because it's tina's code not ours */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { Post } from "../../components/posts/post";
 import { client } from "../../.tina/__generated__/client";
 import { useTina } from "tinacms/dist/react";
