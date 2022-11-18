@@ -45,8 +45,8 @@ export const iconMap = {
 
 const iconSizeClass = {
   small: "w-8 h-8",
-  medium: "w-12 h-12",
-  large: "w-16 h-16",
+  medium: "w-16 h-16",
+  large: "w-24 h-24",
 };
 
 export const Icon = ({

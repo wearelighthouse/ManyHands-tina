@@ -13,7 +13,8 @@ blocks:
     _template: hr
   - heading: How it works
     items:
-      - title: Here's Another Feature
+      - icon: peace
+        title: Here's Another Feature
         text: >-
           This is where you might talk about the feature, if this wasn't just
           filler text.

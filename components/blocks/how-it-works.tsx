@@ -12,7 +12,7 @@ export const HowItWorksItem = ({ data, tinaField, index }) => (
       {data.icon && (
         <Icon
           tinaField={`${tinaField}.icon`}
-          data={{ size: "large", ...data.icon }}
+          data={{ size: "large", icon: data.icon }}
         />
       )}
     </div>
@@ -60,11 +60,9 @@ export const HowItWorks = ({ data, parentField }) => (
 );
 
 const defaultItem = {
-  title: "Here's Another How It Works Items",
+  title: "New How It Works Items",
   text: "This is where you might talk about how things work, if this wasn't just filler text.",
-  icon: {
-    name: "",
-  },
+  icon: "tina",
 };
 
 export const howItWorksBlockSchema: Template = {
