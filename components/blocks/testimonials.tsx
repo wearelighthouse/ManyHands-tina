@@ -46,48 +46,23 @@ export const Testimonials = ({ data, parentField = "" }) => (
       </h2>
 
       {/* Repeatable CMS field complication: py- is different per SVG */}
-      <ul className="flex flex-col gap-8 tablet:flex-row justify-between items-center pb-11">
-        <li className="py-6">
-          <img
-            className="mx-auto tablet:mx-0"
-            src="./assets/img/automattic.png"
-            alt="Automattic"
-            width="224px"
-            height="68px"
-          />
-        </li>
-        <li className="py-5">
-          <img
-            className="mx-auto tablet:mx-0"
-            src="./assets/img/cocado.png"
-            alt="Ocado"
-            width="143px"
-            height="68px"
-          />
-        </li>
-        <li className="py-5">
-          <img
-            className="mx-auto tablet:mx-0"
-            src="./assets/img/keep-calling.png"
-            alt="Keep Calling"
-            width="170px"
-            height="68px"
-          />
-        </li>
-        <li className="py-3">
-          <img
-            className="mx-auto tablet:mx-0"
-            src="./assets/img/total-energies.png"
-            alt="Total Energies"
-            width="60px"
-            height="68px"
-          />
-        </li>
-      </ul>
+      {data.logos && (
+        <div className="grid desktop:flex justify-items-center justify-center desktop:justify-between items-center my-14">
+          {data.logos.filter((logo: any) => logo?.src).map((logo: any, i: number) => (
+            <img
+              src={logo.src}
+              alt={logo.alt}
+              width={logo.width ?? null}
+              height={logo.height ?? null}
+              key={i}
+            />
+          ))}
+        </div>
+      )}
 
       <hr className="text-gray"/>
 
-      {data.quotes && data.quotes.map((block, i) => (
+      {data.quotes && data.quotes.map((block: any, i: number) => (
         <Quote
           tinaField={`${parentField}.quotes.${i}`}
           data={block}
@@ -121,41 +96,41 @@ export const testimonialsBlockSchema: Template = {
       label: "Heading",
       name: "heading",
     },
-    // {
-    //   type: "object",
-    //   label: "Logos",
-    //   name: "logos",
-    //   list: true,
-    //   ui: {
-    //     itemProps: (item) => {
-    //       return {
-    //         label: item?.alt,
-    //       };
-    //     },
-    //     defaultItem: {
-
-    //     },
-    //   },
-    //   fields: [
-    //     {
-    //       type: "object",
-    //       label: "Logo",
-    //       name: "logo",
-    //       fields: [
-    //         {
-    //           name: "src",
-    //           label: "Logo Source",
-    //           type: "image",
-    //         },
-    //         {
-    //           name: "alt",
-    //           label: "Alt Text",
-    //           type: "string",
-    //         },
-    //       ],
-    //     },
-    //   ],
-    // },
+    {
+      type: "object",
+      label: "Company Logos",
+      name: "logos",
+      list: true,
+      ui: {
+        itemProps: (item) => ({
+          label: item?.alt ?? 'Company Logo',
+        }),
+      },
+      fields: [
+        {
+          name: "src",
+          label: "Logo Source",
+          type: "image",
+          required: true, // Doesn't work (yet?)
+        },
+        {
+          name: "alt",
+          label: "Logo Alt Text",
+          type: "string",
+          required: true,
+        },
+        {
+          name: "width",
+          label: "Width (px)",
+          type: "number",
+        },
+        {
+          name: "height",
+          label: "Height (px)",
+          type: "number",
+        },
+      ],
+    },
     {
       type: "object",
       label: "Quotes",

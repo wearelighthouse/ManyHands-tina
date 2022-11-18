@@ -1,11 +1,7 @@
-// import { Icon } from "../util/icon";
-// import type { Template } from "tinacms";
-// import { iconSchema } from "../util/icon";
-
 import * as React from "react";
 import type { Template } from "tinacms";
 
-import PointDownBackSvg from "../../assets/hand-icons/point-down-back.svg";
+import PointBackSvg from "../../assets/hand-icons/point-back.svg";
 
 import toKebabCase from "../util/to-kebab-case";
 
@@ -45,10 +41,10 @@ export const EventTicket = ({ data, parentField }) => (
         </div>
 
         <div className="ticket-divider z-10 relative flex items-center justify-center">
-          <PointDownBackSvg
-            className="absolute -translate-y-4"
-            width="100"
-            height="100"
+          <PointBackSvg
+            className="absolute -translate-y-4 rotate-[135deg]"
+            width="72"
+            height="72"
           />
         </div>
 

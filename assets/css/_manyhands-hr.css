@@ -1,8 +1,27 @@
 .manyhands-hr {
   @apply flex items-center justify-center text-light-gray border overflow-visible;
-}
 
-.manyhands-hr::after {
-  @apply flex bg-current rounded-full p-3 aspect-square;
-  content: url('../hand-icons/horns.svg');
+  &::after {
+    @apply flex bg-current rounded-full p-3;
+  }
+
+  &--tina::after { content: url('../img/tina.svg') }
+  &--call::after { content: url('../hand-icons/call.svg') }
+  &--fingers-crossed::after { content: url('../hand-icons/fingers-crossed.svg') }
+  &--fist-front::after { content: url('../hand-icons/fist-front.svg') }
+  &--horns::after { content: url('../hand-icons/horns.svg') }
+  &--left-1::after { content: url('../hand-icons/left-1.svg') }
+  &--left-2::after { content: url('../hand-icons/left-2.svg') }
+  &--left-3::after { content: url('../hand-icons/left-3.svg') }
+  &--left-4::after { content: url('../hand-icons/left-4.svg') }
+  &--ok::after { content: url('../hand-icons/ok.svg') }
+  &--peace::after { content: url('../hand-icons/peace.svg') }
+  &--point-back::after { content: url('../hand-icons/point-back.svg') }
+  &--point-up-front::after { content: url('../hand-icons/point-up-front.svg') }
+  &--raised-double::after { content: url('../hand-icons/raised-double.svg') }
+  &--raised::after { content: url('../hand-icons/raised.svg') }
+  &--scissors::after { content: url('../hand-icons/scissors.svg') }
+  &--thumbs-down::after { content: url('../hand-icons/thumbs-down.svg') }
+  &--thumbs-up::after { content: url('../hand-icons/thumbs-up.svg') }
+  &--wave::after { content: url('../hand-icons/wave.svg') }
 }
