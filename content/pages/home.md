@@ -19,7 +19,7 @@ blocks:
           This is where you might talk about the feature, if this wasn't just
           filler text.
       - title: Here's 2nd point
-        text: beep boop
+        text: Example content change
       - title: Here's Another Feature
         text: >-
           This is where you might talk about the feature, if this wasn't just
@@ -46,10 +46,15 @@ blocks:
         author: Magdalena R.
         jobTitle: Product Designer
     _template: testimonials
-  - body: |
+  - body: |+
       <Center>
-        [![](/uploads/linkedin\(1\).png)](https://www.linkedin.com/company/manyhands-from-lighthouse/)
+
+
+        ![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png)
+
+
       </Center>
+
     _template: content
   - largeText: |
       The **number one UX / UI design partner** for digital product teams
