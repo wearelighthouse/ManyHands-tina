@@ -14,11 +14,11 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: "/{/}?",
+        source: "/",
         destination: "/home",
       },
       {
-        source: "/admin{/}?",
+        source: "/admin",
         destination: "/admin/index.html",
       },
     ];

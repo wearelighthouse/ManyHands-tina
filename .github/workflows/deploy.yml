@@ -27,6 +27,7 @@ jobs:
           npm ci
           npm run build
           npm run export
+          mv out/home.html out/index.html
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
