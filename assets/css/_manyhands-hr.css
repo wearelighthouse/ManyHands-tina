@@ -1,5 +1,6 @@
 .manyhands-hr {
   @apply flex items-center justify-center text-light-gray border overflow-visible;
+  line-height: 0;
 
   &::after {
     @apply flex bg-current rounded-full p-3;
