@@ -19,7 +19,7 @@ blocks:
           This is where you might talk about the feature, if this wasn't just
           filler text.
       - title: Here's 2nd point
-        text: beep boop
+        text: Example content change
       - title: Here's Another Feature
         text: >-
           This is where you might talk about the feature, if this wasn't just
