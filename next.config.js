@@ -1,3 +1,5 @@
+const isProd = process.env.NODE_ENV === "production";
+
 module.exports = {
   webpack(config) {
     config.module.rules.push({
@@ -8,6 +10,7 @@ module.exports = {
 
     return config;
   },
+  assetPrefix: isProd ? "/ManyHands-tina/" : undefined,
   async rewrites() {
     return [
       {
