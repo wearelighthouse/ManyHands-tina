@@ -24,11 +24,11 @@ jobs:
           cd assets/font
           wget -O fonts.zip https://drive.google.com/uc?export=download\&id=1sJCRhTucWoYCEY6XtXMGOUK-mBtOQEyB
           unzip -P ${{ secrets.FONT_PASSWORD }} fonts.zip
+          cd ../../
           npm ci
           npm run build
           npm run export
-          ls
-          mv ./out/home.html ./out/index.html
+          mv out/home.html out/index.html
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
