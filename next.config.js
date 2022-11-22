@@ -8,7 +8,6 @@ module.exports = {
 
     return config;
   },
-  basePath: '/ManyHands-tina',
   async rewrites() {
     return [
       {
