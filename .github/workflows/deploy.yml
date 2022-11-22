@@ -21,7 +21,9 @@ jobs:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
         run: |
-          echo "The NEXT_PUBLIC_TINA_BRANCH is: ${{ secrets.NEXT_PUBLIC_TINA_BRANCH }}"
+          cd assets/font
+          wget -O fonts.zip https://drive.google.com/uc?export=download\&id=1sJCRhTucWoYCEY6XtXMGOUK-mBtOQEyB
+          unzip -P ${{ secrets.FONT_PASSWORD }} fonts.zip
           npm ci
           npm run build
           npm run export
