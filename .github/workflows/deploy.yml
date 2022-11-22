@@ -21,7 +21,7 @@ jobs:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
         run: |
-          echo "The NEXT_PUBLIC_TINA_BRANCH is:$NEXT_PUBLIC_TINA_BRANCH"
+          echo "The NEXT_PUBLIC_TINA_BRANCH is: ${{ secrets.NEXT_PUBLIC_TINA_BRANCH }}"
           npm ci
           npm run build
           npm run export
