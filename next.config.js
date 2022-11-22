@@ -11,6 +11,10 @@ module.exports = {
     return config;
   },
   assetPrefix: isProd ? "/ManyHands-tina/" : undefined,
+  i18n: {
+    locales: ['en-gb'],
+    defaultLocale: 'en-gb',
+  },
   async rewrites() {
     return [
       {
