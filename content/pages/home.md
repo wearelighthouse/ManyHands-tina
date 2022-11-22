@@ -46,10 +46,15 @@ blocks:
         author: Magdalena R.
         jobTitle: Product Designer
     _template: testimonials
-  - body: |
+  - body: |+
       <Center>
-        [![](/uploads/linkedin\(1\).png)](https://www.linkedin.com/company/manyhands-from-lighthouse/)
+
+
+        ![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png)
+
+
       </Center>
+
     _template: content
   - largeText: |
       The **number one UX / UI design partner** for digital product teams
