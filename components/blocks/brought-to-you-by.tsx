@@ -31,7 +31,7 @@ export const BroughtToYouBy = ({ data, parentField }) => {
         <hr className="w-14 border-t-2 my-8"/>
 
         <div
-          className="mb-6 font-medium text-3.5xl mobile:text-4xl tablet:text-5xl leading-tight [&>p>strong]:text-smoke"
+          className="mb-6 font-medium text-3.5xl mobile:text-4xl tablet:text-5xl leading-tight [&>p>strong]:text-smoke [&>p>strong]:font-medium"
           data-tinafield={`${parentField}.largeText`}
         >
           <TinaMarkdown content={data.largeText} />
