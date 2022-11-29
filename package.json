@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "tinacms dev -c \"next dev\"",
-    "build": "tinacms build && next build",
-    "start": "tinacms build && next start",
+    "build": "tinacms build && cross-env PREFIX=/ManyHands-tina/ next build",
+    "start": "tinacms build && path-exists .next || next build && next start",
     "export": "npm run build && next export",
     "lint": "eslint . --ext .ts,.tsx"
   },
@@ -18,7 +18,9 @@
     "@types/styled-components": "^5.1.26",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
+    "cross-env": "^7.0.3",
     "eslint": "^8.27.0",
+    "path-exists-cli": "^2.0.0",
     "postcss": "^8.4.19",
     "postcss-import": "^15.0.0",
     "postcss-nesting": "^10.2.0",
