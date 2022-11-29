@@ -1,6 +1,5 @@
-import { Icon } from "../util/icon";
 import type { Template } from "tinacms";
-import { iconSchema } from "../util/icon";
+import { Icon, iconSchema } from "../util/icon";
 import toKebabCase from "../util/to-kebab-case";
 
 export const HowItWorksItem = ({ data, tinaField, index }) => (

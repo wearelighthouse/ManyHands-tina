@@ -1,5 +1,6 @@
 import * as React from "react";
 import type { Template } from "tinacms";
+import { Icon, iconSchema } from "../util/icon";
 
 export const Hero = ({ data, parentField }) => (
   <div className="bg-mimosa px-6 pt-14 tablet:px-16 pb-20 desktop:pb-32 o-section-clip--ramp-bottom-right tablet:m-4 text-center">
@@ -28,12 +29,10 @@ export const Hero = ({ data, parentField }) => (
         )}
         {data.iconLeft && (
           <div className="absolute right-0 bottom-0 translate-x-1/2 translate-y-1/2 rotate-[15deg]">
-            <img
+            <Icon
+              tinaField={`${parentField}.iconLeft`}
               className="max-w-[42px] desktop:max-w-[82px] translate-y-[-6px]"
-              alt={data.iconLeft.alt}
-              src={data.iconLeft.src}
-              width="82px"
-              height="82px"
+              data={{ size: "large", icon: data.iconLeft }}
             />
           </div>
         )}
@@ -79,12 +78,10 @@ export const Hero = ({ data, parentField }) => (
         )}
         {data.iconRight && (
           <div className="absolute left-0 bottom-0 -translate-x-1/2 translate-y-1/2 rotate-[-15deg]">
-            <img
-              className="tablet:max-w-[40px] desktop:max-w-[80px] translate-y-[-6px]"
-              alt={data.iconRight.alt}
-              src={data.iconRight.src}
-              width="80px"
-              height="80px"
+            <Icon
+              tinaField={`${parentField}.iconLeft`}
+              className="max-w-[40px] desktop:max-w-[80px] translate-y-[-6px]"
+              data={{ size: "large", icon: data.iconLeft }}
             />
           </div>
         )}
@@ -132,21 +129,9 @@ export const heroBlockSchema: Template = {
       ],
     },
     {
-      type: "object",
+      ...iconSchema,
       label: "Icon Left",
-      name: "iconLeft",
-      fields: [
-        {
-          name: "src",
-          label: "Image Source",
-          type: "image",
-        },
-        {
-          name: "alt",
-          label: "Alt Text",
-          type: "string",
-        },
-      ],
+      name: "iconLeft"
     },
     {
       type: "object",
@@ -166,21 +151,9 @@ export const heroBlockSchema: Template = {
       ],
     },
     {
-      type: "object",
+      ...iconSchema,
       label: "Icon Right",
-      name: "iconRight",
-      fields: [
-        {
-          name: "src",
-          label: "Image Source",
-          type: "image",
-        },
-        {
-          name: "alt",
-          label: "Alt Text",
-          type: "string",
-        },
-      ],
+      name: "iconRight"
     },
     {
       type: "string",
