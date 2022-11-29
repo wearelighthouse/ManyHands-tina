@@ -7,10 +7,10 @@ blocks:
       real-world product issues.
     imageLeft:
       src: /uploads/manyhands-faces-01.webp
-    iconLeft:
-      src: /uploads/point-up.svg
+    iconLeft: point-up-front
     imageRight:
       src: /uploads/manyhands-faces-02.webp
+    iconRight: peace
     _template: hero
   - heading: How it works
     items:

@@ -81,7 +81,7 @@ export const Hero = ({ data, parentField }) => (
             <Icon
               tinaField={`${parentField}.iconLeft`}
               className="max-w-[40px] desktop:max-w-[80px] translate-y-[-6px]"
-              data={{ size: "large", icon: data.iconLeft }}
+              data={{ size: "large", icon: data.iconRight }}
             />
           </div>
         )}
@@ -98,6 +98,8 @@ export const heroBlockSchema: Template = {
     defaultItem: {
       heading: "The problem solving event for product people",
       subtitle: "We’re building a community of UX leaders with a passion for helping solve real-world product issues.",
+      iconLeft: "tina",
+      iconRight: "tina",
     },
   },
   fields: [
