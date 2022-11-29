@@ -18,8 +18,9 @@ blocks:
         text: >-
           This is where you might talk about the feature, if this wasn't just
           filler text.
-      - title: Here's 2nd point
-        text: Example content change
+      - icon: raised-double
+        title: Brainstorm
+        text: Get into groups to generate ideas with your new best mates
       - title: Here's Another Feature
         text: >-
           This is where you might talk about the feature, if this wasn't just
@@ -46,15 +47,10 @@ blocks:
         author: Magdalena R.
         jobTitle: Product Designer
     _template: testimonials
-  - body: |+
+  - body: |
       <Center>
-
-
         ![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png)
-
-
       </Center>
-
     _template: content
   - largeText: |
       The **number one UX / UI design partner** for digital product teams
