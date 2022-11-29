@@ -55,7 +55,7 @@ export const Icon = ({
   tinaField = "",
 }) => {
   const iconName = data.icon || Object.keys(iconMap)[0];
-  const IconSVG = iconMap[iconName]
+  const IconSVG = iconMap[iconName];
   const iconSizeClasses = data.size && iconSizeClass[data.size];
 
   return (

@@ -5,13 +5,14 @@ import toKebabCase from "../util/to-kebab-case";
 export const HowItWorksItem = ({ data, tinaField, index }) => (
   <li className="max-w-2xs">
     <div
-      className="mx-auto flex justify-center items-center w-[64px] h-[64px] desktop:w-[96px] desktop:h-[96px]"
+      className="mx-auto flex justify-center items-center h-[64px] desktop:h-[96px]"
       data-tinafield={tinaField}
     >
       {data.icon && (
         <Icon
           tinaField={`${tinaField}.icon`}
           data={{ size: "large", icon: data.icon }}
+          className="!w-auto"
         />
       )}
     </div>
