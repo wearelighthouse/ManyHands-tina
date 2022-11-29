@@ -1,6 +1,9 @@
 ---
 title: Tina Cloud Starter
 blocks:
+  - largeText: |
+      The **number one UX / UI design partner** for digital product teams
+    _template: broughtToYouBy
   - heading: The problem solving event for product people
     subtitle: >-
       We’re building a community of UX leaders with a passion for helping solve
@@ -57,8 +60,5 @@ blocks:
         author: Magdalena R.
         jobTitle: Product Designer
     _template: testimonials
-  - largeText: |
-      The **number one UX / UI design partner** for digital product teams
-    _template: broughtToYouBy
 ---
 

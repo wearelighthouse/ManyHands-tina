@@ -16,12 +16,6 @@ const config = defineStaticConfig({
     process.env.HEAD!, // Netlify branch env
   token: process.env.TINA_TOKEN!,
   media: {
-    // If you wanted cloudinary do this
-    // loadCustomStore: async () => {
-    //   const pack = await import("next-tinacms-cloudinary");
-    //   return pack.TinaCloudCloudinaryMediaStore;
-    // },
-    // this is the config for the tina cloud media store
     tina: {
       publicFolder: "public",
       mediaRoot: "uploads",
@@ -200,105 +194,6 @@ const config = defineStaticConfig({
               },
             ],
           },
-          {
-            type: "object",
-            label: "Theme",
-            name: "theme",
-            fields: [
-              {
-                type: "string",
-                label: "Primary Color",
-                name: "color",
-                options: [
-                  {
-                    label: "Blue",
-                    value: "blue",
-                  },
-                  {
-                    label: "Teal",
-                    value: "teal",
-                  },
-                  {
-                    label: "Green",
-                    value: "green",
-                  },
-                  {
-                    label: "Red",
-                    value: "red",
-                  },
-                  {
-                    label: "Pink",
-                    value: "pink",
-                  },
-                  {
-                    label: "Purple",
-                    value: "purple",
-                  },
-                  {
-                    label: "Orange",
-                    value: "orange",
-                  },
-                  {
-                    label: "Yellow",
-                    value: "yellow",
-                  },
-                ],
-              },
-              {
-                type: "string",
-                name: "font",
-                label: "Font Family",
-                options: [
-                  {
-                    label: "System Sans",
-                    value: "sans",
-                  },
-                  {
-                    label: "Nunito",
-                    value: "nunito",
-                  },
-                  {
-                    label: "Lato",
-                    value: "lato",
-                  },
-                ],
-              },
-              {
-                type: "string",
-                name: "icon",
-                label: "Icon Set",
-                options: [
-                  {
-                    label: "Boxicons",
-                    value: "boxicon",
-                  },
-                  {
-                    label: "Heroicons",
-                    value: "heroicon",
-                  },
-                ],
-              },
-              {
-                type: "string",
-                name: "darkMode",
-                label: "Dark Mode",
-                options: [
-                  {
-                    label: "System",
-                    value: "system",
-                  },
-                  {
-                    label: "Light",
-                    value: "light",
-                  },
-                  {
-                    label: "Dark",
-                    value: "dark",
-                  },
-                ],
-              },
-            ],
-          },
         ],
       },
       {
@@ -356,6 +251,53 @@ const config = defineStaticConfig({
             templates: [
               broughtToYouByBlockSchema,
               heroBlockSchema,
+              eventTicketBlockSchema,
+              hrBlockSchema,
+              howItWorksBlockSchema,
+              contentBlockSchema,
+              testimonialsBlockSchema,
+            ],
+          },
+        ],
+      },
+      {
+        label: "Events",
+        name: "event",
+        path: "content/events",
+        format: "md",
+        ui: {
+          router: ({ document }) => {
+            return `/events/${document._sys.filename}`;
+          },
+        },
+        fields: [
+          {
+            type: "string",
+            label: "Title",
+            name: "title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "datetime",
+            label: "Event Date",
+            name: "date",
+            required: true,
+            ui: {
+              dateFormat: "DD MMMM YYYY",
+              timeFormat: "hh:mm A",
+            },
+          },
+          {
+            type: "object",
+            list: true,
+            name: "blocks",
+            label: "Sections",
+            ui: {
+              visualSelector: true,
+            },
+            templates: [
+              broughtToYouByBlockSchema,
               eventTicketBlockSchema,
               hrBlockSchema,
               howItWorksBlockSchema,
