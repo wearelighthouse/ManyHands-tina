@@ -24,6 +24,9 @@ blocks:
       - icon: point-up-front
         title: Present
         text: Present back for discussion and iteration on concepts
+      - icon: peace
+        title: Practice
+        text: Put ideas into practice and celebrate success
     _template: howItWorks
   - heading: Next event
     _template: eventTicket
