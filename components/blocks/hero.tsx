@@ -157,15 +157,5 @@ export const heroBlockSchema: Template = {
       label: "Icon Right",
       name: "iconRight"
     },
-    {
-      type: "string",
-      label: "Color",
-      name: "color",
-      options: [
-        { label: "Default", value: "default" },
-        { label: "Tint", value: "tint" },
-        { label: "Primary", value: "primary" },
-      ],
-    },
   ],
 };

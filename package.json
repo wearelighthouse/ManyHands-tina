@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "tinacms dev -c \"next dev\"",
     "build": "tinacms build && cross-env PREFIX=/ManyHands-tina/ next build",
-    "start": "tinacms build && path-exists .next || next build && next start",
+    "build:local": "tinacms build && next build",
+    "start": "tinacms build && path-exists .next || next build:local && next start",
     "export": "npm run build && next export",
     "lint": "eslint . --ext .ts,.tsx"
   },
