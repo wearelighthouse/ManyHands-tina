@@ -9,8 +9,6 @@ blocks:
     iconLeft:
       src: /uploads/point-up.svg
     _template: hero
-  - icon: horns
-    _template: hr
   - heading: How it works
     items:
       - icon: peace
@@ -30,6 +28,13 @@ blocks:
     _template: howItWorks
   - heading: Next event
     _template: eventTicket
+  - icon: horns
+    _template: hr
+  - body: |
+      <Center>
+        ![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png)
+      </Center>
+    _template: content
   - heading: Loved by designers from…
     logos:
       - src: /uploads/automattic.png
@@ -49,11 +54,6 @@ blocks:
         author: Magdalena R.
         jobTitle: Product Designer
     _template: testimonials
-  - body: |
-      <Center>
-        ![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png)
-      </Center>
-    _template: content
   - largeText: |
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
