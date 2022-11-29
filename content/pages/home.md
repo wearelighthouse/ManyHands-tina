@@ -1,16 +1,17 @@
 ---
 title: Tina Cloud Starter
 blocks:
-  - subtitle: >-
+  - heading: The problem solving event for product people
+    subtitle: >-
       We’re building a community of UX leaders with a passion for helping solve
       real-world product issues.
     imageLeft:
       src: /uploads/manyhands-faces-01.webp
     iconLeft:
       src: /uploads/point-up.svg
+    imageRight:
+      src: /uploads/manyhands-faces-02.webp
     _template: hero
-  - icon: horns
-    _template: hr
   - heading: How it works
     items:
       - icon: peace
@@ -18,15 +19,25 @@ blocks:
         text: >-
           This is where you might talk about the feature, if this wasn't just
           filler text.
-      - title: Here's 2nd point
-        text: Example content change
-      - title: Here's Another Feature
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+      - icon: raised-double
+        title: Brainstorm
+        text: Get into groups to generate ideas with your new best mates
+      - icon: point-up-front
+        title: Present
+        text: Present back for discussion and iteration on concepts
+      - icon: peace
+        title: Practice
+        text: Put ideas into practice and celebrate success
     _template: howItWorks
   - heading: Next event
     _template: eventTicket
+  - icon: horns
+    _template: hr
+  - body: |
+      <Center>
+        ![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png)
+      </Center>
+    _template: content
   - heading: Loved by designers from…
     logos:
       - src: /uploads/automattic.png
@@ -46,16 +57,6 @@ blocks:
         author: Magdalena R.
         jobTitle: Product Designer
     _template: testimonials
-  - body: |+
-      <Center>
-
-
-        ![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png)
-
-
-      </Center>
-
-    _template: content
   - largeText: |
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
