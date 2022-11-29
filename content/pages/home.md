@@ -1,13 +1,16 @@
 ---
 title: Tina Cloud Starter
 blocks:
-  - subtitle: >-
+  - heading: The problem solving event for product people
+    subtitle: >-
       We’re building a community of UX leaders with a passion for helping solve
       real-world product issues.
     imageLeft:
       src: /uploads/manyhands-faces-01.webp
     iconLeft:
       src: /uploads/point-up.svg
+    imageRight:
+      src: /uploads/manyhands-faces-02.webp
     _template: hero
   - heading: How it works
     items:
