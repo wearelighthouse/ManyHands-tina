@@ -18,13 +18,13 @@ export default function BlogPostPage(
   if (data && data.post) {
     return (
       <Layout rawData={data} data={data.global as any}>
-        <Post {...data.post} />;
+        <Post {...data.post} />
       </Layout>
     );
   }
   return (
     <Layout>
-      <div>No data</div>;
+      <div>No data</div>
     </Layout>
   );
 }

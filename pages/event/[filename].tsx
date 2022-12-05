@@ -18,7 +18,7 @@ export default function EventPage(
   if (data && data.event) {
     return (
       <Layout rawData={data} data={data.global as any}>
-        <Event {...data.event} />;
+        <Event {...data.event} />
       </Layout>
     );
   }

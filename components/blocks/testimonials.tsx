@@ -2,7 +2,7 @@ import React from "react";
 import type { Template } from "tinacms";
 
 export const Quote = ({ data, tinaField }) => (
-  <blockquote className="pt-11 grid justify-items-center gap-5" data-tinafield={tinaField}>
+  <blockquote className="grid justify-items-center gap-5" data-tinafield={tinaField}>
     <svg
       viewBox="0 0 204 36"
       width="204px"
@@ -11,11 +11,11 @@ export const Quote = ({ data, tinaField }) => (
       aria-label="Five stars"
       className="text-orange"
     >
-      <use href="assets/star.svg#a" x="0"></use>
-      <use href="assets/star.svg#a" x="42"></use>
-      <use href="assets/star.svg#a" x="84"></use>
-      <use href="assets/star.svg#a" x="126"></use>
-      <use href="assets/star.svg#a" x="168"></use>
+      <use href="../assets/star.svg#a" x="0"></use>
+      <use href="../assets/star.svg#a" x="42"></use>
+      <use href="../assets/star.svg#a" x="84"></use>
+      <use href="../assets/star.svg#a" x="126"></use>
+      <use href="../assets/star.svg#a" x="168"></use>
     </svg>
 
     <div className="max-w-xl">
@@ -38,12 +38,14 @@ export const Quote = ({ data, tinaField }) => (
 export const Testimonials = ({ data, parentField = "" }) => (
   <section className="bg-light-gray tablet:m-4">
     <div className="max-w-6xl mx-auto text-center px-4 py-20">
-      <h2
-        data-tinafield={`${parentField}.heading`}
-        className="h2"
-      >
-        {data.heading}
-      </h2>
+      {data.heading && (
+        <h2
+          data-tinafield={`${parentField}.heading`}
+          className="h2"
+        >
+          {data.heading}
+        </h2>
+      )}
 
       {/* Repeatable CMS field complication: py- is different per SVG */}
       {data.logos && (
@@ -60,7 +62,9 @@ export const Testimonials = ({ data, parentField = "" }) => (
         </div>
       )}
 
-      <hr className="text-gray"/>
+      {(data.heading || data.logos) && data.quotes && (
+        <hr className="text-gray pb-11"/>
+      )}
 
       {data.quotes && data.quotes.map((block, i: number) => (
         <Quote
