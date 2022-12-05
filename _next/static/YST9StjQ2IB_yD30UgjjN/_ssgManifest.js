@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F[filename]","\u002Fevent\u002F[filename]","\u002Fevents","\u002Fpost\u002F[filename]","\u002Fposts"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
