@@ -116,6 +116,7 @@ export const Event = (props) => {
 
   return (
     <div className="flex-1">
+      <h1>Event</h1>
       <h2
         data-tinafield="title"
         className={`w-full relative	mb-8 text-6xl font-extrabold tracking-normal text-center title-font`}

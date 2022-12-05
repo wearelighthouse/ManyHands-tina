@@ -1,7 +1,7 @@
 /* Disable no-explicity-any because it's tina's code not ours */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import { Events } from "../components/events";
+import { Events } from "../components/event";
 import { client } from "../.tina/__generated__/client";
 import { Layout } from "../components/layout";
 

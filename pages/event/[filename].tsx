@@ -1,7 +1,7 @@
 /* Disable no-explicity-any because it's tina's code not ours */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import { Event } from "../../components/events/event";
+import { Event } from "../../components/event/event";
 import { client } from "../../.tina/__generated__/client";
 import { useTina } from "tinacms/dist/react";
 import { Layout } from "../../components/layout";

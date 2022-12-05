@@ -261,13 +261,13 @@ const config = defineStaticConfig({
         ],
       },
       {
-        label: "Events",
         name: "event",
+        label: "Events",
         path: "content/events",
         format: "md",
         ui: {
           router: ({ document }) => {
-            return `/events/${document._sys.filename}`;
+            return `/event/${document._sys.filename}`;
           },
         },
         fields: [

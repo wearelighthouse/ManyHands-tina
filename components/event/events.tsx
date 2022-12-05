@@ -12,7 +12,7 @@ export const Events = ({ data }) => {
         return (
           <Link
             key={post._sys.filename}
-            href={`/post/` + post._sys.filename}
+            href={`/event/` + post._sys.filename}
             passHref
           >
             <a
