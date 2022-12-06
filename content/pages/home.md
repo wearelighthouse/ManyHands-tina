@@ -14,11 +14,9 @@ blocks:
     _template: hero
   - heading: How it works
     items:
-      - icon: peace
-        title: Here's Another Feature
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+      - icon: wave
+        title: Say hi
+        text: Say hellos and find out what this session's problem is
       - icon: raised-double
         title: Brainstorm
         text: Get into groups to generate ideas with your new best mates

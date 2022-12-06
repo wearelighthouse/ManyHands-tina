@@ -24,7 +24,7 @@ export const EventTicket = ({ data, parentField }) => (
             <div className="scooped-corners bg-mimosa px-4 mobile:px-8 tablet:px-14 pt-16 pb-20 tablet:pb-28 clip-bottom-8 flex flex-col gap-12 tablet:gap-20">
               <time dateTime="2022-11-16" className="flex flex-col gap-2 items-center text-center bow-border px-4 py-2">
                 <div>Wednesday</div>
-                <div className="font-tiempos text-5xl font-semibold leading-tight">16<sup className="font-lg">th</sup> November</div>
+                <div className="font-tiempos text-5xl font-semibold leading-tight">18<sup className="font-lg">th</sup> January</div>
                 <div>Online 🌍 6pm-7pm (UK time)</div>
               </time>
 
@@ -62,7 +62,7 @@ export const EventTicket = ({ data, parentField }) => (
             </svg>
           </a>
 
-          <small className="text-lg">PS: dinner's on us 😋</small>
+          {/* <small className="text-lg">PS: dinner's on us 😋</small> */}
         </div>
       </div>
     </div>

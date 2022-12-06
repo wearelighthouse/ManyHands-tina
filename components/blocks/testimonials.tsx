@@ -63,7 +63,7 @@ export const Testimonials = ({ data, parentField = "" }) => (
       )}
 
       {(data.heading || data.logos) && data.quotes && (
-        <hr className="text-gray pb-11"/>
+        <hr className="text-gray pb-12"/>
       )}
 
       {data.quotes && data.quotes.map((block, i: number) => (
