@@ -280,7 +280,7 @@ const config = defineStaticConfig({
           },
           {
             type: "datetime",
-            label: "Event Date",
+            label: "Event Date & Time",
             name: "date",
             required: true,
             ui: {
