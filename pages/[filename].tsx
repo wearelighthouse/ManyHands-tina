@@ -5,6 +5,7 @@ import { Blocks } from "../components/blocks-renderer";
 import { useTina } from "tinacms/dist/react";
 import { Layout } from "../components/layout";
 import { client } from "../.tina/__generated__/client";
+import { PageQueryDocument } from "../.tina/__generated__/types";
 
 export default function HomePage(
   props: AsyncReturnType<typeof getStaticProps>["props"]
@@ -14,9 +15,10 @@ export default function HomePage(
     variables: props.variables,
     data: props.data,
   });
+
   return (
     <Layout data={data.global as any}>
-      <Blocks {...data.page} />
+      <Blocks {...data.page} events={props.events} />
     </Layout>
   );
 }
@@ -25,11 +27,15 @@ export const getStaticProps = async ({ params }) => {
   const tinaProps = await client.queries.contentQuery({
     relativePath: `${params.filename}.md`,
   });
+
+  const pageQueryStuff = await client.queries.pageQuery();
+
   return {
     props: {
       data: tinaProps.data,
       query: tinaProps.query,
       variables: tinaProps.variables,
+      events: pageQueryStuff.data.eventConnection.edges,
     },
   };
 };

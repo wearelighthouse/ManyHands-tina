@@ -12,6 +12,8 @@ blocks:
       src: /uploads/manyhands-faces-02.webp
     iconRight: peace
     _template: hero
+  - heading: Next events
+    _template: eventList
   - heading: How it works
     items:
       - icon: wave
