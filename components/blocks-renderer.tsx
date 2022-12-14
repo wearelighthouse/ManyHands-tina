@@ -14,8 +14,6 @@ interface Events {
 }
 
 export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values"> & Events) => {
-  console.log(props.events); // Figure out if we can give events array to EventList
-
   return (
     <>
       {props.blocks
@@ -54,7 +52,7 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values"> & Events) =>
                     data-tinafield={`blocks.${i}`}
                     key={i + block.__typename}
                   >
-                    <EventList data={block} parentField={`blocks.${i}`} />
+                    <EventList data={{...block, events: props.events}} parentField={`blocks.${i}`} />
                   </div>
                 );
               case "PageBlocksEventTicket":

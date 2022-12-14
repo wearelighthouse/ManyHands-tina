@@ -291,6 +291,24 @@ const config = defineStaticConfig({
             },
           },
           {
+            type: "string",
+            label: "Location (short)",
+            name: "location_short",
+          },
+          {
+            type: "string",
+            label: "Location (full)",
+            name: "location",
+            ui: {
+              component: "textarea",
+            },
+          },
+          {
+            type: "string",
+            label: "Status",
+            name: "status"
+          },
+          {
             type: "object",
             list: true,
             name: "blocks",

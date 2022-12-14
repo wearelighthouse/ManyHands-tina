@@ -16,23 +16,70 @@ export const getEventData = async () => {
 
 export const EventList = ({ data, parentField }) => {
   // console.log(client.queries);
-  // console.log(data);
+  console.log(data.events);
 
   return (
     <section
       id={`event-${toKebabCase(data.heading)}`}
-      className="px-4 my-24 desktop:my-32 flex flex-col items-center"
+      className="px-4 my-24 desktop:my-32 grid"
     >
       <h2
-        className="h2"
+        className="h2 text-center"
         data-tinafield={`${parentField}.heading`}
       >
         {data.heading}
       </h2>
 
-      <div className="">
-        Event 1!
-      </div>
+      {data.events && (
+        <div className="mx-auto w-full grid gap-8 max-w-6xl">
+          {data.events.map((eventData) => {
+            const event = eventData.node;
+            const locationParts = event._values.location?.split(/\r?\n/);
+
+            return (
+              <div key={event.id} className="relative flex border-4 border-gray rounded-lg px-10 py-9">
+                <h2 className="font-tiempos font-semibold text-3.5xl">
+                  <div>ManyHands</div>
+                  <div className="text-dark-gray-ish">{event._values.location_short}</div>
+                </h2>
+
+                <div className="h-full bg-gray w-0.5 mx-6"/>
+
+                <div className="grow basis-1/2">
+                  datetime
+                </div>
+
+                <div className="h-full bg-gray w-0.5 mx-6"/>
+
+                <div className="grow basis-1/2 grid content-center">
+                  <div className="flex gap-3 items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#3A3A4E" viewBox="0 0 32 32">
+                      <path d="M6 14.1c0 8.14 9.13 13.1 9.51 13.3a1.03 1.03 0 0 0 .98 0c.38-.2 9.51-5.16 9.51-13.3a9.4 9.4 0 0 0-2.93-6.79A10.22 10.22 0 0 0 16 4.5a10.2 10.2 0 0 0-7.07 2.81A9.4 9.4 0 0 0 6 14.09Zm10-7.68c2.12 0 4.15.81 5.65 2.25A7.53 7.53 0 0 1 24 14.09c0 6.02-6.2 10.25-8 11.35-1.8-1.1-8-5.33-8-11.35 0-2.03.85-3.98 2.35-5.42A8.18 8.18 0 0 1 16 6.42Z"/>
+                      <path d="M16 18.89a5.2 5.2 0 0 0 2.78-.8 4.85 4.85 0 0 0 1.84-2.16 4.62 4.62 0 0 0-1.08-5.23 5.2 5.2 0 0 0-5.45-1.04 5 5 0 0 0-2.25 1.77 4.66 4.66 0 0 0 .63 6.05c.93.9 2.2 1.4 3.53 1.41Zm0-7.67A2.96 2.96 0 0 1 18.77 13a2.77 2.77 0 0 1-.65 3.13 3.12 3.12 0 0 1-3.27.62 2.98 2.98 0 0 1-1.34-1.06 2.8 2.8 0 0 1 .37-3.63 3.07 3.07 0 0 1 2.12-.84Z"/>
+                    </svg>
+
+                    <span className="font-semibold">{locationParts?.[0]}</span>
+                  </div>
+                  <div className="ml-11">{locationParts?.[1]}</div>
+                </div>
+
+                {event._values?.status && (
+                  <div className="absolute grid place-items-center uppercase -top-4 h-8 right-8 border-2 rounded-full px-3 border-pink bg-[#ffdeed] font-medium text-sm">
+                    {event._values?.status}
+                  </div>
+                )}
+
+                <div className="ml-8 shrink-0">
+                  <div className="button !grid !h-20 place-items-center place-content-center">
+                    <div className="text-lg">Sign up now</div>
+                    <div className="uppercase text-xs">Free entry</div>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
     </section>
   );
 };

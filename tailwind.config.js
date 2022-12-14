@@ -24,6 +24,7 @@ module.exports = {
       'orange': '#FC895B',
       'smoke': '#3A3A4E',
       'dark-gray': '#717173',
+      'dark-gray-ish': '#9898A6',
       'gray': '#DEDEE2',
       'light-gray': '#F7F7F9',
     },
@@ -32,6 +33,8 @@ module.exports = {
       'tiempos': ['Tiempos, serif'],
     },
     fontSize: {
+      'xs': '.75rem',
+      'sm': '0.875rem',
       'md': '1rem',
       'lg': '1.125rem',
       'xl': '1.25rem',

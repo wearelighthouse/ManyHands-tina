@@ -5,5 +5,8 @@ blocks:
   - largeText: |
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
+location_short: London
+location: 'Not-Farringdon, London'
 ---
+
 

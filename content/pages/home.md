@@ -12,8 +12,6 @@ blocks:
       src: /uploads/manyhands-faces-02.webp
     iconRight: peace
     _template: hero
-  - heading: Next events
-    _template: eventList
   - heading: How it works
     items:
       - icon: wave
@@ -29,6 +27,8 @@ blocks:
         title: Practice
         text: Put ideas into practice and celebrate success
     _template: howItWorks
+  - heading: Next events
+    _template: eventList
   - heading: Next event
     _template: eventTicket
   - icon: horns
@@ -61,4 +61,5 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
