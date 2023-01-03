@@ -29,8 +29,6 @@ blocks:
     _template: howItWorks
   - heading: Next events
     _template: eventList
-  - heading: Next event
-    _template: eventTicket
   - icon: horns
     _template: hr
   - body: |
@@ -61,5 +59,6 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 

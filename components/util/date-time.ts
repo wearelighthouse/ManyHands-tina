@@ -16,7 +16,7 @@ export const formatDate = (dateTime: Date): string => {
 }
 
 const createEndTime = (dateTime: Date): Date => {
-  const end = new Date(dateTime);
+  const end = new Date(dateTime.getTime());
   end.setHours(end.getHours() + 1);
   return end;
 }

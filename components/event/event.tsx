@@ -19,6 +19,8 @@ import type { TinaMarkdownContent, Components } from "tinacms/dist/rich-text";
 import { Hr } from "../blocks/hr";
 import { Testimonials } from "../blocks/testimonials";
 import { BroughtToYouBy } from "../blocks/brought-to-you-by";
+import { formatDate, formatTime } from "../util/date-time";
+import { Status } from "../util/status";
 
 const components: Components<{
   BlockQuote: {
@@ -111,11 +113,9 @@ const components: Components<{
 };
 
 const Hero = (props) => {
-  const date = new Date(props.date);
-  let formattedDate = "";
-  if (!isNaN(date.getTime())) {
-    formattedDate = format(date, "MMM dd, yyyy");
-  }
+  const eventDateTime = new Date(props.date);
+  const eventDateTimeEnd = props.date_end ? new Date(props.date_end) : undefined;
+  const locationParts = props.location?.split(/\r?\n/);
 
   return (
     <div className="bg-mimosa px-6 pt-14 tablet:px-16 pb-20 desktop:pb-32 o-section-clip--ramp-bottom-right tablet:m-4">
@@ -124,27 +124,33 @@ const Hero = (props) => {
       </a>
 
       <div className="grid grid-cols-2 gap-8 justify-items-start max-w-4xl mx-auto mt-12">
-        <span className="rounded uppercase bg-[#F3EDE0] border-2 border-[#FF9325] rounded-full px-3 font-semibold text-[1rem]">Filling up fast</span>
+        {props.status ? (
+          <Status greyscale>{props.status}</Status>
+        ) : <span/>}
 
         <h1
           className="text-5xl font-tiempos font-bold grid col-start-1 leading-tight"
         >
           <span>ManyHands</span>
-          <span className="opacity-60">Online</span>
+          <span className="opacity-60">{props.location_short || 'Online'}</span>
         </h1>
 
-        <a href="/" className="button !h-14 col-start-1 !text-lg !gap-3 !px-6" id="hero-sign-up">
-          <span>Sign up now</span>
-          <svg
-            className="shrink-0 arrow"
-            width="32px"
-            height="25px"
-            viewBox="0 0 12 10"
-            aria-hidden="true"
-          >
-            <path fill="none" stroke="currentColor" d="M2 5l8 0M7 2l3 3 l-3 3"/>
-          </svg>
-        </a>
+        {props.sign_up_url ? (
+          <a href={props.sign_up_url} className="button !h-14 col-start-1 !text-lg !gap-3 !px-6" id="hero-sign-up">
+            <span>Sign up now</span>
+            <svg
+              className="shrink-0 arrow"
+              width="32px"
+              height="25px"
+              viewBox="0 0 12 10"
+              aria-hidden="true"
+            >
+              <path fill="none" stroke="currentColor" d="M2 5l8 0M7 2l3 3 l-3 3"/>
+            </svg>
+          </a>
+        ) : (
+          <div id="hero-sign-up">Fully booked</div>
+        )}
 
         <div className="col-start-2 row-start-2 row-span-2 grid gap-6 leading-loose my-2 content-start">
           <div>
@@ -154,9 +160,9 @@ const Hero = (props) => {
                 <path d="M17 15.62v-5.36a.9.9 0 0 0-.3-.68 1.02 1.02 0 0 0-1.4 0 .94.94 0 0 0-.3.68V16c0 .26.1.5.3.68l3 2.88a1.02 1.02 0 0 0 1.4-.01.94.94 0 0 0 .01-1.34L17 15.61Z"/>
               </svg>
 
-              <span className="font-semibold">Wednesday 17th Jan 2023</span>
+              <span className="font-semibold">{ formatDate(eventDateTime) }</span>
             </div>
-            <div className="ml-11">6 - 7pm (UK time)</div>
+            <div className="ml-11">{ formatTime(eventDateTime, eventDateTimeEnd) }</div>
           </div>
           <div>
             <div className="flex gap-3 items-center">
@@ -165,9 +171,9 @@ const Hero = (props) => {
                 <path d="M16 18.89a5.2 5.2 0 0 0 2.78-.8 4.85 4.85 0 0 0 1.84-2.16 4.62 4.62 0 0 0-1.08-5.23 5.2 5.2 0 0 0-5.45-1.04 5 5 0 0 0-2.25 1.77 4.66 4.66 0 0 0 .63 6.05c.93.9 2.2 1.4 3.53 1.41Zm0-7.67A2.96 2.96 0 0 1 18.77 13a2.77 2.77 0 0 1-.65 3.13 3.12 3.12 0 0 1-3.27.62 2.98 2.98 0 0 1-1.34-1.06 2.8 2.8 0 0 1 .37-3.63 3.07 3.07 0 0 1 2.12-.84Z"/>
               </svg>
 
-              <span className="font-semibold">Anywhere in the world</span>
+              <span className="font-semibold">{locationParts?.[0]}</span>
             </div>
-            <div className="ml-11">Via Google Meet</div>
+            <div className="ml-11">{locationParts?.[1]}</div>
           </div>
         </div>
       </div>
@@ -275,7 +281,7 @@ export const Event = (props) => {
 
   return (
     <div className="flex-1 relative">
-      <Hero date={props.date}/>
+      <Hero {...props} />
 
       <div className={`fixed left-0 right-0 bottom-0 flex mx-4 px-6 bg-mimosa z-10 transition ${isVisible ? 'opacity-0' : 'opacity-100'}`}>
         <div className="flex justify-center items-baseline gap-16 mx-auto py-3">

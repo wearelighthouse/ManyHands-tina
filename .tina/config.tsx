@@ -8,6 +8,9 @@ import { hrBlockSchema } from "../components/blocks/hr";
 import { heroBlockSchema } from "../components/blocks/hero";
 import { testimonialsBlockSchema } from "../components/blocks/testimonials";
 import { iconSchema } from "../components/util/icon";
+import { statusSchema } from "../components/util/status";
+
+const currentDateString = new Date().toLocaleString('default', {day: 'numeric', month: 'long', year: 'numeric'});
 
 const config = defineStaticConfig({
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID!,
@@ -271,6 +274,10 @@ const config = defineStaticConfig({
           router: ({ document }) => {
             return `/event/${document._sys.filename}`;
           },
+          defaultItem: {
+            date: `${currentDateString} 6:00 PM`,
+            date_end: `${currentDateString} 7:00 PM`,
+          },
         },
         fields: [
           {
@@ -286,8 +293,8 @@ const config = defineStaticConfig({
             name: "date",
             required: true,
             ui: {
-              dateFormat: "DD MMMM YYYY",
-              timeFormat: "hh:mm A",
+              dateFormat: "D MMMM YYYY",
+              timeFormat: "h:mm A",
             },
           },
           {
@@ -296,8 +303,8 @@ const config = defineStaticConfig({
             name: "date_end",
             required: false,
             ui: {
-              dateFormat: "DD MMMM YYYY",
-              timeFormat: "hh:mm A",
+              dateFormat: "D MMMM YYYY",
+              timeFormat: "h:mm A",
             },
           },
           {
@@ -313,10 +320,11 @@ const config = defineStaticConfig({
               component: "textarea",
             },
           },
+          statusSchema,
           {
             type: "string",
-            label: "Status",
-            name: "status"
+            label: "Sign up URL",
+            name: "sign_up_url",
           },
           {
             type: "object",

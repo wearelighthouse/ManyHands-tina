@@ -8,6 +8,7 @@ import Link from "next/link";
 
 import toKebabCase from "../util/to-kebab-case";
 import { formatDate, formatTime } from "../util/date-time";
+import { Status } from "../util/status";
 
 export const getEventData = async () => {
   const eventsListData = await client.queries.postConnection();
@@ -16,9 +17,6 @@ export const getEventData = async () => {
 }
 
 export const EventList = ({ data, parentField }) => {
-  // console.log(client.queries);
-  // console.log(data.events);
-
   return (
     <section
       id={`event-${toKebabCase(data.heading)}`}
@@ -35,13 +33,14 @@ export const EventList = ({ data, parentField }) => {
         <div className="mx-auto w-full grid gap-8 max-w-6xl">
           {data.events.map((eventData) => {
             const event = eventData.node;
-            const locationParts = event._values.location?.split(/\r?\n/);
             const eventDateTime = new Date(event._values.date);
-            const eventDateTimeEnd = event._values.date ? new Date(event._values.date) : undefined;
+            if (eventDateTime < new Date()) return undefined;
+            const eventDateTimeEnd = event._values.date_end ? new Date(event._values.date_end) : undefined;
+            const locationParts = event._values.location?.split(/\r?\n/);
 
             return (
               <div key={event.id} className="relative flex border-4 border-gray rounded-lg px-10 py-9">
-                <h2 className="font-tiempos font-semibold text-3.5xl">
+                <h2 className="font-tiempos font-semibold text-3.5xl leading-tight">
                   <div>ManyHands</div>
                   <div className="text-dark-gray-ish">{event._values.location_short}</div>
                 </h2>
@@ -74,17 +73,27 @@ export const EventList = ({ data, parentField }) => {
                   <div className="ml-11">{locationParts?.[1]}</div>
                 </div>
 
-                {event._values?.status && (
-                  <div className="absolute grid place-items-center uppercase -top-4 h-8 right-8 border-2 rounded-full px-3 border-pink bg-[#ffdeed] font-medium text-sm">
-                    {event._values?.status}
-                  </div>
+                {event._values.status && event._values.sign_up_url && (
+                  <Status className="absolute -top-4 right-8">
+                    {event._values.status}
+                  </Status>
+                  // <div className="absolute grid place-items-center uppercase -top-4 h-7 right-8 border-2 rounded-full px-3 border-pink bg-[#ffdeed] font-medium text-sm">
+                  //   {event._values?.status}
+                  // </div>
                 )}
 
-                <div className="ml-8 shrink-0">
-                  <div className="button !grid !h-20 place-items-center place-content-center">
-                    <div className="text-lg">Sign up now</div>
-                    <div className="uppercase text-xs">Free entry</div>
-                  </div>
+                <div className="flex items-center ml-8 shrink-0 leading-none">
+                  { event._values.sign_up_url ? (
+                    <a href={event._values.sign_up_url} className="button !grid !h-20 place-items-center place-content-center">
+                      <div className="text-lg">Sign up now</div>
+                      <div className="uppercase text-xs">Free entry</div>
+                    </a>
+                  ) : (
+                    <a href={event._values.sign_up_url} className="button !grid !h-20 place-items-center place-content-center !bg-dark-gray">
+                      <div className="text-lg">Fully booked</div>
+                      <div className="uppercase text-xs">Free entry</div>
+                    </a>
+                  )}
                 </div>
               </div>
             );
