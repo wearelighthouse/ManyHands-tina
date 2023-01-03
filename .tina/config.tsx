@@ -282,9 +282,19 @@ const config = defineStaticConfig({
           },
           {
             type: "datetime",
-            label: "Event Date & Time",
+            label: "Event Date & Time (Start)",
             name: "date",
             required: true,
+            ui: {
+              dateFormat: "DD MMMM YYYY",
+              timeFormat: "hh:mm A",
+            },
+          },
+          {
+            type: "datetime",
+            label: "Event Date & Time (End)",
+            name: "date_end",
+            required: false,
             ui: {
               dateFormat: "DD MMMM YYYY",
               timeFormat: "hh:mm A",
