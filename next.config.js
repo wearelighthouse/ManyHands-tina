@@ -8,6 +8,7 @@ module.exports = {
 
     return config;
   },
+  basePath: process.env.PREFIX,
   assetPrefix: process.env.PREFIX,
   async rewrites() {
     return [
