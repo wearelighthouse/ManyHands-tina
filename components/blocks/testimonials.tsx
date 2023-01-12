@@ -52,7 +52,7 @@ export const Testimonials = ({ data, parentField = "" }) => (
         <div className="grid desktop:flex justify-items-center justify-center desktop:justify-between items-center my-14">
           {data.logos.filter((logo) => logo?.src).map((logo, i: number) => (
             <img
-              src={logo.src}
+              src={`/${logo.src}`}
               alt={logo.alt}
               width={logo.width ?? null}
               height={logo.height ?? null}
