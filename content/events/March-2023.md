@@ -6,8 +6,9 @@ location_short: Online
 location: |-
   Farringdon, London
   Other stuff
-status: 'border-[#FF9325] bg-[#F3EDE0]'
+status: ''
 ---
+
 
 
 
