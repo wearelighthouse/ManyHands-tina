@@ -1,6 +1,7 @@
 import React from "react";
 import type { Template } from "tinacms";
-import getConfig from 'next/config';
+
+const prefix = process.env.PREFIX ?? '';
 
 export const Quote = ({ data, tinaField }) => (
   <blockquote className="grid justify-items-center gap-5" data-tinafield={tinaField}>
@@ -12,11 +13,11 @@ export const Quote = ({ data, tinaField }) => (
       aria-label="Five stars"
       className="text-orange"
     >
-      <use href="../assets/star.svg#a" x="0"></use>
-      <use href="../assets/star.svg#a" x="42"></use>
-      <use href="../assets/star.svg#a" x="84"></use>
-      <use href="../assets/star.svg#a" x="126"></use>
-      <use href="../assets/star.svg#a" x="168"></use>
+      <use href={`${prefix}/assets/star.svg#a`} x="0"></use>
+      <use href={`${prefix}/assets/star.svg#a`} x="42"></use>
+      <use href={`${prefix}/assets/star.svg#a`} x="84"></use>
+      <use href={`${prefix}/assets/star.svg#a`} x="126"></use>
+      <use href={`${prefix}/assets/star.svg#a`} x="168"></use>
     </svg>
 
     <div className="max-w-xl">
