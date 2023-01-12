@@ -38,7 +38,7 @@ blocks:
     _template: content
   - heading: Loved by designers from…
     logos:
-      - src: logo-american-express.png
+      - src: /uploads/logo-american-express.png
         alt: American Express
         width: 137
         height: 77
