@@ -84,7 +84,7 @@ export const EventList = ({ data, parentField }) => {
                 )}
                 <div className="flex items-center ml-8 shrink-0 leading-none">
                   <Link
-                    href={`${prefix}/event/${event._sys.filename}`}
+                    href={`/event/${event._sys.filename}`}
                   >
                     {event._values.status !== '' ? (
                       <a className="button !grid !h-20 place-items-center place-content-center">
