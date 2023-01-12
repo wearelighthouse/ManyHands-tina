@@ -6,7 +6,7 @@ const prefix = process.env.PREFIX ?? '';
 
 export const Hero = ({ data, parentField }) => (
   <div className="bg-mimosa px-6 pt-14 tablet:px-16 pb-20 desktop:pb-32 o-section-clip--ramp-bottom-right tablet:m-4 text-center">
-    <a href={`${prefix}/`} aria-label="Home" data-prefix={prefix}>
+    <a href={`${prefix}/`} aria-label="Home" data-prefix={process.env.PREFIX}>
       <img className="mx-auto" src={`${prefix}/assets/manyhands-logo.svg`} alt="Many Hands" width="188px" height="34px"/>
     </a>
 
