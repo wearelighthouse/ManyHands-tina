@@ -12,7 +12,6 @@ limitations under the License.
 */
 
 import React, { useEffect, useState } from "react";
-import format from "date-fns/format";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { Prism } from "tinacms/dist/rich-text/prism";
 import type { TinaMarkdownContent, Components } from "tinacms/dist/rich-text";
@@ -21,6 +20,7 @@ import { Testimonials } from "../blocks/testimonials";
 import { BroughtToYouBy } from "../blocks/brought-to-you-by";
 import { formatDate, formatTime } from "../util/date-time";
 import { Status } from "../util/status";
+const prefix = process.env.PREFIX ?? '';
 
 const components: Components<{
   BlockQuote: {
@@ -119,8 +119,8 @@ const Hero = (props) => {
 
   return (
     <div className="bg-mimosa px-6 pt-14 tablet:px-16 pb-20 desktop:pb-32 o-section-clip--ramp-bottom-right tablet:m-4">
-      <a href="/" aria-label="Home">
-        <img className="mx-auto" src="../../assets/manyhands-logo.svg" alt="Many Hands" width="188px" height="34px"/>
+      <a href={`${prefix}/`} aria-label="Home">
+        <img className="mx-auto" src={`${prefix}/assets/manyhands-logo.svg`} alt="Many Hands" width="188px" height="34px"/>
       </a>
 
       <div className="grid grid-cols-2 gap-8 justify-items-start max-w-4xl mx-auto mt-12">
@@ -363,3 +363,5 @@ export const Event = (props) => {
     </div>
   );
 };
+
+export default Components;
