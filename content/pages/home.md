@@ -42,9 +42,10 @@ blocks:
         alt: American Express
         width: 137
         height: 77
-      - src: /uploads/automattic.png
-        alt: test
-        width: 250
+      - src: /uploads/logo-truelayer.png
+        alt: Truelayer
+        width: 211
+        height: 41
       - src: /uploads/automattic.png
         alt: Automatic
         width: 224
@@ -60,6 +61,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
