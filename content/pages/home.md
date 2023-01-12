@@ -38,9 +38,10 @@ blocks:
     _template: content
   - heading: Loved by designers from…
     logos:
-      - src: /uploads/automattic.png
-        alt: test2
-        width: 228
+      - src: logo-american-express.png
+        alt: American Express
+        width: 137
+        height: 77
       - src: /uploads/automattic.png
         alt: test
         width: 250
@@ -59,6 +60,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
