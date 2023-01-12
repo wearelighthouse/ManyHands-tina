@@ -1,5 +1,6 @@
 import React from "react";
 import type { Template } from "tinacms";
+import getConfig from 'next/config';
 
 export const Quote = ({ data, tinaField }) => (
   <blockquote className="grid justify-items-center gap-5" data-tinafield={tinaField}>
@@ -52,11 +53,12 @@ export const Testimonials = ({ data, parentField = "" }) => (
         <div className="grid desktop:flex justify-items-center justify-center desktop:justify-between items-center my-14">
           {data.logos.filter((logo) => logo?.src).map((logo, i: number) => (
             <img
-              src={`/${logo.src}`}
+              src={logo.src}
               alt={logo.alt}
               width={logo.width ?? null}
               height={logo.height ?? null}
               key={i}
+              data-pathinfo={`PREFIX: ${process.env.PREFIX}, assetPrefx: not-set`}
             />
           ))}
         </div>
