@@ -9,6 +9,7 @@ import Link from "next/link";
 import toKebabCase from "../util/to-kebab-case";
 import { formatDate, formatTime } from "../util/date-time";
 import { Status } from "../util/status";
+const prefix = process.env.PREFIX ? `${process.env.PREFIX}` : '';
 
 export const getEventData = async () => {
   const eventsListData = await client.queries.postConnection();
@@ -84,7 +85,7 @@ export const EventList = ({ data, parentField }) => {
                 <div className="flex items-center ml-8 shrink-0 leading-none">
                   { event._values.sign_up_url ? (
                     <Link
-                      href={`/event/` + event._sys.filename}
+                      href={`${prefix || '/'}event/` + event._sys.filename}
                     >
                       <a className="button !grid !h-20 place-items-center place-content-center">
                         <div className="text-lg">Sign up now</div>
@@ -93,7 +94,7 @@ export const EventList = ({ data, parentField }) => {
                     </Link>
                   ) : (
                     <Link
-                      href={`/event/` + event._sys.filename}
+                      href={`${prefix || '/'}/event/` + event._sys.filename}
                       className=""
                     >
                       <a className="button !grid !h-20 place-items-center place-content-center !bg-dark-gray">
