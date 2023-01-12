@@ -283,24 +283,26 @@ export const Event = (props) => {
     <div className="flex-1 relative">
       <Hero {...props} />
 
-      <div className={`fixed left-0 right-0 bottom-0 flex mx-4 px-6 bg-mimosa z-10 transition ${isVisible ? 'opacity-0' : 'opacity-100'}`}>
-        <div className="flex justify-center items-baseline gap-16 mx-auto py-3">
-          <h2 className="text-3xl font-tiempos font-semibold translate-y-[.25rem]">Register your interest now</h2>
-          <span className="text-2xl translate-y-[.25rem]">Spaces are limited and seats full up quick!</span>
-          <a href="/" className="button !h-14 col-start-1 !text-lg !gap-3 !px-6">
-            <span>Sign up now</span>
-            <svg
-              className="shrink-0 arrow"
-              width="32px"
-              height="25px"
-              viewBox="0 0 12 10"
-              aria-hidden="true"
-            >
-              <path fill="none" stroke="currentColor" d="M2 5l8 0M7 2l3 3 l-3 3"/>
-            </svg>
-          </a>
+      {props.sign_up_url && (
+        <div className={`fixed left-0 right-0 bottom-0 flex mx-4 px-6 bg-mimosa z-10 transition ${isVisible ? 'opacity-0' : 'opacity-100'}`}>
+          <div className="flex justify-center items-baseline gap-16 mx-auto py-3">
+            <h2 className="text-3xl font-tiempos font-semibold translate-y-[.25rem]">Register your interest now</h2>
+            <span className="text-2xl translate-y-[.25rem]">Spaces are limited and seats full up quick!</span>
+            <a href={props.sign_up_url} className="button !h-14 col-start-1 !text-lg !gap-3 !px-6">
+              <span>Sign up now</span>
+              <svg
+                className="shrink-0 arrow"
+                width="32px"
+                height="25px"
+                viewBox="0 0 12 10"
+                aria-hidden="true"
+              >
+                <path fill="none" stroke="currentColor" d="M2 5l8 0M7 2l3 3 l-3 3"/>
+              </svg>
+            </a>
+          </div>
         </div>
-      </div>
+      )}
 
       <Content/>
 
@@ -334,7 +336,7 @@ export const Event = (props) => {
 
         <div className="mx-auto max-w-2xl text-xl tablet:text-2xl">
           <p className="my-8">
-            <a href="https://wearelighthouse.com" className="text-pink hover:underline">Lighthouse</a> is a specialist UX and UI design agency based in London, trusted by enterprise organisations to tackle the toughest challenges since 2008 🚀
+            <a href="https://wearelighthouse.com" className="text-pink hover:underline">Lighthouse</a> is a specialist UX and UI design agency based in London, trusted by enterprise organisations to tackle the toughest challenges since 2008 🚀
           </p>
 
           <p className="my-8">

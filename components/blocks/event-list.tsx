@@ -81,18 +81,26 @@ export const EventList = ({ data, parentField }) => {
                   //   {event._values?.status}
                   // </div>
                 )}
-
                 <div className="flex items-center ml-8 shrink-0 leading-none">
                   { event._values.sign_up_url ? (
-                    <a href={event._values.sign_up_url} className="button !grid !h-20 place-items-center place-content-center">
-                      <div className="text-lg">Sign up now</div>
-                      <div className="uppercase text-xs">Free entry</div>
-                    </a>
+                    <Link
+                      href={`/event/` + event._sys.filename}
+                    >
+                      <a className="button !grid !h-20 place-items-center place-content-center">
+                        <div className="text-lg">Sign up now</div>
+                        <div className="uppercase text-xs">Free entry</div>
+                      </a>
+                    </Link>
                   ) : (
-                    <a href={event._values.sign_up_url} className="button !grid !h-20 place-items-center place-content-center !bg-dark-gray">
-                      <div className="text-lg">Fully booked</div>
-                      <div className="uppercase text-xs">Free entry</div>
-                    </a>
+                    <Link
+                      href={`/event/` + event._sys.filename}
+                      className=""
+                    >
+                      <a className="button !grid !h-20 place-items-center place-content-center !bg-dark-gray">
+                        <div className="text-lg">Fully booked</div>
+                        <div className="uppercase text-xs">Free entry</div>
+                      </a>
+                    </Link>
                   )}
                 </div>
               </div>
