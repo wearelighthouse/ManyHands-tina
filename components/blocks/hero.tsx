@@ -5,7 +5,7 @@ import { Icon, iconSchema } from "../util/icon";
 export const Hero = ({ data, parentField }) => (
   <div className="bg-mimosa px-6 pt-14 tablet:px-16 pb-20 desktop:pb-32 o-section-clip--ramp-bottom-right tablet:m-4 text-center">
     <a href="/" aria-label="Home">
-      <img className="mx-auto" src="assets/manyhands-logo.svg" alt="Many Hands" width="188px" height="34px"/>
+      <img className="mx-auto" src={`/${process.env.PREFIX}/assets/manyhands-logo.svg`} alt="Many Hands" width="188px" height="34px"/>
     </a>
 
     <h1
