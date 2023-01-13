@@ -9,7 +9,7 @@ module.exports = {
     return config;
   },
   basePath: process.env.PREFIX,
-  assetPrefix: process.env.PREFIX ? `${process.env.PREFIX}/` : '',
+  assetPrefix: process.env.PREFIX ? `${process.env.PREFIX}/` : undefined,
   async rewrites() {
     return [
       {

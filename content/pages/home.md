@@ -35,7 +35,7 @@ blocks:
           people! I really enjoyed it.
         author: Magdalena R.
         jobTitle: Product Designer
-    background: bg-light-gray
+    background: ''
     _template: quotes
   - logos:
       - src: /uploads/logo-american-express.png
@@ -59,19 +59,20 @@ blocks:
     _template: hr
   - body: |
       <Center>
-        ![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png)
+        [![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png)](example.com)
+      </Center>
+    _template: content
+  - background: bg-light-gray
+    body: |
+      <Center>
+        ### Want to get involved in the future?
+
+        We'll let you know when we've set dates for upcoming events
+
+        <Cta text="Join the list" href="example.com" />
       </Center>
     _template: content
   - largeText: |
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
-
-
-
-
-
-
-
-
-

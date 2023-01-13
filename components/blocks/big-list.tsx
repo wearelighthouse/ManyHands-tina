@@ -1,0 +1,64 @@
+import React from "react";
+import type { Template } from "tinacms";
+
+export const List = ({ data, parentField = "" }) => (
+  <div className="my-20 px-6 flex grid gap-16">
+    {data.title && data.title !== '' && (
+      <h2 className="mx-auto text-4xl font-tiempos font-semibold">{data.title}</h2>
+    )}
+
+    {data.items && (
+      <dl className="mx-auto my-8 max-w-2xl text-xl tablet:text-2xl grid gap-10 circle-bg-dl">
+        {data.items.map((item: any, index: number) => (
+          <div key={index}>
+            <dt className="font-medium">
+              <span className="indicator">{index + 1}</span>{item.title}
+            </dt>
+            <dd>{item.description}</dd>
+          </div>
+        ))}
+      </dl>
+    )}
+  </div>
+);
+
+export const bigListBlockSchema: Template = {
+  name: "bigList",
+  label: "Big List",
+  ui: {
+    previewSrc: "/blocks/testimonial.png",
+    defaultItem: {
+      logos: [],
+    },
+  },
+  fields: [
+    {
+      type: "string",
+      label: "Heading",
+      name: "heading",
+    },
+    {
+      type: "object",
+      label: "List Items",
+      name: "items",
+      list: true,
+      ui: {
+        itemProps: (item) => ({
+          label: item?.title ?? 'Item',
+        }),
+      },
+      fields: [
+        {
+          name: "title",
+          label: "Title",
+          type: "string",
+        },
+        {
+          name: "description",
+          label: "Description",
+          type: "string",
+        },
+      ],
+    },
+  ],
+};

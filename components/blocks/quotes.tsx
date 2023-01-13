@@ -1,5 +1,6 @@
 import React from "react";
 import type { Template } from "tinacms";
+import { backgroundColorSchema } from "../util/background-color";
 
 const prefix = process.env.PREFIX ?? '';
 
@@ -39,7 +40,7 @@ export const Quote = ({ data, tinaField }) => (
 
 export const Quotes = ({ data, parentField = "" }) => (
   <section className={`tablet:m-4 ${data.background ?? ''}`}>
-    <div className="max-w-6xl mx-auto text-center px-4 py-20">
+    <div className="max-w-6xl mx-auto text-center px-4 my-20">
       {data.quotes && data.quotes.map((block, i: number) => (
         <Quote
           tinaField={`${parentField}.quotes.${i}`}
@@ -103,16 +104,6 @@ export const quotesBlockSchema: Template = {
         },
       ],
     },
-    {
-      type: "string",
-      label: "Background",
-      name: "background",
-      options: [
-        {
-          label: 'Gray',
-          value: 'bg-light-gray',
-        },
-      ],
-    },
+    backgroundColorSchema,
   ],
 };

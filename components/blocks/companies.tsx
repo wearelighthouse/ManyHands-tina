@@ -3,7 +3,7 @@ import type { Template } from "tinacms";
 
 export const Companies = ({ data, parentField = "" }) => (
   <section className="tablet:m-4">
-    <div className="max-w-6xl mx-auto text-center px-4 py-20">
+    <div className="max-w-6xl mx-auto text-center px-4 my-20">
       {/* Repeatable CMS field complication: py- is different per SVG */}
       {data.logos && (
         <div className="grid desktop:flex justify-items-center justify-center desktop:justify-between items-center my-14">

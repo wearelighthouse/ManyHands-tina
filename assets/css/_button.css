@@ -1,9 +1,12 @@
 .button {
-  @apply bg-pink text-white text-2xl font-medium rounded gap-y-3 gap-x-2 mobile:gap-x-6 px-4;
+  @apply bg-pink/100 text-white font-medium rounded gap-y-3 gap-x-2 mobile:gap-x-6 px-4 transition;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 5rem;
+}
+
+.button:hover {
+  @apply bg-pink/90;
 }
 
 .button .arrow {
