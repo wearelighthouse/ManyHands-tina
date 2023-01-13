@@ -6,7 +6,8 @@ import { eventListBlockSchema } from "../components/blocks/event-list";
 import { eventTicketBlockSchema } from "../components/blocks/event-ticket";
 import { hrBlockSchema } from "../components/blocks/hr";
 import { heroBlockSchema } from "../components/blocks/hero";
-import { testimonialsBlockSchema } from "../components/blocks/testimonials";
+import { companiesBlockSchema } from "../components/blocks/companies";
+import { quotesBlockSchema } from "../components/blocks/quotes";
 import { iconSchema } from "../components/util/icon";
 import { statusSchema } from "../components/util/status";
 
@@ -260,7 +261,8 @@ const config = defineStaticConfig({
               hrBlockSchema,
               howItWorksBlockSchema,
               contentBlockSchema,
-              testimonialsBlockSchema,
+              companiesBlockSchema,
+              quotesBlockSchema,
             ],
           },
         ],
@@ -340,7 +342,8 @@ const config = defineStaticConfig({
               hrBlockSchema,
               howItWorksBlockSchema,
               contentBlockSchema,
-              testimonialsBlockSchema,
+              companiesBlockSchema,
+              quotesBlockSchema,
             ],
           },
         ],

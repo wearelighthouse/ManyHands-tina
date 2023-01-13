@@ -7,7 +7,8 @@ import { EventList } from "./blocks/event-list";
 import { EventTicket } from "./blocks/event-ticket";
 import { Hr } from "./blocks/hr";
 import { Hero } from "./blocks/hero";
-import { Testimonials } from "./blocks/testimonials";
+import { Companies } from "./blocks/companies";
+import { Quotes } from "./blocks/quotes";
 
 interface Events {
   events: any[];
@@ -82,13 +83,22 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values"> & Events) =>
                     <BroughtToYouBy data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
-              case "PageBlocksTestimonials":
+              case "PageBlocksCompanies":
                 return (
                   <div
                     data-tinafield={`blocks.${i}`}
                     key={i + block.__typename}
                   >
-                    <Testimonials data={block} parentField={`blocks.${i}`} />
+                    <Companies data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+              case "PageBlocksQuotes":
+                return (
+                  <div
+                    data-tinafield={`blocks.${i}`}
+                    key={i + block.__typename}
+                  >
+                    <Quotes data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
               default:

@@ -16,7 +16,7 @@ import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { Prism } from "tinacms/dist/rich-text/prism";
 import type { TinaMarkdownContent, Components } from "tinacms/dist/rich-text";
 import { Hr } from "../blocks/hr";
-import { Testimonials } from "../blocks/testimonials";
+import { Quotes } from "../blocks/quotes";
 import { BroughtToYouBy } from "../blocks/brought-to-you-by";
 import { formatDate, formatTime } from "../util/date-time";
 import { Status } from "../util/status";
@@ -345,7 +345,7 @@ export const Event = (props) => {
         </div>
       </div>
 
-      <Testimonials data={{ quotes: [{ quote: "Thank you for introducing me to these inspiring and interesting people! I really enjoyed it.", author: "Magdalena R.", jobTitle: "Product Designer" }] }} />
+      <Quotes data={{ quotes: [{ quote: "Thank you for introducing me to these inspiring and interesting people! I really enjoyed it.", author: "Magdalena R.", jobTitle: "Product Designer" }] }} />
 
       <List/>
 

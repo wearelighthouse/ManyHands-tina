@@ -1,5 +1,5 @@
 ---
-title: Tina Cloud Starter
+title: ManyHands
 blocks:
   - heading: The problem solving event for product people
     subtitle: >-
@@ -29,6 +29,32 @@ blocks:
     _template: howItWorks
   - heading: Next events
     _template: eventList
+  - quotes:
+      - quote: >-
+          Thank you for introducing me to these inspiring and interesting
+          people! I really enjoyed it.
+        author: Magdalena R.
+        jobTitle: Product Designer
+    background: bg-light-gray
+    _template: quotes
+  - logos:
+      - src: /uploads/logo-american-express.png
+        alt: American Express
+        width: 137
+        height: 77
+      - src: /uploads/logo-truelayer.png
+        alt: True Layer
+        width: 211
+        height: 41
+      - src: /uploads/logo-charlie-hr.png
+        alt: Charlie HR
+        width: 169
+        height: 39
+      - src: /uploads/logo-revolut.png
+        alt: Revolut
+        width: 124
+        height: 29
+    _template: companies
   - icon: horns
     _template: hr
   - body: |
@@ -36,31 +62,14 @@ blocks:
         ![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png)
       </Center>
     _template: content
-  - heading: Loved by designers from…
-    logos:
-      - src: /uploads/logo-american-express.png
-        alt: American Express
-        width: 137
-        height: 77
-      - src: /uploads/logo-truelayer.png
-        alt: Truelayer
-        width: 211
-        height: 41
-      - src: /uploads/automattic.png
-        alt: Automatic
-        width: 224
-        height: 68
-    quotes:
-      - quote: >-
-          Thank you for introducing me to these inspiring and interesting
-          people! I really enjoyed it.
-        author: Magdalena R.
-        jobTitle: Product Designer
-    _template: testimonials
   - largeText: |
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
+
+
+
 
 
 
