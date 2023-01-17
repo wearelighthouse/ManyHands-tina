@@ -284,20 +284,6 @@ export const Event = (props) => {
     <div className="flex-1 relative">
       <Hero {...props} />
 
-      <Content/>
-
-      <div className="flex py-8 grid gap-16">
-        <h2 className="mx-auto px-6 text-4xl font-tiempos font-semibold">Collab with pros from companies like…</h2>
-        <div className="mx-auto flex flex-wrap gap-8">
-          <div>American Express</div>
-          <div>Truelayer</div>
-          <div>charlieHR</div>
-          <div>Revolut</div>
-        </div>
-      </div>
-
-      <Hr data={{ icon: 'horns' }} parentField={{}} />
-
       <div className="hosted-by px-6 grid py-10">
         <h2 className="text-4xl font-tiempos font-semibold mx-auto">
           <span>Hosted by</span>
@@ -324,22 +310,6 @@ export const Event = (props) => {
           </p>
         </div>
       </div>
-
-      <Quotes data={{ quotes: [{ quote: "Thank you for introducing me to these inspiring and interesting people! I really enjoyed it.", author: "Magdalena R.", jobTitle: "Product Designer" }] }} />
-
-      <List/>
-
-      <Hr data={{ icon: 'call' }} parentField={{}} />
-
-      <section className="tablet:m-4 px-4 py-16 tablet:py-20 bg-light-gray grid gap-6 items-center text-center">
-        <h2 className="text-4xl font-tiempos font-semibold">Want to join the fun in the future?</h2>
-        <p className="text-2xl">
-          We'll let you know when we've set dates for the next events
-        </p>
-        <a href="/" className="button mx-auto !h-14 !text-lg !px-6">Join the list</a>
-      </section>
-
-      <BroughtToYouBy data={{ largeText: broughtToYouByText }} parentField={{}} />
 
       <Blocks {...props}/>
 
