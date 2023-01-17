@@ -20,6 +20,7 @@ module.exports = {
       'white': '#ffffff',
       'black': '#000000',
       'mimosa': '#F1FFBC',
+      'iceberg': '#CDF1EA',
       'pink': '#E80070',
       'orange': '#FC895B',
       'smoke': '#3A3A4E',

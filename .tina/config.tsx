@@ -9,6 +9,7 @@ import { heroBlockSchema } from "../components/blocks/hero";
 import { companiesBlockSchema } from "../components/blocks/companies";
 import { quotesBlockSchema } from "../components/blocks/quotes";
 import { bigListBlockSchema } from "../components/blocks/big-list";
+import { hostedByBlockSchema } from "../components/blocks/hosted-by";
 import { iconSchema } from "../components/util/icon";
 import { statusSchema } from "../components/util/status";
 
@@ -347,6 +348,7 @@ const config = defineStaticConfig({
               companiesBlockSchema,
               quotesBlockSchema,
               bigListBlockSchema,
+              hostedByBlockSchema,
             ],
           },
         ],

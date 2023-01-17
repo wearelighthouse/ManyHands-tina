@@ -119,7 +119,7 @@ const Hero = (props) => {
   const locationParts = props.location?.split(/\r?\n/);
 
   return (
-    <div className="bg-mimosa px-6 pt-14 tablet:px-16 pb-20 desktop:pb-32 o-section-clip--ramp-bottom-right tablet:m-4">
+    <div className={`px-6 pt-14 tablet:px-16 pb-20 desktop:pb-32 o-section-clip--ramp-bottom-right tablet:m-4 ${props.location_short !== 'Online' ? 'bg-mimosa' : 'bg-iceberg'}`}>
       <a href={`${prefix}/`} aria-label="Home">
         <img className="mx-auto" src={`${prefix}/assets/manyhands-logo.svg`} alt="Many Hands" width="188px" height="34px"/>
       </a>
@@ -137,20 +137,23 @@ const Hero = (props) => {
         </h1>
 
         {props.sign_up_url ? (
-          <a href={props.sign_up_url} className="button !h-14 col-start-1 !text-lg !gap-3 !px-6" id="hero-sign-up">
-            <span>Sign up now</span>
-            <svg
-              className="shrink-0 arrow"
-              width="32px"
-              height="25px"
-              viewBox="0 0 12 10"
-              aria-hidden="true"
-            >
-              <path fill="none" stroke="currentColor" d="M2 5l8 0M7 2l3 3 l-3 3"/>
-            </svg>
-          </a>
+          <div>
+            <a href={props.sign_up_url} className="button !h-14 col-start-1 !text-lg !gap-3 !px-6" id="hero-sign-up">
+              <span>Sign up now</span>
+              <svg
+                className="shrink-0 arrow"
+                width="32px"
+                height="25px"
+                viewBox="0 0 12 10"
+                aria-hidden="true"
+              >
+                <path fill="none" stroke="currentColor" d="M2 5l8 0M7 2l3 3 l-3 3"/>
+              </svg>
+            </a>
+            <div className="mt-5 font-medium text-dark-gray">Free Entry</div>
+          </div>
         ) : (
-          <div id="hero-sign-up">Fully booked</div>
+          <div id="hero-sign-up"></div>
         )}
 
         <div className="col-start-2 row-start-2 row-span-2 grid gap-6 leading-loose my-2 content-start">
@@ -181,62 +184,6 @@ const Hero = (props) => {
     </div>
   );
 };
-
-const Content = () => (
-  <div className="px-6 py-16">
-    <section className="mx-auto max-w-4xl text-2xl">
-      <p>
-        Imagine if there was a way to connect with fellow designers around the world who work at top innovative products, and get creative together on a fun UX challenge you likely haven’t encountered before...
-      </p>
-
-      <ul className="font-tiempos font-semibold text-dark-gray my-8">
-        <li>A social network <span className="text-dark-gray">for</span> rockstars?</li>
-        <li>A banking app <span className="text-dark-gray">for</span> astronauts?</li>
-        <li>A task management tool <span className="text-dark-gray">for</span> librarians?</li>
-      </ul>
-
-      <p>
-        Spoiler alert: you can, it’s free, and you don’t even have to leave your house.
-      </p>
-    </section>
-  </div>
-);
-
-const List = () => (
-  <div className="my-20 px-6 flex grid gap-16">
-    <h2 className="mx-auto text-4xl font-tiempos font-semibold">Seats are limited - register your interest now</h2>
-
-    <dl className="mx-auto my-8 max-w-2xl text-xl tablet:text-2xl grid gap-10 circle-bg-dl">
-      <div>
-        <dt className="font-medium">
-          <span className="indicator">1</span>Sign up ✅
-        </dt>
-        <dd>Give us a few details, sit tight, and we'll be in touch nearer the event!</dd>
-      </div>
-
-      <div>
-        <dt className="font-medium">
-        <span className="indicator">2</span>Receive an invite  📩
-        </dt>
-        <dd>If we have room for you this time, you’ll receive an invite to the event</dd>
-      </div>
-
-      <div>
-        <dt className="font-medium">
-          <span className="indicator">3</span>RSVP  🗓️
-        </dt>
-        <dd>Make sure to respond to the invite to secure your seat</dd>
-      </div>
-
-      <div>
-        <dt className="font-medium">
-          <span className="indicator">4</span>Join the fun  🎉
-        </dt>
-        <dd>Have a fun-filled hour of problem solving with your new best mates</dd>
-      </div>
-    </dl>
-  </div>
-);
 
 export const Event = (props) => {
   const [ isVisible, setIsVisible ] = useState(true);
@@ -284,37 +231,10 @@ export const Event = (props) => {
     <div className="flex-1 relative">
       <Hero {...props} />
 
-      <div className="hosted-by px-6 grid py-10">
-        <h2 className="text-4xl font-tiempos font-semibold mx-auto">
-          <span>Hosted by</span>
-          <span className="ml-6">Lighthouse</span> {/* TODO: Replace with image */}
-        </h2>
-
-        <div className="flex flex-wrap mx-auto">
-          <div>
-            Rupert Wood
-          </div>
-
-          <div>
-            Dan Burgess
-          </div>
-        </div>
-
-        <div className="mx-auto max-w-2xl text-xl tablet:text-2xl">
-          <p className="my-8">
-            <a href="https://wearelighthouse.com" className="text-pink hover:underline">Lighthouse</a> is a specialist UX and UI design agency based in London, trusted by enterprise organisations to tackle the toughest challenges since 2008 🚀
-          </p>
-
-          <p className="my-8">
-            Two members of our team of UX experts facilitate each event, and spin the ManyHands Randomiser™ on the night to generate a unique scenario for you to rapidly generate ideas around with a curated bunch of product people.
-          </p>
-        </div>
-      </div>
-
       <Blocks {...props}/>
 
       {props.sign_up_url && (
-        <div className={`sticky left-0 right-0 bottom-0 flex tablet:m-4 px-6 bg-mimosa z-10 transition ${isVisible ? 'opacity-0' : 'opacity-100'}`}>
+        <div className={`sticky left-0 right-0 bottom-0 flex tablet:m-4 px-6 z-10 transition ${isVisible ? 'opacity-0' : 'opacity-100'} ${props.location_short !== 'Online' ? 'bg-mimosa' : 'bg-iceberg'}`}>
           <div className="flex flex-wrap justify-center items-baseline text-center gap-x-16 gap-y-4 mx-auto py-3">
             <h2 className="text-2xl tablet:text-3xl font-tiempos font-semibold translate-y-[.25rem]">Register your interest now</h2>
             <span className="text-lg mobile:text-xl tablet:text-2xl translate-y-[.25rem]">Spaces are limited and seats full up quick!</span>

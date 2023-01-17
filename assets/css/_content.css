@@ -8,6 +8,10 @@
     @apply mt-6;
   }
 
+  .button + .button {
+    @apply mt-0 ml-6 bg-smoke;
+  }
+
   img {
     @apply transition;
   }
@@ -32,5 +36,9 @@
 
   a {
     display: inline-flex;
+  }
+
+  a:not(.button) {
+    @apply text-pink decoration-2 hover:underline;
   }
 }
