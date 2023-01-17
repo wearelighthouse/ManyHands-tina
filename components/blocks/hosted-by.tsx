@@ -25,7 +25,7 @@ export const HostedBy = ({ data, parentField = "" }) => {
                     <img src={host.src} alt={host.alt} height={228} width={228} />
                   )}
                 </div>
-                {host.quote && (
+                {host.quote && host.quote !== '' && (
                   <div>{host.quote}</div>
                 )}
                 <div className="font-medium">{host.name ?? ''}</div>
