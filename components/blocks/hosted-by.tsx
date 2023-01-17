@@ -1,5 +1,8 @@
 import React from "react";
 import type { Template } from "tinacms";
+import LighthouseLogoSvg from "../../assets/img/lighthouse-logo-gradient.png";
+
+const prefix = process.env.PREFIX ?? '';
 
 export const HostedBy = ({ data, parentField = "" }) => {
   return (
@@ -7,21 +10,33 @@ export const HostedBy = ({ data, parentField = "" }) => {
       className={`tablet:m-4 py-16 px-6 tablet:px-16 [&>*]:max-w-4xl [&>*]:mx-auto`}
       data-tinafield={`${parentField}.body`}
     >
-      <div className="hosted-by px-6 grid py-10">
-        <h2 className="text-4xl font-tiempos font-semibold mx-auto">
+      <div className="hosted-by px-6 grid">
+        <h2 className="text-3.5xl font-tiempos font-semibold mx-auto flex items-center">
           <span>Hosted by</span>
-          <span className="ml-6">Lighthouse</span> {/* TODO: Replace with image */}
+          <img className="ml-6" src={LighthouseLogoSvg.src} alt="Lighthouse" width="240" height="59"/>
         </h2>
 
-        <div className="flex flex-wrap mx-auto">
-          <div>
-            Rupert Wood
+        {data.hosts && (
+          <div className="flex flex-wrap gap-16 tablet:gap-32 mt-16 mx-auto">
+            {data.hosts.map((host, i: number) => (
+              <div className="grid justify-items-center gap-1 text-xl" key={i}>
+                <div className="pb-4">
+                  {host.src && (
+                    <img src={host.src} alt={host.alt} height={228} width={228} />
+                  )}
+                </div>
+                {host.quote && (
+                  <div>{host.quote}</div>
+                )}
+                <div className="font-medium">{host.name ?? ''}</div>
+                <div>{host.job_title ?? ''}</div>
+                {host.link_url && host.link_text && (
+                  <a href={host.link_url} className="text-lg font-medium text-pink decoration-2 hover:underline">{host.link_text}</a>
+                )}
+              </div>
+            ))}
           </div>
-
-          <div>
-            Dan Burgess
-          </div>
-        </div>
+        )}
       </div>
     </section>
   );
@@ -59,6 +74,21 @@ export const hostedByBlockSchema: Template = {
       },
       fields: [
         {
+          name: "src",
+          label: "Profile Picture Source",
+          type: "image",
+        },
+        {
+          name: "alt",
+          label: "Profile Picture Alt Text",
+          type: "string",
+        },
+        {
+          type: "string",
+          label: "Quote",
+          name: "quote",
+        },
+        {
           type: "string",
           label: "Name",
           name: "name",
@@ -67,6 +97,16 @@ export const hostedByBlockSchema: Template = {
           type: "string",
           label: "Job Title",
           name: "job_title",
+        },
+        {
+          type: "string",
+          label: "Link URL",
+          name: "link_url",
+        },
+        {
+          type: "string",
+          label: "Link Text",
+          name: "link_text",
         },
       ],
     },
