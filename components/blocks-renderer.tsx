@@ -9,17 +9,19 @@ import { Hr } from "./blocks/hr";
 import { Hero } from "./blocks/hero";
 import { Companies } from "./blocks/companies";
 import { Quotes } from "./blocks/quotes";
+import { BigList } from "./blocks/big-list";
 
 interface Events {
   events: any[];
 }
 
-export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values"> & Events) => {
+export const Blocks = (props: (Omit<Page, "id" | "_sys" | "_values"> | Omit<Event, "id" | "_sys" | "_values">) & Events) => {
   return (
     <>
       {props.blocks
         ? props.blocks.map(function (block, i) {
             switch (block.__typename) {
+              case "EventBlocksContent":
               case "PageBlocksContent":
                 return (
                   <div
@@ -38,6 +40,7 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values"> & Events) =>
                     <Hero data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
+              case "EventBlocksHowItWorks":
               case "PageBlocksHowItWorks":
                 return (
                   <div
@@ -47,6 +50,7 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values"> & Events) =>
                     <HowItWorks data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
+              case "EventBlocksEventList":
               case "PageBlocksEventList":
                 return (
                   <div
@@ -56,6 +60,7 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values"> & Events) =>
                     <EventList data={{...block, events: props.events}} parentField={`blocks.${i}`} />
                   </div>
                 );
+              case "EventBlocksEventTicket":
               case "PageBlocksEventTicket":
                 return (
                   <div
@@ -65,6 +70,7 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values"> & Events) =>
                     <EventTicket data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
+              case "EventBlocksHr":
               case "PageBlocksHr":
                 return (
                   <div
@@ -74,6 +80,7 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values"> & Events) =>
                     <Hr data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
+              case "EventBlocksBroughtToYouBy":
               case "PageBlocksBroughtToYouBy":
                 return (
                   <div
@@ -83,6 +90,7 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values"> & Events) =>
                     <BroughtToYouBy data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
+              case "EventBlocksCompanies":
               case "PageBlocksCompanies":
                 return (
                   <div
@@ -92,6 +100,7 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values"> & Events) =>
                     <Companies data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
+              case "EventBlocksQuotes":
               case "PageBlocksQuotes":
                 return (
                   <div
@@ -99,6 +108,16 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values"> & Events) =>
                     key={i + block.__typename}
                   >
                     <Quotes data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+              case "EventBlocksBigList":
+              case "PageBlocksBigList":
+                return (
+                  <div
+                    data-tinafield={`blocks.${i}`}
+                    key={i + block.__typename}
+                  >
+                    <BigList data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
               default:

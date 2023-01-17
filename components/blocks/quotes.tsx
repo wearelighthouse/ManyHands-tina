@@ -40,7 +40,7 @@ export const Quote = ({ data, tinaField }) => (
 
 export const Quotes = ({ data, parentField = "" }) => (
   <section className={`tablet:m-4 ${data.background ?? ''}`}>
-    <div className="max-w-6xl mx-auto text-center px-4 my-20">
+    <div className="max-w-6xl mx-auto text-center px-4 py-20">
       {data.quotes && data.quotes.map((block, i: number) => (
         <Quote
           tinaField={`${parentField}.quotes.${i}`}

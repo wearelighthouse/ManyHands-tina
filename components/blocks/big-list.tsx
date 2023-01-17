@@ -1,10 +1,10 @@
 import React from "react";
 import type { Template } from "tinacms";
 
-export const List = ({ data, parentField = "" }) => (
+export const BigList = ({ data, parentField = "" }) => (
   <div className="my-20 px-6 flex grid gap-16">
-    {data.title && data.title !== '' && (
-      <h2 className="mx-auto text-4xl font-tiempos font-semibold">{data.title}</h2>
+    {data.heading && data.heading !== '' && (
+      <h2 className="mx-auto text-4xl font-tiempos font-semibold">{data.heading}</h2>
     )}
 
     {data.items && (

@@ -6,14 +6,14 @@ export const Companies = ({ data, parentField = "" }) => (
     <div className="max-w-6xl mx-auto text-center px-4 my-20">
       {/* Repeatable CMS field complication: py- is different per SVG */}
       {data.logos && (
-        <div className="grid desktop:flex justify-items-center justify-center desktop:justify-between items-center my-14">
-          {data.logos.filter((logo) => logo?.src).map((logo, i: number) => (
+        <div className="grid gap-6 desktop:flex justify-items-center justify-center desktop:justify-between items-center my-14">
+          {data.logos.filter((logo) => logo?.src).map((logo, index: number) => (
             <img
               src={logo.src}
               alt={logo.alt}
               width={logo.width ?? null}
               height={logo.height ?? null}
-              key={i}
+              key={index}
             />
           ))}
         </div>

@@ -1,5 +1,6 @@
 .content {
-  * + * {
+  > * + *,
+  .text-center > * + *, {
     @apply mt-4;
   }
 
@@ -19,7 +20,9 @@
     @apply font-tiempos font-semibold text-2xl tablet:text-3xl desktop:text-3.5xl;
   }
 
-  p {
+  p,
+  ul,
+  ol {
     @apply text-2xl;
   }
 
