@@ -45,6 +45,7 @@ export const HostedBy = ({ data, parentField = "" }) => {
 const defaultItem = {
   name: "Lighthouse Person",
   job_title: "Designer",
+  quote: "",
 };
 
 export const hostedByBlockSchema: Template = {
