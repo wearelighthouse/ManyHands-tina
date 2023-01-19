@@ -59,7 +59,7 @@ blocks:
     _template: hr
   - body: |
       <Center>
-        [![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png)](example.com)
+        [![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png)](https://www.linkedin.com/company/lighthouse-london/)
       </Center>
     _template: content
   - background: bg-light-gray
