@@ -4,7 +4,12 @@ import type { Template } from "tinacms";
 export const BigList = ({ data, parentField = "" }) => (
   <div className="my-20 px-6 flex grid gap-16">
     {data.heading && data.heading !== '' && (
-      <h2 className="mx-auto text-4xl font-tiempos font-semibold">{data.heading}</h2>
+      <h2
+        className="mx-auto text-4xl font-tiempos font-semibold"
+        data-tinafield={`${parentField}.heading`}
+      >
+        {data.heading}
+      </h2>
     )}
 
     {data.items && (

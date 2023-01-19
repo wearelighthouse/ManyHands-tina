@@ -9,7 +9,6 @@ import Link from "next/link";
 import toKebabCase from "../util/to-kebab-case";
 import { formatDate, formatTime } from "../util/date-time";
 import { Status } from "../util/status";
-const prefix = process.env.PREFIX ?? '';
 
 export const getEventData = async () => {
   const eventsListData = await client.queries.postConnection();

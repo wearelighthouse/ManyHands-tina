@@ -92,28 +92,6 @@ const Hero = (props) => {
 
 export const Event = (props) => {
   const [ isVisible, setIsVisible ] = useState(true);
-  const broughtToYouByText = {
-    children: [
-      {
-        type: 'p',
-        children: [
-          {
-            type: 'text',
-            text: 'The ',
-          },
-          {
-            type: 'text',
-            bold: true,
-            text: 'number one UX / UI design partner',
-          },
-          {
-            type: 'text',
-            text: ' for digital product teams',
-          },
-        ],
-      },
-    ],
-  };
 
   const observerCallback = (entries) => {
     const [entry] = entries;
