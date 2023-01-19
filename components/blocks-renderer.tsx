@@ -11,6 +11,7 @@ import { Companies } from "./blocks/companies";
 import { Quotes } from "./blocks/quotes";
 import { BigList } from "./blocks/big-list";
 import { HostedBy } from "./blocks/hosted-by";
+import { TalksBy } from "./blocks/talks-by";
 
 interface Events {
   events: any[];
@@ -129,6 +130,16 @@ export const Blocks = (props: (Omit<Page, "id" | "_sys" | "_values"> | Omit<Even
                     key={i + block.__typename}
                   >
                     <HostedBy data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+              case "EventBlocksTalksBy":
+              case "PageBlocksTalksBy":
+                return (
+                  <div
+                    data-tinafield={`blocks.${i}`}
+                    key={i + block.__typename}
+                  >
+                    <TalksBy data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
               default:
