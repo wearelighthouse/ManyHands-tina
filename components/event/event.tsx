@@ -25,7 +25,7 @@ const Hero = (props) => {
 
   return (
     <div className={`px-6 pt-14 tablet:px-16 pb-20 desktop:pb-32 o-section-clip--ramp-bottom-right tablet:m-4 ${props.location_short !== 'Online' ? 'bg-mimosa' : 'bg-iceberg'}`}>
-      <a href={`${prefix}/`} aria-label="Home">
+      <a href={`${prefix}/`} aria-label="Home" data-prefix={process.env.PREFIX}>
         <img className="mx-auto" src={`${prefix}/assets/manyhands-logo.svg`} alt="Many Hands" width="188px" height="34px"/>
       </a>
 
