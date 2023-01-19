@@ -1,5 +1,3 @@
-import { Hero } from "../components/blocks/hero";
-
 const prefix = process.env.PREFIX ?? '';
 
 export default function FourOhFour() {
