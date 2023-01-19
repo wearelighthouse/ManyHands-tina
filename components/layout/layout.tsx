@@ -11,14 +11,15 @@ export const Layout = ({ data = layoutData, rawData = null, children }) => {
     <>
       <Head>
         <title>ManyHands: The problem solving event for product people 🤘</title>
-        <meta name="description" content="A collaborative problem solving event for product pros. Work together on real-world UX problems online."></meta>
+        <meta name="description" content="A collaborative problem solving event for product pros. Work together on real-world UX problems online." />
+        <meta name="prefix" content={prefix} />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-        <link rel="apple-touch-icon" sizes="180x180" href={`${prefix}/assets/img/apple-touch-icon.png`} />
-        <link rel="icon" type="image/png" sizes="32x32" href={`${prefix}/assets/img/favicon-32x32.png`} />
-        <link rel="icon" type="image/png" sizes="16x16" href={`${prefix}/assets/img/favicon-16x16.png`} />
+        <link rel="apple-touch-icon" sizes="180x180" href={`${prefix}/assets/apple-touch-icon.png`} />
+        <link rel="icon" type="image/png" sizes="32x32" href={`${prefix}/assets/favicon-32x32.png`} />
+        <link rel="icon" type="image/png" sizes="16x16" href={`${prefix}/assets/favicon-16x16.png`} />
 
-        <meta property="og:image" content={`${prefix}/assets/img/manyhands-preview.png`} />
+        <meta property="og:image" content={`${prefix}/assets/manyhands-preview.png`} />
         <meta property="og:image:width" content="1024" />
         <meta property="og:image:height" content="538" />
         <meta property="og:image:type" content="image/png" />
