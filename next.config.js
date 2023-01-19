@@ -10,6 +10,9 @@ module.exports = {
   },
   basePath: process.env.PREFIX,
   assetPrefix: process.env.PREFIX ? `${process.env.PREFIX}/` : undefined,
+  env: {
+    prefix: '/ManyHands-tina',
+  },
   async rewrites() {
     return [
       {

@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import layoutData from "../../content/global/index.json";
 
-const prefix = process.env.PREFIX ?? '';
+const prefix = process.env.PREFIX || process.env.prefix || '';
 
 /* Disable no-unused-vars because tina's files send things to the currently unused data property */
 /* eslint-disable-next-line @typescript-eslint/no-unused-vars */
