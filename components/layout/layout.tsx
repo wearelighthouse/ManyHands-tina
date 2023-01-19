@@ -8,7 +8,7 @@ export const Layout = ({ data = layoutData, rawData = null, children }) => {
   return (
     <>
       <Head>
-        <title>Tina</title>
+        <title>ManyHands</title>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
       </Head>
       {children}
