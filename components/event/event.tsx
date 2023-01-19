@@ -12,13 +12,8 @@ limitations under the License.
 */
 
 import React, { useEffect, useState } from "react";
-import { TinaMarkdown } from "tinacms/dist/rich-text";
-import { Prism } from "tinacms/dist/rich-text/prism";
-import type { TinaMarkdownContent, Components } from "tinacms/dist/rich-text";
+import type {, Components } from "tinacms/dist/rich-text";
 import { Blocks } from "../blocks-renderer";
-import { Hr } from "../blocks/hr";
-import { Quotes } from "../blocks/quotes";
-import { BroughtToYouBy } from "../blocks/brought-to-you-by";
 import { formatDate, formatTime } from "../util/date-time";
 import { Status } from "../util/status";
 const prefix = process.env.PREFIX ?? '';
