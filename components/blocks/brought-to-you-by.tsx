@@ -5,6 +5,8 @@ import LhBackgroundGradientSvg from "../../assets/img/lh-background-gradient.svg
 import LighthouseLogoSvg from "../../assets/img/lighthouse-logo.svg";
 import ClutchSvg from "../../assets/img/clutch.svg";
 
+const prefix = process.env.prefix ?? '';
+
 export const BroughtToYouBy = ({ data, parentField }) => {
   return (
     <section className="relative px-6 py-16 tablet:py-20 tablet:px-16 tablet:m-4 text-white flex flex-wrap gap-24 desktop:gap-x-48 items-center">
@@ -69,11 +71,11 @@ export const BroughtToYouBy = ({ data, parentField }) => {
             aria-label="Five stars"
             className="text-mimosa mt-2"
           >
-            <use href="assets/star.svg#a" x="0"></use>
-            <use href="assets/star.svg#a" x="42"></use>
-            <use href="assets/star.svg#a" x="84"></use>
-            <use href="assets/star.svg#a" x="126"></use>
-            <use href="assets/star.svg#a" x="168"></use>
+            <use href={`${prefix}/assets/star.svg#a`} x="0"></use>
+            <use href={`${prefix}/assets/star.svg#a`} x="42"></use>
+            <use href={`${prefix}/assets/star.svg#a`} x="84"></use>
+            <use href={`${prefix}/assets/star.svg#a`} x="126"></use>
+            <use href={`${prefix}/assets/star.svg#a`} x="168"></use>
           </svg>
         </div>
 
