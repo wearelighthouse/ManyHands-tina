@@ -1,7 +1,7 @@
 import React from "react";
 import type { Template } from "tinacms";
 
-export const Companies = ({ data }) => (
+export const Companies = ({ data, parentField = "" }) => (
   <section className="tablet:m-4">
     <div className="max-w-6xl mx-auto text-center px-4 my-20">
       {/* Repeatable CMS field complication: py- is different per SVG */}
