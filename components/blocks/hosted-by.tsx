@@ -2,8 +2,6 @@ import React from "react";
 import type { Template } from "tinacms";
 import LighthouseLogoSvg from "../../assets/img/lighthouse-logo-gradient.png";
 
-const prefix = process.env.PREFIX ?? '';
-
 export const HostedBy = ({ data, parentField = "" }) => {
   return (
     <section
