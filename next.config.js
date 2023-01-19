@@ -1,3 +1,5 @@
+const prefix = process.env.PREFIX ?? undefined;
+
 module.exports = {
   webpack(config) {
     config.module.rules.push({
@@ -8,10 +10,10 @@ module.exports = {
 
     return config;
   },
-  basePath: process.env.PREFIX,
-  assetPrefix: process.env.PREFIX ? `${process.env.PREFIX}/` : undefined,
+  basePath: prefix,
+  assetPrefix: prefix ? `${prefix}/` : undefined,
   env: {
-    prefix: '/ManyHands-tina',
+    prefix,
   },
   async rewrites() {
     return [
