@@ -2,7 +2,7 @@ import React from "react";
 import type { Template } from "tinacms";
 import { backgroundColorSchema } from "../util/background-color";
 
-const prefix = process.env.PREFIX ?? '';
+const prefix = process.env.prefix ?? '';
 
 export const Quote = ({ data, tinaField }) => (
   <blockquote className="grid justify-items-center gap-5" data-tinafield={tinaField}>

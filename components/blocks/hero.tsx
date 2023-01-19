@@ -2,7 +2,7 @@ import * as React from "react";
 import type { Template } from "tinacms";
 import { Icon, iconSchema } from "../util/icon";
 
-const prefix = process.env.PREFIX ?? '';
+const prefix = process.env.prefix ?? '';
 
 export const Hero = ({ data, parentField }) => (
   <div className="bg-mimosa px-6 pt-14 tablet:px-16 pb-20 desktop:pb-32 o-section-clip--ramp-bottom-right tablet:m-4 text-center">

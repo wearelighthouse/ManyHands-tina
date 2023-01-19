@@ -36,7 +36,7 @@ const data = {
 
 const shuffle = (array) => array.map((a) => [Math.random(),a]).sort((a,b) => a[0]-b[0]).map((a) => a[1]);
 
-const prefix = process.env.PREFIX ?? '';
+const prefix = process.env.prefix ?? '';
 
 export default function Randomizer() {
   useEffect(function mount() {

@@ -16,7 +16,7 @@ import type { Components } from "tinacms/dist/rich-text";
 import { Blocks } from "../blocks-renderer";
 import { formatDate, formatTime } from "../util/date-time";
 import { Status } from "../util/status";
-const prefix = process.env.PREFIX ?? '';
+const prefix = process.env.prefix ?? '';
 
 const Hero = (props) => {
   const eventDateTime = new Date(props.date);

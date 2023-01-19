@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import layoutData from "../../content/global/index.json";
 
-const prefix = process.env.PREFIX ?? '';
+const prefix = process.env.prefix ?? '';
 
 /* Disable no-unused-vars because tina's files send things to the currently unused data property */
 /* eslint-disable-next-line @typescript-eslint/no-unused-vars */
@@ -12,8 +12,6 @@ export const Layout = ({ data = layoutData, rawData = null, children }) => {
       <Head>
         <title>ManyHands: The problem solving event for product people 🤘</title>
         <meta name="description" content="A collaborative problem solving event for product pros. Work together on real-world UX problems online." />
-        <meta name="prefix" content={prefix} />
-        <meta name="prefix-next-config" content={process.env.prefix} />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
         <link rel="apple-touch-icon" sizes="180x180" href={`${prefix}/assets/apple-touch-icon.png`} />

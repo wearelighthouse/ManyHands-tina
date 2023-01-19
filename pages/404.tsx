@@ -1,4 +1,4 @@
-const prefix = process.env.PREFIX ?? '';
+const prefix = process.env.prefix ?? '';
 
 export default function FourOhFour() {
   return (
