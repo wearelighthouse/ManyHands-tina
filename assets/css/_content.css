@@ -27,7 +27,7 @@
   p,
   ul,
   ol {
-    @apply text-2xl;
+    @apply text-xl mobile:text-2xl;
   }
 
   a:hover > img {
