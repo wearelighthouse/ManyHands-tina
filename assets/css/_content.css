@@ -4,12 +4,12 @@
     @apply mt-4;
   }
 
-  * + .button {
-    @apply mt-6;
+  .button {
+    @apply mobile:m-3 max-mobile:w-full;
   }
 
   .button + .button {
-    @apply mt-0 ml-6 bg-smoke;
+    @apply bg-smoke;
   }
 
   img {

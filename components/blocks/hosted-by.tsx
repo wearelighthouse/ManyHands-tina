@@ -9,13 +9,13 @@ export const HostedBy = ({ data, parentField = "" }) => {
       data-tinafield={`${parentField}.body`}
     >
       <div className="hosted-by px-6 grid">
-        <h2 className="text-3.5xl font-tiempos font-semibold mx-auto flex items-center text-center">
-          <span>Hosted by</span>
-          <img className="ml-6" src={LighthouseLogoSvg.src} alt="Lighthouse" width="240" height="59"/>
+        <h2 className="text-3.5xl font-tiempos font-semibold mx-auto flex flex-wrap gap-x-6 gap-y-2 items-center text-center">
+          <span>Hosted&nbsp;by</span>
+          <img src={LighthouseLogoSvg.src} alt="Lighthouse" width="240" height="59"/>
         </h2>
 
         {data.hosts && (
-          <div className="flex flex-wrap gap-16 tablet:gap-32 mt-16 mx-auto">
+          <div className="flex flex-wrap gap-16 tablet:gap-32 mt-16 mx-auto justify-center">
             {data.hosts.map((host, i: number) => (
               <div className="grid justify-items-center gap-1 text-xl max-w-xs text-center" key={i}>
                 <div className="pb-4">
