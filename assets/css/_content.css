@@ -12,6 +12,10 @@
     @apply bg-smoke;
   }
 
+  p + .button:last-child {
+    @apply mt-6 mb-0;
+  }
+
   img {
     @apply transition;
   }
@@ -27,7 +31,7 @@
   p,
   ul,
   ol {
-    @apply text-xl mobile:text-2xl;
+    @apply text-xl tablet:text-2xl;
   }
 
   a:hover > img {

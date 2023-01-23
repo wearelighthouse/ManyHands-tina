@@ -5,7 +5,7 @@ import { iconSchema } from "../util/icon";
 export const Hr = ({ data, parentField }) => (
   <hr
     data-tinafield={`${parentField}.icon`}
-    className={`manyhands-hr manyhands-hr--${data.icon} mx-4 my-20`}
+    className={`manyhands-hr manyhands-hr--${data.icon} mx-4 my-20 tablet:my-32`}
   />
 );
 

@@ -32,7 +32,7 @@ const components: Components<{
 export const Content = ({ data, parentField = "" }) => {
   return (
     <section
-      className={`tablet:m-4 py-16 px-6 tablet:px-16 content content-em-ul [&>*]:max-w-4xl [&>*]:mx-auto ${data.background ?? ''}`}
+      className={`tablet:mx-4 ${data.background ? 'py-20' : 'my-24'} px-6 tablet:px-16 content content-em-ul [&>*]:max-w-4xl [&>*]:mx-auto ${data.background ?? ''}`}
       data-tinafield={`${parentField}.body`}
     >
       <TinaMarkdown components={components} content={data.body} />
