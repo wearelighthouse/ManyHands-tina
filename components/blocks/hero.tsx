@@ -53,13 +53,13 @@ export const Hero = ({ data, parentField }) => (
         <div className="relative hidden tablet:flex justify-center mt-8 desktop:mt-16">
           <img
             className="absolute top-[-15%] w-[25px] -translate-x-1/2 desktop:top-0 desktop:w-[37px]"
-            src="assets/union.svg"
+            src={`${prefix}/assets/union.svg`}
             alt=""
             width="42px"
             height="61px"
           />
           <img
-            src="assets/vector-6.svg"
+            src={`${prefix}/assets/vector-6.svg`}
             alt=""
             width="609px"
             height="89px"
