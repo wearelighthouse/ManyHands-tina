@@ -1,25 +1,24 @@
 name: Build Pull request
+
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+
 env:
+  NEXT_PUBLIC_TINA_BRANCH: ${{ secrets.NEXT_PUBLIC_TINA_BRANCH }}
   NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
   TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-  NEXT_PUBLIC_TINA_BRANCH: ${{ github.head_ref }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node: ["16", "18", "19"]
-    name: Node ${{ matrix.node }} sample
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup node
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node }}
-      - run: |
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Build
+        run: |
           cd assets/font
           wget -O fonts.zip https://drive.google.com/uc?export=download\&id=1sJCRhTucWoYCEY6XtXMGOUK-mBtOQEyB
           unzip -P ${{ secrets.FONT_PASSWORD }} fonts.zip
@@ -27,4 +26,3 @@ jobs:
           npm ci
           npm run build
           npm run export
-          mv out/home.html out/index.html
