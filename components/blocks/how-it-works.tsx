@@ -5,21 +5,21 @@ import toKebabCase from "../util/to-kebab-case";
 export const HowItWorksItem = ({ data, tinaField, index }) => (
   <li className="max-w-2xs">
     <div
-      className="mx-auto flex justify-center items-center h-[64px] desktop:h-[96px]"
+      className="mx-auto flex justify-center items-center"
       data-tinafield={tinaField}
     >
       {data.icon && (
         <Icon
           tinaField={`${tinaField}.icon`}
-          data={{ size: "large", icon: data.icon }}
-          className="!w-auto"
+          data={{ icon: data.icon }}
+          className="w-auto h-20 tablet:h-24"
         />
       )}
     </div>
     {data.title && (
       <h3
         data-tinafield={`${tinaField}.title`}
-        className="font-medium pt-5"
+        className="font-medium mt-4 mb-1"
       >
         {index + 1}. {data.title}
       </h3>
@@ -45,7 +45,7 @@ export const HowItWorks = ({ data, parentField }) => (
     </h2>
 
     {data.items && (
-      <ol className="flex flex-col gap-6 tablet:flex-row desktop:text-2xl justify-center items-center tablet:items-stretch">
+      <ol className="flex flex-col gap-8 tablet:flex-row desktop:text-2xl justify-center items-center tablet:items-stretch">
         {data.items.map((block, i) => (
           <HowItWorksItem
             tinaField={`${parentField}.items.${i}`}

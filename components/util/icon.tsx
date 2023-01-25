@@ -43,12 +43,6 @@ export const iconMap = {
   'wave': WaveSvg,
 };
 
-const iconSizeClass = {
-  small: "w-8 h-8",
-  medium: "w-16 h-16",
-  large: "w-24 h-24",
-};
-
 export const Icon = ({
   data,
   className = "",
@@ -56,14 +50,13 @@ export const Icon = ({
 }) => {
   const iconName = data.icon || Object.keys(iconMap)[0];
   const IconSVG = iconMap[iconName];
-  const iconSizeClasses = data.size && iconSizeClass[data.size];
 
   return (
     <IconSVG
       // All icons are hidden, for now. Alt text would be good.
       aria-hidden="true"
       data-tinafield={tinaField}
-      className={`${iconSizeClasses} ${className}`}
+      className={className}
     />
   );
 };

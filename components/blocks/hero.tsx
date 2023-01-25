@@ -33,8 +33,8 @@ export const Hero = ({ data, parentField }) => (
           <div className="absolute right-0 bottom-0 translate-x-1/2 translate-y-1/2 rotate-[15deg]">
             <Icon
               tinaField={`${parentField}.iconLeft`}
-              className="max-w-[42px] desktop:max-w-[82px] translate-y-[-6px]"
-              data={{ size: "large", icon: data.iconLeft }}
+              className="w-24 h-24 max-w-[42px] desktop:max-w-[82px] translate-y-[-6px]"
+              data={{ icon: data.iconLeft }}
             />
           </div>
         )}
@@ -75,15 +75,14 @@ export const Hero = ({ data, parentField }) => (
             height="149px"
             alt={data.imageRight.alt}
             src={data.imageRight.src}
-            // TODO: Can grab image width and height?
           />
         )}
         {data.iconRight && (
           <div className="absolute left-0 bottom-0 -translate-x-1/2 translate-y-1/2 rotate-[-15deg]">
             <Icon
               tinaField={`${parentField}.iconLeft`}
-              className="max-w-[40px] desktop:max-w-[80px] translate-y-[-6px]"
-              data={{ size: "large", icon: data.iconRight }}
+              className="w-24 h-24 max-w-[40px] desktop:max-w-[80px] translate-y-[-6px]"
+              data={{ icon: data.iconRight }}
             />
           </div>
         )}
