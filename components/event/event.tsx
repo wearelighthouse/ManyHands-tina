@@ -118,10 +118,10 @@ export const Event = (props) => {
 
       {props.sign_up_url && (
         <div className={`sticky left-0 right-0 bottom-0 flex tablet:m-4 px-6 z-10 transition ${isVisible ? 'opacity-0' : 'opacity-100'} ${props.location_short !== 'Online' ? 'bg-mimosa' : 'bg-iceberg'}`}>
-          <div className="flex flex-wrap justify-center items-baseline text-center gap-x-16 gap-y-4 mx-auto py-3">
-            <h2 className="text-2xl tablet:text-3xl font-tiempos font-semibold translate-y-[.25rem]">Register your interest now</h2>
-            <span className="text-lg mobile:text-xl tablet:text-2xl translate-y-[.25rem]">Spaces are limited and seats full up quick!</span>
-            <a href={props.sign_up_url} className="button !h-14 col-start-1 !text-lg !gap-3 !px-6">
+          <div className="flex flex-wrap justify-center items-baseline text-center gap-x-16 gap-y-2 tablet:gap-y-4 mx-auto py-3">
+            <h2 className="text-2xl tablet:text-3xl font-tiempos font-semibold translate-y-[.25rem]">Register your interest&nbsp;now</h2>
+            <span className="mobile:text-lg tablet:text-xl desktop:text-2xl tablet:translate-y-[.25rem]">Spaces are limited and seats&nbsp;fill&nbsp;up&nbsp;quick!</span>
+            <a href={props.sign_up_url} className="max-mobile:w-full button !h-14 col-start-1 !text-lg !gap-3 !px-6">
               <span>Sign up now</span>
               <svg
                 className="shrink-0 arrow"
