@@ -15,17 +15,17 @@ blocks:
   - heading: How it works
     items:
       - icon: wave
-        title: Say hi
-        text: Say hellos and find out what this session's problem is
+        title: Say hello
+        text: Get to know your new best mates with a quick icebreaker 
       - icon: raised-double
-        title: Brainstorm
-        text: Get into groups to generate ideas with your new best mates
+        title: Problem time
+        text: We’ll generate a fun product challenge with a spin of the Randomiser
       - icon: point-up-front
-        title: Present
-        text: Present back for discussion and iteration on concepts
+        title: Get to work
+        text: Split into small groups and get cracking with ideas and outputs
       - icon: peace
-        title: Practice
-        text: Put ideas into practice and celebrate success
+        title: Share your solution
+        text: Present your work back to the collective and celebrate a job well done
     _template: howItWorks
   - heading: Next events
     _template: eventList
