@@ -5,10 +5,10 @@ import LighthouseLogoSvg from "../../assets/img/lighthouse-logo-gradient.png";
 export const HostedBy = ({ data, parentField = "" }) => {
   return (
     <section
-      className={`tablet:mx-4 my-16 px-6 tablet:px-16 [&>*]:max-w-4xl [&>*]:mx-auto`}
+      className="tablet:mx-4 my-16 px-6 tablet:px-16"
       data-tinafield={`${parentField}.body`}
     >
-      <div className="hosted-by px-6 grid">
+      <div className="grid max-w-4xl mx-auto">
         <h2 className="text-3.5xl font-tiempos font-semibold mx-auto flex flex-wrap gap-x-6 gap-y-2 items-center text-center">
           <span>Hosted&nbsp;by</span>
           <a href="https://wearelighthouse.com/" className="px-2.5 -mx-2.5 py-2 -my-2 rounded transition hover:bg-light-gray"><img src={LighthouseLogoSvg.src} alt="Lighthouse" width="240" height="59"/></a>
