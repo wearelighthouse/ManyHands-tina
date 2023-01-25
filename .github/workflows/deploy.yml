@@ -24,7 +24,7 @@ jobs:
           unzip -P ${{ secrets.FONT_PASSWORD }} fonts.zip
           cd ../../
           npm ci
-          npm run build
+          npm run build:live
           npm run export
           mv out/home.html out/index.html
 
