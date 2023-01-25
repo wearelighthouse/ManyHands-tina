@@ -15,10 +15,10 @@ jobs:
 
     steps:
       - name: Checkout
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Build
-      - run: |
+        run: |
           cd assets/font
           wget -O fonts.zip https://drive.google.com/uc?export=download\&id=1sJCRhTucWoYCEY6XtXMGOUK-mBtOQEyB
           unzip -P ${{ secrets.FONT_PASSWORD }} fonts.zip
