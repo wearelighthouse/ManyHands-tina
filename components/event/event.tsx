@@ -111,7 +111,7 @@ export const Event = (props) => {
   }, []);
 
   return (
-    <div className="flex-1 relative">
+    <>
       <Hero {...props} />
 
       <Blocks {...props}/>
@@ -136,7 +136,7 @@ export const Event = (props) => {
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 
