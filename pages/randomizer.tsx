@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Layout } from "../components/layout";
 
 const data = {
   platforms: [
@@ -115,26 +116,28 @@ export default function Randomizer() {
   });
 
   return (
-    <main className="min-h-screen min-h-[100dvh] grid">
-      <div className="grid bg-mimosa px-6 py-14 max-tablet:pb-6 tablet:px-16 tablet:m-4 text-center">
-        <div className="flex justify-center items-start">
-          <a href={`${prefix}/`} aria-label="Home">
-            <img className="mx-auto" src={`${prefix}/assets/manyhands-logo.svg`} alt="Many Hands" width="188px" height="34px"/>
-          </a>
-        </div>
+    <Layout>
+      <main className="min-h-screen min-h-[100dvh] grid">
+        <div className="grid bg-mimosa px-6 py-14 max-tablet:pb-6 tablet:px-16 tablet:m-4 text-center">
+          <div className="flex justify-center items-start">
+            <a href={`${prefix}/`} aria-label="Home">
+              <img className="mx-auto" src={`${prefix}/assets/manyhands-logo.svg`} alt="Many Hands" width="188px" height="34px"/>
+            </a>
+          </div>
 
-        <div className="max-tablet:grid content-start justify-center whitespace-nowrap self-center">
-          <span className="random inline-grid relative h-[2em] leading-loose text-xl mobile:text-2xl desktop:text-4xl font-bold font-tiempos text-mimosa/75 bg-smoke/95 px-2 overflow-hidden tablet:text-right mx-2"><div className="inner transition-transform duration-[3s]"></div></span>
-          <span className="max-w-[22rem] tablet:max-w-lg my-2 tablet:my-8 moile:text-xl desktop:text-2xl font-semibold mx-auto">for</span>
-          <span className="random inline-grid relative h-[2em] leading-loose text-xl mobile:text-2xl desktop:text-4xl font-bold font-tiempos text-mimosa/75 bg-smoke/95 px-2 overflow-hidden tablet:text-left mx-2"><div className="inner transition-transform duration-[3s]"></div></span>
-        </div>
+          <div className="max-tablet:grid content-start justify-center whitespace-nowrap self-center">
+            <span className="random inline-grid relative h-[2em] leading-loose text-xl mobile:text-2xl desktop:text-4xl font-bold font-tiempos text-mimosa/75 bg-smoke/95 px-2 overflow-hidden tablet:text-right mx-2"><div className="inner transition-transform duration-[3s]"></div></span>
+            <span className="max-w-[22rem] tablet:max-w-lg my-2 tablet:my-8 moile:text-xl desktop:text-2xl font-semibold mx-auto">for</span>
+            <span className="random inline-grid relative h-[2em] leading-loose text-xl mobile:text-2xl desktop:text-4xl font-bold font-tiempos text-mimosa/75 bg-smoke/95 px-2 overflow-hidden tablet:text-left mx-2"><div className="inner transition-transform duration-[3s]"></div></span>
+          </div>
 
-        <div className="flex flex-wrap items-end justify-end content-end gap-4 static z-10">
-          <button className="button h-10 reset">Reset</button>
-          <button className="button h-10 run">Run</button>
-          <button className="button h-10 overflow">Toggle Overflow</button>
+          <div className="flex flex-wrap items-end justify-end content-end gap-4 static z-10">
+            <button className="button h-10 reset">Reset</button>
+            <button className="button h-10 run">Run</button>
+            <button className="button h-10 overflow">Toggle Overflow</button>
+          </div>
         </div>
-      </div>
-    </main>
+      </main>
+    </Layout>
   );
 }
