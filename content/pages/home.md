@@ -16,7 +16,7 @@ blocks:
     items:
       - icon: wave
         title: Say hello
-        text: Get to know your new best mates with a quick icebreaker 
+        text: Get to know your new best mates with a quick icebreaker
       - icon: raised-double
         title: Problem time
         text: We’ll generate a fun product challenge with a spin of the Randomiser
@@ -35,6 +35,11 @@ blocks:
           people! I really enjoyed it.
         author: Magdalena R.
         jobTitle: Product Designer
+      - quote: >-
+          A truly unique way to share ideas and a first real alternative to an
+          in-person event.
+        author: Piers B.
+        jobTitle: Product Manager
     background: ''
     _template: quotes
   - logos:
