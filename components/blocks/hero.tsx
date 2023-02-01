@@ -40,7 +40,7 @@ export const Hero = ({ data, parentField }) => (
         )}
       </div>
 
-      <div className="w-full max-w-[18rem] tablet:max-w-[38rem] tablet:basis-3/4">
+      <div className="w-full max-w-[20rem] tablet:max-w-[39rem] tablet:basis-3/4">
         {data.subtitle && (
           <p
             data-tinafield={`${parentField}.subtitle`}

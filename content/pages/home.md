@@ -3,8 +3,8 @@ title: ManyHands
 blocks:
   - heading: The problem solving event for product people
     subtitle: >-
-      We’re building a community of UX leaders with a passion for helping solve
-      real-world product issues.
+      Collaborate with likeminded pros to explore fun product challenges and
+      join our community of experts.
     imageLeft:
       src: /uploads/manyhands-faces-01.webp
     iconLeft: point-up-front
@@ -81,3 +81,4 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
