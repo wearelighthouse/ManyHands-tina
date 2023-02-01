@@ -35,6 +35,11 @@ blocks:
           people! I really enjoyed it.
         author: Magdalena R.
         jobTitle: Product Designer
+      - quote: >-
+          A truly unique way to share ideas and a first real alternative to an
+          in-person event.
+        author: Piers B.
+        jobTitle: Product Manager
     background: ''
     _template: quotes
   - logos:

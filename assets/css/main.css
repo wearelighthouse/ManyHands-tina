@@ -13,6 +13,17 @@
 @import '_scooped-corners';
 @import '_type';
 
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
+
 .o-section-clip--ramp-bottom-right {
   clip-path: polygon(0 0,100% 0,100% calc(100% - 5vw - 14px),77% calc(100% - 5vw - 14px),0 100%,0 0);
 }
