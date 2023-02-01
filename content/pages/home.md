@@ -36,10 +36,23 @@ blocks:
         author: Magdalena R.
         jobTitle: Product Designer
       - quote: >-
-          A truly unique way to share ideas and a first real alternative to an
-          in-person event.
-        author: Piers B.
-        jobTitle: Product Manager
+          The interaction between people is brilliant and a very welcoming team.
+          Kudos!
+        author: Pavan K.
+        jobTitle: UX Designer
+      - quote: It’s always lovely to meet other designers in a small forum like this.
+        author: Luke H.
+        jobTitle: Senior UX Designer
+      - quote: >-
+          It gives me the opportunity to think about problems I don’t usually
+          encounter. A great exercise!
+        author: Gabriel M.
+        jobTitle: Product Designer
+      - quote: >-
+          An interesting challenge, and it was super interesting to hear the
+          ideas of other designers.
+        author: Max K.
+        jobTitle: Product Designer
     background: ''
     _template: quotes
   - logos:
@@ -81,4 +94,5 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 

@@ -22,7 +22,7 @@ export const Quote = ({ data, tinaField }) => (
         <use href={`${prefix}/assets/star.svg#a`} x="168"></use>
       </svg>
 
-      <div className="max-w-xl">
+      <div className="max-w-lg px-2">
         {data.quote && (
           <q
             data-tinafield={`${tinaField}.quote`}
@@ -72,7 +72,7 @@ export const Quotes = ({ data, parentField = "" }) => {
 
   return (
     <section className={`tablet:m-4 py-16 ${data.background ?? ''}`}>
-      <div className="w-[calc(100vw-2rem)] py-4 flex overflow-auto snap-mandatory snap-x scrollbar-hide" ref={itemContainerRef}>
+      <div className="py-4 flex overflow-auto snap-mandatory snap-x scrollbar-hide" ref={itemContainerRef}>
         {data.quotes && data.quotes.map((block, index: number) => (
           <Quote
             tinaField={`${parentField}.quotes.${index}`}
