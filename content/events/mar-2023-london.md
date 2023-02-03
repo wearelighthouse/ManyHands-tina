@@ -1,7 +1,7 @@
 ---
 title: March 2023 London
-date: '2023-03-14T18:00:00.000Z'
-date_end: '2023-03-14T21:00:00.000Z'
+date: '2023-01-14T18:00:00.000Z'
+date_end: '2023-01-14T21:00:00.000Z'
 location_short: London
 location: |-
   Uncommon
@@ -135,7 +135,7 @@ blocks:
     _template: hr
   - body: |
       <Center>
-        [![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png "")](example.com "")
+        [![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png)](example.com)
       </Center>
     _template: content
   - background: bg-light-gray
@@ -152,3 +152,4 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
