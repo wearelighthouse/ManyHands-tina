@@ -117,6 +117,7 @@ export const quotesBlockSchema: Template = {
     },
   },
   fields: [
+    backgroundColorSchema,
     {
       type: "object",
       label: "Quotes",
@@ -153,6 +154,5 @@ export const quotesBlockSchema: Template = {
         },
       ],
     },
-    backgroundColorSchema,
   ],
 };

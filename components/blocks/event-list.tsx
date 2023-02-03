@@ -91,7 +91,7 @@ export const EventList = ({ data, parentField }) => {
                         <div className="uppercase text-xs">Free entry</div>
                       </a>
                     ): (
-                      <a className="button !grid !h-20 place-items-center place-content-center !bg-dark-gray">
+                      <a className="button !grid !h-20 place-items-center place-content-center !bg-dark-gray-new">
                         <div className="text-lg">Fully booked</div>
                         <div className="uppercase text-xs">Free entry</div>
                       </a>

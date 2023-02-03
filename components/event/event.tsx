@@ -41,7 +41,7 @@ const Hero = (props) => {
           <span className="opacity-60">{props.location_short || 'Online'}</span>
         </h1>
 
-        {props.sign_up_url ? (
+        {props.sign_up_url && props.status ? (
           <div>
             <a href={props.sign_up_url} className="button !h-14 col-start-1 !text-lg !gap-3 !px-6" id="hero-sign-up">
               <span className="leading-tight">Sign&nbsp;up now</span>
@@ -58,7 +58,11 @@ const Hero = (props) => {
             <div className="mt-5 font-medium text-dark-gray">Free Entry</div>
           </div>
         ) : (
-          <div id="hero-sign-up"></div>
+          <div id="hero-sign-up">
+            <div className="button !h-14 col-start-1 !text-lg !gap-3 !px-6 !bg-dark-gray-new cursor-not-allowed" id="hero-sign-up">
+              <span className="leadint-right">Fully Booked</span>
+            </div>
+          </div>
         )}
 
         <div className="tablet:col-start-2 tablet:row-start-2 row-span-2 grid gap-6 leading-loose my-2 content-start">
@@ -116,7 +120,7 @@ export const Event = (props) => {
 
       <Blocks {...props}/>
 
-      {props.sign_up_url && (
+      {props.sign_up_url && props.status && (
         <div className={`sticky left-0 right-0 bottom-0 flex tablet:m-4 px-6 z-10 transition ${isVisible ? 'opacity-0' : 'opacity-100'} ${props.location_short !== 'Online' ? 'bg-mimosa' : 'bg-iceberg'}`}>
           <div className="flex flex-wrap justify-center items-baseline text-center gap-x-16 gap-y-2 tablet:gap-y-4 mx-auto py-3">
             <h2 className="max-tablet:leading-tight text-2xl tablet:text-3xl font-tiempos font-semibold translate-y-[.25rem]">Register your interest&nbsp;now</h2>

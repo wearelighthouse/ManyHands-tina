@@ -25,7 +25,7 @@ export const TalksBy = ({ data, parentField = "" }) => {
                   )}
                 </div>
                 {host.quote && host.quote !== '' && (
-                  <div className="mt-2 mb-4">{host.quote}</div>
+                  <div className="mt-2 mb-4 leading-[1.75rem] min-h-[3.5rem]">{host.quote}</div>
                 )}
                 <div className="font-medium">{host.name ?? ''}</div>
                 <div className="text-md font-medium text-dark-gray">{host.job_title ?? ''}</div>
