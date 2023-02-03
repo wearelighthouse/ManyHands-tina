@@ -1,8 +1,10 @@
 import React from "react";
 import Head from "next/head";
+import Script from "next/script";
 import layoutData from "../../content/global/index.json";
 
 const prefix = process.env.prefix ?? '';
+const GTM_ID = "GTM-TGNB6QB";
 
 /* Disable no-unused-vars because tina's files send things to the currently unused data property */
 /* eslint-disable-next-line @typescript-eslint/no-unused-vars */
@@ -23,6 +25,15 @@ export const Layout = ({ data = layoutData, rawData = null, children }) => {
         <meta property="og:image:height" content="538" />
         <meta property="og:image:type" content="image/png" />
       </Head>
+      <Script id="google-tag-manager" strategy="afterInteractive">
+        {`
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','${GTM_ID}');
+        `}
+      </Script>
       {children}
     </>
   );
