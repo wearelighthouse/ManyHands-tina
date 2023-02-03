@@ -24,7 +24,7 @@ export const Hero = ({ data, parentField }) => (
             className="rounded-2xl"
             width="218px"
             height="149px"
-            alt={data.imageLeft.alt}
+            alt={data.imageLeft.alt ?? ""}
             src={data.imageLeft.src}
             // TODO: Can grab image width and height?
           />
@@ -73,7 +73,7 @@ export const Hero = ({ data, parentField }) => (
             className="rounded-2xl"
             width="218px"
             height="149px"
-            alt={data.imageRight.alt}
+            alt={data.imageRight.alt ?? ""}
             src={data.imageRight.src}
           />
         )}
