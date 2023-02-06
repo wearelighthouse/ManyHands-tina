@@ -45,7 +45,7 @@ blocks:
     items:
       - icon: wave
         title: In-Person
-        text: 'Real people in real life, not just faces in a grid'
+        text: 'Real people in real life, not just faces in a grid.'
       - icon: scissors
         title: Talks from top pros
         text: Learn from the industry's best and brightest
@@ -152,4 +152,5 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
