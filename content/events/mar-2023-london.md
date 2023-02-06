@@ -48,7 +48,7 @@ blocks:
         text: 'Real people in real life, not just faces in a grid.'
       - icon: scissors
         title: Talks from top pros
-        text: Learn from the industry's best and brightest
+        text: Learn from the industry's best and brightest.
       - icon: raised
         title: Dinner's on us
         text: Who can be creative on an empty stomach?
@@ -152,5 +152,6 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
