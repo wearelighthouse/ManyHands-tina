@@ -80,6 +80,7 @@ jobs:
       - name: Fetch fonts
         run: |
           wget -O fonts.zip https://drive.google.com/uc?export=download\&id=1sJCRhTucWoYCEY6XtXMGOUK-mBtOQEyB
+          ls
           unzip -P ${{ secrets.FONT_PASSWORD }} fonts.zip -d assets/font
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} tinacms build && next build
