@@ -80,7 +80,6 @@ jobs:
       - name: Fetch fonts
         run: |
           wget -O fonts.zip https://drive.google.com/uc?export=download\&id=1sJCRhTucWoYCEY6XtXMGOUK-mBtOQEyB
-          ls
           unzip -P ${{ secrets.FONT_PASSWORD }} fonts.zip -d assets/font
       - name: tinacms build
         run: ${{ steps.detect-package-manager.outputs.runner }} tinacms build
@@ -88,6 +87,8 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Static HTML export with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
+      - name: Rename home to index so the homepage works
+        run: mv out/home.html out/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
