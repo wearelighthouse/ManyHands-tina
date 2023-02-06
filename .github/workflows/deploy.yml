@@ -19,13 +19,11 @@ jobs:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
         run: |
-          cd assets/font
           wget -O fonts.zip https://drive.google.com/uc?export=download\&id=1sJCRhTucWoYCEY6XtXMGOUK-mBtOQEyB
-          unzip -P ${{ secrets.FONT_PASSWORD }} fonts.zip
-          cd ../../
+          unzip -P ${{ secrets.FONT_PASSWORD }} fonts.zip -d assets/font
           npm ci
-          npm run build
           npm run export
+          ls out/admin/
           mv out/home.html out/index.html
 
       - name: Deploy
