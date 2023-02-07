@@ -59,7 +59,7 @@ blocks:
   - heading: Talks from the best in the business
     hosts:
       - src: /uploads/shelley-malham.png
-        quote: “Building a product vision to win hearts and minds”
+        quote: ''
         name: Shelley Malham | Lighthouse
         job_title: Head of Client Services
       - src: /uploads/daria-lanz.png
@@ -145,6 +145,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
