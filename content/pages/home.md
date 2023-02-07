@@ -77,7 +77,7 @@ blocks:
     _template: hr
   - body: |
       <Center>
-        [![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png)](https://www.linkedin.com/company/lighthouse-london/)
+        [![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png)](https://uk.linkedin.com/company/manyhands-from-lighthouse)
       </Center>
     _template: content
   - background: bg-light-gray
@@ -94,5 +94,3 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
-
-
