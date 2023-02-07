@@ -61,7 +61,7 @@ blocks:
       - src: /uploads/shelley-malham.png
         quote: “Building a product vision to win hearts and minds”
         name: Shelley Malham | Lighthouse
-        job_title: Head of CLient Services
+        job_title: Head of Client Services
       - src: /uploads/daria-lanz.png
         quote: “The future of conversational UX”
         name: Daria Lanz | Playstation
@@ -145,6 +145,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
