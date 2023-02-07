@@ -56,21 +56,14 @@ blocks:
         title: Still totally free
         text: 'We want your design brain, not your ££££s.'
     _template: howItWorks
-  - body: |
-      <Center>
-        <Cta href="placeholder" text="I want to be there!" />
-
-        <Cta href="placeholder" text="I want to stay home" />
-      </Center>
-    _template: content
   - heading: Talks from the best in the business
     hosts:
       - src: /uploads/shelley-malham.png
-        quote: “Building a product vision to win hearts and minds”
+        quote: ''
         name: Shelley Malham | Lighthouse
-        job_title: Head of CLient Services
+        job_title: Head of Client Services
       - src: /uploads/daria-lanz.png
-        quote: “The future of conversational UX”
+        quote: ''
         name: Daria Lanz | Playstation
         job_title: Experience Design Manager
     _template: talksBy
