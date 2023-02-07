@@ -56,13 +56,6 @@ blocks:
         title: Still totally free
         text: 'We want your design brain, not your ££££s.'
     _template: howItWorks
-  - body: |
-      <Center>
-        <Cta href="placeholder" text="I want to be there!" />
-
-        <Cta href="placeholder" text="I want to stay home" />
-      </Center>
-    _template: content
   - heading: Talks from the best in the business
     hosts:
       - src: /uploads/shelley-malham.png
@@ -152,6 +145,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
