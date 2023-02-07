@@ -63,7 +63,7 @@ blocks:
         name: Shelley Malham | Lighthouse
         job_title: Head of Client Services
       - src: /uploads/daria-lanz.png
-        quote: “The future of conversational UX”
+        quote: ''
         name: Daria Lanz | Playstation
         job_title: Experience Design Manager
     _template: talksBy
@@ -145,6 +145,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
