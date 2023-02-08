@@ -99,7 +99,7 @@ export const Blocks = (props: (Omit<Page, "id" | "_sys" | "_values"> | Omit<Even
                     data-tinafield={`blocks.${i}`}
                     key={i + block.__typename}
                   >
-                    <Companies data={block} parentField={`blocks.${i}`} />
+                    <Companies data={block} />
                   </div>
                 );
               case "EventBlocksQuotes":
