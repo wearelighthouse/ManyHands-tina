@@ -122,7 +122,7 @@ blocks:
     _template: content
   - icon: thumbs-up
     _template: hr
-  - body: "<Center>\n  ### Accessibility\n</Center>\n\n\_\n\nFor further information or to tell us more about your specific requirements, contact us at [hello@wearemanyhands.com](mailto:hello@wearemanyhands.com \"hello@wearemanyhands.com\")\n"
+  - body: "<Center>\n  ### Accessibility\n</Center>\n\nUncommon is fully accessible with step-free access for the event space.\_\n\nFor further information or to tell us about your specific requirements, contact us at [hello@wearemanyhands.com](mailto:hello@wearemanyhands.com \"hello@wearemanyhands.com\")\n"
     _template: content
   - icon: call
     _template: hr
@@ -145,3 +145,4 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
