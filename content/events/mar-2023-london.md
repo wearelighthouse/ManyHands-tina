@@ -58,14 +58,14 @@ blocks:
     _template: howItWorks
   - heading: Talks from the best in the business
     hosts:
+      - src: /uploads/daria-lanz.png
+        quote: ''
+        name: Daria Lanz | Playstation
+        job_title: Senior Experience Design Manager
       - src: /uploads/shelley-malham.png
         quote: ''
         name: Shelley Malham | Lighthouse
         job_title: Head of Client Services
-      - src: /uploads/daria-lanz.png
-        quote: ''
-        name: Daria Lanz | Playstation
-        job_title: Experience Design Manager
     _template: talksBy
   - icon: ok
     _template: hr
@@ -82,7 +82,7 @@ blocks:
       - title: "RSVP \U0001F5D3️"
         description: Make sure to respond to the invite to secure your seat
       - title: "Join the fun \U0001F389"
-        description: Have a fun-filled hour of problem solving with your new best mates
+        description: Have a fun-filled session of problem solving with your new best mates
     _template: bigList
   - background: bg-light-gray
     quotes:
@@ -125,8 +125,6 @@ blocks:
   - body: >
       <Center>
         ### The venue
-
-
       </Center>
 
 
@@ -178,6 +176,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
