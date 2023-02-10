@@ -13,11 +13,28 @@ blocks:
       Where's it at?
 
 
-      Uncommon Liverpool Street\
+      ![](/uploads/uncommon-auditorium.jpeg "Uncommon auditorium")
+
+
+      Uncommon Auditorium\
+
+      34-37 Liverpool St\
+
+      London EC2M 7PP\
 
       [View
       map](https://www.google.com/maps/place/uncommon+liverpool+street/data=!4m2!3m1!1s0x0:0x706cb25d16d16dd6
       "View map")
+
+
+      Nearest tube stations
+
+
+      Liverpool Street\
+
+      Moorgate\
+
+      Aldgate
     _template: content
   - body: |
       Meet top product people from innovative organisations and get creative
@@ -155,5 +172,6 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
