@@ -123,7 +123,11 @@ blocks:
   - icon: wave
     _template: hr
   - body: >
-      Where's it at?
+      <Center>
+        ### The venue
+
+
+      </Center>
 
 
       ![](/uploads/uncommon-auditorium.jpeg "Uncommon auditorium")
@@ -140,7 +144,7 @@ blocks:
       "View map")
 
 
-      Nearest tube stations
+      **Nearest tube stations**
 
 
       Liverpool Street\
@@ -174,6 +178,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
