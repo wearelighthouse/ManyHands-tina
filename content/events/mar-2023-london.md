@@ -9,6 +9,16 @@ location: |-
 status: 'border-[#FF9325] bg-[#F3EDE0]'
 sign_up_url: 'https://airtable.com/shr2L2uZkmcGkDi5h'
 blocks:
+  - body: >
+      Where's it at?
+
+
+      Uncommon Liverpool Street\
+
+      [View
+      map](https://www.google.com/maps/place/uncommon+liverpool+street/data=!4m2!3m1!1s0x0:0x706cb25d16d16dd6
+      "View map")
+    _template: content
   - body: |
       Meet top product people from innovative organisations and get creative
       together on a fun UX challenge that's miles away from your day-to-day.
@@ -145,4 +155,5 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
