@@ -58,16 +58,16 @@ blocks:
     _template: howItWorks
   - heading: Talks from the best in the business
     hosts:
+      - src: /uploads/daria-lanz.png
+        quote: ''
+        name: Daria Lanz | Playstation
+        job_title: Senior Experience Design Manager
       - src: /uploads/shelley-malham.png
         quote: ''
         name: Shelley Malham | Lighthouse
         job_title: Head of Client Services
-      - src: /uploads/daria-lanz.png
-        quote: ''
-        name: Daria Lanz | Playstation
-        job_title: Experience Design Manager
     _template: talksBy
-  - icon: thumbs-up
+  - icon: ok
     _template: hr
   - heading: Join a curated group of pros
     items:
@@ -82,7 +82,7 @@ blocks:
       - title: "RSVP \U0001F5D3️"
         description: Make sure to respond to the invite to secure your seat
       - title: "Join the fun \U0001F389"
-        description: Have a fun-filled hour of problem solving with your new best mates
+        description: Have a fun-filled session of problem solving with your new best mates
     _template: bigList
   - background: bg-light-gray
     quotes:
@@ -120,9 +120,40 @@ blocks:
     _template: hostedBy
   - body: "[Lighthouse](wearelighthouse.com \"wearelighthouse.com\") is a specialist UX and UI design agency based in London, rusted by enterprise organisations to tackle the toughest challenges since 2008 \U0001F680\n"
     _template: content
+  - icon: wave
+    _template: hr
+  - body: >
+      <Center>
+        ### The venue
+      </Center>
+
+
+      ![](/uploads/uncommon-auditorium.jpeg "Uncommon auditorium")
+
+
+      Uncommon Auditorium\
+
+      34-37 Liverpool St\
+
+      London EC2M 7PP\
+
+      [View
+      map](https://www.google.com/maps/place/uncommon+liverpool+street/data=!4m2!3m1!1s0x0:0x706cb25d16d16dd6
+      "View map")
+
+
+      **Nearest tube stations**
+
+
+      Liverpool Street\
+
+      Moorgate\
+
+      Aldgate
+    _template: content
   - icon: thumbs-up
     _template: hr
-  - body: "<Center>\n  ### Accessibility\n</Center>\n\n\_\n\nFor further information or to tell us more about your specific requirements, contact us at [hello@wearemanyhands.com](mailto:hello@wearemanyhands.com \"hello@wearemanyhands.com\")\n"
+  - body: "<Center>\n  ### Accessibility\n</Center>\n\nUncommon is fully accessible with step-free access for the event space.\_\n\nFor further information or to tell us about your specific requirements, contact us at [hello@wearemanyhands.com](mailto:hello@wearemanyhands.com \"hello@wearemanyhands.com\")\n"
     _template: content
   - icon: call
     _template: hr
@@ -145,3 +176,9 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
+
+
+
+
+
