@@ -6,3 +6,7 @@ sup {
 em {
   font-style: normal;
 }
+
+b, strong {
+  font-weight: 500;
+}
