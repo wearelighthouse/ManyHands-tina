@@ -57,11 +57,41 @@ const ctaSchema: Template = {
   ],
 };
 
+function findContentHeading(body) {
+  const characterLimit = 80;
+  let foundHeading: string | null;
+
+  JSON.stringify(body, (_, nestedValue) => {
+    if (!foundHeading && nestedValue && ['h1', 'h2', 'h3'].includes(nestedValue.type)) {
+      foundHeading = nestedValue.children?.[0].text;
+    }
+
+    return nestedValue;
+  });
+
+  JSON.stringify(body, (_, nestedValue) => {
+    if (!foundHeading && nestedValue && ['p'].includes(nestedValue.type)) {
+      foundHeading = nestedValue.children?.[0].text;
+    }
+
+    return nestedValue;
+  });
+
+  return foundHeading?.slice(0, characterLimit);
+}
+
 export const contentBlockSchema: Template = {
   name: "content",
   label: "Content",
   ui: {
     previewSrc: "/blocks/content.png",
+    itemProps: (value) => {
+      const topLevelHeading = findContentHeading(value.body);
+
+      return ({
+        label: topLevelHeading ? `Content - ${topLevelHeading}` : 'Content',
+      });
+    },
     defaultItem: () => {
       return {
         body: {

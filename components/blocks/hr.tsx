@@ -17,6 +17,9 @@ export const hrBlockSchema: Template = {
     defaultItem: {
       icon: "wave",
     },
+    itemProps: (value) => ({
+      label: value.icon ? `Divider - ${value.icon[0].toUpperCase() + value.icon.slice(1)}` : 'Divider',
+    }),
   },
   fields: [
     iconSchema,
