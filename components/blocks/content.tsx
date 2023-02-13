@@ -16,6 +16,24 @@ const Center = (props) => (
   </div>
 );
 
+const DescriptionList = (props) => (
+  <dl className="text-xl tablet:text-2xl grid gap-10 !my-16">
+    {props.items?.map((item, itemIndex) => (
+      <div key={itemIndex} className="flex flex-wrap max-tablet:flex-col gap-x-12 gap-y-2">
+        <dt className="font-medium w-48 mr-4">{item.term}</dt>
+        {item.details?.map((detail, detailIndex) => (
+          <dd key={detailIndex} className="flex items-center gap-3 col-start-2">
+            {item.iconSrc && (
+              <img src={item.iconSrc} loading="lazy" width="40" height="40" alt="" />
+            )}
+            {detail.text}
+          </dd>
+        ))}
+      </div>
+    ))}
+  </dl>
+);
+
 const components: Components<{
   Center: {
     children: TinaMarkdownContent;
@@ -23,10 +41,18 @@ const components: Components<{
   Cta: {
     href: string;
     text: string;
-  }
+  };
+  DescriptionList: {
+    items: {
+      term: string;
+      iconSrc: any;
+      details: string[];
+    }[];
+  };
 }> = {
   Center,
   Cta,
+  DescriptionList,
 };
 
 export const Content = ({ data, parentField = "" }) => {
@@ -38,6 +64,54 @@ export const Content = ({ data, parentField = "" }) => {
       <TinaMarkdown components={components} content={data.body} />
     </section>
   );
+};
+
+const descriptionListSchema: Template = {
+  name: "DescriptionList",
+  label: "Description List",
+  fields: [
+    {
+      type: "object",
+      label: "Description List Items",
+      name: "items",
+      list: true,
+      ui: {
+        itemProps: (item) => ({
+          label: item?.term || 'Description List Item',
+        }),
+      },
+      fields: [
+        {
+          type: "string",
+          label: "Term",
+          name: "term",
+        },
+        {
+          name: "iconSrc",
+          label: "Detail Icon",
+          type: "image",
+        },
+        {
+          type: "object",
+          label: "Details",
+          name: "details",
+          list: true,
+          ui: {
+            itemProps: (item) => ({
+              label: item?.text || 'Description List Detail',
+            }),
+          },
+          fields: [
+            {
+              type: "string",
+              label: "Text",
+              name: "text",
+            },
+          ],
+        },
+      ],
+    },
+  ],
 };
 
 const ctaSchema: Template = {
@@ -133,6 +207,7 @@ export const contentBlockSchema: Template = {
           ],
         },
         ctaSchema,
+        descriptionListSchema,
       ],
     },
   ],

@@ -38,7 +38,7 @@ export const HowItWorks = ({ data, parentField }) => (
     className="px-4 my-24 desktop:my-32 text-center"
   >
     <h2
-      className="h2"
+      className="h2 mb-8 tablet:mb-10 desktop:mb-12"
       data-tinafield={`${parentField}.heading`}
     >
       {data.heading}

@@ -23,7 +23,7 @@ export const EventList = ({ data, parentField }) => {
       className="px-4 my-24 desktop:my-32 grid"
     >
       <h2
-        className="h2 text-center"
+        className="h2 mb-8 tablet:mb-10 desktop:mb-12 text-center"
         data-tinafield={`${parentField}.heading`}
       >
         {data.heading}

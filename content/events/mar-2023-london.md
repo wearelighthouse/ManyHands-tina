@@ -122,7 +122,7 @@ blocks:
     _template: content
   - icon: wave
     _template: hr
-  - body: >
+  - body: >+
       <Center>
         ### The venue
       </Center>
@@ -131,25 +131,29 @@ blocks:
       ![](/uploads/uncommon-auditorium.jpeg "Uncommon auditorium")
 
 
-      Uncommon Auditorium\
-
-      34-37 Liverpool St\
-
-      London EC2M 7PP\
-
       [View
       map](https://www.google.com/maps/place/uncommon+liverpool+street/data=!4m2!3m1!1s0x0:0x706cb25d16d16dd6
       "View map")
 
 
-      **Nearest tube stations**
+      <DescriptionList
+        items={[
+          {
+            term: "Address",
+            details: [{ text: "Uncommon Auditorium, 34-37 Liverpool St, EC2M 7PP" }]
+          },
+          {
+            term: "Closest stations",
+            details: [
+              { text: "Liverpool Street" },
+              { text: "Moorgate" },
+              { text: "Aldgate" }
+            ],
+            iconSrc: "/uploads/underground-logo.png"
+          }
+        ]}
+      />
 
-
-      Liverpool Street\
-
-      Moorgate\
-
-      Aldgate
     _template: content
   - icon: thumbs-up
     _template: hr
@@ -176,6 +180,9 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
+
+
 
 
 
