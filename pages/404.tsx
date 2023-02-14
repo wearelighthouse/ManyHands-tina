@@ -4,7 +4,7 @@ const prefix = process.env.prefix ?? '';
 export default function FourOhFour() {
   return (
     <Layout>
-      <main className="min-h-screen min-h-[100dvh] grid">
+      <main className="min-h-[100dvh] grid">
         <div className="grid bg-mimosa px-6 py-14 max-tablet:pb-6 tablet:px-16 tablet:m-4 text-center">
           <div className="flex justify-center items-start">
             <a href={`${prefix}/`} aria-label="Home">
