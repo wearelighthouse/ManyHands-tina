@@ -122,13 +122,13 @@ blocks:
     _template: content
   - icon: wave
     _template: hr
-  - body: >
+  - body: >+
       <Center>
         ### The venue
       </Center>
 
 
-      ![](/uploads/uncommon-auditorium.jpeg "Uncommon auditorium")
+      ![](/uploads/venue-uncommon-2.png)
 
 
       [View
@@ -153,6 +153,9 @@ blocks:
           }
         ]}
       />
+
+
+
     _template: content
   - icon: thumbs-up
     _template: hr
@@ -179,6 +182,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
