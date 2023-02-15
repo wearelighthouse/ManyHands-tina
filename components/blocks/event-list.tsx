@@ -31,7 +31,7 @@ export const EventList = ({ data, parentField }) => {
 
       {data.events && (
         <div className="mx-auto w-full grid gap-8 max-w-6xl">
-          {data.events.map((eventData) => {
+          {data.events.sort((a, b) => a.node._values.date > b.node._values.date).map((eventData) => {
             const event = eventData.node;
             const eventDateTime = new Date(event._values.date);
             if (eventDateTime < new Date()) return undefined;
