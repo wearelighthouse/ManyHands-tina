@@ -1,7 +1,7 @@
 ---
 title: March 2023 London
-date: '2023-01-14T18:00:00.000Z'
-date_end: '2023-01-14T21:00:00.000Z'
+date: '2023-03-22T18:00:00.000Z'
+date_end: '2023-03-22T21:00:00.000Z'
 location_short: London
 location: |-
   Uncommon
@@ -122,7 +122,7 @@ blocks:
     _template: content
   - icon: wave
     _template: hr
-  - body: >+
+  - body: >
       <Center>
         ### The venue
       </Center>
@@ -153,9 +153,6 @@ blocks:
           }
         ]}
       />
-
-
-
     _template: content
   - icon: thumbs-up
     _template: hr
@@ -182,6 +179,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
