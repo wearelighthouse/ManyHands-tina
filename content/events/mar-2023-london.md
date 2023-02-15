@@ -9,17 +9,7 @@ location: |-
 status: 'border-[#FF9325] bg-[#F3EDE0]'
 sign_up_url: 'https://airtable.com/shrS63Aey48lMFhbX'
 blocks:
-  - body: |
-      Meet top product people from innovative organisations and get creative
-      together on a fun UX challenge that's miles away from your day-to-day.
-
-      * A social network *for* rockstars?
-      * A banking app *for* astronauts?
-      * A task management tool *for* librarians?
-
-      Our ManyHands Randomiser™ will spin on the night to generate a unique
-      scenario. Then it's over to you to rapidly generate ideas with product
-      pros from companies like...
+  - body: "Meet top product people from innovative organisations and get creative\ntogether on a fun UX challenge that's miles away from your day-to-day.\n\n* A social network *for* rockstars? \U0001F3B8\n* A banking app *for* astronauts? \U0001F469‍\U0001F680\n* A task management tool *for* librarians? \U0001F4DA\n\nOur ManyHands Randomiser™ will spin on the night to generate a unique\nscenario. Then it's over to you to rapidly generate ideas with product\npros from companies like...\n"
     _template: content
   - logos:
       - src: /uploads/logo-american-express.png
@@ -179,6 +169,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
