@@ -17,6 +17,10 @@ export const getEventData = async () => {
 }
 
 export const EventList = ({ data, parentField }) => {
+  const sortedEvents = data.events.sort((a, b) => a.node._values.date > b.node._values.date);
+  console.log(data.events);
+  console.log(sortedEvents);
+
   return (
     <section
       id={`event-${toKebabCase(data.heading)}`}
@@ -31,7 +35,7 @@ export const EventList = ({ data, parentField }) => {
 
       {data.events && (
         <div className="mx-auto w-full grid gap-8 max-w-6xl">
-          {data.events.sort((a, b) => a.node._values.date > b.node._values.date).map((eventData) => {
+          {sortedEvents.map((eventData) => {
             const event = eventData.node;
             const eventDateTime = new Date(event._values.date);
             if (eventDateTime < new Date()) return undefined;
