@@ -42,12 +42,12 @@ export const EventList = ({ data, parentField }) => {
 
             return (
               <div key={event.id} className="relative flex max-tablet:grid gap-y-4 border-4 border-gray rounded-lg px-4 desktop:px-10 py-9">
-                <h2 className="font-tiempos font-semibold text-3.5xl leading-tight">
+                <h2 className="font-tiempos font-semibold text-3.5xl leading-tight mr-1">
                   <div>ManyHands</div>
                   <div className="text-dark-gray-ish">{event._values.location_short}</div>
                 </h2>
 
-                <div className="h-full bg-gray w-0.5 mx-2 desktop:mx-6 shrink-0"/>
+                <div className="h-full bg-gray w-0.5 mx-2 desktop:mx-5 shrink-0"/>
 
                 <div className="grow basis-1/2 grid content-center">
                   <div className="font-semibold flex gap-3 items-center">
@@ -61,9 +61,9 @@ export const EventList = ({ data, parentField }) => {
                   <div className="ml-11">{ formatTime(eventDateTime, eventDateTimeEnd) }</div>
                 </div>
 
-                <div className="h-full bg-gray w-0.5 mx-2 desktop:mx-6 shrink-0"/>
+                <div className="h-full bg-gray w-0.5 mx-2 desktop:mx-5 shrink-0"/>
 
-                <div className="grow basis-1/2 grid content-center">
+                <div className="grow basis-[55%] grid content-center">
                   <div className="font-semibold  flex gap-3 items-center">
                     <svg className="shrink-0" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#3A3A4E" viewBox="0 0 32 32" aria-hidden="true">
                       <path d="M6 14.1c0 8.14 9.13 13.1 9.51 13.3a1.03 1.03 0 0 0 .98 0c.38-.2 9.51-5.16 9.51-13.3a9.4 9.4 0 0 0-2.93-6.79A10.22 10.22 0 0 0 16 4.5a10.2 10.2 0 0 0-7.07 2.81A9.4 9.4 0 0 0 6 14.09Zm10-7.68c2.12 0 4.15.81 5.65 2.25A7.53 7.53 0 0 1 24 14.09c0 6.02-6.2 10.25-8 11.35-1.8-1.1-8-5.33-8-11.35 0-2.03.85-3.98 2.35-5.42A8.18 8.18 0 0 1 16 6.42Z"/>
@@ -83,7 +83,7 @@ export const EventList = ({ data, parentField }) => {
                   //   {event._values?.status}
                   // </div>
                 )}
-                <div className="flex tablet:items-center ml-4 desktop:ml-8 max-tablet:ml-1 shrink-0 leading-none">
+                <div className="flex tablet:items-center ml-4 desktop:ml-6 max-tablet:ml-1 shrink-0 leading-none">
                   <Link
                     href={`/event/${event._sys.filename}`}
                   >
