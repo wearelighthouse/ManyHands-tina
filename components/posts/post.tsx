@@ -142,7 +142,7 @@ export const Post = (props) => {
             <p className="text-base font-medium text-gray-600 group-hover:text-gray-800 dark:text-gray-200 dark:group-hover:text-white">
               {props.author.name}
             </p>
-            <span className="font-bold text-gray-200 dark:text-gray-500 mx-2">
+            <span className="font-semibold text-gray-200 dark:text-gray-500 mx-2">
               —
             </span>
           </>

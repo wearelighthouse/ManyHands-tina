@@ -39,7 +39,7 @@ export const Posts = ({ data }) => {
                 <p className="text-sm font-medium text-gray-600 group-hover:text-gray-800 dark:text-gray-200 dark:group-hover:text-white">
                   {post?.author?.name}
                 </p>
-                <span className="font-bold text-gray-200 dark:text-gray-500 mx-2">
+                <span className="font-semibold text-gray-200 dark:text-gray-500 mx-2">
                   —
                 </span>
                 <p className="text-sm text-gray-400 group-hover:text-gray-500 dark:text-gray-300 dark:group-hover:text-gray-150">

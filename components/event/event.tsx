@@ -35,7 +35,7 @@ const Hero = (props) => {
         ) : <span/>}
 
         <h1
-          className="text-5xl font-tiempos font-bold grid col-start-1 leading-tight"
+          className="text-5xl font-tiempos font-semibold grid col-start-1 leading-tight"
         >
           <span>ManyHands</span>
           <span className="opacity-60">{props.location_short || 'Online'}</span>

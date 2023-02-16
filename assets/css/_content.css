@@ -21,7 +21,7 @@
   }
 
   h2 {
-    @apply font-tiempos font-bold text-4xl tablet:text-5xl desktop:text-6xl leading-tight;
+    @apply font-tiempos font-semibold text-4xl tablet:text-5xl desktop:text-6xl leading-tight;
   }
 
   h3 {

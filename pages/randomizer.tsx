@@ -126,9 +126,9 @@ export default function Randomizer() {
           </div>
 
           <div className="max-tablet:grid content-start justify-center whitespace-nowrap self-center">
-            <span className="random inline-grid relative h-[2em] leading-loose text-xl mobile:text-2xl desktop:text-4xl font-bold font-tiempos text-mimosa/75 bg-smoke/95 px-2 overflow-hidden tablet:text-right mx-2"><div className="inner transition-transform duration-[3s]"></div></span>
+            <span className="random inline-grid relative h-[2em] leading-loose text-xl mobile:text-2xl desktop:text-4xl font-semibold font-tiempos text-mimosa/75 bg-smoke/95 px-2 overflow-hidden tablet:text-right mx-2"><div className="inner transition-transform duration-[3s]"></div></span>
             <span className="max-w-[22rem] tablet:max-w-lg my-2 tablet:my-8 moile:text-xl desktop:text-2xl font-semibold mx-auto">for</span>
-            <span className="random inline-grid relative h-[2em] leading-loose text-xl mobile:text-2xl desktop:text-4xl font-bold font-tiempos text-mimosa/75 bg-smoke/95 px-2 overflow-hidden tablet:text-left mx-2"><div className="inner transition-transform duration-[3s]"></div></span>
+            <span className="random inline-grid relative h-[2em] leading-loose text-xl mobile:text-2xl desktop:text-4xl font-semibold font-tiempos text-mimosa/75 bg-smoke/95 px-2 overflow-hidden tablet:text-left mx-2"><div className="inner transition-transform duration-[3s]"></div></span>
           </div>
 
           <div className="flex flex-wrap items-end justify-end content-end gap-4 static z-10">

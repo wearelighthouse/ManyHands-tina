@@ -12,7 +12,7 @@ export const Hero = ({ data, parentField }) => (
 
     <h1
       data-tinafield={`${parentField}.heading`}
-      className="h1 mx-auto max-w-[22rem] tablet:max-w-lg mt-10 mb-6"
+      className="h1 mx-auto max-w-[22rem] tablet:max-w-[14ch] mt-10 mb-6"
     >
       {data.heading}
     </h1>
