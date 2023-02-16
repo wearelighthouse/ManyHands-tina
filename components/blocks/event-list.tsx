@@ -17,9 +17,7 @@ export const getEventData = async () => {
 }
 
 export const EventList = ({ data, parentField }) => {
-  const sortedEvents = data.events.sort((a, b) => a.node._values.date > b.node._values.date);
-  console.log(data.events);
-  console.log(sortedEvents);
+  const sortedEvents = data.events.sort((a, b) => Date.parse(a.node._values.date) - Date.parse(b.node._values.date));
 
   return (
     <section
