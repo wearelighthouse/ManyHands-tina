@@ -22,7 +22,11 @@ const createEndTime = (dateTime: Date): Date => {
 }
 
 export const formatTime = (dateTime: Date, dateTimeEnd: Date = createEndTime(dateTime)): string => {
-  const start = dateTime.toLocaleTimeString('en-GB', { hour: 'numeric', hour12: true }).replace(/[^\d]+/, '');
-  const end = dateTimeEnd.toLocaleTimeString('en-GB', { hour: 'numeric', hour12: true });
+  const start = dateTime
+    .toLocaleTimeString('en-GB', { hour: 'numeric', hour12: true })
+    .replace(/[^\d]+/, '');  // Remove non-alphanumeric 'am' or 'pm' from start time
+  const end = dateTimeEnd
+    .toLocaleTimeString('en-GB', { hour: 'numeric', hour12: true })
+    .replace(' ', ' ');  // Swap standard space with narrow no-break space (U+202f) to match Chromes toLocaleTimeString
   return `${start} - ${end} (UK time)`;
 }
