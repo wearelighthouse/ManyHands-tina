@@ -30,7 +30,7 @@ const Hero = (props) => {
       </a>
 
       <div className="grid tablet:grid-cols-2 gap-8 justify-items-start max-w-4xl mx-auto mt-12">
-        {props.status ? (
+        {props.status && props.status !== 'full' ? (
           <Status greyscale>{props.status}</Status>
         ) : <span/>}
 
@@ -41,7 +41,7 @@ const Hero = (props) => {
           <span className="opacity-60">{props.location_short || 'Online'}</span>
         </h1>
 
-        {props.sign_up_url && props.status ? (
+        {props.sign_up_url && props.status !== 'full' ? (
           <div>
             <a href={props.sign_up_url} className="button !h-14 col-start-1 !text-lg !gap-3 !px-6" id="hero-sign-up">
               <span className="leading-tight">Sign&nbsp;up now</span>

@@ -73,7 +73,7 @@ export const EventList = ({ data, parentField }) => {
                   <div className="ml-11">{locationParts?.[1]}</div>
                 </div>
 
-                {event._values.status && event._values.sign_up_url && (
+                {event._values.status && event._values.status !== 'full' && event._values.sign_up_url && (
                   <Status className="absolute -top-4 right-8">
                     {event._values.status}
                   </Status>
@@ -85,14 +85,14 @@ export const EventList = ({ data, parentField }) => {
                   <Link
                     href={`/event/${event._sys.filename}`}
                   >
-                    {event._values.status !== '' ? (
-                      <a className="button !grid !h-20 place-items-center place-content-center">
-                        <div className="text-lg">Sign up now</div>
-                        <div className="uppercase text-xs">Free entry</div>
-                      </a>
-                    ): (
+                    {event._values.status === 'full' ? (
                       <a className="button !grid !h-20 place-items-center place-content-center !bg-dark-gray-new">
                         <div className="text-lg">Fully booked</div>
+                        <div className="uppercase text-xs">Free entry</div>
+                      </a>
+                    ) : (
+                      <a className="button !grid !h-20 place-items-center place-content-center">
+                        <div className="text-lg">Sign up now</div>
                         <div className="uppercase text-xs">Free entry</div>
                       </a>
                     )}

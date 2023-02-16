@@ -4,7 +4,7 @@ import type { SchemaField } from "tinacms";
 export const statusMap = {
   'Filling up fast 🔥': 'border-[#FF9325] bg-[#F3EDE0]',
   'Last few places 😱': 'border-pink bg-[#ffdeed]',
-  'Fully Booked': '',
+  'Fully Booked': 'full',
 }
 
 interface statusProps {
