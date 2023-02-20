@@ -3,7 +3,7 @@
     @apply font-tiempos font-semibold text-dark-gray my-8;
 
     em {
-      opacity: .749;
+      opacity: .75;
     }
   }
 }
