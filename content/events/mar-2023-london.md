@@ -9,7 +9,13 @@ location: |-
 status: 'border-[#FF9325] bg-[#F3EDE0]'
 sign_up_url: 'https://airtable.com/shrS63Aey48lMFhbX'
 blocks:
-  - body: "Meet top product people from innovative organisations and get creative\ntogether on a fun UX challenge that's miles away from your day-to-day.\n\n* A social network *for* rockstars? \U0001F3B8\n* A banking app *for* astronauts? \U0001F469‍\U0001F680\n* A task management tool *for* librarians? \U0001F4DA\n\nOur ManyHands Randomiser™ will spin on the night to generate a unique\nscenario. Then it's over to you to rapidly generate ideas with product\npros from companies like...\n"
+  - body: |
+      Meet top product people from innovative organisations and get creative
+      together on a fun UX challenge that's miles away from your day-to-day.
+
+      Our ManyHands Randomiser™ will spin on the night to generate a unique
+      scenario. Then it's over to you to rapidly generate ideas with product
+      pros from companies like...
     _template: content
   - logos:
       - src: /uploads/logo-american-express.png
@@ -146,7 +152,7 @@ blocks:
     _template: content
   - icon: thumbs-up
     _template: hr
-  - body: "<Center>\n  ### Accessibility\n</Center>\n\nUncommon is fully accessible with step-free access for the event space.\_\n\nFor further information or to tell us about your specific requirements, contact us at [hello@wearemanyhands.com](mailto:hello@wearemanyhands.com \"hello@wearemanyhands.com\")\n"
+  - body: "<Center>\n  ### Accessibility\n</Center>\n\nUncommon is fully accessible with step-free access for the event space.\_\n\nFor further information or to tell us about your specific requirements, contact us at [hello@wearemanyhands.com](mailto\\:hello@wearemanyhands.com \"hello@wearemanyhands.com\")\n"
     _template: content
   - icon: call
     _template: hr
@@ -169,6 +175,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
