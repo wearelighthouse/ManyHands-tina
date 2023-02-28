@@ -17,6 +17,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Remove font file dependency
+        run: > assets/css/fonts.css
+
       - name: Build
         run: |
           npm ci
