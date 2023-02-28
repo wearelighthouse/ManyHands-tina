@@ -29,7 +29,8 @@ blocks:
     _template: howItWorks
   - heading: Next events
     _template: eventList
-  - quotes:
+  - background: ''
+    quotes:
       - quote: >-
           Thank you for introducing me to these inspiring and interesting
           people! I really enjoyed it.
@@ -53,25 +54,56 @@ blocks:
           ideas of other designers.
         author: Max K.
         jobTitle: Product Designer
-    background: ''
     _template: quotes
   - logos:
       - src: /uploads/logo-american-express.png
         alt: American Express
         width: 137
         height: 77
-      - src: /uploads/logo-truelayer.png
-        alt: True Layer
-        width: 211
-        height: 41
-      - src: /uploads/logo-charlie-hr.png
-        alt: Charlie HR
-        width: 169
-        height: 39
+      - src: /uploads/Squarespace.svg
+        alt: Squarespace
+        width: 231
+        height: 32
+      - src: /uploads/TheGuardian.svg
+        alt: The Guardian
+        width: 141
+        height: 47
       - src: /uploads/logo-revolut.png
         alt: Revolut
         width: 124
         height: 29
+      - src: /uploads/Shopify.svg
+        alt: Shopify
+        width: 136
+        height: 48
+      - src: /uploads/Truelayer.svg
+        alt: True Layer
+        width: 202
+        height: 38
+      - src: /uploads/NaturalHistoryMuseum.svg
+        alt: Natural History Museum
+        width: 109
+        height: 52
+      - src: /uploads/Perlego.svg
+        alt: Perlego
+        width: 120
+        height: 34
+      - src: /uploads/logo-charlie-hr.png
+        alt: Charlie HR
+        width: 169
+        height: 39
+      - src: /uploads/Automattic.svg
+        alt: Automattic
+        width: 197
+        height: 15
+      - src: /uploads/Glovo.svg
+        alt: Glovo
+        width: 130
+        height: 56
+      - src: /uploads/Bloomreach.svg
+        alt: Bloomreach
+        width: 193
+        height: 42
     _template: companies
   - icon: horns
     _template: hr
@@ -94,3 +126,4 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
