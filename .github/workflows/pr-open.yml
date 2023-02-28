@@ -17,7 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Remove font file dependency
+      - name: Remove font file dependency by clearing contents of fonts.css
         run: |
           > assets/css/fonts.css
 
