@@ -3,12 +3,12 @@ import type { Template } from "tinacms";
 
 export const Companies = ({ data }) => (
   <section className="tablet:m-4">
-    <div className="max-w-6xl mx-auto text-center px-4 my-20">
-      {/* Repeatable CMS field complication: py- is different per SVG */}
+    <div className="max-w-5xl mx-auto text-center px-12 my-20">
       {data.logos && (
-        <div className="grid gap-6 desktop:flex justify-items-center justify-center desktop:justify-between items-center my-14">
+        <div className="grid gap-x-14 gap-y-8 desktop:gap-y-12 mobile:flex flex-wrap justify-items-center justify-center items-center my-14">
           {data.logos.filter((logo) => logo?.src).map((logo, index: number) => (
             <img
+              loading="lazy"
               src={logo.src}
               alt={logo.alt}
               width={logo.width ?? null}
