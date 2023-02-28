@@ -18,7 +18,8 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Remove font file dependency
-        run: > assets/css/fonts.css
+        run: |
+          > assets/css/fonts.css
 
       - name: Build
         run: |
