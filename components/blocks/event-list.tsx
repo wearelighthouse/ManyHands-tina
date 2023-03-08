@@ -79,9 +79,6 @@ export const EventList = ({ data, parentField }) => {
                   <Status className="absolute -top-4 right-8">
                     {event._values.status}
                   </Status>
-                  // <div className="absolute grid place-items-center uppercase -top-4 h-7 right-8 border-2 rounded-full px-3 border-pink bg-[#ffdeed] font-medium text-sm">
-                  //   {event._values?.status}
-                  // </div>
                 )}
                 <div className="flex tablet:items-center ml-4 desktop:ml-6 max-tablet:ml-1 shrink-0 leading-none">
                   <Link
@@ -94,7 +91,7 @@ export const EventList = ({ data, parentField }) => {
                       </a>
                     ) : (
                       <a className="button !grid !h-20 place-items-center place-content-center">
-                        <div className="text-lg">Sign up now</div>
+                        <div className="text-lg">{event._values.status.includes('waitlist') ? 'Join waitlist' : 'Sign up now'}</div>
                         <div className="uppercase text-xs">Free entry</div>
                       </a>
                     )}

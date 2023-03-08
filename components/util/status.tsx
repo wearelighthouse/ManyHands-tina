@@ -1,9 +1,14 @@
 import * as React from "react";
 import type { SchemaField } from "tinacms";
 
+function removeBrackets(str: string) {
+  return str.replace(/\s*\(.*?\)\s*/g, '');
+}
+
 export const statusMap = {
   'Filling up fast 🔥': 'border-[#FF9325] bg-[#F3EDE0]',
   'Last few places 😱': 'border-pink bg-[#ffdeed]',
+  'Fully Booked 🎉 (waitlist)': 'border-pink bg-[#ffdeed] waitlist',
   'Fully Booked': 'full',
 }
 
@@ -17,7 +22,7 @@ export const Status = ({ children, className = '', greyscale = false }: statusPr
   <span
     className={`uppercase rounded-full px-3 font-medium leading-6 ${greyscale ? 'text-md border-[3px]' : 'text-sm border-2'} ${greyscale ? 'border-[transparent] bg-smoke/10' : children} ${className}`}
   >
-    {Object.keys(statusMap).find(key => statusMap[key] === children)}
+    {removeBrackets(Object.keys(statusMap).find(key => statusMap[key] === children))}
   </span>
 );
 
