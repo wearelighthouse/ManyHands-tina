@@ -6,7 +6,7 @@ location_short: London
 location: |-
   Uncommon
   Liverpool St, London EC2M 7PP
-status: 'border-[#FF9325] bg-[#F3EDE0]'
+status: full
 sign_up_url: 'https://airtable.com/shrS63Aey48lMFhbX'
 blocks:
   - body: |
@@ -124,7 +124,7 @@ blocks:
       </Center>
 
 
-      ![](/uploads/venue-uncommon-2.png)
+      ![](/uploads/venue-uncommon-2.png "")
 
 
       [View
@@ -158,7 +158,7 @@ blocks:
     _template: hr
   - body: |
       <Center>
-        [![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png)](https://uk.linkedin.com/company/manyhands-from-lighthouse)
+        [![Follow ManyHands on LinkedIn](/uploads/linkedin\(1\).png "")](https://uk.linkedin.com/company/manyhands-from-lighthouse "")
       </Center>
     _template: content
   - background: bg-light-gray
@@ -175,6 +175,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
