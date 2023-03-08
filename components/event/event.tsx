@@ -44,7 +44,7 @@ const Hero = (props) => {
         {props.sign_up_url && props.status !== 'full' ? (
           <div>
             <a href={props.sign_up_url} className="button !h-14 col-start-1 !text-lg !gap-3 !px-6" id="hero-sign-up">
-              <span className="leading-tight">Sign&nbsp;up now</span>
+              <span className="leading-tight">{props.status.includes('waitlist') ? 'Join the waitlist' : 'Sign up now'}</span>
               <svg
                 className="shrink-0 arrow"
                 width="32"
@@ -114,6 +114,8 @@ export const Event = (props) => {
     observer.observe(document.getElementById('hero-sign-up'));
   }, []);
 
+  console.log(props.status.includes('waitlist'));
+
   return (
     <>
       <Hero {...props} />
@@ -126,7 +128,7 @@ export const Event = (props) => {
             <h2 className="max-tablet:leading-tight text-2xl tablet:text-3xl font-tiempos font-semibold translate-y-[.25rem]">Register your interest&nbsp;now</h2>
             <span className="max-tablet:mt-0.5 mobile:text-lg tablet:text-xl desktop:text-2xl tablet:translate-y-[.25rem]">Spaces are limited and seats&nbsp;fill&nbsp;up&nbsp;quick!</span>
             <a href={props.sign_up_url} className="max-mobile:w-full button !h-14 col-start-1 !text-lg !gap-3 !px-6">
-              <span>Sign up now</span>
+              <span>{props.status.includes('waitlist') ? 'Join the waitlist' : 'Sign up now'}</span>
               <svg
                 className="shrink-0 arrow"
                 width="32px"
