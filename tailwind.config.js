@@ -53,4 +53,17 @@ module.exports = {
       'desktop': '1035px',
     },
   },
+  corePlugins: {
+    'backdropBlur': false,
+    'backdropBrightness': false,
+    'backdropContrast': false,
+    'backdropFilter': false,
+    'backdropGrayscale': false,
+    'backdropHueRotate': false,
+    'backdropInvert': false,
+    'backdropOpacity': false,
+    'backdropSaturate': false,
+    'backdropSepia': false,
+    'filter': false,
+  },
 };
