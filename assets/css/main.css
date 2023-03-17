@@ -3,14 +3,12 @@
 @import 'tailwindcss/utilities';
 @import '_reset';
 @import '_base';
-@import '_bow-border';
 @import '_button';
+@import '_circle-bg-dl';
 @import '_content';
 @import '_content-em-ul';
 @import '_manyhands-hr';
 @import '_text-link';
-@import '_ticket-divider';
-@import '_scooped-corners';
 @import '_type';
 
 @layer utilities {
@@ -26,29 +24,4 @@
 
 .o-section-clip--ramp-bottom-right {
   clip-path: polygon(0 0,100% 0,100% calc(100% - 5vw - 14px),77% calc(100% - 5vw - 14px),0 100%,0 0);
-}
-
-.filter-smooth {
-  filter: url('#filter-smooth');
-}
-
-.clip-bottom-8 {
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8px), 0 calc(100% - 8px));
-}
-
-.circle-bg-dl div {
-  @apply grid gap-3 tablet:gap-4;
-}
-
-.circle-bg-dl dd {
-  @apply ml-16 tablet:pl-5;
-}
-
-.circle-bg-dl dt > .indicator {
-  @apply inline-flex justify-center w-12 tablet:w-16 relative mr-4 tablet:mr-5;
-}
-
-.circle-bg-dl dt > .indicator::before {
-  @apply absolute top-1/2 left-1/2 inline-flex h-12 w-12 tablet:h-16 tablet:w-16 bg-light-gray rounded-full -translate-x-1/2 -translate-y-1/2 -z-10;
-  content: '';
 }

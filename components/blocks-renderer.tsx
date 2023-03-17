@@ -4,7 +4,6 @@ import { BroughtToYouBy } from "./blocks/brought-to-you-by";
 import { Content } from "./blocks/content";
 import { HowItWorks } from "./blocks/how-it-works";
 import { EventList } from "./blocks/event-list";
-import { EventTicket } from "./blocks/event-ticket";
 import { Hr } from "./blocks/hr";
 import { Hero } from "./blocks/hero";
 import { Companies } from "./blocks/companies";
@@ -60,16 +59,6 @@ export const Blocks = (props: (Omit<Page, "id" | "_sys" | "_values"> | Omit<Even
                     key={i + block.__typename}
                   >
                     <EventList data={{...block, events: props.events}} parentField={`blocks.${i}`} />
-                  </div>
-                );
-              case "EventBlocksEventTicket":
-              case "PageBlocksEventTicket":
-                return (
-                  <div
-                    data-tinafield={`blocks.${i}`}
-                    key={i + block.__typename}
-                  >
-                    <EventTicket data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
               case "EventBlocksHr":
