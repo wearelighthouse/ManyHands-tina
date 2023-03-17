@@ -53,6 +53,8 @@ module.exports = {
       'desktop': '1035px',
     },
   },
+  // Remove Tailwind features that have been added to recent versions
+  // but are unused _and_ take up uneccessary space in output CSS
   corePlugins: {
     'backdropBlur': false,
     'backdropBrightness': false,
@@ -65,5 +67,10 @@ module.exports = {
     'backdropSaturate': false,
     'backdropSepia': false,
     'filter': false,
+    'ringColor': false,
+    'ringOffsetColor': false,
+    'ringOffsetWidth': false,
+    'ringOpacity': false,
+    'ringWidth': false,
   },
 };
