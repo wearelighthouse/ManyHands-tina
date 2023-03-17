@@ -11,6 +11,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+/**
+ * The post component has had it's styling removed, as it's currently
+ * unused. This way it's classNames don't end up in the output CSS.
+ * To re-add them, see:
+ * https://github.com/tinacms/tina-cloud-starter/blob/main/components/posts/post.tsx
+ */
+
 import React from "react";
 import format from "date-fns/format";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
@@ -64,14 +71,14 @@ const components: Components<{
   },
   NewsletterSignup: (props) => {
     return (
-      <div className="bg-white">
-        <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+      <div className="">
+        <div className="">
           <div className="">
             <TinaMarkdown content={props.children} />
           </div>
-          <div className="mt-8 ">
-            <form className="sm:flex">
-              <label htmlFor="email-address" className="sr-only">
+          <div className="">
+            <form className="">
+              <label htmlFor="email-address" className="">
                 Email address
               </label>
               <input
@@ -80,19 +87,19 @@ const components: Components<{
                 type="email"
                 autoComplete="email"
                 required
-                className="w-full px-5 py-3 border border-gray-300 shadow-sm placeholder-gray-400 focus:ring-1 focus:ring-teal-500 focus:border-teal-500 sm:max-w-xs rounded-md"
+                className=""
                 placeholder={props.placeholder}
               />
-              <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
+              <div className="">
                 <button
                   type="submit"
-                  className="w-full flex items-center justify-center py-3 px-5 border border-transparent text-base font-medium rounded-md text-white bg-teal-600 hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+                  className=""
                 >
                   {props.buttonText}
                 </button>
               </div>
             </form>
-            <div className="mt-3 text-sm text-gray-500">
+            <div className="">
               {props.disclaimer && <TinaMarkdown content={props.disclaimer} />}
             </div>
           </div>
@@ -101,7 +108,7 @@ const components: Components<{
     );
   },
   img: (props) => (
-    <div className="flex items-center justify-center">
+    <div className="">
       <img src={props.url} alt={props.alt} />
     </div>
   ),
@@ -115,41 +122,41 @@ export const Post = (props) => {
   }
 
   return (
-    <div className="flex-1">
+    <div className="">
       <h2
         data-tinafield="title"
-        className={`w-full relative	mb-8 text-6xl font-extrabold tracking-normal text-center title-font`}
+        className={``}
       >
         <span
-          className={`bg-clip-text text-transparent bg-gradient-to-r`}
+          className={``}
         >
           {props.title}
         </span>
       </h2>
       <div
         data-tinafield="author"
-        className="flex items-center justify-center mb-16"
+        className=""
       >
         {props.author && (
           <>
-            <div className="flex-shrink-0 mr-4">
+            <div className="">
               <img
-                className="h-14 w-14 object-cover rounded-full shadow-sm"
+                className=""
                 src={props.author.avatar}
                 alt={props.author.name}
               />
             </div>
-            <p className="text-base font-medium text-gray-600 group-hover:text-gray-800 dark:text-gray-200 dark:group-hover:text-white">
+            <p className="">
               {props.author.name}
             </p>
-            <span className="font-semibold text-gray-200 dark:text-gray-500 mx-2">
+            <span className="">
               —
             </span>
           </>
         )}
         <p
           data-tinafield="date"
-          className="text-base text-gray-400 group-hover:text-gray-500 dark:text-gray-300 dark:group-hover:text-gray-150"
+          className=""
         >
           {formattedDate}
         </p>
@@ -158,11 +165,11 @@ export const Post = (props) => {
         <div data-tinafield="heroImg" className="">
           <img
             src={props.heroImg}
-            className="mb-14 block h-auto max-w-4xl lg:max-w-6xl mx-auto"
+            className=""
           />
         </div>
       )}
-      <div className="prose dark:prose-dark  w-full max-w-none">
+      <div className="">
         <TinaMarkdown components={components} content={props._body} />
       </div>
     </div>

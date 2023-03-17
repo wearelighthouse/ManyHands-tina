@@ -1,10 +1,10 @@
-import type { SchemaField } from "tinacms";
+import type { TinaField } from "tinacms";
 
 export const backgroundColorsMap = {
   'Gray': 'bg-light-gray',
 }
 
-export const backgroundColorSchema: SchemaField = {
+export const backgroundColorSchema: TinaField = {
   type: "string",
   label: "Background Color",
   name: "background",

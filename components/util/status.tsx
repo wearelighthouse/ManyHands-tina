@@ -1,5 +1,5 @@
 import * as React from "react";
-import type { SchemaField } from "tinacms";
+import type { TinaField } from "tinacms";
 
 function removeBrackets(str: string) {
   return str.replace(/\s*\(.*?\)\s*/g, '');
@@ -26,7 +26,7 @@ export const Status = ({ children, className = '', greyscale = false }: statusPr
   </span>
 );
 
-export const statusSchema: SchemaField = {
+export const statusSchema: TinaField = {
   type: "string",
   label: "Status",
   name: "status",
