@@ -1,5 +1,5 @@
 import * as React from "react";
-import type { SchemaField } from "tinacms";
+import type { TinaField } from "tinacms";
 
 import TinaIconSvg from "../../assets/img/tina.svg";
 import CallSvg from "../../assets/hand-icons/call.svg";
@@ -65,7 +65,7 @@ const formatFieldLabel = (value: string) => {
   return value.charAt(0).toUpperCase() + value.slice(1);
 };
 
-export const iconSchema: SchemaField = {
+export const iconSchema: TinaField = {
   type: "string",
   label: "Icon",
   name: "icon",
