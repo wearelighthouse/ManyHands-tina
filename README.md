@@ -1,15 +1,17 @@
-# A WIP remake of [ManyHands-site](https://github.com/wearelighthouse/ManyHands-site) using Tina Starter 🦙
+# ManyHands
 
-![tina-cloud-starter-demo](https://user-images.githubusercontent.com/103008/130587027-995ccc45-a852-4f90-b658-13e8e0517339.gif)
+ManyHands is an event for product people. The event (and website) is by [Lighthouse](https://wearelighthouse.com/), a specialist UX and UI design agency based in London.
 
-This Next.js starter is powered by [TinaCMS](https://app.tina.io) for you and your team to visually live edit the structured content of your website. ✨
+ManyHands was previously a static single-page website: [ManyHands-site](https://github.com/wearelighthouse/ManyHands-site)
 
-The content is managed through Markdown and JSON files stored in your GitHub repository, and queried through Tina GraphQL API.
+This Next.js app is powered by [TinaCMS](https://app.tina.io) to allow visuall live editing. ✨
+
+The content is managed through Markdown and JSON files stored in this GitHub repository, and queried through Tina GraphQL API.
 
 ### Features
 
 - [Tina Headless CMS](https://app.tina.io) for authentication, content modeling, visual editing and team management.
-- [Vercel](https://vercel.com) deployment to visually edit your site from the `/admin` route.
+- [GitHub Actions](https://github.com/features/actions) and [GitHub Pages](https://pages.github.com/) for automated deployment and hosting, including visual editing from the `/admin` route.
 - Local development workflow from the filesystem with a local GraqhQL server.
 
 ## Requirements
@@ -22,13 +24,13 @@ The content is managed through Markdown and JSON files stored in your GitHub rep
 Install the project's dependencies:
 
 ```
-yarn install
+npm install
 ```
 
 Run the project locally:
 
 ```
-yarn dev
+npm run dev
 ```
 
 ### Local URLs
@@ -51,7 +53,7 @@ NEXT_PUBLIC_TINA_BRANCH=<Specify the branch with Tina configured>
 Build the project:
 
 ```bash
-yarn build
+npm run build
 ```
 
 ## Getting Help
@@ -79,4 +81,4 @@ These are rebuilt when your `.tina` config changes.
 
 ## LICENSE
 
-Licensed under the [Apache 2.0 license](./LICENSE).
+The [Tina CMS starter](https://github.com/tinacms/tina-cloud-starter), and any other code included in this repository is licensed under the [Apache 2.0 license](./LICENSE).
