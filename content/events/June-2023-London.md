@@ -17,8 +17,7 @@ blocks:
       scenario. Then it's over to you to rapidly generate ideas with product
       pros from companies like...
     _template: content
-  - logos: []
-    _template: companies
+  - _template: companies
   - icon: ok
     _template: hr
   - heading: How it works
@@ -47,7 +46,14 @@ blocks:
     _template: talksBy
   - icon: ok
     _template: hr
+  - items:
+      - title: Sign up ✅
+        description: >-
+          Give us a few details, sit tight, and we'll be in touch nearer the
+          event!
+    _template: bigList
 ---
+
 
 
 
