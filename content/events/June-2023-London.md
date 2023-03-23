@@ -104,11 +104,22 @@ blocks:
           {
             term: "Address",
             details: [{ text: "Uncommon Auditorium, 34-37 Liverpool St, EC2M 7PP" }]
+          },
+          {
+            term: "Closest stations",
+            iconSrc:
+              "https://assets.tina.io/471f6b10-96b9-4345-8247-e231e43fb9ab/logo-undergound.png",
+            details: [
+              { text: "Liverpool Street" },
+              { text: "Moorgate" },
+              { text: "Aldgate" }
+            ]
           }
         ]}
       />
     _template: content
 ---
+
 
 
 
