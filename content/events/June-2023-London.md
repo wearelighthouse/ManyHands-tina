@@ -8,5 +8,10 @@ location: |-
   Liverpool St, London EC2M 7PP
 status: 'border-[#FF9325] bg-[#F3EDE0]'
 sign_up_url: 'https://airtable.com/shrS63Aey48lMFhbX'
+blocks:
+  - body: |
+      Default Text
+    _template: content
 ---
+
 
