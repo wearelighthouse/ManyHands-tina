@@ -30,6 +30,10 @@ blocks:
         alt: The Guardian
         width: 141
         height: 47
+      - src: /uploads/logo-revolut.png
+        alt: Revolut
+        width: 124
+        height: 29
     _template: companies
   - icon: ok
     _template: hr
@@ -165,6 +169,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
