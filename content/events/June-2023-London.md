@@ -89,7 +89,7 @@ blocks:
       - quote: >-
           Thank you for giving us the opportunity to remember why our jobs are
           so fun!
-        author: Nicole B
+        author: Nicole B.
         jobTitle: Product Manager
       - quote: >-
           Thank you for introducing me to these inspiring and interesting
@@ -174,6 +174,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
