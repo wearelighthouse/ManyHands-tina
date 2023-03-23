@@ -88,7 +88,28 @@ blocks:
     _template: content
   - icon: wave
     _template: hr
+  - body: >
+      <Center>
+        ### The venue
+      </Center>
+
+
+      [View
+      map](https://www.google.com/maps/place/uncommon+liverpool+street/data=!4m2!3m1!1s0x0:0x706cb25d16d16dd6
+      "View map")
+
+
+      <DescriptionList
+        items={[
+          {
+            term: "Address",
+            details: [{ text: "Uncommon Auditorium, 34-37 Liverpool St, EC2M 7PP" }]
+          }
+        ]}
+      />
+    _template: content
 ---
+
 
 
 
