@@ -123,7 +123,22 @@ blocks:
     _template: content
   - icon: thumbs-up
     _template: hr
+  - body: >
+      <Center>
+        ### Accessibility
+      </Center>
+
+
+      Uncommon is fully accessible with step-free access for the event space
+      which is on the 7th floor.
+
+
+      For further information or to tell us about your specific requirements,
+      contact us at [hello@wearemanyhands.com](mailto\:hello@wearemanyhands.com
+      "hello@wearemanyhands.com")
+    _template: content
 ---
+
 
 
 
