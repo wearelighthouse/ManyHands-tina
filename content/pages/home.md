@@ -84,10 +84,10 @@ blocks:
         alt: Natural History Museum
         width: 109
         height: 52
-      - src: /uploads/Perlego.svg
-        alt: Perlego
-        width: 120
-        height: 34
+      - src: /uploads/hubspot 1.svg
+        alt: Hubspot
+        width: 140
+        height: 40
       - src: /uploads/logo-charlie-hr.png
         alt: Charlie HR
         width: 169
@@ -100,9 +100,9 @@ blocks:
         alt: Figma
         width: 150
         height: 50
-      - src: /uploads/Bloomreach.svg
-        alt: Bloomreach
-        width: 193
+      - src: /uploads/hubspot 1.svg
+        alt: Hubspot
+        width: 150
         height: 42
     _template: companies
   - icon: horns
@@ -124,6 +124,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
