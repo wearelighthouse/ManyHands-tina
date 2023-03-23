@@ -86,7 +86,10 @@ blocks:
     _template: hostedBy
   - body: "[Lighthouse](wearelighthouse.com \"wearelighthouse.com\") is a specialist UX and UI design agency based in London, trusted by enterprise organisations to tackle the toughest challenges since 2008 \U0001F680\n"
     _template: content
+  - icon: wave
+    _template: hr
 ---
+
 
 
 
