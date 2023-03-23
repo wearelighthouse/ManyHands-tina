@@ -96,10 +96,10 @@ blocks:
         alt: Automattic
         width: 197
         height: 15
-      - src: /uploads/Glovo.svg
+      - src: /uploads/Figma.png
         alt: Glovo
-        width: 130
-        height: 56
+        width: 150
+        height: 50
       - src: /uploads/Bloomreach.svg
         alt: Bloomreach
         width: 193
@@ -124,6 +124,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
