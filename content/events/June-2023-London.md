@@ -94,6 +94,9 @@ blocks:
       </Center>
 
 
+      ![](/uploads/venue-uncommon-2.png)
+
+
       [View
       map](https://www.google.com/maps/place/uncommon+liverpool+street/data=!4m2!3m1!1s0x0:0x706cb25d16d16dd6
       "View map")
@@ -119,6 +122,7 @@ blocks:
       />
     _template: content
 ---
+
 
 
 
