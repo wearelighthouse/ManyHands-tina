@@ -41,8 +41,9 @@ blocks:
         quote: ''
         name: To be announced
         job_title: ''
-      - quote: ''
-        name: ''
+      - src: /uploads/Speaker 2 to be announced.png
+        quote: ''
+        name: To be announced
         job_title: ''
     _template: talksBy
   - icon: ok
@@ -151,6 +152,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
