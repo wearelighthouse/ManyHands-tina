@@ -108,7 +108,9 @@ blocks:
   - icon: horns
     _template: hr
   - body: |
-      <Center />
+      <Center>
+        ![](/uploads/linkedin\(1\).png)
+      </Center>
     _template: content
   - background: bg-light-gray
     body: |
@@ -124,5 +126,6 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
