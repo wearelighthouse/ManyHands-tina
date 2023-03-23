@@ -9,6 +9,8 @@ location: |-
 status: 'border-[#FF9325] bg-[#F3EDE0]'
 sign_up_url: 'https://airtable.com/shrS63Aey48lMFhbX'
 blocks:
+  - logos: []
+    _template: companies
   - body: |
       Meet top product people from innovative organisations and get creative
       together on a fun UX challenge that's miles away from your day-to-day.
@@ -18,6 +20,7 @@ blocks:
       pros from companies like...
     _template: content
 ---
+
 
 
 
