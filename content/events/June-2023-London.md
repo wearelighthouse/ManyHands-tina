@@ -9,6 +9,8 @@ location: |-
 status: 'border-[#FF9325] bg-[#F3EDE0]'
 sign_up_url: 'https://airtable.com/shrS63Aey48lMFhbX'
 blocks:
+  - icon: ok
+    _template: hr
   - logos: []
     _template: companies
   - body: |
@@ -20,6 +22,7 @@ blocks:
       pros from companies like...
     _template: content
 ---
+
 
 
 
