@@ -58,8 +58,11 @@ blocks:
           event
       - title: "RSVP \U0001F5D3️"
         description: Make sure to respond to the invite to secure your seat
+      - title: "Join the fun \U0001F389"
+        description: Have a fun-filled session of problem solving with your new best mates
     _template: bigList
 ---
+
 
 
 
