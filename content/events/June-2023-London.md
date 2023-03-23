@@ -9,8 +9,6 @@ location: |-
 status: 'border-[#FF9325] bg-[#F3EDE0]'
 sign_up_url: 'https://airtable.com/shrS63Aey48lMFhbX'
 blocks:
-  - logos: []
-    _template: companies
   - body: |
       Meet top product people from innovative organisations and get creative
       together on a fun UX challenge that's miles away from your day-to-day.
@@ -19,9 +17,28 @@ blocks:
       scenario. Then it's over to you to rapidly generate ideas with product
       pros from companies like...
     _template: content
+  - logos: []
+    _template: companies
   - icon: ok
     _template: hr
+  - heading: How it works
+    items:
+      - icon: wave
+        title: In-person
+        text: 'Real people in real life, not just faces in a grid.'
+      - icon: tina
+        title: New How It Works Items
+        text: >-
+          This is where you might talk about how things work, if this wasn't
+          just filler text.
+      - icon: tina
+        title: New How It Works Items
+        text: >-
+          This is where you might talk about how things work, if this wasn't
+          just filler text.
+    _template: howItWorks
 ---
+
 
 
 
