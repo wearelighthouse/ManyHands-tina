@@ -87,6 +87,11 @@ blocks:
         author: Gabriel M
         jobTitle: Product Designer
       - quote: >-
+          Thank you for giving us the opportunity to remember why our jobs are
+          so fun!
+        author: Nicole B.
+        jobTitle: Product Manager
+      - quote: >-
           Thank you for introducing me to these inspiring and interesting
           people! I really enjoyed it.
         author: Magdalena R.
@@ -169,6 +174,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
