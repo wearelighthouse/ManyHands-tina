@@ -61,7 +61,20 @@ blocks:
       - title: "Join the fun \U0001F389"
         description: Have a fun-filled session of problem solving with your new best mates
     _template: bigList
+  - quotes:
+      - quote: >-
+          Thank you for introducing me to these inspiring and interesting
+          people! I really enjoyed it.
+        author: Magdalena R.
+        jobTitle: Product Designer
+      - quote: >-
+          I love these sessions! It’s so great to meet new people around the
+          industry, see how they think, and work together on something fun. 
+        author: Gabriel M
+        jobTitle: Product Designer
+    _template: quotes
 ---
+
 
 
 
