@@ -23,7 +23,7 @@ blocks:
         width: 137
         height: 77
       - src: /uploads/Truelayer.svg
-        alt: TrueLayer
+        alt: Shopify
         width: 211
         height: 41
       - src: /uploads/TheGuardian.svg
@@ -169,6 +169,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
