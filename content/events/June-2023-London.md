@@ -32,8 +32,12 @@ blocks:
       - icon: raised
         title: Dinner's on us
         text: Who can be creative on an empty stomach?
+      - icon: raised-double
+        title: Still totally free
+        text: 'We want your design brain, not your ££££s.'
     _template: howItWorks
 ---
+
 
 
 
