@@ -36,7 +36,19 @@ blocks:
         title: Still totally free
         text: 'We want your design brain, not your ££££s.'
     _template: howItWorks
+  - heading: Talks from the best in the business
+    hosts:
+      - quote: ''
+        name: ''
+        job_title: ''
+      - quote: ''
+        name: ''
+        job_title: ''
+    _template: talksBy
+  - icon: ok
+    _template: hr
 ---
+
 
 
 
