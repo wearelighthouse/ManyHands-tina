@@ -73,7 +73,15 @@ blocks:
         author: Magdalena R.
         jobTitle: Product Designer
     _template: quotes
+  - hosts:
+      - src: /uploads/Tom Johnson Lighthouse.png
+        quote: ''
+        name: Tom Johnson
+        job_title: Co-founder
+        link_url: ''
+    _template: hostedBy
 ---
+
 
 
 
