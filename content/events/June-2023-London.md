@@ -84,7 +84,7 @@ blocks:
       - quote: >-
           I love these sessions! It’s so great to meet new people around the
           industry, see how they think, and work together on something fun. 
-        author: Gabriel M
+        author: Gabriel M.
         jobTitle: Product Designer
       - quote: >-
           Thank you for giving us the opportunity to remember why our jobs are
@@ -174,6 +174,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
