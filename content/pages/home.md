@@ -100,9 +100,9 @@ blocks:
         alt: Figma
         width: 150
         height: 50
-      - src: /uploads/hubspot 1.svg
-        alt: Hubspot
-        width: 150
+      - src: /uploads/Frame 1.svg
+        alt: Citigroup
+        width: 170
         height: 42
     _template: companies
   - icon: horns
@@ -124,6 +124,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
