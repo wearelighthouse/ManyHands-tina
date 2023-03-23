@@ -17,7 +17,12 @@ blocks:
       scenario. Then it's over to you to rapidly generate ideas with product
       pros from companies like...
     _template: content
-  - _template: companies
+  - logos:
+      - src: /uploads/logo-american-express.png
+        alt: American Express
+        width: 137
+        height: 77
+    _template: companies
   - icon: ok
     _template: hr
   - heading: How it works
@@ -152,6 +157,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
