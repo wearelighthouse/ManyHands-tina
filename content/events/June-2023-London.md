@@ -10,8 +10,14 @@ status: 'border-[#FF9325] bg-[#F3EDE0]'
 sign_up_url: 'https://airtable.com/shrS63Aey48lMFhbX'
 blocks:
   - body: |
-      Default Text
+      Meet top product people from innovative organisations and get creative
+      together on a fun UX challenge that's miles away from your day-to-day.
+
+      Our ManyHands Randomiser™ will spin on the night to generate a unique
+      scenario. Then it's over to you to rapidly generate ideas with product
+      pros from companies like...
     _template: content
 ---
+
 
 
