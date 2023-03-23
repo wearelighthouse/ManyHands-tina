@@ -109,7 +109,7 @@ blocks:
     _template: hr
   - body: |
       <Center>
-        [(/uploads/linkedin\(1\).png "Follow ManyHands on LinkedIn")](https://uk.linkedin.com/company/manyhands-from-lighthouse)
+        ![LinkedIn logo](/uploads/linkedin\(1\).png)
       </Center>
     _template: content
   - background: bg-light-gray
@@ -126,3 +126,4 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
