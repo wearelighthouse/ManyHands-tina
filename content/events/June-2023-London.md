@@ -29,7 +29,7 @@ blocks:
       - icon: scissors
         title: Talks from top pros
         text: Learn from the industry's best and brightest.
-      - icon: tina
+      - icon: raised
         title: Dinner's on us
         text: Who can be creative on an empty stomach?
     _template: howItWorks
