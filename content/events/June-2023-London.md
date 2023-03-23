@@ -46,13 +46,19 @@ blocks:
     _template: talksBy
   - icon: ok
     _template: hr
-  - items:
+  - heading: Join a curated group of pros
+    items:
       - title: Sign up ✅
         description: >-
           Give us a few details, sit tight, and we'll be in touch nearer the
           event!
+      - title: "Receive an invite \U0001F4E9"
+        description: >-
+          If we have room for you this time, you’ll receive an invite to the
+          event
     _template: bigList
 ---
+
 
 
 
