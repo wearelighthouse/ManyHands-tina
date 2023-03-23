@@ -139,10 +139,18 @@ blocks:
     _template: content
   - icon: call
     _template: hr
-  - body: |
-      <Center />
+  - background: bg-light-gray
+    body: |
+      <Center>
+        ### Want to get involved in the future?
+
+        We'll let you know when we've set dates for upcoming events
+
+        <Cta href="https://airtable.com/shrOh808iBDVo9Ne1" text="Join the list" />
+      </Center>
     _template: content
 ---
+
 
 
 
