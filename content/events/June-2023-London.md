@@ -26,6 +26,10 @@ blocks:
         alt: TrueLayer
         width: 211
         height: 41
+      - src: /uploads/TheGuardian.svg
+        alt: The Guardian
+        width: 141
+        height: 47
     _template: companies
   - icon: ok
     _template: hr
@@ -161,6 +165,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
