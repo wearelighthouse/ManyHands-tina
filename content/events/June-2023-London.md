@@ -79,8 +79,13 @@ blocks:
         name: Tom Johnson
         job_title: Co-founder
         link_url: ''
+      - src: /uploads/dan.png
+        quote: ''
+        name: Dan Burgess
+        job_title: Senior UX Designer
     _template: hostedBy
 ---
+
 
 
 
