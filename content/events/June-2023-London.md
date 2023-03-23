@@ -27,10 +27,8 @@ blocks:
         title: In-person
         text: 'Real people in real life, not just faces in a grid.'
       - icon: tina
-        title: New How It Works Items
-        text: >-
-          This is where you might talk about how things work, if this wasn't
-          just filler text.
+        title: Talks from top pros
+        text: Learn from the industry's best and brightest.
       - icon: tina
         title: New How It Works Items
         text: >-
@@ -38,6 +36,7 @@ blocks:
           just filler text.
     _template: howItWorks
 ---
+
 
 
 
