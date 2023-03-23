@@ -22,6 +22,10 @@ blocks:
         alt: American Express
         width: 137
         height: 77
+      - src: /uploads/Truelayer.svg
+        alt: TrueLayer
+        width: 211
+        height: 41
     _template: companies
   - icon: ok
     _template: hr
@@ -157,6 +161,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
