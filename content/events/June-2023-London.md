@@ -63,17 +63,18 @@ blocks:
     _template: bigList
   - quotes:
       - quote: >-
-          Thank you for introducing me to these inspiring and interesting
-          people! I really enjoyed it.
-        author: Magdalena R.
-        jobTitle: Product Designer
-      - quote: >-
           I love these sessions! It’s so great to meet new people around the
           industry, see how they think, and work together on something fun. 
         author: Gabriel M
         jobTitle: Product Designer
+      - quote: >-
+          Thank you for introducing me to these inspiring and interesting
+          people! I really enjoyed it.
+        author: Magdalena R.
+        jobTitle: Product Designer
     _template: quotes
 ---
+
 
 
 
