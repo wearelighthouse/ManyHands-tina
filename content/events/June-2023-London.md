@@ -26,7 +26,7 @@ blocks:
       - icon: wave
         title: In-person
         text: 'Real people in real life, not just faces in a grid.'
-      - icon: tina
+      - icon: scissors
         title: Talks from top pros
         text: Learn from the industry's best and brightest.
       - icon: tina
