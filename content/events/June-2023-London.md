@@ -56,8 +56,11 @@ blocks:
         description: >-
           If we have room for you this time, you’ll receive an invite to the
           event
+      - title: "RSVP \U0001F5D3️"
+        description: Make sure to respond to the invite to secure your seat
     _template: bigList
 ---
+
 
 
 
