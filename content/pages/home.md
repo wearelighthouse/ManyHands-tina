@@ -96,8 +96,8 @@ blocks:
         alt: Automattic
         width: 197
         height: 15
-      - src: /uploads/Figma.png
-        alt: Glovo
+      - src: /uploads/figma-5 2.svg
+        alt: Figma
         width: 150
         height: 50
       - src: /uploads/Bloomreach.svg
@@ -124,6 +124,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
