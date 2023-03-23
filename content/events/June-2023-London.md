@@ -37,8 +37,9 @@ blocks:
     _template: howItWorks
   - heading: Talks from the best in the business
     hosts:
-      - quote: ''
-        name: ''
+      - src: /uploads/Speaker 1 to be announced.png
+        quote: ''
+        name: To be announced
         job_title: ''
       - quote: ''
         name: ''
@@ -150,6 +151,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
