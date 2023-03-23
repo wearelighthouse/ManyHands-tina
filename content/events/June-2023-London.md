@@ -1,7 +1,7 @@
 ---
 title: June 2023 London
-date: '2023-06-07T17:00:00.000Z'
-date_end: '2023-06-07T20:00:00.000Z'
+date: '2023-02-01T18:00:00.000Z'
+date_end: '2023-02-01T21:00:00.000Z'
 location_short: London
 location: |-
   Uncommon
@@ -9,8 +9,6 @@ location: |-
 status: 'border-[#FF9325] bg-[#F3EDE0]'
 sign_up_url: 'https://airtable.com/shrS63Aey48lMFhbX'
 blocks:
-  - icon: ok
-    _template: hr
   - logos: []
     _template: companies
   - body: |
@@ -21,7 +19,10 @@ blocks:
       scenario. Then it's over to you to rapidly generate ideas with product
       pros from companies like...
     _template: content
+  - icon: ok
+    _template: hr
 ---
+
 
 
 
