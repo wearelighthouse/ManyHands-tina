@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { Post } from "../../components/posts/post";
-import { client } from "../../.tina/__generated__/client";
+import { client } from "../../tina/__generated__/client";
 import { useTina } from "tinacms/dist/react";
 import { Layout } from "../../components/layout";
 

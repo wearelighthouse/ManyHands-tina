@@ -1,5 +1,5 @@
 import React from "react";
-import type { Event, Page } from "../.tina/__generated__/types";
+import type { Event, Page } from "../tina/__generated__/types";
 import { BroughtToYouBy } from "./blocks/brought-to-you-by";
 import { Content } from "./blocks/content";
 import { HowItWorks } from "./blocks/how-it-works";

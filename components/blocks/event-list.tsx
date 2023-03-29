@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { client } from "../../.tina/__generated__/client";
+import { client } from "../../tina/__generated__/client";
 
 import type { Template } from "tinacms";
 

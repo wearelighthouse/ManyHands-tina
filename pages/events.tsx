@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { Events } from "../components/event";
-import { client } from "../.tina/__generated__/client";
+import { client } from "../tina/__generated__/client";
 import { Layout } from "../components/layout";
 
 export default function HomePage(
