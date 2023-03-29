@@ -189,6 +189,9 @@ export const contentBlockSchema: Template = {
     backgroundColorSchema,
     {
       type: "rich-text",
+      parser: {
+        type: 'mdx',
+      },
       label: "Body",
       name: "body",
       templates: [
@@ -200,6 +203,9 @@ export const contentBlockSchema: Template = {
               name: "children",
               label: "Children",
               type: "rich-text",
+              parser: {
+                type: 'mdx',
+              },
               templates: [
                 ctaSchema,
               ],
