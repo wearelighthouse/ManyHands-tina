@@ -20,7 +20,8 @@
     "incremental": true
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "tina/__generated__",
   ],
   "include": [
     "next-env.d.ts",
