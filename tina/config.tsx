@@ -278,10 +278,10 @@ const config = defineStaticConfig({
           router: ({ document }) => {
             return `/event/${document._sys.filename}`;
           },
-          defaultItem: {
-            date: `${currentDateString} 6:00 PM`,
-            date_end: `${currentDateString} 7:00 PM`,
-          },
+        },
+        defaultItem: {
+          date: `${currentDateString} 6:00 PM`,
+          date_end: `${currentDateString} 7:00 PM`,
         },
         fields: [
           {
