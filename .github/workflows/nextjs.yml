@@ -81,8 +81,6 @@ jobs:
         run: |
           wget -O fonts.zip https://drive.google.com/uc?export=download\&id=1sJCRhTucWoYCEY6XtXMGOUK-mBtOQEyB
           unzip -P ${{ secrets.FONT_PASSWORD }} fonts.zip -d assets/font
-      - name: Create temporary dummy tina client.ts
-        run: echo 'export default ()=>({});export const client = ()=>({})' > tina/__generated__/client.ts
       - name: tinacms build
         run: ${{ steps.detect-package-manager.outputs.runner }} tinacms build
       - name: Build with Next.js
