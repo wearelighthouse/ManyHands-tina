@@ -114,8 +114,6 @@ export const Event = (props) => {
     observer.observe(document.getElementById('hero-sign-up'));
   }, []);
 
-  console.log(props.status.includes('waitlist'));
-
   return (
     <>
       <Hero {...props} />
