@@ -81,7 +81,7 @@ jobs:
         run: |
           wget -O fonts.zip https://drive.google.com/uc?export=download\&id=1sJCRhTucWoYCEY6XtXMGOUK-mBtOQEyB
           unzip -P ${{ secrets.FONT_PASSWORD }} fonts.zip -d assets/font
-      - name: tinacms build
+      - name: Build TinaCMS
         run: ${{ steps.detect-package-manager.outputs.runner }} tinacms build
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
