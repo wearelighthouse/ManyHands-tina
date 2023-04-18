@@ -98,11 +98,6 @@ blocks:
         author: Magdalena R.
         jobTitle: Product Designer
     _template: quotes
-  - body: |
-      <Center>
-        ![](</uploads/Frame 1217.png>)
-      </Center>
-    _template: content
   - hosts:
       - src: /uploads/Tom Johnson Lighthouse.png
         quote: ''
@@ -180,6 +175,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
