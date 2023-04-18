@@ -1,7 +1,7 @@
 ---
 title: June 2023 London
-date: '2023-06-07T17:00:00.000Z'
-date_end: '2023-06-07T20:00:00.000Z'
+date: 2023-06-07T17:00:00.000Z
+date_end: 2023-06-07T20:00:00.000Z
 location_short: London
 location: |-
   Uncommon
@@ -80,7 +80,8 @@ blocks:
       - title: "Join the fun \U0001F389"
         description: Have a fun-filled session of problem solving with your new best mates
     _template: bigList
-  - quotes:
+  - background: ''
+    quotes:
       - quote: >-
           I love these sessions! It’s so great to meet new people around the
           industry, see how they think, and work together on something fun. 
@@ -97,6 +98,11 @@ blocks:
         author: Magdalena R.
         jobTitle: Product Designer
     _template: quotes
+  - body: |
+      <Center>
+        ![](</uploads/Frame 1217.png>)
+      </Center>
+    _template: content
   - hosts:
       - src: /uploads/Tom Johnson Lighthouse.png
         quote: ''
@@ -174,6 +180,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
