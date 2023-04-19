@@ -24,11 +24,11 @@ const createEndTime = (dateTime: Date): Date => {
 export const formatTime = (dateTime: Date, dateTimeEnd: Date = createEndTime(dateTime)): string => {
   const start = dateTime
     .toLocaleTimeString('en-GB', { hour: 'numeric', minute: 'numeric', hour12: true })
-    .replace(':00', '') // Remove unecessary minutes if e.g. 7:00pm
+    .replace(':00', '')  // Remove unnecessary minutes if e.g. 7:00pm
     .replace(/[a-z]+/, '');  // Remove 'am' or 'pm' from start time
   const end = dateTimeEnd
     .toLocaleTimeString('en-GB', { hour: 'numeric', minute: 'numeric', hour12: true })
-    .replace(':00', '') // Remove unecessary minutes if e.g. 7:00pm
+    .replace(':00', '')  // Remove unnecessary minutes if e.g. 7:00pm
     .replace(' ', ' ');  // Swap standard space with narrow no-break space (U+202f) to match Chromes toLocaleTimeString
   return `${start} - ${end} (UK time)`;
 }
