@@ -37,14 +37,6 @@ blocks:
         author: Magdalena R.
         jobTitle: Product Designer
       - quote: >-
-          The interaction between people is brilliant and a very welcoming team.
-          Kudos!
-        author: Pavan K.
-        jobTitle: UX Designer
-      - quote: It’s always lovely to meet other designers in a small forum like this.
-        author: Luke H.
-        jobTitle: Senior UX Designer
-      - quote: >-
           I love these sessions! It’s so great to meet new people around the
           industry, see how they think, and work together on something fun. 
         author: Gabriel M.
@@ -53,6 +45,19 @@ blocks:
           Thank you for giving us the opportunity to remember why our jobs are
           so fun!
         author: Nicole B.
+        jobTitle: Product Manager
+      - quote: >-
+          The interaction between people is brilliant and a very welcoming team.
+          Kudos!
+        author: Pavan K.
+        jobTitle: UX Designer
+      - quote: It’s always lovely to meet other designers in a small forum like this.
+        author: Luke H.
+        jobTitle: Senior UX Designer
+      - quote: >
+          Had a fantastic time! Great opportunity to meet and have a laugh with
+          product people. Hope to join again!
+        author: Emi W.
         jobTitle: Product Manager
     _template: quotes
   - logos:
@@ -124,6 +129,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
