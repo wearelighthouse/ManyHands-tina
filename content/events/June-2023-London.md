@@ -82,20 +82,7 @@ blocks:
     _template: bigList
   - body: |
       <Center>
-        ![](</uploads/ManyHands 1.png>)
-      </Center>
-    _template: content
-  - body: |
-      <Center>
         ![](/uploads/ManyHands.png)
-      </Center>
-    _template: content
-  - body: |
-      ![](</uploads/Frame 1219.png>)
-    _template: content
-  - body: |
-      <Center>
-        ![](</uploads/Frame 1219.png>)
       </Center>
     _template: content
   - background: bg-light-gray
@@ -193,6 +180,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
