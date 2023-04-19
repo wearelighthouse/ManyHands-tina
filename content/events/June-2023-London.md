@@ -151,8 +151,6 @@ blocks:
         ]}
       />
     _template: content
-  - icon: thumbs-up
-    _template: hr
   - body: >
       <Center>
         ### Accessibility
@@ -180,6 +178,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
