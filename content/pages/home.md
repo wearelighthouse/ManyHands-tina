@@ -45,8 +45,8 @@ blocks:
         author: Luke H.
         jobTitle: Senior UX Designer
       - quote: >-
-          It gives me the opportunity to think about problems I don’t usually
-          encounter. A great exercise!
+          I love these sessions! It’s so great to meet new people around the
+          industry, see how they think, and work together on something fun. 
         author: Gabriel M.
         jobTitle: Product Designer
       - quote: >-
@@ -124,6 +124,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
