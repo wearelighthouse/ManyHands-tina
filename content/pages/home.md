@@ -49,11 +49,11 @@ blocks:
           industry, see how they think, and work together on something fun. 
         author: Gabriel M.
         jobTitle: Product Designer
-      - quote: >-
-          An interesting challenge, and it was super interesting to hear the
-          ideas of other designers.
-        author: Max K.
-        jobTitle: Product Designer
+      - quote: >
+          Thank you for giving us the opportunity to remember why our jobs are
+          so fun!
+        author: Nicole B.
+        jobTitle: Product Manager
     _template: quotes
   - logos:
       - src: /uploads/logo-american-express.png
@@ -124,6 +124,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
