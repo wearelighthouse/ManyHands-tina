@@ -101,7 +101,17 @@ blocks:
           Thank you for introducing me to these inspiring and interesting
           people! I really enjoyed it.
         author: Magdalena R.
-        jobTitle: Product Designer
+        jobTitle: Senior Product Designer
+      - quote: >-
+          The interaction between people is brilliant and a very welcoming team.
+          Kudos!
+        author: Pavan K.
+        jobTitle: UX Designer
+      - quote: >-
+          Had a fantastic time! Great opportunity to meet and have a laugh with
+          product people. Hope to join again!
+        author: Emi W.
+        jobTitle: Product Manager
     _template: quotes
   - hosts:
       - src: /uploads/Tom Johnson Lighthouse.png
@@ -178,6 +188,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
