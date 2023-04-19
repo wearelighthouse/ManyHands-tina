@@ -81,6 +81,16 @@ blocks:
         description: Have a fun-filled session of problem solving with your new best mates
     _template: bigList
   - body: |
+      <Center>
+        ![](</uploads/ManyHands 1.png>)
+      </Center>
+    _template: content
+  - body: |
+      <Center>
+        ![](/uploads/ManyHands.png)
+      </Center>
+    _template: content
+  - body: |
       ![](</uploads/Frame 1219.png>)
     _template: content
   - body: |
@@ -183,6 +193,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
