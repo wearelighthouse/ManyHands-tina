@@ -80,7 +80,12 @@ blocks:
       - title: "Join the fun \U0001F389"
         description: Have a fun-filled session of problem solving with your new best mates
     _template: bigList
-  - background: ''
+  - body: |
+      <Center>
+        ![](</uploads/Frame 1218.png>)
+      </Center>
+    _template: content
+  - background: bg-light-gray
     quotes:
       - quote: >-
           I love these sessions! It’s so great to meet new people around the
@@ -175,6 +180,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
