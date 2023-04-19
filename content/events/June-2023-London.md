@@ -85,11 +85,6 @@ blocks:
         ![](</uploads/Frame 1219.png>)
       </Center>
     _template: content
-  - body: |
-      <Center>
-        ![](</uploads/Frame 1218.png>)
-      </Center>
-    _template: content
   - background: bg-light-gray
     quotes:
       - quote: >-
@@ -185,6 +180,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
