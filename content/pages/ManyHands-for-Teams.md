@@ -31,6 +31,13 @@ blocks:
         author: Nicole B.
         jobTitle: Product Manager
     _template: quotes
+  - body: |
+      <Center>
+        ### Who are the workshops for?
+
+        ![](</uploads/Frame 1291.png>)
+      </Center>
+    _template: content
   - heading: A programme to suit every team's needs
     items:
       - title: 'ManyHands Lite - 1-2 hours, 1 day'
@@ -44,7 +51,15 @@ blocks:
           A structured, bespoke project to explore an issue in depth and come up
           with workable, testable solutions.
     _template: bigList
+  - icon: horns
+    _template: hr
+  - body: |
+      <Center>
+        ### Loved by pros from companies like...
+      </Center>
+    _template: content
 ---
+
 
 
 
