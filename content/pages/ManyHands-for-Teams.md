@@ -63,10 +63,14 @@ blocks:
         ![](</uploads/ManyHands (1).png>)
       </Center>
     _template: content
+  - logos:
+      - src: /uploads/American Express.svg
+    _template: companies
   - largeText: |
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
