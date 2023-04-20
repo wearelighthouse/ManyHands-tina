@@ -7,7 +7,7 @@ blocks:
     _template: content
   - heading: ''
     items:
-      - icon: peace
+      - icon: horns
         title: Promote creativity
         text: >-
           Bring a fun, creative challenge to the workday. Step away from BAU and
@@ -37,6 +37,7 @@ blocks:
           with workable, testable solutions.
     _template: bigList
 ---
+
 
 
 
