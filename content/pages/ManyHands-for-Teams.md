@@ -58,7 +58,13 @@ blocks:
         ### Loved by pros from companies like...
       </Center>
     _template: content
+  - body: |
+      <Center>
+        ![](/uploads/ManyHands.png)
+      </Center>
+    _template: content
 ---
+
 
 
 
