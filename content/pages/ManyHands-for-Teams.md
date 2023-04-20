@@ -27,7 +27,7 @@ blocks:
     quotes:
       - quote: >-
           Thank you for giving us the opportunity to remember why our jobs are
-          son fun!
+          so fun!
         author: Nicole B.
         jobTitle: Product Manager
     _template: quotes
