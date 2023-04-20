@@ -60,13 +60,14 @@ blocks:
     _template: content
   - body: |
       <Center>
-        ![](/uploads/ManyHands.png)
+        ![](</uploads/ManyHands (1).png>)
       </Center>
     _template: content
   - largeText: |
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
