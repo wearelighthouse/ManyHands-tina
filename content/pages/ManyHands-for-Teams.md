@@ -36,7 +36,7 @@ blocks:
       - title: 'ManyHands Lite - 1-2 hours, 1 day'
         description: >-
           A tester session for online teams keen to interrogate a problem and
-          come up with ideas together.
+          come up with ideas together. 
       - title: 'ManyHands Extended - 2-4 hours, 2 days'
         description: "An in-person exercise providing a deeper dive \Linto collaboratively creating and pitching exciting ideas.\L"
       - title: 'ManyHands Intensive - 10+ hours, multiple days'
@@ -44,6 +44,8 @@ blocks:
           A structured, bespoke project to explore an issue in depth and come up
           with workable, testable solutions.
     _template: bigList
+  - icon: horns
+    _template: hr
   - body: |
       <Center>
         ### Who are the workshops for?
@@ -51,14 +53,13 @@ blocks:
         ![](</uploads/Frame 1291.png>)
       </Center>
     _template: content
-  - icon: horns
-    _template: hr
   - body: |
       <Center>
         ### Loved by pros from companies like...
       </Center>
     _template: content
 ---
+
 
 
 
