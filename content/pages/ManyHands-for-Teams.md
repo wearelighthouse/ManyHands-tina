@@ -23,6 +23,14 @@ blocks:
           Enhance internal knowledge and provide repeatable frameworks delivered
           by an industry expert.
     _template: howItWorks
+  - background: bg-light-gray
+    quotes:
+      - quote: >-
+          Thank you for giving us the opportunity to remember why our jobs are
+          son fun!
+        author: Nicole B.
+        jobTitle: Product Manager
+    _template: quotes
   - heading: A programme to suit every team's needs
     items:
       - title: 'ManyHands Lite - 1-2 hours, 1 day'
@@ -37,6 +45,7 @@ blocks:
           with workable, testable solutions.
     _template: bigList
 ---
+
 
 
 
