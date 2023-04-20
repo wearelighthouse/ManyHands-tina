@@ -3,7 +3,7 @@ title: ManyHands for Teams
 blocks:
   - body: >
       Harness the power of creativity with our workshops for corporate teams
-      based on our highly rated public events. 
+      based on our highly rated public events.
     _template: content
   - heading: ''
     items:
@@ -67,6 +67,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
