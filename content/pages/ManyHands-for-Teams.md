@@ -23,13 +23,6 @@ blocks:
           Enhance internal knowledge and provide repeatable frameworks delivered
           by an industry expert.
     _template: howItWorks
-  - body: |
-      <Center>
-        ### Who are the workshops for?
-
-        ![](</uploads/Frame 1291.png>)
-      </Center>
-    _template: content
   - background: bg-light-gray
     quotes:
       - quote: >-
@@ -51,6 +44,13 @@ blocks:
           A structured, bespoke project to explore an issue in depth and come up
           with workable, testable solutions.
     _template: bigList
+  - body: |
+      <Center>
+        ### Who are the workshops for?
+
+        ![](</uploads/Frame 1291.png>)
+      </Center>
+    _template: content
   - icon: horns
     _template: hr
   - body: |
@@ -59,6 +59,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
