@@ -3,7 +3,7 @@ title: ManyHands for Teams
 blocks:
   - body: >
       Harness the power of creativity with our workshops for corporate teams
-      based on our highly rated public events.
+      based on our highly rated public events. 
     _template: content
   - heading: ''
     items:
@@ -23,6 +23,13 @@ blocks:
           Enhance internal knowledge and provide repeatable frameworks delivered
           by an industry expert.
     _template: howItWorks
+  - body: |
+      <Center>
+        ### Who are the workshops for?
+
+        ![](</uploads/Frame 1291.png>)
+      </Center>
+    _template: content
   - background: bg-light-gray
     quotes:
       - quote: >-
@@ -31,13 +38,6 @@ blocks:
         author: Nicole B.
         jobTitle: Product Manager
     _template: quotes
-  - body: |
-      <Center>
-        ### Who are the workshops for?
-
-        ![](</uploads/Frame 1291.png>)
-      </Center>
-    _template: content
   - heading: A programme to suit every team's needs
     items:
       - title: 'ManyHands Lite - 1-2 hours, 1 day'
@@ -59,6 +59,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
