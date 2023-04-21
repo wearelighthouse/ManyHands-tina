@@ -59,8 +59,10 @@ blocks:
       </Center>
     _template: content
   - logos:
-      - {}
       - src: /uploads/American Express.svg
+      - src: /uploads/Frame.svg
+      - src: /uploads/Frame 2.svg
+      - src: /uploads/Frame 3.svg
     _template: companies
   - body: |
       <Center>
@@ -71,6 +73,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
