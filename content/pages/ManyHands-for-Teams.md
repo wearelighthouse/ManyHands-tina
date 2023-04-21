@@ -83,15 +83,13 @@ blocks:
         ![](</uploads/Frame 1291.png>)
       </Center>
     _template: content
-  - body: |
-      <Center>
-        ### Brought to you by Lighthouse 
-      </Center>
+  - body: "<Center>\n  ### Brought to you by Lighthouse \n</Center>\n\n[Lighthouse](https://wearelighthouse.com) is a specialist UX and UI design agency trusted by enterprise organisations to\_tackle their toughest product challenges. \n"
     _template: content
   - largeText: |
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
