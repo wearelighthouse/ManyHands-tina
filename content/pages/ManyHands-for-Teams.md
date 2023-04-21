@@ -23,6 +23,18 @@ blocks:
           Enhance internal knowledge and provide repeatable frameworks delivered
           by an industry expert.
     _template: howItWorks
+  - body: |
+      <Center>
+        ### Loved by pros from companies like...
+      </Center>
+    _template: content
+  - logos:
+      - src: /uploads/American Express.svg
+      - src: /uploads/Frame.svg
+      - src: /uploads/Frame 2.svg
+      - src: /uploads/Frame 3.svg
+      - src: ''
+    _template: companies
   - background: bg-light-gray
     quotes:
       - quote: >-
@@ -31,7 +43,12 @@ blocks:
         author: Nicole B.
         jobTitle: Product Manager
     _template: quotes
-  - heading: A programme to suit every team's needs
+  - body: |
+      <Center>
+        ### A programme to suit every team's needs
+      </Center>
+    _template: content
+  - heading: ''
     items:
       - title: 'ManyHands Lite - 1-2 hours, 1 day'
         description: >-
@@ -44,35 +61,38 @@ blocks:
           A structured, bespoke project to explore an issue in depth and come up
           with workable, testable solutions.
     _template: bigList
-  - icon: horns
-    _template: hr
   - body: |
       <Center>
+        ![](</uploads/ManyHands (1).png>)
+      </Center>
+    _template: content
+  - icon: horns
+    _template: hr
+  - body: >
+      <Center>
         ### Who are the workshops for?
+      </Center>
 
+
+      Creativity is for more than just creative teams. Unlock hidden potential
+      across all areas of your organisation with close-knit working in a fun
+      environment.
+
+
+      <Center>
         ![](</uploads/Frame 1291.png>)
       </Center>
     _template: content
   - body: |
       <Center>
-        ### Loved by pros from companies like...
-      </Center>
-    _template: content
-  - logos:
-      - src: /uploads/American Express.svg
-      - src: /uploads/Frame.svg
-      - src: /uploads/Frame 2.svg
-      - src: /uploads/Frame 3.svg
-    _template: companies
-  - body: |
-      <Center>
-        ![](</uploads/ManyHands (1).png>)
+        ### Brought to you by Lighthouse 
       </Center>
     _template: content
   - largeText: |
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
