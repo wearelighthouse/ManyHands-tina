@@ -84,7 +84,15 @@ blocks:
     _template: content
   - icon: horns
     _template: hr
-  - body: "<Center>\n  ### Brought to you by Lighthouse\n</Center>\n\n[Lighthouse](https://wearelighthouse.com) is a specialist UX and UI design agency trusted by enterprise organisations to\_tackle their toughest product challenges.\n\n<Center>\n  ![](</uploads/Frame 1294.png>)\n</Center>\n\nOur team of designers and product strategists are expert workshop facilitators. We run sessions that uncover hidden insight, bring user need to the fore and bring about positive change for products.\n"
+  - body: "<Center>\n  ### Brought to you by Lighthouse\n</Center>\n\n[Lighthouse](https://wearelighthouse.com) is a specialist UX and UI design agency trusted by enterprise organisations to\_tackle their toughest product challenges.\n"
+    _template: content
+  - body: |
+      ![](</uploads/Frame 1294.png>)
+    _template: content
+  - body: >
+      Our team of designers and product strategists are expert workshop
+      facilitators. We run sessions that uncover hidden insight, bring user need
+      to the fore and bring about positive change for products.
     _template: content
   - background: bg-light-gray
     body: |
@@ -98,6 +106,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
