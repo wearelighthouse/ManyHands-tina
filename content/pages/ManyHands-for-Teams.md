@@ -19,24 +19,11 @@ blocks:
           Enhance internal knowledge and provide repeatable frameworks delivered
           by an industry expert.
     _template: bigList
-  - heading: ''
-    items:
-      - icon: horns
-        title: Promote creativity
-        text: >-
-          Bring a fun, creative challenge to the workday. Step away from BAU and
-          promote innovative thinking.
-      - icon: peace
-        title: Bring teams together
-        text: >-
-          Foster natural collaboration across departments and people with
-          different skill sets and ideas.
-      - icon: thumbs-up
-        title: Learn new skills
-        text: >-
-          Enhance internal knowledge and provide repeatable frameworks delivered
-          by an industry expert.
-    _template: howItWorks
+  - body: |
+      <Center>
+        ![](</uploads/ManyHands (1).png>)
+      </Center>
+    _template: content
   - body: |
       <Center>
         ### Loved by pros from companies like...
@@ -57,9 +44,19 @@ blocks:
         author: Nicole B.
         jobTitle: Product Manager
     _template: quotes
-  - body: |
+  - body: >
       <Center>
-        ![](</uploads/ManyHands (1).png>)
+        ### Who are the workshops for?
+      </Center>
+
+
+      Creativity is for more than just creative teams. Unlock hidden potential
+      across all areas of your organisation with close-knit working in a fun
+      environment.
+
+
+      <Center>
+        ![](</uploads/Frame 1291.png>)
       </Center>
     _template: content
   - body: |
@@ -87,24 +84,7 @@ blocks:
     _template: content
   - icon: horns
     _template: hr
-  - body: >
-      <Center>
-        ### Who are the workshops for?
-      </Center>
-
-
-      Creativity is for more than just creative teams. Unlock hidden potential
-      across all areas of your organisation with close-knit working in a fun
-      environment.
-
-
-      <Center>
-        ![](</uploads/Frame 1291.png>)
-      </Center>
-    _template: content
-  - icon: wave
-    _template: hr
-  - body: "<Center>\n  ### Brought to you by Lighthouse\n</Center>\n\n[Lighthouse](https://wearelighthouse.com) is a specialist UX and UI design agency trusted by enterprise organisations to\_tackle their toughest product challenges.\n\n<Center>\n  ![](</uploads/Frame 4.png>)\n</Center>\n\nOur team of designers and product strategists are expert workshop facilitators. We run sessions that uncover hidden insight, bring user need to the fore and bring about positive change for products.\n"
+  - body: "<Center>\n  ### Brought to you by Lighthouse\n</Center>\n\n[Lighthouse](https://wearelighthouse.com) is a specialist UX and UI design agency trusted by enterprise organisations to\_tackle their toughest product challenges.\n\n<Center>\n  ![](</uploads/Frame 1294.png>)\n</Center>\n\nOur team of designers and product strategists are expert workshop facilitators. We run sessions that uncover hidden insight, bring user need to the fore and bring about positive change for products.\n"
     _template: content
   - background: bg-light-gray
     body: |
@@ -118,6 +98,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
