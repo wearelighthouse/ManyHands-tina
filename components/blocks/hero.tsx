@@ -17,7 +17,7 @@ export const Hero = ({ data, parentField }) => (
       {data.heading}
     </h1>
 
-    <div className="image-container flex justify-center items-center gap-14">
+    <div className="flex justify-center gap-14">
       <div className="hidden tablet:block relative border-8 desktop:border-10 border-white rounded-3xl rotate-[-15deg]">
         {data.imageLeft && (
           <img
@@ -40,7 +40,7 @@ export const Hero = ({ data, parentField }) => (
         )}
       </div>
 
-      <div className="w-full max-w-[20rem] tablet:max-w-[39rem] tablet:basis-3/4">
+      <div className="w-full max-w-[20rem] tablet:max-w-[39rem] tablet:basis-3/4 tablet:mt-4">
         {data.subtitle && (
           <p
             data-tinafield={`${parentField}.subtitle`}
