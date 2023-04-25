@@ -97,7 +97,9 @@ blocks:
   - background: bg-light-gray
     body: |
       <Center>
-        ### Find out more and get your team booked in today
+        ### Get your team booked in today
+
+        Get in touch to find out more.
 
         <Cta text="Get started!" href="mailto:hello@wearelighthouse.com" />
       </Center>
@@ -106,6 +108,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
