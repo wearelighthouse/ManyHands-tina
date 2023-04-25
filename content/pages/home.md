@@ -6,10 +6,10 @@ blocks:
       Network with likeminded pros, explore fun product challenges, and join our
       community of experts.
     imageLeft:
-      src: /uploads/IMG_4062 11.png
+      src: /uploads/IMG_4062 11 (1).png
     iconLeft: peace
     imageRight:
-      src: /uploads/IMG_4062 18.png
+      src: /uploads/IMG_4062 18 (1).png
     iconRight: horns
     _template: hero
   - heading: How it works
@@ -129,6 +129,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
