@@ -6,11 +6,11 @@ blocks:
       Network with likeminded pros, explore fun product challenges, and join our
       community of experts.
     imageLeft:
-      src: /uploads/manyhands-faces-01.webp
-    iconLeft: point-up-front
+      src: /uploads/IMG_4062 11.png
+    iconLeft: peace
     imageRight:
-      src: /uploads/manyhands-faces-02.webp
-    iconRight: peace
+      src: /uploads/IMG_4062 18.png
+    iconRight: horns
     _template: hero
   - heading: How it works
     items:
@@ -129,6 +129,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
