@@ -5,6 +5,12 @@ blocks:
       Harness the power of creativity with our workshops for corporate teams
       based on our highly rated public events.
     _template: content
+  - items:
+      - title: Promote creativity
+        description: >-
+          Bring a fun, creative challenge to the workday. Step away from BAU and
+          promote innovative thinking.
+    _template: bigList
   - heading: ''
     items:
       - icon: horns
@@ -90,7 +96,7 @@ blocks:
     _template: content
   - icon: wave
     _template: hr
-  - body: "<Center>\n  ### Brought to you by Lighthouse \n</Center>\n\n[Lighthouse](https://wearelighthouse.com) is a specialist UX and UI design agency trusted by enterprise organisations to\_tackle their toughest product challenges. \n\n<Center>\n  ![](</uploads/Frame 4.png>)\n</Center>\n\nOur team of designers and product strategists are expert workshop facilitators. We run sessions that uncover hidden insight, bring user need to the fore and bring about positive change for products.\n"
+  - body: "<Center>\n  ### Brought to you by Lighthouse\n</Center>\n\n[Lighthouse](https://wearelighthouse.com) is a specialist UX and UI design agency trusted by enterprise organisations to\_tackle their toughest product challenges.\n\n<Center>\n  ![](</uploads/Frame 4.png>)\n</Center>\n\nOur team of designers and product strategists are expert workshop facilitators. We run sessions that uncover hidden insight, bring user need to the fore and bring about positive change for products.\n"
     _template: content
   - background: bg-light-gray
     body: |
@@ -104,6 +110,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
