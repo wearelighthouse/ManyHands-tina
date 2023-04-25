@@ -10,6 +10,14 @@ blocks:
         description: >-
           Bring a fun, creative challenge to the workday. Step away from BAU and
           promote innovative thinking.
+      - title: Bring teams together
+        description: >-
+          Foster natural collaboration across departments and people with
+          different skill sets and ideas.
+      - title: Learn new skills
+        description: >-
+          Enhance internal knowledge and provide repeatable frameworks delivered
+          by an industry expert.
     _template: bigList
   - heading: ''
     items:
@@ -110,6 +118,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
