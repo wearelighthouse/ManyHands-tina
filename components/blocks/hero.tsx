@@ -49,22 +49,6 @@ export const Hero = ({ data, parentField }) => (
             {data.subtitle}
           </p>
         )}
-
-        <div className="relative hidden tablet:flex justify-center mt-8 desktop:mt-16">
-          <img
-            className="absolute top-[-15%] w-[25px] -translate-x-1/2 desktop:top-0 desktop:w-[37px]"
-            src={`${prefix}/assets/union.svg`}
-            alt=""
-            width="42px"
-            height="61px"
-          />
-          <img
-            src={`${prefix}/assets/vector-6.svg`}
-            alt=""
-            width="609px"
-            height="89px"
-          />
-        </div>
       </div>
 
       <div className="hidden tablet:block relative border-8 desktop:border-10 border-white rounded-3xl rotate-[15deg]">
