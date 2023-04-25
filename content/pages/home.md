@@ -1,10 +1,10 @@
 ---
 title: ManyHands
 blocks:
-  - heading: The problem solving event for product people
+  - heading: 'The creative, collaborative event for product people'
     subtitle: >-
-      Collaborate with likeminded pros to explore fun product challenges and
-      join our community of experts.
+      Network with likeminded pros, explore fun product challenges, and join our
+      community of experts.
     imageLeft:
       src: /uploads/manyhands-faces-01.webp
     iconLeft: point-up-front
@@ -129,6 +129,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
