@@ -43,6 +43,16 @@ blocks:
           so fun!
         author: Nicole B.
         jobTitle: Product Manager
+      - quote: >-
+          The session was really fun, and it was good to get outside the usual
+          day-to-day and generate ideas without repercussions.
+        author: Megan G.
+        jobTitle: UX Designer
+      - quote: >-
+          I love these sessions - they allow creative freedom, and challenged
+          and encouraged us to think outside of the box.
+        author: Gabriel M.
+        jobTitle: Product Designer
     _template: quotes
   - body: >
       <Center>
@@ -108,6 +118,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
