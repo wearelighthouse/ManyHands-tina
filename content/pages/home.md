@@ -18,14 +18,18 @@ blocks:
         title: Get chatting
         text: Meet top product people and mingle - the drinks are on us!
       - icon: raised-double
-        title: Problem time
-        text: We’ll generate a fun product challenge with a spin of the Randomiser
+        title: Get inspired
+        text: >
+          Our speakers will get your creative brains in gear and ready to
+          collaborate
       - icon: point-up-front
         title: Get to work
-        text: Split into small groups and get cracking with ideas and outputs
-      - icon: peace
+        text: Split into groups and get cracking on a fun product problem together
+      - icon: horns
         title: Share your solution
-        text: Present your work back to the collective and celebrate a job well done
+        text: >
+          Present your ideas back to the collective, vote on their strengths and
+          celebrate
     _template: howItWorks
   - heading: Next events
     _template: eventList
@@ -129,6 +133,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
