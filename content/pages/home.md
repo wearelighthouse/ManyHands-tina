@@ -15,8 +15,8 @@ blocks:
   - heading: How it works
     items:
       - icon: wave
-        title: Say hello
-        text: Get to know your new best mates with a quick icebreaker
+        title: Get chatting
+        text: Meet top product people and mingle - the drinks are on us!
       - icon: raised-double
         title: Problem time
         text: We’ll generate a fun product challenge with a spin of the Randomiser
@@ -129,6 +129,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
