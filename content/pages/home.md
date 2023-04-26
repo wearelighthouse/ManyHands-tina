@@ -16,9 +16,7 @@ blocks:
     items:
       - icon: wave
         title: Get chatting
-        text: >-
-          Meet top product people and mingle - the dinner and the drinks are on
-          us!
+        text: Meet top product people and mingle - the drinks and pizza are on us!
       - icon: raised-double
         title: Get inspired
         text: >
@@ -135,6 +133,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
