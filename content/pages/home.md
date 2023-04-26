@@ -28,7 +28,7 @@ blocks:
         title: Get to work
         text: Split into groups and get cracking on a fun product problem together
       - icon: horns
-        title: Share your solution
+        title: Get together
         text: >
           Present your ideas back to the collective, vote on their strengths and
           celebrate
@@ -135,6 +135,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
