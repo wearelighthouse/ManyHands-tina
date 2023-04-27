@@ -12,8 +12,8 @@ export const Layout = ({ data = layoutData, rawData = null, children }) => {
   return (
     <>
       <Head>
-        <title>ManyHands: The problem solving event for product people 🤘</title>
-        <meta name="description" content="A collaborative problem solving event for product pros. Work together on real-world UX problems online." />
+        <title>ManyHands: The creative, collaborative event for product people 🤘</title>
+        <meta name="description" content="Network with likeminded pros, explore fun product challenges, and join our community of experts." />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
         <link rel="apple-touch-icon" sizes="180x180" href={`${prefix}/assets/apple-touch-icon.png`} />
