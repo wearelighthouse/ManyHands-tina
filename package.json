@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@svgr/webpack": "^7.0.0",
-    "@tinacms/cli": "^1.5.3",
+    "@tinacms/cli": "^1.5.9",
     "@types/js-cookie": "^3.0.2",
     "@types/node": "^18.13.0",
     "@types/react": "^18.0.28",
