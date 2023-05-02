@@ -6,7 +6,7 @@ import LighthouseLogoSvg from "../../assets/img/lighthouse-logo.svg";
 const prefix = process.env.prefix ?? '';
 
 export const Hero = ({ data, parentField }) => (
-  <div className="bg-mimosa px-6 pt-14 tablet:px-16 pb-20 desktop:pb-28 o-section-clip--ramp-bottom-right tablet:m-4 text-center">
+  <div className="bg-mimosa px-6 pt-14 tablet:px-16 pb-20 desktop:pb-24 o-section-clip--ramp-bottom-right tablet:m-4 text-center">
     <a href={`${prefix}/`} aria-label="Home">
       <img className="mx-auto" src={`${prefix}/assets/manyhands-logo.svg`} alt="Many Hands" width="188px" height="34px"/>
     </a>
