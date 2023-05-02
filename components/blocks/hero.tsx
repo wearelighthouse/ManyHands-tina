@@ -1,6 +1,7 @@
 import * as React from "react";
 import type { Template } from "tinacms";
 import { Icon, iconSchema } from "../util/icon";
+import LighthouseLogoSvg from "../../assets/img/lighthouse-logo.svg";
 
 const prefix = process.env.prefix ?? '';
 
@@ -18,7 +19,7 @@ export const Hero = ({ data, parentField }) => (
     </h1>
 
     <div className="flex justify-center gap-14">
-      <div className="hidden tablet:block relative border-8 desktop:border-10 border-white rounded-3xl rotate-[-15deg]">
+      <div className="hidden tablet:block relative self-center border-8 desktop:border-10 border-white rounded-3xl rotate-[-15deg]">
         {data.imageLeft && (
           <img
             className="rounded-2xl"
@@ -49,9 +50,23 @@ export const Hero = ({ data, parentField }) => (
             {data.subtitle}
           </p>
         )}
+
+        <div className="mt-4 tablet:mt-8 flex flex-wrap gap-x-6 justify-center">
+          <span className="font-medium text-xl leading-[36px]">Brought to you by</span>
+
+          <a
+            href="https://wearelighthouse.com/"
+            rel="noopener"
+            className="inline-flex hover:bg-white/100 -m-2 p-2 rounded transition duration-300"
+          >
+            <LighthouseLogoSvg
+              aria-label="Lighthouse"
+            />
+          </a>
+        </div>
       </div>
 
-      <div className="hidden tablet:block relative border-8 desktop:border-10 border-white rounded-3xl rotate-[15deg]">
+      <div className="hidden tablet:block relative self-center border-8 desktop:border-10 border-white rounded-3xl rotate-[15deg]">
         {data.imageRight && (
           <img
             className="rounded-2xl"
