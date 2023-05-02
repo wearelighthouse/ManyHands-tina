@@ -51,8 +51,8 @@ export const Hero = ({ data, parentField }) => (
           </p>
         )}
 
-        <div className="mt-4 tablet:mt-8 flex flex-wrap gap-x-6 justify-center">
-          <span className="font-medium text-xl leading-[36px]">Brought to you by</span>
+        <div className="mt-4 tablet:mt-8 flex flex-wrap gap-x-6 gap-y-1 justify-center">
+          <span className="font-medium tablet:text-xl leading-[36px]">Brought to you by</span>
 
           <a
             href="https://wearelighthouse.com/"
