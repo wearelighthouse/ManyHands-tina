@@ -6,7 +6,7 @@ import LighthouseLogoSvg from "../../assets/img/lighthouse-logo.svg";
 const prefix = process.env.prefix ?? '';
 
 export const Hero = ({ data, parentField }) => (
-  <div className="bg-mimosa px-6 pt-14 tablet:px-16 pb-20 desktop:pb-32 o-section-clip--ramp-bottom-right tablet:m-4 text-center">
+  <div className="bg-mimosa px-6 pt-14 tablet:px-16 pb-20 desktop:pb-28 o-section-clip--ramp-bottom-right tablet:m-4 text-center">
     <a href={`${prefix}/`} aria-label="Home">
       <img className="mx-auto" src={`${prefix}/assets/manyhands-logo.svg`} alt="Many Hands" width="188px" height="34px"/>
     </a>
@@ -19,7 +19,7 @@ export const Hero = ({ data, parentField }) => (
     </h1>
 
     <div className="flex justify-center gap-14">
-      <div className="hidden tablet:block relative self-center border-8 desktop:border-10 border-white rounded-3xl rotate-[-15deg]">
+      <div className="hidden tablet:block relative self-center border-8 desktop:border-10 border-white rounded-3xl mb-[4%] rotate-[-15deg]">
         {data.imageLeft && (
           <img
             className="rounded-2xl"
@@ -66,7 +66,7 @@ export const Hero = ({ data, parentField }) => (
         </div>
       </div>
 
-      <div className="hidden tablet:block relative self-center border-8 desktop:border-10 border-white rounded-3xl rotate-[15deg]">
+      <div className="hidden tablet:block relative self-center border-8 desktop:border-10 border-white rounded-3xl mb-[4%] rotate-[15deg]">
         {data.imageRight && (
           <img
             className="rounded-2xl"
