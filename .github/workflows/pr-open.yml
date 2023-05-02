@@ -22,7 +22,7 @@ jobs:
           wget -O fonts.zip https://drive.google.com/uc?export=download\&id=1sJCRhTucWoYCEY6XtXMGOUK-mBtOQEyB\&confirm=t
           unzip -P ${{ secrets.FONT_PASSWORD }} fonts.zip -d assets/font
 
-      - name: Install
+      - name: Install dependencies
         run: npm ci
 
       - name: Build
