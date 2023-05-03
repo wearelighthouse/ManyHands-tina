@@ -23,8 +23,8 @@ export const Hero = ({ data, parentField }) => (
         {data.imageLeft && (
           <img
             className="rounded-2xl"
-            width="218px"
-            height="149px"
+            width="267"
+            height="267"
             alt={data.imageLeft.alt ?? ""}
             src={data.imageLeft.src}
             // TODO: Can grab image width and height?
@@ -70,8 +70,8 @@ export const Hero = ({ data, parentField }) => (
         {data.imageRight && (
           <img
             className="rounded-2xl"
-            width="218px"
-            height="149px"
+            width="267"
+            height="267"
             alt={data.imageRight.alt ?? ""}
             src={data.imageRight.src}
           />
