@@ -6,7 +6,8 @@ blocks:
       Network with likeminded pros, explore fun product challenges, and join our
       community of experts.
     imageLeft:
-      src: /uploads/Frame 1221.svg
+      src: /uploads/mh-home-left.png
+      alt: Attendee writing on whiteboard
     iconLeft: peace
     imageRight:
       src: /uploads/Frame 1220.svg
@@ -133,6 +134,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
