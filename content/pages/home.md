@@ -10,7 +10,8 @@ blocks:
       alt: Attendee writing on whiteboard
     iconLeft: peace
     imageRight:
-      src: /uploads/Frame 1220.svg
+      src: /uploads/mh-home-right.png
+      alt: Team photo
     iconRight: horns
     _template: hero
   - heading: How it works
@@ -134,6 +135,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
