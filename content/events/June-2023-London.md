@@ -114,10 +114,10 @@ blocks:
         jobTitle: Product Manager
     _template: quotes
   - hosts:
-      - src: /uploads/Tom Johnson Lighthouse.png
+      - src: /uploads/russ.png
         quote: ''
-        name: Tom Johnson
-        job_title: Co-founder
+        name: Russell Bishop
+        job_title: Head of DesignOps
         link_url: ''
       - src: /uploads/dan.png
         quote: ''
@@ -188,6 +188,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
