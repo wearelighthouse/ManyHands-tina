@@ -115,6 +115,7 @@ blocks:
     _template: quotes
   - hosts:
       - src: /uploads/russ.png
+        alt: Russ
         quote: ''
         name: Russell Bishop
         job_title: Head of DesignOps
@@ -188,6 +189,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
