@@ -32,6 +32,29 @@ const data = {
     'artists',
     'secret agents',
     'crime bosses',
+    'superheroes',
+    'royals',
+    'robots',
+    'detectives',
+    'pirates',
+    'hackers',
+    'activists',
+    'photographers',
+    'actors',
+    'chefs',
+    'students',
+    'veterinarians',
+    'parents',
+    'teachers',
+    'freelancers',
+    'gods',
+    'ghosts',
+    'wrestlers'
+    'olympians'
+    'marines'
+    'mercenaries'
+    'ninjas'
+    'clowns'
   ],
 };
 
