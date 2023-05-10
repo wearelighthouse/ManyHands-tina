@@ -1,8 +1,7 @@
 name: Build Pull request
 
 on:
-  pull_request:
-    types: [opened, synchronize, reopened]
+  pull_request_target
 
 env:
   NEXT_PUBLIC_TINA_BRANCH: ${{ secrets.NEXT_PUBLIC_TINA_BRANCH }}
