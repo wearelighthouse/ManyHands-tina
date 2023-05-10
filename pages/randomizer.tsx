@@ -49,12 +49,12 @@ const data = {
     'freelancers',
     'gods',
     'ghosts',
-    'wrestlers'
-    'olympians'
-    'marines'
-    'mercenaries'
-    'ninjas'
-    'clowns'
+    'wrestlers',
+    'olympians',
+    'marines',
+    'mercenaries',
+    'ninjas',
+    'clowns',
   ],
 };
 
