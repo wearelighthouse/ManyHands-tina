@@ -17,13 +17,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Fetch fonts
-        run: |
-          wget -O fonts.zip https://drive.google.com/uc?export=download\&id=1sJCRhTucWoYCEY6XtXMGOUK-mBtOQEyB\&confirm=t
-          unzip -P ${{ secrets.FONT_PASSWORD }} fonts.zip -d assets/font
-
       - name: Install dependencies
         run: npm ci
+
+      - name: Remove font file dependency by clearing contents of fonts.css
+        run: |
+          > assets/css/fonts.css
 
       - name: Build
         run: npm run export
