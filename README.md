@@ -79,6 +79,10 @@ To get help with any TinaCMS challenges you may have:
 A good way to ensure your components match the shape of your data is to leverage the auto-generated TypeScript types.
 These are rebuilt when your `.tina` config changes.
 
+### ManyHands-specifics
+
+- The favicons for the site are in `/public/assets`, and the favicon for the CMS is `/public/vite.svg`.
+
 ## LICENSE
 
 The [Tina CMS starter](https://github.com/tinacms/tina-cloud-starter), and any other code included in this repository is licensed under the [Apache 2.0 license](./LICENSE).
