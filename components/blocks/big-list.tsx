@@ -14,7 +14,7 @@ export const BigList = ({ data, parentField = "" }) => (
 
     {data.items && (
       <dl className="mx-auto my-8 max-w-2xl text-xl tablet:text-2xl grid gap-10 tablet:gap-12 circle-bg-dl">
-        {data.items.map((item: any, index: number) => (
+        {data.items.map((item, index: number) => (
           <div key={index}>
             <dt className="font-medium">
               <span className="indicator">{index + 1}</span>{item.title}

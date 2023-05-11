@@ -18,10 +18,10 @@ const Center = (props) => (
 
 const DescriptionList = (props) => (
   <dl className="text-xl tablet:text-2xl grid gap-10 !my-16">
-    {props.items?.map((item, itemIndex) => (
+    {props.items?.map((item, itemIndex: number) => (
       <div key={itemIndex} className="flex flex-wrap max-tablet:flex-col gap-x-12 gap-y-2">
         <dt className="font-medium w-48 mr-4">{item.term}</dt>
-        {item.details?.map((detail, detailIndex) => (
+        {item.details?.map((detail, detailIndex: number) => (
           <dd key={detailIndex} className="flex items-center gap-3 col-start-2">
             {item.iconSrc && (
               <img src={item.iconSrc} loading="lazy" width="40" height="40" alt="" />
@@ -45,7 +45,7 @@ const components: Components<{
   DescriptionList: {
     items: {
       term: string;
-      iconSrc: any;
+      iconSrc: string;
       details: string[];
     }[];
   };
