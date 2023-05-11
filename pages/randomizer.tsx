@@ -15,7 +15,7 @@ const data = {
     'HR platform',
     'virtual assistant',
     'learning platform',
-    'health and wellbeing'
+    'health and wellbeing',
     'travel',
     'news and entertainment',
     'collaboration tool',
