@@ -18,12 +18,19 @@ jobs:
         run: |
           > assets/css/fonts.css
 
-      - name: Lint
-        run: npm run lint
-
       - name: Build
         run: npm run export
         env:
           NEXT_PUBLIC_TINA_BRANCH: ${{ secrets.NEXT_PUBLIC_TINA_BRANCH }}
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Lint
+        run: npm run lint
