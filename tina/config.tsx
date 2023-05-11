@@ -16,12 +16,12 @@ import { statusSchema } from "../components/util/status";
 const currentDateString = new Date().toLocaleString('default', {day: 'numeric', month: 'long', year: 'numeric'});
 
 const config = defineStaticConfig({
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID!,
+  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
   branch:
-    process.env.NEXT_PUBLIC_TINA_BRANCH! || // custom branch env override
-    process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF! || // Vercel branch env
-    process.env.HEAD!, // Netlify branch env
-  token: process.env.TINA_TOKEN!,
+    process.env.NEXT_PUBLIC_TINA_BRANCH ||
+    process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF ||
+    process.env.HEAD,
+  token: process.env.TINA_TOKEN,
   media: {
     tina: {
       publicFolder: "public",

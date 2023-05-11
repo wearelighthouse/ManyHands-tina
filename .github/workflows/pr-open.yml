@@ -3,11 +3,6 @@ name: Build Pull request
 on:
   pull_request_target
 
-env:
-  NEXT_PUBLIC_TINA_BRANCH: ${{ secrets.NEXT_PUBLIC_TINA_BRANCH }}
-  NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
-  TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,5 +18,12 @@ jobs:
         run: |
           > assets/css/fonts.css
 
+      - name: Lint
+        run: npm run lint
+
       - name: Build
         run: npm run export
+        env:
+          NEXT_PUBLIC_TINA_BRANCH: ${{ secrets.NEXT_PUBLIC_TINA_BRANCH }}
+          NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
+          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}

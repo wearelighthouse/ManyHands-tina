@@ -1,6 +1,6 @@
 {
   "root": true,
-  "ignorePatterns": ["dist"],
+  "ignorePatterns": ["dist", "tina/__generated__"],
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint"],
   "extends": [
