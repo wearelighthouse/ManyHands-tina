@@ -13,7 +13,9 @@ import { HostedBy } from "./blocks/hosted-by";
 import { TalksBy } from "./blocks/talks-by";
 
 interface Events {
-  events: Event[];
+  // The events array isn't _quite_ an array of objects of the Event type. TODO: Figure out correct typing.
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  events: any[];
 }
 
 export const Blocks = (props: (Omit<Page, "id" | "_sys" | "_values"> | Omit<Event, "id" | "_sys" | "_values">) & Events) => {
