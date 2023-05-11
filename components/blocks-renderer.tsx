@@ -13,14 +13,14 @@ import { HostedBy } from "./blocks/hosted-by";
 import { TalksBy } from "./blocks/talks-by";
 
 interface Events {
-  events: any[];
+  events: Event[];
 }
 
 export const Blocks = (props: (Omit<Page, "id" | "_sys" | "_values"> | Omit<Event, "id" | "_sys" | "_values">) & Events) => {
   return (
     <>
       {props.blocks
-        ? props.blocks.map(function (block, i) {
+        ? props.blocks.map(function (block, i: number) {
             switch (block.__typename) {
               case "EventBlocksContent":
               case "PageBlocksContent":
