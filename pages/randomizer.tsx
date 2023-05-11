@@ -3,18 +3,24 @@ import { Layout } from "../components/layout";
 
 const data = {
   platforms: [
-    'to-do app',
     'comms platform',
     'task manager',
     'publishing medium',
     'social network',
-    'support',
+    'technical support',
     'dating app',
-    'travel and transport',
+    'navigation',
     'services',
     'banking',
     'HR platform',
     'virtual assistant',
+    'learning platform',
+    'health and wellbeing'
+    'travel',
+    'news and entertainment',
+    'collaboration tool',
+    'marketplace',
+    'food and drink',
   ],
   audiences: [
     'kids',
@@ -55,6 +61,7 @@ const data = {
     'mercenaries',
     'ninjas',
     'clowns',
+    'influencers',
   ],
 };
 
