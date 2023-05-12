@@ -60,10 +60,10 @@ blocks:
         job_title: Head of DesignOps
         link_url: ''
         link_text: ''
-      - src: /uploads/Speaker 2 to be announced.png
+      - src: /uploads/Jane.png
         quote: ''
-        name: To be announced
-        job_title: ''
+        name: Jane Minto | Flagstone
+        job_title: UX Lead
     _template: talksBy
   - icon: ok
     _template: hr
@@ -191,6 +191,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
