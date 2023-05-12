@@ -111,9 +111,76 @@ blocks:
 
       If you wish to access, correct, update, or request deletion of your
       personal information, you can do so at any time by emailing
-      [hello@wearemanyhands.com](mailto\:hello@wearemanyhands.com)
+      [hello@wearelighthouse.com](mailto\:hello@wearelighthouse.com)\
+
+      \
+
+      If we have collected and processed your personal information with your
+      consent, then you can withdraw your consent at any time. Withdrawing your
+      consent will not affect the lawfulness of any processing we conducted
+      prior to your withdrawal, nor will it affect the processing of your
+      personal information conducted in reliance on lawful processing grounds
+      other than consent.
+
+
+      If you have previously agreed to us using your personal information for
+      direct marketing purposes, you may change your mind at any time either by
+      opting out from the link included in the email sent to you, or by
+      contacting us directly.\
+
+
+
+      We will not sell, distribute or lease your personal information to third
+      parties unless we have your permission or are required by law to do so.
+
+
+      Please do not hesitate to contact us if you have any questions about
+      Lighthouse’s privacy policy, the data we hold on you, or you would like to
+      exercise one of your data protection rights such as:\
+
+      \
+
+      \- The right to access\
+
+      \- The right to rectification\
+
+      \- The right to erasure\
+
+      \- The right to restrict processing\
+
+      \- The right to object to processing\
+
+      \- The right to data portability\
+
+      \
+
+      Email us: [hello@wearelighthouse.com](mailto\:hello@wearelighthouse.com)\
+
+      \
+
+      Call us: 020 7993 2905\
+
+      \
+
+      Write to us:\
+
+      \
+
+      Lighthouse,
+
+      G13 Clerkenwell Workshops
+
+      27-31 Clerkenwell Close
+
+      London EC1R 0AT.\
+
+
+
+
+      \
     _template: content
 ---
+
 
 
 
