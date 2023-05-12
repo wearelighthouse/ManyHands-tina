@@ -18,7 +18,7 @@ blocks:
       updates on this web page. This privacy policy was last updated on 10th May
       2023.
     _template: content
-  - body: "### What we collect\n\n\\\nThe only way we collect personally identifiable information from our website is if you choose to give it to us via Airtable forms and input text boxes, with which you can send certain information to us directly for the purposes of event management. This might include (but is not limited to):\\\n\\\n\\- Your name\\\n\\- Your email address\\\n\\- Your job title and company name\\\n\\- Your city\\\n\\- Your accessibility needs\\\n\\- Your dietary requirements for event catering\\\n\\\nWe collect\_anonymised data\_about our web traffic via Google Analytics 4 using first party cookies. This data is used internally to create statistics and analyse them so we can understand our users / their needs and optimise our site.\n\\\n\n\nGA4 does not log or store IP addresses, or collect any other personally identifiable information. It collects anonymous data such as:\n\n\n\\\n\\- Number of users\\\n\\- Session statistics (i.e. how much time was spent on the website and what pages were visited)\\\n\\- Coarse geolocation (i.e. city and country)\\\n\\- Browser and device used\\\n\\- How our site was found (i.e. from a Google search)\\\n\\\nYou can find out more about GA4's EU-focused data and privacy policies [here](https://support.google.com/analytics/answer/12017362?hl=en).\n"
+  - body: "### What we collect\n\n\\\nThe only way we collect personally identifiable information from our website is if you choose to give it to us via Airtable forms and input text boxes, with which you can send certain information to us directly for the purposes of event management. This might include (but is not limited to):\\\n\\\n\\- Your name\\\n\\- Your email address\\\n\\- Your job title and company name\\\n\\- Your city\\\n\\- Your accessibility needs\\\n\\- Your dietary requirements for event catering\\\n\\\nWe collect\_anonymised data\_about our web traffic via Google Analytics 4 using first party cookies. This data is used internally to create statistics and analyse them so we can understand our users / their needs and optimise our site.\n\n\nGA4 does not log or store IP addresses, or collect any other personally identifiable information. It collects anonymous data such as:\n\n\\\n\\- Number of users\\\n\\- Session statistics (i.e. how much time was spent on the website and what pages were visited)\\\n\\- Coarse geolocation (i.e. city and country)\\\n\\- Browser and device used\\\n\\- How our site was found (i.e. from a Google search)\\\n\\\nYou can find out more about GA4's EU-focused data and privacy policies [here](https://support.google.com/analytics/answer/12017362?hl=en).\n"
     _template: content
   - body: >
       ### What we do with the information we collect
@@ -69,14 +69,12 @@ blocks:
       and your actions, once you’ve given it permission to do so.
 
 
-
       First party cookies are created, stored and used only by the website
       you’re visiting directly. They allow site owners to collect customer
       analytics data, remember language settings, and carry out other useful
       functions that help provide a good user experience. GA4 uses these first
       party cookies to track data anonymously and remain compliant with
       regulations like GDPR. They are not shared with other parties or websites.
-
 
 
       Third party cookies are generated and placed on the user’s device by a
@@ -86,7 +84,6 @@ blocks:
       watched by the user, the YouTube server will set a cookie on the user’s
       device which could be used to suggest similar videos when they visit
       YouTube in the future.
-
 
 
       We currently do not use any third party cookies for advertising,
@@ -126,8 +123,7 @@ blocks:
       If you have previously agreed to us using your personal information for
       direct marketing purposes, you may change your mind at any time either by
       opting out from the link included in the email sent to you, or by
-      contacting us directly.\
-
+      contacting us directly.\\
 
 
       We will not sell, distribute or lease your personal information to third
@@ -177,9 +173,10 @@ blocks:
       EC1R 0AT.
 
 
-      \
+      \\
     _template: content
 ---
+
 
 
 
