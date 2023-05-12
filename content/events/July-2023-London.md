@@ -58,10 +58,6 @@ blocks:
         quote: ''
         name: To be announced
         job_title: ''
-      - src: /uploads/Speaker 2 to be announced.png
-        quote: ''
-        name: To be announced
-        job_title: ''
     _template: talksBy
   - icon: ok
     _template: hr
@@ -114,16 +110,17 @@ blocks:
         jobTitle: Product Manager
     _template: quotes
   - hosts:
-      - src: /uploads/russ.png
+      - src: /uploads/Tom Johnson Lighthouse.png
+        alt: Tom
+        quote: ''
+        name: Tom Johnson
+        job_title: Co-founder
+        link_url: ''
+      - src: /uploads/Russ Bishop.png
         alt: Russ
         quote: ''
         name: Russell Bishop
         job_title: Head of DesignOps
-        link_url: ''
-      - src: /uploads/dan.png
-        quote: ''
-        name: Dan Burgess
-        job_title: Senior UX Designer
     _template: hostedBy
   - body: "[Lighthouse](wearelighthouse.com \"wearelighthouse.com\") is a specialist UX and UI design agency based in London, trusted by enterprise organisations to tackle the toughest challenges since 2008 \U0001F680\n"
     _template: content
@@ -189,4 +186,5 @@ blocks:
       </Center>
     _template: content
 ---
+
 
