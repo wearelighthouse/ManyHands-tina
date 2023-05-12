@@ -61,7 +61,40 @@ blocks:
       physical, electronic and managerial procedures to safeguard and secure the
       information we collect online.
     _template: content
+  - body: >
+      ### How we use cookies
+
+
+      A cookie is a very small piece of data which lets a website remember you
+      and your actions, once you’ve given it permission to do so.
+
+
+
+      First party cookies are created, stored and used only by the website
+      you’re visiting directly. They allow site owners to collect customer
+      analytics data, remember language settings, and carry out other useful
+      functions that help provide a good user experience. GA4 uses these first
+      party cookies to track data anonymously and remain compliant with
+      regulations like GDPR. They are not shared with other parties or websites.
+
+
+
+      Third party cookies are generated and placed on the user’s device by a
+      website other than the one the user is visiting. They’re created when a
+      user visits a website that includes elements from other sites – for
+      example, if there’s an embedded YouTube video on a website and it’s
+      watched by the user, the YouTube server will set a cookie on the user’s
+      device which could be used to suggest similar videos when they visit
+      YouTube in the future.
+
+
+
+      We currently do not use any third party cookies for advertising,
+      retargeting or tracking purposes. The third party cookies we do use are
+      either for necessary or functional purposes.
+    _template: content
 ---
+
 
 
 
