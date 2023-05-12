@@ -52,7 +52,17 @@ blocks:
       interesting using the email address which you have provided, if you have
       consented for us to do so.
     _template: content
+  - body: >
+      ### Security
+
+
+      We are committed to ensuring that your information is secure. In order to
+      prevent unauthorised access or disclosure, we have put in place suitable
+      physical, electronic and managerial procedures to safeguard and secure the
+      information we collect online.
+    _template: content
 ---
+
 
 
 
