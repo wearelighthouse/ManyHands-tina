@@ -166,20 +166,21 @@ blocks:
 
       \
 
-      Lighthouse,
+      Lighthouse,\
 
-      G13 Clerkenwell Workshops
+      G13 Clerkenwell Workshops\
 
-      27-31 Clerkenwell Close
+      27-31 Clerkenwell Close\
 
-      London EC1R 0AT.\
+      London \
 
-
+      EC1R 0AT.
 
 
       \
     _template: content
 ---
+
 
 
 
