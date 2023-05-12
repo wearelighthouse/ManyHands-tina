@@ -105,7 +105,16 @@ blocks:
       privacy statement. You should exercise caution and look at the privacy
       statement applicable to the website in question.
     _template: content
+  - body: >
+      ### Controlling your personal information
+
+
+      If you wish to access, correct, update, or request deletion of your
+      personal information, you can do so at any time by emailing
+      [hello@wearemanyhands.com](mailto\:hello@wearemanyhands.com)
+    _template: content
 ---
+
 
 
 
