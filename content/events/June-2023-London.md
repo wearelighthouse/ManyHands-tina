@@ -54,10 +54,12 @@ blocks:
     _template: howItWorks
   - heading: Talks from the best in the business
     hosts:
-      - src: /uploads/Speaker 1 to be announced.png
+      - src: /uploads/Russ.png
         quote: ''
-        name: To be announced
-        job_title: ''
+        name: Russell Bishop | Lighthouse
+        job_title: Head of DesignOps
+        link_url: ''
+        link_text: ''
       - src: /uploads/Speaker 2 to be announced.png
         quote: ''
         name: To be announced
@@ -189,6 +191,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
