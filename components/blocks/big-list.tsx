@@ -15,13 +15,16 @@ export const BigList = ({ data, parentField = "" }) => (
     {data.items && (
       <dl className="mx-auto my-8 max-w-2xl text-xl tablet:text-2xl grid gap-10 tablet:gap-12 circle-bg-dl">
         {data.items.map((item, index: number) => (
-          <div key={index}>
+          <div key={index} data-tinafield={`${parentField}.items.${index}`}>
             <dt className="font-medium">
-              <span className="indicator">{item.indicator ?? index + 1}</span>
+              <span className="indicator">
+                <div className="indicator-circle" data-tinafield={`${parentField}.items.${index}.indicator`}/>
+                {item.indicator || index + 1}
+              </span>
               <span className="sr-only whitespace-pre">{' '}</span>
-              {item.title}
+              <span data-tinafield={`${parentField}.items.${index}.title`}>{item.title}</span>
             </dt>
-            <dd>{item.description}</dd>
+            <dd data-tinafield={`${parentField}.items.${index}.description`}>{item.description}</dd>
           </div>
         ))}
       </dl>
