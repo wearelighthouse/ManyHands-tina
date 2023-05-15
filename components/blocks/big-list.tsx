@@ -17,7 +17,9 @@ export const BigList = ({ data, parentField = "" }) => (
         {data.items.map((item, index: number) => (
           <div key={index}>
             <dt className="font-medium">
-              <span className="indicator">{index + 1}</span>{item.title}
+              <span className="indicator">{item.indicator ?? index + 1}</span>
+              <span className="sr-only whitespace-pre">{' '}</span>
+              {item.title}
             </dt>
             <dd>{item.description}</dd>
           </div>
@@ -32,9 +34,7 @@ export const bigListBlockSchema: Template = {
   label: "Big List",
   ui: {
     previewSrc: "/blocks/testimonial.png",
-    defaultItem: {
-      logos: [],
-    },
+    defaultItem: {},
   },
   fields: [
     {
@@ -49,10 +49,15 @@ export const bigListBlockSchema: Template = {
       list: true,
       ui: {
         itemProps: (item) => ({
-          label: item?.title ?? 'Item',
+          label: (item?.indicator ? `${item?.indicator} ` : '') + item?.title ?? 'Item',
         }),
       },
       fields: [
+        {
+          name: "indicator",
+          label: "Indicator",
+          type: "string",
+        },
         {
           name: "title",
           label: "Title",
