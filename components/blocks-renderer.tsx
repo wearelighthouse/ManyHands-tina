@@ -1,15 +1,16 @@
 import React from "react";
 import type { Event, Page } from "../tina/__generated__/types";
-import { BroughtToYouBy } from "./blocks/brought-to-you-by";
-import { Content } from "./blocks/content";
-import { HowItWorks } from "./blocks/how-it-works";
-import { EventList } from "./blocks/event-list";
-import { Hr } from "./blocks/hr";
-import { Hero } from "./blocks/hero";
-import { Companies } from "./blocks/companies";
-import { Quotes } from "./blocks/quotes";
 import { BigList } from "./blocks/big-list";
+import { BroughtToYouBy } from "./blocks/brought-to-you-by";
+import { Companies } from "./blocks/companies";
+import { Content } from "./blocks/content";
+import { EventList } from "./blocks/event-list";
+import { Hero } from "./blocks/hero";
 import { HostedBy } from "./blocks/hosted-by";
+import { HowItWorks } from "./blocks/how-it-works";
+import { Hr } from "./blocks/hr";
+import { Quotes } from "./blocks/quotes";
+import { BasicHero } from "./blocks/hero-basic";
 import { TalksBy } from "./blocks/talks-by";
 
 interface Events {
@@ -121,6 +122,15 @@ export const Blocks = (props: (Omit<Page, "id" | "_sys" | "_values"> | Omit<Even
                     key={i + block.__typename}
                   >
                     <HostedBy data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+              case "PageBlocksBasicHero":
+                return (
+                  <div
+                    data-tinafield={`blocks.${i}`}
+                    key={i + block.__typename}
+                  >
+                    <BasicHero data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
               case "EventBlocksTalksBy":
