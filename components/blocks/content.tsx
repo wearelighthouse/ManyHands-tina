@@ -132,7 +132,7 @@ const ctaSchema: Template = {
 };
 
 function findContentHeading(body) {
-  const characterLimit = 80;
+  const characterLimit = 40;
   let foundHeading: string | null;
 
   JSON.stringify(body, (_, nestedValue) => {
@@ -151,7 +151,7 @@ function findContentHeading(body) {
     return nestedValue;
   });
 
-  return foundHeading?.slice(0, characterLimit);
+  return foundHeading?.length > characterLimit ? `${foundHeading?.slice(0, characterLimit)}…` : foundHeading;
 }
 
 export const contentBlockSchema: Template = {
