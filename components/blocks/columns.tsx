@@ -5,7 +5,7 @@ import toKebabCase from "../util/to-kebab-case";
 import { backgroundColorSchema } from "../util/background-color";
 
 export const ColumnsItem = ({ data, tinaField }) => (
-  <div className="max-w-2xs" data-tinaField={tinaField}>
+  <div className="max-w-2xs" data-tinafield={tinaField}>
     <div
       className={`inline-block p-2 tablet:p-2.5 rounded-full ${data.background ?? ''}`}
       data-tinafield={`${tinaField}.background`}
