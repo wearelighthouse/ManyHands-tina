@@ -51,7 +51,7 @@ blocks:
       - icon: raised-double
         title: Still totally free
         text: 'We want your design brain, not your ££££s.'
-    _template: howItWorks
+    _template: columns
   - heading: Talks from the best in the business
     hosts:
       - src: /uploads/Speaker 1 to be announced.png
@@ -186,5 +186,3 @@ blocks:
       </Center>
     _template: content
 ---
-
-

@@ -1,12 +1,14 @@
 import type { Template } from "tinacms";
+import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { Icon, iconSchema } from "../util/icon";
 import toKebabCase from "../util/to-kebab-case";
+import { backgroundColorSchema } from "../util/background-color";
 
-export const HowItWorksItem = ({ data, tinaField, index }) => (
-  <li className="max-w-2xs">
+export const ColumnsItem = ({ data, tinaField }) => (
+  <div className="max-w-2xs" data-tinaField={tinaField}>
     <div
-      className="mx-auto flex justify-center items-center"
-      data-tinafield={tinaField}
+      className={`inline-block p-2 tablet:p-2.5 rounded-full ${data.background ?? ''}`}
+      data-tinafield={`${tinaField}.background`}
     >
       {data.icon && (
         <Icon
@@ -19,20 +21,20 @@ export const HowItWorksItem = ({ data, tinaField, index }) => (
     {data.title && (
       <h3
         data-tinafield={`${tinaField}.title`}
-        className="font-medium mt-4 mb-1"
+        className="font-medium mt-1 mb-1"
       >
-        {index + 1}. {data.title}
+        {data.title}
       </h3>
     )}
-    {data.text && (
-      <p data-tinafield={`${tinaField}.text`}>
-        {data.text}
-      </p>
-    )}
-  </li>
+    <div className="content">
+      {data.text && (
+        <TinaMarkdown content={data.text} data-tinafield={`${tinaField}.text`} />
+      )}
+    </div>
+  </div>
 );
 
-export const HowItWorks = ({ data, parentField }) => (
+export const Columns = ({ data, parentField }) => (
   <section
     id={toKebabCase(data.heading)}
     className="px-4 my-24 desktop:my-32 text-center"
@@ -45,35 +47,31 @@ export const HowItWorks = ({ data, parentField }) => (
     </h2>
 
     {data.items && (
-      <ol className="flex flex-col gap-8 tablet:flex-row desktop:text-2xl justify-center items-center tablet:items-stretch">
-        {data.items.map((block, i) => (
-          <HowItWorksItem
-            tinaField={`${parentField}.items.${i}`}
-            data={block}
-            index={i}
-            key={i}
-          />
-        ))}
-      </ol>
+      <div className="flex flex-col gap-8 tablet:flex-row desktop:text-2xl justify-center items-center tablet:items-stretch">
+        {data.items.map((block, i) => <ColumnsItem data={block} tinaField={`${parentField}.items.${i}`} key={i}/>)}
+      </div>
     )}
   </section>
 );
 
 const defaultItem = {
-  title: "New How It Works Items",
-  text: "This is where you might talk about how things work, if this wasn't just filler text.",
+  title: "Column Title",
+  text: "Column text.",
   icon: "tina",
 };
 
-export const howItWorksBlockSchema: Template = {
-  name: "howItWorks",
-  label: "How It Works",
+export const ColumnsBlockSchema: Template = {
+  name: "columns",
+  label: "Columns",
   ui: {
     previewSrc: "/blocks/features.png",
     defaultItem: {
-      heading: "How it works",
+      heading: "Columns Section Heading",
       items: [defaultItem, defaultItem, defaultItem],
     },
+    itemProps: (item) => ({
+      label: item?.heading ? `Columns - ${item.heading}` : 'Columns',
+    }),
   },
   fields: [
     {
@@ -83,7 +81,7 @@ export const howItWorksBlockSchema: Template = {
     },
     {
       type: "object",
-      label: "How It Works Items",
+      label: "Columns",
       name: "items",
       list: true,
       ui: {
@@ -97,6 +95,7 @@ export const howItWorksBlockSchema: Template = {
         },
       },
       fields: [
+        backgroundColorSchema,
         iconSchema,
         {
           type: "string",
@@ -104,11 +103,11 @@ export const howItWorksBlockSchema: Template = {
           name: "title",
         },
         {
-          type: "string",
+          type: "rich-text",
           label: "Text",
           name: "text",
-          ui: {
-            component: "textarea",
+          parser: {
+            type: 'mdx',
           },
         },
       ],
