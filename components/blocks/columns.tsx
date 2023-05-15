@@ -38,11 +38,11 @@ export const ColumnsItem = ({ data, tinaField }) => (
       </h3>
     )}
 
-    <div className="content mt-1" data-tinafield={`${tinaField}.text`}>
-      {data.text && (
+    {data.text && (
+      <div className="content mt-1" data-tinafield={`${tinaField}.text`}>
         <TinaMarkdown content={data.text} data-tinafield={`${tinaField}.text`} />
-      )}
-    </div>
+      </div>
+    )}
   </div>
 );
 
