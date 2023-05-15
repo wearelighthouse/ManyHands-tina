@@ -87,7 +87,7 @@ const defaultItem = (label: string) => ({
   icon: "tina",
 });
 
-export const ColumnsBlockSchema: Template = {
+export const columnsBlockSchema: Template = {
   name: "columns",
   label: "Columns",
   ui: {
