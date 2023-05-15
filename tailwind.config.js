@@ -22,7 +22,7 @@ module.exports = {
       'mimosa': '#F1FFBC',
       'iceberg': '#CDF1EA',
       'pink': '#E80070',
-      'light-pink': '#EDBBD2',
+      'light-pink': '#FFCDE3',
       'orange': '#FC895B',
       'smoke': '#3A3A4E',
       'dark-gray': '#717173',

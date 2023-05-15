@@ -16,23 +16,29 @@ blocks:
     _template: hero
   - heading: How it works
     items:
-      - icon: wave
-        title: Get chatting
-        text: Meet top product people and mingle - the drinks and pizza are on us!
-      - icon: raised-double
-        title: Get inspired
+      - background: ''
+        icon: wave
+        title: 1. Get chatting
+        text: |
+          Meet top product people and mingle - the drinks and pizza are on us!
+      - background: ''
+        icon: raised-double
+        title: 2. Get inspired
         text: >
           Our speakers will get your creative brains in gear and ready to
           collaborate
-      - icon: point-up-front
-        title: Get to work
-        text: Split into groups and get cracking on a fun product problem together
-      - icon: horns
-        title: Get together
+      - background: ''
+        icon: point-up-front
+        title: 3. Get to work
+        text: |
+          Split into groups and get cracking on a fun product problem together
+      - background: ''
+        icon: horns
+        title: 4. Get together
         text: >
           Present your ideas back to the collective, vote on their strengths and
           celebrate
-    _template: howItWorks
+    _template: columns
   - heading: Next events
     _template: eventList
   - background: ''
@@ -135,28 +141,4 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
