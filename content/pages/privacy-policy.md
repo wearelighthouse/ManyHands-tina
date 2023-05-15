@@ -1,6 +1,9 @@
 ---
 title: Privacy policy
 blocks:
+  - heading: Privacy Policy
+    subtitle: ''
+    _template: basicHero
   - body: >
       ManyHands is a creative, collaborative event for product people run by
       [Lighthouse](https://wearelighthouse.com). This privacy policy sets out
@@ -173,6 +176,7 @@ blocks:
       EC1R 0AT.
     _template: content
 ---
+
 
 
 
