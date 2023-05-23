@@ -1,20 +1,27 @@
 ---
 title: ManyHands for Teams
 blocks:
+  - background: bg-light-pink
+    heading: ManyHands for Teams
+    subtitle: ''
+    _template: basicHero
   - body: >
       Harness the power of creativity with our workshops for corporate teams
       based on our highly rated public events.
     _template: content
   - items:
-      - title: Promote creativity
+      - indicator: "\U0001F3A8"
+        title: Promote creativity
         description: >-
           Bring a fun, creative challenge to the workday. Step away from BAU and
           promote innovative thinking.
-      - title: Bring teams together
+      - indicator: "\U0001F91D"
+        title: Bring teams together
         description: >-
           Foster natural collaboration across departments and people with
           different skill sets and ideas.
-      - title: Learn new skills
+      - indicator: "\U0001F4AA"
+        title: Learn new skills
         description: >-
           Enhance internal knowledge and provide repeatable frameworks delivered
           by an industry expert.
@@ -63,12 +70,29 @@ blocks:
       Creativity is for more than just creative teams. Unlock hidden potential
       across all areas of your organisation with close-knit working in a fun
       environment.
-
-
-      <Center>
-        ![](</uploads/Frame 1291.png>)
-      </Center>
     _template: content
+  - items:
+      - background: bg-iceberg
+        icon: horns
+        title: UX and creatives
+        text: |
+          UX / UI designers\
+          Researchers\
+          UX writers
+      - background: bg-light-pink
+        icon: peace
+        title: Tech-heads
+        text: |
+          Front-end engineers\
+          Back-end engineers
+      - background: bg-mimosa
+        icon: call
+        title: Strategic thinkers
+        text: |
+          Product owners\
+          Business analysts\
+          Leadership teams
+    _template: columns
   - body: |
       <Center>
         ### A programme to suit every team's needs
@@ -118,6 +142,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
