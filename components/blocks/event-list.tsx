@@ -85,7 +85,7 @@ export const EventList = ({ data, parentField }) => {
                     href={`/event/${event._sys.filename}`}
                   >
                     {event._values.status === 'full' ? (
-                      <a className="button !grid !h-20 place-items-center place-content-center !bg-dark-gray-new">
+                      <a className="button !grid !h-20 place-items-center place-content-center !bg-dark-gray-new hover:!bg-dark-gray-new/95">
                         <div className="text-lg">Fully booked</div>
                         <div className="uppercase text-xs">Free entry</div>
                       </a>
