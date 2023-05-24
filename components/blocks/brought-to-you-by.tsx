@@ -9,7 +9,7 @@ const prefix = process.env.prefix ?? '';
 
 export const BroughtToYouBy = ({ data, parentField }) => {
   return (
-    <section className="relative px-6 py-16 tablet:py-20 tablet:px-16 tablet:m-4 text-white flex flex-wrap gap-24 desktop:gap-x-48 items-center">
+    <section className="relative px-6 py-16 tablet:py-20 tablet:px-16 tablet:m-4 text-white flex flex-wrap gap-y-20 gap-x-48 items-center">
       <div className="max-w-2xl">
         <LhBackgroundGradientSvg
           className="absolute top-0 left-0 w-full h-full -z-10"
@@ -39,16 +39,25 @@ export const BroughtToYouBy = ({ data, parentField }) => {
           <TinaMarkdown content={data.largeText} />
         </div>
 
-        <a
-          href="https://wearelighthouse.com/"
-          rel="noopener"
-          className="inline-flex gap-1 items-center text-link text-xl hover:bg-white/10 -mx-2 px-2 py-1 rounded transition duration-300"
-        >
-          <span>wearelighthouse.com</span>
-          <svg width="18px" height="15px" viewBox="0 0 12 10" className="arrow" aria-hidden="true">
-            <path fill="none" stroke="currentColor" d="M1 5l8 0M6 2l3 3 l-3 3"/>
-          </svg>
-        </a>
+        <div className="inline-flex flex-wrap gap-x-6 gap-y-2">
+          <a
+            href="/privacy-policy"
+            className="inline-flex text-link text-xl hover:bg-white/10 -mx-2 px-2 py-1 rounded transition duration-300"
+          >
+            <span>Privacy Policy</span>
+          </a>
+
+          <a
+            href="https://wearelighthouse.com/"
+            rel="noopener"
+            className="inline-flex gap-1 items-center text-link text-xl hover:bg-white/10 -mx-2 px-2 py-1 rounded transition duration-300"
+          >
+            <span>wearelighthouse.com</span>
+            <svg width="18px" height="15px" viewBox="0 0 12 10" className="arrow" aria-hidden="true">
+              <path fill="none" stroke="currentColor" d="M1 5l8 0M6 2l3 3 l-3 3"/>
+            </svg>
+          </a>
+        </div>
       </div>
 
       <a
