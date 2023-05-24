@@ -6,11 +6,11 @@ blocks:
       Network with likeminded pros, explore fun product challenges, and join our
       community of experts.
     imageLeft:
-      src: /uploads/mh-home-left.png
+      src: /uploads/2.webp
       alt: Attendee writing on whiteboard
     iconLeft: peace
     imageRight:
-      src: /uploads/mh-home-right.png
+      src: /uploads/1.webp
       alt: Team photo
     iconRight: horns
     _template: hero
@@ -141,4 +141,5 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
