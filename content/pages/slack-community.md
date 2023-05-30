@@ -1,10 +1,15 @@
 ---
 title: Join the Slack community
 blocks:
-  - heading: Bring ManyHands to your team
-    subtitle: >-
-      Harness the power of creativity with our workshops for corporate teams
-      based on our highly rated public events.
+  - background: bg-iceberg
+    heading: Join a community of product pros
+    subtitle: ''
     _template: basicHero
+  - body: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus
+      nunc in enim condimentum, vitae congue nibh ultrices. Nunc id lorem in
+      quam gravida molestie.
+    _template: content
 ---
+
 
