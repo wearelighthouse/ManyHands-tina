@@ -10,7 +10,7 @@ blocks:
       alt: Attendee writing on whiteboard
     iconLeft: peace
     imageRight:
-      src: /uploads/1.webp
+      src: /uploads/home-hero-right.webp
       alt: Team photo
     iconRight: horns
     _template: hero
@@ -141,6 +141,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
