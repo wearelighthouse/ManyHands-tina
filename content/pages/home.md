@@ -6,7 +6,7 @@ blocks:
       Network with likeminded pros, explore fun product challenges, and join our
       community of experts.
     imageLeft:
-      src: /uploads/2.webp
+      src: /uploads/home-hero-left.webp
       alt: Attendee writing on whiteboard
     iconLeft: peace
     imageRight:
@@ -141,5 +141,6 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
