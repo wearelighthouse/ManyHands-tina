@@ -116,7 +116,7 @@ blocks:
         author: 'Iva K. '
         jobTitle: Senior Product Designer
     _template: quotes
-  - heading: Want to join us next time?
+  - heading: Want to join the fun next time?
     _template: eventList
   - icon: ok
     _template: hr
@@ -124,6 +124,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
