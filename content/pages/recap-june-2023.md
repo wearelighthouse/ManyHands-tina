@@ -80,6 +80,11 @@ blocks:
       creativity, which involved handing out some strange nicknacks from charity
       shops and putting people on the spot to come up with best uses for them.
     _template: content
+  - body: |
+      <Center>
+        ![](</uploads/ManyHands London June talks-min.png>)
+      </Center>
+    _template: content
   - icon: horns
     _template: hr
   - heading: We collaborated on a fun product challenge
@@ -119,6 +124,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
