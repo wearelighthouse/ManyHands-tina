@@ -78,7 +78,7 @@ blocks:
     _template: bigList
   - body: |
       <Center>
-        ![](/uploads/ManyHands.png)
+        ![](/uploads/ManyHands.png "Photo on the left of an event speaker smiling. Photo on the right of a team of attendees holding a piece of paper")
       </Center>
     _template: content
   - background: bg-light-gray
