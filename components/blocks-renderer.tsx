@@ -1,5 +1,6 @@
 import React from "react";
 import type { Event, Page } from "../tina/__generated__/types";
+import { Accordion } from "./blocks/accordion";
 import { BigList } from "./blocks/big-list";
 import { BroughtToYouBy } from "./blocks/brought-to-you-by";
 import { Companies } from "./blocks/companies";
@@ -141,6 +142,16 @@ export const Blocks = (props: (Omit<Page, "id" | "_sys" | "_values"> | Omit<Even
                     key={i + block.__typename}
                   >
                     <TalksBy data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+              case "EventBlocksAccordion":
+              case "PageBlocksAccordion":
+                return (
+                  <div
+                    data-tinafield={`blocks.${i}`}
+                    key={i + block.__typename}
+                  >
+                    <Accordion data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
               default:

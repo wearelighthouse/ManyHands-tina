@@ -3,6 +3,7 @@ import type { Template } from "tinacms";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import type { TinaMarkdownContent, Components } from "tinacms/dist/rich-text";
 import { backgroundColorSchema } from "../util/background-color";
+import { getContentLabel } from "../util/get-label";
 
 const Cta = (props) => (
   <a href={props.href} className="button !px-6 text-lg h-14 mx-auto">
@@ -131,36 +132,13 @@ const ctaSchema: Template = {
   ],
 };
 
-function findContentHeading(body) {
-  const characterLimit = 40;
-  let foundHeading: string | null;
-
-  JSON.stringify(body, (_, nestedValue) => {
-    if (!foundHeading && nestedValue && ['h1', 'h2', 'h3'].includes(nestedValue.type)) {
-      foundHeading = nestedValue.children?.[0].text;
-    }
-
-    return nestedValue;
-  });
-
-  JSON.stringify(body, (_, nestedValue) => {
-    if (!foundHeading && nestedValue && ['p'].includes(nestedValue.type)) {
-      foundHeading = nestedValue.children?.[0].text;
-    }
-
-    return nestedValue;
-  });
-
-  return foundHeading?.length > characterLimit ? `${foundHeading?.slice(0, characterLimit)}…` : foundHeading;
-}
-
 export const contentBlockSchema: Template = {
   name: "content",
   label: "Content",
   ui: {
     previewSrc: "/blocks/content.png",
     itemProps: (value) => {
-      const topLevelHeading = findContentHeading(value.body);
+      const topLevelHeading = getContentLabel(value.body);
 
       return ({
         label: topLevelHeading ? `Content - ${topLevelHeading}` : 'Content',
