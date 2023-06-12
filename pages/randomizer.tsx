@@ -61,6 +61,7 @@ const data = {
     'mercenaries',
     'ninjas',
     'clowns',
+    'teenagers',
     'influencers',
   ],
 };
