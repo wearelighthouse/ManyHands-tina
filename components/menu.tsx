@@ -1,0 +1,67 @@
+import React, { useEffect, useRef, useState } from "react";
+import Link from "next/link";
+
+const MenuLink = ({ href, tabIndex, children }) => (
+  <Link href={href}>
+    <a
+      className="whitespace-nowrap bg-light-gray rounded-full leading-7 px-4 py-1.5 underline decoration-2 decoration-transparent font-medium hover:decoration-current transition-all"
+      tabIndex={tabIndex}
+    >
+      {children}
+    </a>
+  </Link>
+);
+
+export const Menu = () => {
+  const [open, setOpen] = useState(false);
+  const menuElementRef = useRef(null);
+
+  const setMenuSize = () => {
+    menuElementRef.current.style.width = '';
+    menuElementRef.current.style.height = '';
+    let w = `${menuElementRef.current.scrollWidth}px`;
+    let h = `${menuElementRef.current.scrollHeight}px`;
+    menuElementRef.current.style.width = '0';
+    menuElementRef.current.style.height = '0';
+    setTimeout(() => {
+      menuElementRef.current.style.width = w;
+      menuElementRef.current.style.height = h;
+    }, 10);
+  }
+
+  useEffect(() => {
+    if (open) {
+      setMenuSize();
+    } else {
+      menuElementRef.current.style.width = '0';
+      menuElementRef.current.style.height = '0';
+    }
+  }, [open]);
+
+  return (
+    <div className="fixed top-0 right-0 m-8 z-10 rounded-[1.75rem] grid bg-white">
+      <button
+        aria-controls="menu"
+        onClick={() => setOpen(!open)}
+        aria-expanded={open}
+        className="h-14 w-14 transition-colors bg-white hover:bg-light-gray rounded-[1.75rem] justify-self-end text-black grid place-items-center [&_path]:hover:[d:path('M4_4l8_0M4_8h8M4_12l8_0')] [&_path]:aria-expanded:[d:path('M4_4l8_8M8_8h0M4_12l8-8')]"
+      >
+        <svg width="32" height="32" viewBox="0 0 16 16" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round">
+          <path d="M4 5l8 0M4 8h8M4 11l8 0" className="transition-all"></path>
+        </svg>
+      </button>
+
+      <div
+        id="menu"
+        ref={menuElementRef}
+        aria-hidden={!open}
+        className="transition-all duration-300 overflow-hidden"
+      >
+        <nav className={`justify-end grid gap-3 p-4 transition-all ${open ? 'opacity-100' : 'opacity-0'}`}>
+          <MenuLink href="/privacy-policy" tabIndex={open ? undefined : -1}>Privacy-policy</MenuLink>
+          <MenuLink href="/ManyHands-for-Teams" tabIndex={open ? undefined : -1}>Teams</MenuLink>
+        </nav>
+      </div>
+    </div>
+  );
+}

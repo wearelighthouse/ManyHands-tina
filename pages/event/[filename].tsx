@@ -18,6 +18,7 @@ export default function EventPage(
   if (data && data.event) {
     return (
       <Layout rawData={data} data={data.global as any}>
+        <Menu/>
         <Event {...data.event} />
       </Layout>
     );
