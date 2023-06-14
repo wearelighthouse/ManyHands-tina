@@ -13,6 +13,7 @@ import { talksByBlockSchema } from "../components/blocks/talks-by";
 import { iconSchema } from "../components/util/icon";
 import { statusSchema } from "../components/util/status";
 import { basicHeroBlockSchema } from "../components/blocks/hero-basic";
+import { accordionBlockSchema } from "../components/blocks/accordion";
 
 const currentDateString = new Date().toLocaleString('default', {day: 'numeric', month: 'long', year: 'numeric'});
 
@@ -267,6 +268,7 @@ const config = defineStaticConfig({
               companiesBlockSchema,
               quotesBlockSchema,
               bigListBlockSchema,
+              accordionBlockSchema,
             ],
           },
         ],
@@ -350,6 +352,7 @@ const config = defineStaticConfig({
               bigListBlockSchema,
               hostedByBlockSchema,
               talksByBlockSchema,
+              accordionBlockSchema,
             ],
           },
         ],
