@@ -6,7 +6,7 @@ blocks:
     subtitle: Want to see what we got up to at previous events?
     _template: basicHero
   - items:
-      - open: true
+      - open: false
         summary: "\U0001F918 ManyHands London - March 2023\n"
         text: |
           Some text here
@@ -21,6 +21,7 @@ blocks:
           [Find out more](https://wearemanyhands.com/recap-june-2023)
     _template: accordion
 ---
+
 
 
 
