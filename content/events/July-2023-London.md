@@ -58,10 +58,13 @@ blocks:
     _template: columns
   - heading: Talks from the best in the business
     hosts:
-      - src: /uploads/Speaker 1 to be announced.png
+      - src: /uploads/Elvin.png
+        alt: Elvin Tsang
         quote: ''
-        name: To be announced
-        job_title: ''
+        name: Elvin Tsang
+        job_title: Senior UX/UI Designer | Lighthouse
+        link_url: ''
+        link_text: ''
     _template: talksBy
   - icon: ok
     _template: hr
@@ -120,11 +123,6 @@ blocks:
         name: Tom Johnson
         job_title: Co-founder
         link_url: ''
-      - src: /uploads/Russ Bishop.png
-        alt: Russ
-        quote: ''
-        name: Russell Bishop
-        job_title: Head of DesignOps
     _template: hostedBy
   - body: "[Lighthouse](wearelighthouse.com \"wearelighthouse.com\") is a specialist UX and UI design agency based in London, trusted by enterprise organisations to tackle the toughest challenges since 2008 \U0001F680\n"
     _template: content
@@ -190,4 +188,5 @@ blocks:
       </Center>
     _template: content
 ---
+
 
