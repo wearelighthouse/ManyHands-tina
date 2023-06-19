@@ -11,7 +11,7 @@ blocks:
         text: |
           Some text here
 
-          [Find out more](https://wearemanyhands.com/recap-june-2023)
+          [Find out more](https://wearemanyhands.com/recap-march-2023)
       - open: false
         summary: |
           ✌️ ManyHands London - June 2023
@@ -21,5 +21,6 @@ blocks:
           [Find out more](https://wearemanyhands.com/recap-june-2023)
     _template: accordion
 ---
+
 
 
