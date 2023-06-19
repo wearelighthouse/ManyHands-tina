@@ -41,8 +41,8 @@ export const Menu = () => {
   const setMenuSize = () => {
     menuElementRef.current.style.width = '';
     menuElementRef.current.style.height = '';
-    let w = `${menuElementRef.current.scrollWidth}px`;
-    let h = `${menuElementRef.current.scrollHeight}px`;
+    const w = `${menuElementRef.current.scrollWidth}px`;
+    const h = `${menuElementRef.current.scrollHeight}px`;
     menuElementRef.current.style.width = '0';
     menuElementRef.current.style.height = '0';
     setTimeout(() => {
