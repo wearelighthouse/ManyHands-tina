@@ -2,6 +2,22 @@ import React, { useEffect, useRef, useState } from "react";
 import { useRouter } from 'next/router';
 import Link from "next/link";
 
+const menuItems = [
+  {
+    text: 'Home',
+    href: '/',
+    asPath: '/home',
+  },
+  {
+    text: 'Privacy Policy',
+    href: '/privacy-policy',
+  },
+  {
+    text: 'Teams',
+    href: '/ManyHands-for-Teams',
+  },
+];
+
 const MenuLink = ({ href, asPath, tabIndex, onClick, children }) => {
   const router = useRouter();
 
@@ -22,21 +38,6 @@ const MenuLink = ({ href, asPath, tabIndex, onClick, children }) => {
 export const Menu = () => {
   const [open, setOpen] = useState(false);
   const menuElementRef = useRef(null);
-  const menuItems = [
-    {
-      text: 'Home',
-      href: '/',
-      asPath: '/home',
-    },
-    {
-      text: 'Privacy Policy',
-      href: '/privacy-policy',
-    },
-    {
-      text: 'Teams',
-      href: '/ManyHands-for-Teams',
-    },
-  ];
 
   const setMenuSize = () => {
     menuElementRef.current.style.width = '';
