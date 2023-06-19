@@ -1,5 +1,6 @@
 import * as React from "react";
 import type { Template } from "tinacms";
+import Link from "next/link";
 import { Icon, iconSchema } from "../util/icon";
 import LighthouseLogoSvg from "../../assets/img/lighthouse-logo.svg";
 
@@ -7,13 +8,14 @@ const prefix = process.env.prefix ?? '';
 
 export const Hero = ({ data, parentField }) => (
   <div className="bg-mimosa px-6 pt-14 tablet:px-16 pb-20 desktop:pb-24 o-section-clip--ramp-bottom-right tablet:m-4 text-center">
-    <a
-      href={`${prefix}/`}
-      aria-label="Home"
-      className="inline-flex hover:bg-white/100 -m-2 p-2 rounded transition duration-300"
-    >
-      <img src={`${prefix}/assets/manyhands-logo.svg`} alt="Many Hands" width="188" height="34"/>
-    </a>
+    <Link href={`${prefix}/`}>
+      <a
+        aria-label="Home"
+        className="inline-flex hover:bg-white/100 -m-2 p-2 rounded transition duration-300"
+      >
+        <img src={`${prefix}/assets/manyhands-logo.svg`} alt="Many Hands" width="188" height="34"/>
+      </a>
+    </Link>
 
     <h1
       data-tinafield={`${parentField}.heading`}
