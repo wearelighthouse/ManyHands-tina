@@ -120,26 +120,26 @@ blocks:
           ***FREE***
       - open: false
         summary: |
-          ManyHands Extended -* From £2,000*
+          ManyHands Extended -\* From £2,000\*
         text: >
           A chance to dive deeper into a problem, create exciting ideas
           collaboratively and practice presentation and pitching skills
 
 
-          1 session\
+          *1 session*\
 
-          In-person or online\
+          *In-person or online*\
 
-          1 day\
+          *1 day*\
 
-          2 - 4 hours
-
-
-          £2,000\*
+          *2 - 4 hours*
 
 
-          \*Discounts applicable for businesses who have attended in-person
-          events
+          ***£2,000\****
+
+
+          *\*Discounts applicable for businesses who have attended in-person
+          events*
       - open: true
         summary: |
           ManyHands Intensive - From £5,000
@@ -196,6 +196,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
