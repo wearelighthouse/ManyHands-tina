@@ -93,7 +93,7 @@ blocks:
         title: Virtual Assistant for Kids
     _template: bigList
   - body: >
-      With our creative brains all warmed up, grabbed some pizza, got into
+      With our creative brains all warmed up, we grabbed some pizza, got into
       groups, and started brainstorming. An hour later, we pitched our ideas
       back to the wider group:
     _template: content
@@ -103,9 +103,9 @@ blocks:
     _template: content
   - body: >
       ❤️ A product that isn’t screen-based, but is the child’s own slice of tech
-      that they can be proud of - and throw around. 
+      that they can be proud of - and throw around.
     _template: content
-  - body: "\U0001F331 Providing psychological safety and comfort through the product. A virtual assistant that speaks their language, and grows with them. \n"
+  - body: "\U0001F331 Providing psychological safety and comfort through the product. A virtual assistant that speaks their language, and grows with them.\n"
     _template: content
   - background: bg-light-gray
     quotes:
@@ -124,6 +124,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
