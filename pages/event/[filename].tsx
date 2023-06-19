@@ -5,6 +5,7 @@ import { Event } from "../../components/event/event";
 import { client } from "../../tina/__generated__/client";
 import { useTina } from "tinacms/dist/react";
 import { Layout } from "../../components/layout";
+import { Menu } from "../../components/menu";
 
 // Use the props returned by get static props
 export default function EventPage(
