@@ -80,6 +80,7 @@ export const Menu = () => {
           ref={menuElementRef}
           aria-hidden={!open}
           className="transition-all duration-300 overflow-hidden"
+          style={{ width: 0, height: 0 }}
         >
           <nav className={`justify-end grid gap-3 p-4 transition-all ${open ? 'opacity-100' : 'opacity-0'}`}>
             {menuItems.map((item) => (
