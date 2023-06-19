@@ -148,7 +148,7 @@ blocks:
           with creative solutions ready for testing and implementation.
 
 
-          Multiple sessions\
+          *Multiple sessions*\
 
           *In-person*\
 
@@ -196,6 +196,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
