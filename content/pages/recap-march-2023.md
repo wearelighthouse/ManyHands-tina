@@ -2,13 +2,13 @@
 title: ManyHands London March 2023 recap
 blocks:
   - background: bg-mimosa
-    heading: ManyHands London - June 2023
-    subtitle: "\U0001F5D3️ 7th June 2023 \U0001F4CD Uncommon, Liverpool Street"
+    heading: ManyHands London - March 2023
+    subtitle: "\U0001F5D3️ 22nd March 2023 \U0001F4CD Uncommon, Liverpool Street"
     _template: basicHero
-  - body: "We’re still blown away by quite how much fun and creativity happens when you get smart product people in a room and set them to work on something miles away from the day job.\L\L\n\nEveryone got on like old friends, and the ideas and beers flowed. \U0001F37B\n"
+  - body: "Our first in-person event went even better than expected - we're still buzzing about it.\n\nAfter running successful online events for close to a year, we knew ManyHands was something special but even we were taken aback by just how much fun the night was!\n\nA room full of strangers all got on like a house on fire. It was an evening full of laughter and\_bright ideas and, best of all, our UberEats drivers didn't get lost. \U0001F355\n"
     _template: content
   - body: |
-      ![](</uploads/ManyHands London June 2023.jpg>)
+      ![](/uploads/ManyHands.png)![]()
     _template: content
   - body: |
       <Center>
@@ -66,55 +66,56 @@ blocks:
 
 
       <Center>
-        ![](</uploads/Speakers June.png>)
+        ![](</uploads/March speakers.png>)![]()
       </Center>
 
 
-      Jane kicked off the night with a talk about how to create an insights-led
-      culture, and the importance of user-centricity throughout your
-      organisation (not just in UX and product teams). \
+      Shelley kicked off the night with a talk about how to measure user-centric
+      product maturity in your organisation.\
 
       \
 
-      Russ followed up with an interactive presentation on how to manipulate
-      creativity, which involved handing out some strange nicknacks from charity
-      shops and putting people on the spot to come up with best uses for them.
+      Daria followed up with an interactive talk on how to unlock your creative
+      genius.
     _template: content
   - body: |
       <Center>
-        ![](</uploads/ManyHands London June talks-min.png>)
+        ![](</uploads/Daria and Shelley-min.png>)
       </Center>
     _template: content
   - icon: horns
     _template: hr
   - heading: We collaborated on a fun product challenge
     items:
-      - indicator: "\U0001F467"
-        title: Virtual Assistant for Kids
+      - indicator: "\U0001F30D"
+        title: Social Network for World Leaders
     _template: bigList
   - body: >
       With our creative brains all warmed up, we grabbed some pizza, got into
       groups, and started brainstorming. An hour later, we pitched our ideas
       back to the wider group:
     _template: content
-  - body: "\U0001F5E3  Using the tool to overcome the constant battle that is parenting by getting it to motivate children to complete boring daily tasks.\n"
+  - body: "\U0001F916  An AI chatbot for troubled dignitaries to offload their worries in confidence.\n"
     _template: content
-  - body: "\U0001F4FA Gamification features like rewards for good behaviour - if you eat your veggies, you can win telly time!\n"
+  - body: "\U0001F43B An attempt to build bridges between big hitters by using their shared interests (\"Vladimir Putin is also interested in 'bears'\")\n"
     _template: content
-  - body: >
-      ❤️ A product that isn’t screen-based, but is the child’s own slice of tech
-      that they can be proud of - and throw around.
+  - background: ''
+    body: "\U0001F911 Onboarding via the use of QR code embossed gold bullion - only the best for such an exclusive platform.\n"
     _template: content
-  - body: "\U0001F331 Providing psychological safety and comfort through the product. A virtual assistant that speaks their language, and grows with them.\n"
+  - body: "\U0001F4A3 The simply inspired offering of WaaS - 'war as a service.'\n"
+    _template: content
+  - body: |
+      <Center>
+        ![](</uploads/ManyHands March-min.png>)
+      </Center>
     _template: content
   - background: bg-light-gray
     quotes:
       - quote: >-
-          I loved meeting new people from different industries and seeing how
-          complete strangers work in different ways to solve problems and create
-          products. 
-        author: 'Iva K. '
-        jobTitle: Senior Product Designer
+          Thank you for giving us the opportunity to remember why our jobs are
+          so fun!
+        author: Nicole B.
+        jobTitle: Product Manager
     _template: quotes
   - heading: Want to join the fun next time?
     _template: eventList
@@ -124,4 +125,5 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
