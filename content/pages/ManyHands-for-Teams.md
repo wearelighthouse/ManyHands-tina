@@ -100,17 +100,71 @@ blocks:
     _template: content
   - heading: ''
     items:
-      - title: 'ManyHands Lite - 1-2 hours, 1 day'
-        description: >-
-          A tester session for online teams keen to interrogate a problem and
-          come up with ideas together. 
-      - title: 'ManyHands Extended - 2-4 hours, 2 days'
-        description: "An in-person exercise providing a deeper dive \Linto collaboratively creating and pitching exciting ideas.\L"
-      - title: 'ManyHands Intensive - 10+ hours, multiple days'
-        description: >-
-          A structured, bespoke project to explore an issue in depth and come up
-          with workable, testable solutions.
-    _template: bigList
+      - open: true
+        summary: |
+          ManyHands Light - *Free*
+        text: >
+          A perfect taster for teams looking to inject some change into their
+          workday and try cross-department creative collaboration
+
+
+          *1 session*\
+
+          *Online only*\
+
+          *1 day*\
+
+          *1 hour*
+
+
+          ***FREE***
+      - open: false
+        summary: |
+          ManyHands Extended -* From £2,000*
+        text: >
+          A chance to dive deeper into a problem, create exciting ideas
+          collaboratively and practice presentation and pitching skills
+
+
+          1 session\
+
+          In-person or online\
+
+          1 day\
+
+          2 - 4 hours
+
+
+          £2,000\*
+
+
+          \*Discounts applicable for businesses who have attended in-person
+          events
+      - open: true
+        summary: |
+          ManyHands Intensive - From £5,000
+        text: >
+          A structured project to take an issue, explore it in depth and come up
+          with creative solutions ready for testing and implementation.
+
+
+          Multiple sessions\
+
+          *In-person*\
+
+          *5 days*\
+
+          *10+ hours*\
+
+          \
+
+          ***£5,000+\****\
+
+          \
+
+          *\*Discounts applicable for businesses who have attended in-person
+          events*
+    _template: accordion
   - body: |
       <Center>
         <Cta text="Enquire now →" href="mailto:hello@wearelighthouse.com" />
@@ -142,6 +196,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
