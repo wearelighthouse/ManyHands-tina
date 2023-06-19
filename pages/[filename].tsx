@@ -3,8 +3,9 @@
 
 import { Blocks } from "../components/blocks-renderer";
 import { useTina } from "tinacms/dist/react";
-import { Layout } from "../components/layout";
 import { client } from "../tina/__generated__/client";
+import { Layout } from "../components/layout";
+import { Menu } from "../components/menu";
 
 export default function HomePage(
   props: AsyncReturnType<typeof getStaticProps>["props"]
@@ -17,6 +18,7 @@ export default function HomePage(
 
   return (
     <Layout data={data.global as any}>
+      <Menu/>
       <Blocks {...data.page} events={props.events} />
     </Layout>
   );

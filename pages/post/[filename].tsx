@@ -5,6 +5,7 @@ import { Post } from "../../components/posts/post";
 import { client } from "../../tina/__generated__/client";
 import { useTina } from "tinacms/dist/react";
 import { Layout } from "../../components/layout";
+import { Menu } from "../../components/menu";
 
 // Use the props returned by get static props
 export default function BlogPostPage(
@@ -18,6 +19,7 @@ export default function BlogPostPage(
   if (data && data.post) {
     return (
       <Layout rawData={data} data={data.global as any}>
+        <Menu/>
         <Post {...data.post} />
       </Layout>
     );
