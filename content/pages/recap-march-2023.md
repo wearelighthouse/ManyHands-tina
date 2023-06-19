@@ -19,45 +19,37 @@ blocks:
       - src: /uploads/Chip.png
         alt: Chip
         width: 130
-      - src: /uploads/Natwest.png
-        alt: Natwest Rooster Money
-        width: 150
-      - src: /uploads/Perkbox.png
-        alt: Perkbox
+      - src: /uploads/Citigroup.svg
+        alt: Citigroup
         width: 150
       - src: /uploads/Tide.png
         alt: Tide
         width: 80
-      - src: /uploads/Countingup (1).png
-        alt: Countingup
+      - src: /uploads/Perlego.svg
+        alt: Perlego
+      - src: /uploads/Truelayer.svg
+        alt: TrueLayer
+      - src: /uploads/Capital on Tap (1).svg
+        alt: Capital on Tap
+        width: 180
+      - src: /uploads/Stint (1).svg
+        alt: Stint
+        width: 110
+      - src: /uploads/Ocado (1).svg
+        alt: Ocado Technology
+        width: 110
+      - src: /uploads/Cezanne HR (1).svg
+        alt: Cezanne HR
         width: 140
-      - src: /uploads/Seedlegals.png
-        alt: SeedLegals
-        width: 170
-      - src: /uploads/YouGov.png
-        alt: YouGov
-        width: 115
-      - src: /uploads/Tembo.png
-        alt: Tembo Money
-        width: 130
-      - src: /uploads/XO Life.png
-        alt: XO Life
-        width: 130
-      - src: /uploads/Vizlib.png
-        alt: Vizlib
+      - src: /uploads/Penfold (1).svg
+        alt: Penfold
         width: 110
-      - src: /uploads/CrossTech.svg
-        alt: CrossTech
-        width: 145
-      - src: /uploads/Abundance Investment (1).svg
-        alt: Abundance Investment
-        width: 130
-      - src: /uploads/Cytora.png
-        alt: Cytora
-        width: 110
-      - src: /uploads/SO Energy.svg
-        alt: SO Energy
-        width: 55
+      - src: /uploads/Truv (1).svg
+        alt: Dynamo Analytics
+        width: 70
+      - src: /uploads/SingleTrack (1).svg
+        alt: SingleTrack
+        width: 160
     _template: companies
   - body: >
       <Center>
@@ -125,5 +117,6 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
