@@ -31,7 +31,7 @@ blocks:
         icon: point-up-front
         title: 3. Get to work
         text: |
-          Split into groups and get cracking on a fun product problem together
+          Split into groups and get cracking on a fun fictional brief together
       - background: ''
         icon: horns
         title: 4. Get together
@@ -141,6 +141,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 

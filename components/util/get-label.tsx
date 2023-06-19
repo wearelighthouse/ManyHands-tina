@@ -4,7 +4,7 @@ export const getContentLabel = (body) => {
   let foundHeading = '';
 
   JSON.stringify(body, (_, nestedValue) => {
-    if (!foundHeading && nestedValue && ['h1', 'h2', 'h3'].includes(nestedValue.type)) {
+    if (!foundHeading && nestedValue && ['h1', 'h2', 'h3'].includes(nestedValue.type) && nestedValue.children?.[0].text) {
       foundHeading = nestedValue.children?.[0].text;
     }
 
@@ -12,7 +12,7 @@ export const getContentLabel = (body) => {
   });
 
   JSON.stringify(body, (_, nestedValue) => {
-    if (!foundHeading && nestedValue && ['p'].includes(nestedValue.type)) {
+    if (!foundHeading && nestedValue && ['p'].includes(nestedValue.type) && nestedValue.children?.[0].text) {
       foundHeading = nestedValue.children?.[0].text;
     }
 

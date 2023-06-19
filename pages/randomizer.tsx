@@ -7,7 +7,6 @@ const data = {
     'task manager',
     'publishing medium',
     'social network',
-    'technical support',
     'dating app',
     'navigation',
     'services',
@@ -21,6 +20,7 @@ const data = {
     'collaboration tool',
     'marketplace',
     'food and drink',
+    'technical support',
   ],
   audiences: [
     'kids',
