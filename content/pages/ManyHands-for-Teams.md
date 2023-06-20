@@ -120,7 +120,7 @@ blocks:
           ***FREE***
       - open: false
         summary: |
-          ManyHands Extended - From £2,000\*
+          ManyHands Extended -* From £2,000\**
         text: >
           A chance to dive deeper into a problem, create exciting ideas
           collaboratively and practice presentation and pitching skills
@@ -142,7 +142,7 @@ blocks:
           events*
       - open: true
         summary: |
-          ManyHands Intensive - From £5,000\*
+          ManyHands Intensive - *From £5,000\**
         text: >
           A structured project to take an issue, explore it in depth and come up
           with creative solutions ready for testing and implementation.
@@ -196,6 +196,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
