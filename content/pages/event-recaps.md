@@ -3,7 +3,7 @@ title: Event recaps
 blocks:
   - background: bg-light-gray
     heading: Our past events
-    subtitle: Want to see what we got up to at previous events?
+    subtitle: Want to find out what we got up to at previous events?
     _template: basicHero
   - items:
       - open: false
@@ -22,6 +22,7 @@ blocks:
         text: "**The brief we collaborated on:**\\\nVirtual Assistant for Kids. \U0001F467\\\n\\\n**Attended by product pros from:**\\\nNatWest Rooster Money, Chip, Tide, YouGov, Perkbox, So Energy, SeedLegals, Tembo Money, Countingup, CrossTech, XO Life, Abundance Investment, Cytora, Vizlib, and more. \U0001F929\n\n[View the full recap](https://wearemanyhands.com/recap-june-2023 \"View the recap\")\n"
     _template: accordion
 ---
+
 
 
 
