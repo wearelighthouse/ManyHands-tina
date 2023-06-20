@@ -8,10 +8,7 @@ blocks:
   - items:
       - open: false
         summary: "\U0001F918 ManyHands London - March 2023\n"
-        text: |
-          Some text here
-
-          [Find out more](https://wearemanyhands.com/recap-march-2023)
+        text: "Attended by product pros from: \\\nChip, Capital on Tap, TrueLayer, Citigroup, Perlego, CezanneHR, Stint, Truv, Tide, Dynamo Analytics, Ocado Technology, Singletrack, Third Space Learning, and more. \U0001F929\\\n\\\n**Collaborative workshop brief:**\\\nSocial Network for World Leaders. \U0001F30E\n\n[Find out more](https://wearemanyhands.com/recap-march-2023)\n"
       - open: false
         summary: |
           ✌️ ManyHands London - June 2023
@@ -21,6 +18,7 @@ blocks:
           [Find out more](https://wearemanyhands.com/recap-june-2023)
     _template: accordion
 ---
+
 
 
 
