@@ -131,7 +131,7 @@ blocks:
           *2 - 4 hours*
 
 
-          ***£2,000\****
+          ***£2,000+\****
 
 
           *\*Discounts applicable for businesses who have attended in-person
@@ -192,6 +192,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
