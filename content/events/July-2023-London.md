@@ -65,6 +65,11 @@ blocks:
         job_title: Senior UX/UI Designer | Lighthouse
         link_url: ''
         link_text: ''
+      - src: /uploads/Tom Johnson Lighthouse.png
+        alt: Tom Johnson
+        quote: ''
+        name: Tom Johnson
+        job_title: Co-founder | Lighthouse
     _template: talksBy
   - icon: ok
     _template: hr
@@ -188,5 +193,6 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
