@@ -21,7 +21,13 @@ blocks:
           ✌️ ManyHands London - June 2023
         text: "**The brief we collaborated on:**\\\nVirtual Assistant for Kids. \U0001F467\\\n\\\n**Attended by product pros from:**\\\nNatWest Rooster Money, Chip, Tide, YouGov, Perkbox, So Energy, SeedLegals, Tembo Money, Countingup, CrossTech, XO Life, Abundance Investment, Cytora, Vizlib, and more. \U0001F929\n\n[View the full recap](https://wearemanyhands.com/recap-june-2023 \"View the recap\")\n"
     _template: accordion
+  - heading: Join the fun next time
+    _template: eventList
+  - largeText: |
+      The **number one UX / UI design partner** for digital product teams
+    _template: broughtToYouBy
 ---
+
 
 
 
