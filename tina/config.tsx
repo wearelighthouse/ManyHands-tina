@@ -269,6 +269,7 @@ const config = defineStaticConfig({
               quotesBlockSchema,
               bigListBlockSchema,
               accordionBlockSchema,
+              talksByBlockSchema,
             ],
           },
         ],
