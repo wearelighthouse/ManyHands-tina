@@ -112,8 +112,6 @@ blocks:
 
           *Online only*\
 
-          *1 day*\
-
           *1 hour*
 
 
@@ -129,8 +127,6 @@ blocks:
           *1 session*\
 
           *In-person or online*\
-
-          *1 day*\
 
           *2 - 4 hours*
 
@@ -196,6 +192,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
