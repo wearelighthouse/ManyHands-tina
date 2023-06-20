@@ -118,7 +118,7 @@ blocks:
           ***FREE***
       - open: false
         summary: |
-          ManyHands Extended -* From £2,000\**
+          ManyHands Extended - *From £2,000*\*
         text: >
           A chance to dive deeper into a problem, create exciting ideas
           collaboratively and practice presentation and pitching skills
@@ -192,6 +192,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
