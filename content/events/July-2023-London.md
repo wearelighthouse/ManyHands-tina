@@ -56,7 +56,7 @@ blocks:
         text: |
           We want your design brain, not your ££££s.
     _template: columns
-  - heading: Talks from the best in the business
+  - heading: Talks around creativity and modern product life
     hosts:
       - src: /uploads/Elvin.png
         alt: Elvin Tsang
@@ -193,6 +193,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
