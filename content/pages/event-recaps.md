@@ -8,7 +8,7 @@ blocks:
   - items:
       - open: false
         summary: "\U0001F918Manyhands Online - November 2022\n"
-        text: "**Collaborative workshop brief:**\\\nTravel and Transport for Secret Agents.\U0001F575️\n\n**Attended by product pros from:**\\\nSquarespace, Shopify, Ocado Technology, Tembo Money, Tiller Technologies, Fenestra, Xceptor, and more. \U0001F929\n"
+        text: "**The brief we collaborated on:**\\\nTravel and Transport for Secret Agents.\U0001F575️\n\n**Attended by product pros from:**\\\nSquarespace, Shopify, Ocado Technology, Tembo Money, Tiller Technologies, Fenestra, Xceptor, and more. \U0001F929\n"
       - open: false
         summary: |
           ✌️ ManyHands Online - January 2022
@@ -22,6 +22,7 @@ blocks:
         text: "**Attended by product pros from:**\\\nNatWest Rooster Money, Chip, Tide, YouGov, Perkbox, So Energy, SeedLegals, Tembo Money, Countingup, CrossTech, XO Life, Abundance Investment, Cytora, Vizlib, and more. \U0001F929\\\n\\\n**Collaborative workshop brief:**\\\nVirtual Assistant for Kids. \U0001F467\n\n[View the recap](https://wearemanyhands.com/recap-june-2023 \"View the recap\")\n"
     _template: accordion
 ---
+
 
 
 
