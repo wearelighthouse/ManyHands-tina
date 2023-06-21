@@ -16,7 +16,7 @@ The content is managed through Markdown and JSON files stored in this GitHub rep
 
 ## Requirements
 
-- Git, [Node.js Active LTS](https://nodejs.org/en/about/releases/), Yarn installed for local development.
+- Git, [Node.js LTS and NPM](https://nodejs.org) for local development.
 - A [TinaCMS](https://app.tina.io) account for live editing.
 
 ## Local Development
