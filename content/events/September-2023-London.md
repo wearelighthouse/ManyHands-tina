@@ -1,5 +1,5 @@
 ---
-title: July 2023 London
+title: September 2023 London
 date: 2023-09-20T17:30:00.000Z
 date_end: 2023-09-20T20:30:00.000Z
 location_short: London
@@ -193,4 +193,5 @@ blocks:
       </Center>
     _template: content
 ---
+
 
