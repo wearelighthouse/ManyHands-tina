@@ -58,18 +58,18 @@ blocks:
     _template: columns
   - heading: Talks around creativity and modern product life
     hosts:
-      - src: /uploads/Elvin.png
-        alt: Elvin Tsang
+      - src: /uploads/Speaker 1 to be announced.png
+        alt: Speaker to be announced
         quote: ''
-        name: Elvin Tsang
-        job_title: Senior UX/UI Designer | Lighthouse
+        name: To be announced
+        job_title: ''
         link_url: ''
         link_text: ''
-      - src: /uploads/Tom Johnson Lighthouse.png
-        alt: Tom Johnson
+      - src: /uploads/Speaker 2 to be announced.png
+        alt: Speaker to be announced
         quote: ''
-        name: Tom Johnson
-        job_title: Co-founder | Lighthouse
+        name: To be announced
+        job_title: ''
     _template: talksBy
   - icon: ok
     _template: hr
@@ -193,5 +193,6 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
