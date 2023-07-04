@@ -163,7 +163,7 @@ blocks:
     _template: accordion
   - body: |
       <Center>
-        <Cta text="Enquire now →" href="mailto:hello@wearelighthouse.com" />
+        <Cta text="Enquire now →" href="https://airtable.com/shr5mMIN4QEwcy324" />
       </Center>
     _template: content
   - icon: horns
@@ -185,13 +185,14 @@ blocks:
 
         Get in touch to find out more.
 
-        <Cta text="Get started!" href="mailto:hello@wearelighthouse.com" />
+        <Cta text="Get started!" href="https://airtable.com/shr5mMIN4QEwcy324" />
       </Center>
     _template: content
   - largeText: |
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
