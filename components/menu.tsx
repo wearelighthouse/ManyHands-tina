@@ -9,11 +9,11 @@ const menuItems = [
     asPath: '/home',
   },
   {
-    text: 'Privacy Policy',
-    href: '/privacy-policy',
+    text: 'Past events',
+    href: '/event-recaps',
   },
   {
-    text: 'Teams',
+    text: 'For teams',
     href: '/ManyHands-for-Teams',
   },
 ];
