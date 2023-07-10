@@ -65,7 +65,7 @@ blocks:
         job_title: Senior UX/UI Designer | Lighthouse
         link_url: ''
         link_text: ''
-      - src: /uploads/Tom Johnson Lighthouse.png
+      - src: /uploads/Tom Johnson - speaker.png
         alt: Tom Johnson
         quote: ''
         name: Tom Johnson
@@ -193,6 +193,7 @@ blocks:
       </Center>
     _template: content
 ---
+
 
 
 
