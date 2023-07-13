@@ -5,7 +5,9 @@ blocks:
     heading: ManyHands London - July 2023
     subtitle: "\U0001F5D3️ 12th July 2023 \U0001F4CD Uncommon, Liverpool Street"
     _template: basicHero
-  - body: "We’re still blown away by quite how much fun and creativity happens when you get smart product people in a room and set them to work on something miles away from the day job.\L\L\n\nEveryone got on like old friends, and the ideas and beers flowed. \U0001F37B\n"
+  - body: >
+      We had so many sign ups for our June event that we had to add an extra
+      date in for July as an overflow.
     _template: content
   - body: |
       ![](</uploads/ManyHands London June 2023.jpg>)
@@ -59,26 +61,18 @@ blocks:
         alt: SO Energy
         width: 55
     _template: companies
-  - body: >
+  - body: |
       <Center>
         ### We learned loads from our speakers
       </Center>
-
 
       <Center>
         ![Elvin Tsang and Tom Johnson](</uploads/Speakers July.png>)![]()
       </Center>
 
-
-      Jane kicked off the night with a talk about how to create an insights-led
-      culture, and the importance of user-centricity throughout your
-      organisation (not just in UX and product teams). \
-
+      Elvin kicked us off with a talk on \
       \
-
-      Russ followed up with an interactive presentation on how to manipulate
-      creativity, which involved handing out some strange nicknacks from charity
-      shops and putting people on the spot to come up with best uses for them.
+      Tom was up next
     _template: content
   - body: |
       <Center>
@@ -89,8 +83,8 @@ blocks:
     _template: hr
   - heading: We collaborated on a fun product challenge
     items:
-      - indicator: "\U0001F467"
-        title: Virtual Assistant for Kids
+      - indicator: "\U0001F9B8"
+        title: Collaboration Tool for Superheroes
     _template: bigList
   - body: >
       With our creative brains all warmed up, we grabbed some pizza, got into
@@ -124,5 +118,6 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
