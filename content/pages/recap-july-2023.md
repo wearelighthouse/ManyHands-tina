@@ -6,8 +6,14 @@ blocks:
     subtitle: "\U0001F5D3️ 12th July 2023 \U0001F4CD Uncommon, Liverpool Street"
     _template: basicHero
   - body: >
-      We had so many sign ups for our June event that we had to add an extra
-      date in for July as an overflow.
+      We had so many sign ups for our June event that we had to squeeze an extra
+      date in for July to meet demand, which was both incredibly flattering and
+      a bit hectic to arrange!\
+
+      \
+
+      But it was another great night with top people and lots of laughter so it
+      was all worth it. Massive thank you to everyone who came along.
     _template: content
   - body: |
       ![](</uploads/ManyHands London June 2023.jpg>)
@@ -70,9 +76,9 @@ blocks:
         ![Elvin Tsang and Tom Johnson](</uploads/Speakers July.png>)![]()
       </Center>
 
-      Elvin kicked us off with a talk on \
-      \
-      Tom was up next
+      Elvin kicked us off with a talk on 
+
+      Next up, Tom introduced us to his inner critic 
     _template: content
   - body: |
       <Center>
@@ -91,15 +97,11 @@ blocks:
       groups, and started brainstorming. An hour later, we pitched our ideas
       back to the wider group:
     _template: content
-  - body: "\U0001F5E3  Using the tool to overcome the constant battle that is parenting by getting it to motivate children to complete boring daily tasks.\n"
+  - body: "\U0001F91D  An app that matches you to the right superhero in the right place at the right time via complex global monitoring channels\n"
     _template: content
-  - body: "\U0001F4FA Gamification features like rewards for good behaviour - if you eat your veggies, you can win telly time!\n"
+  - body: "\U0001F947 Live streamed crisis fixing with a monthly leaderboard for superheroes looking to improve their global rep\n"
     _template: content
-  - body: >
-      ❤️ A product that isn’t screen-based, but is the child’s own slice of tech
-      that they can be proud of - and throw around.
-    _template: content
-  - body: "\U0001F331 Providing psychological safety and comfort through the product. A virtual assistant that speaks their language, and grows with them.\n"
+  - body: "\U0001F4B0 Lofty financial sights with multibillion bound growth in the first year (and room to 10x by expansion across the universe)\n"
     _template: content
   - background: bg-light-gray
     quotes:
@@ -118,6 +120,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
