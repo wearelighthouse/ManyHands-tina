@@ -7,6 +7,9 @@ blocks:
     _template: basicHero
   - items:
       - open: false
+        summary: "\U0001F918 ManyHands London - July 2023\n"
+        text: "**The brief we collaborated on:**\\\nCollaboration Tool for Superheroes. \U0001F9B8\n\n**Attended by product pros from:**\\\nCanva, Tembo, Bandwidth, ANNA Money, Century Tech, BVNK, Kroo Bank, Flagstone, MyTutor, Simpplr, Beyondly, DTI, Evident Software, and more. \U0001F929\n"
+      - open: false
         summary: |
           ✌️ ManyHands London - June 2023
         text: "**The brief we collaborated on:**\\\nVirtual Assistant for Kids. \U0001F467\\\n\\\n**Attended by product pros from:**\\\nNatWest Rooster Money, Chip, Tide, YouGov, Perkbox, So Energy, SeedLegals, Tembo Money, Countingup, CrossTech, XO Life, Abundance Investment, Cytora, Vizlib, and more. \U0001F929\n\n[View the full recap](https://wearemanyhands.com/recap-june-2023 \"View the recap\")\n"
@@ -37,6 +40,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
