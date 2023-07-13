@@ -24,6 +24,9 @@ blocks:
       </Center>
     _template: content
   - logos:
+      - src: /uploads/Canva Logo.png
+        alt: Canva
+        width: 100
       - src: /uploads/Bandwidth.svg
         alt: Bandwidth
         width: 160
@@ -42,9 +45,15 @@ blocks:
       - src: /uploads/Kroo Bank.png
         alt: Kroo Bank
         width: 125
+      - src: /uploads/MyTutor Logo.png
+        alt: MyTutor
+        width: 120
       - src: /uploads/Tembo.png
         alt: Tembo Money
         width: 130
+      - src: /uploads/Century Tech.svg
+        alt: CENTURY Tech
+        width: 150
     _template: companies
   - body: |
       <Center>
@@ -99,6 +108,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
