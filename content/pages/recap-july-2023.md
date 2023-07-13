@@ -36,6 +36,9 @@ blocks:
       - src: /uploads/Simpplr.svg
         alt: Simpplr
         width: 130
+      - src: /uploads/Anna.svg
+        alt: ANNA Money
+        width: 100
       - src: /uploads/Kroo Bank.png
         alt: Kroo Bank
         width: 125
@@ -96,6 +99,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
