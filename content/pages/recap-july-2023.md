@@ -24,48 +24,24 @@ blocks:
       </Center>
     _template: content
   - logos:
-      - src: /uploads/Chip.png
-        alt: Chip
+      - src: /uploads/Bandwidth.svg
+        alt: Bandwidth
+        width: 160
+      - src: /uploads/BVNK.svg
+        alt: BVNK
+        width: 100
+      - src: /uploads/Flagstone.svg
+        alt: Flagstone
+        width: 180
+      - src: /uploads/Simpplr.svg
+        alt: Simpplr
         width: 130
-      - src: /uploads/Natwest.png
-        alt: Natwest Rooster Money
-        width: 150
-      - src: /uploads/Perkbox.png
-        alt: Perkbox
-        width: 150
-      - src: /uploads/Tide.png
-        alt: Tide
-        width: 80
-      - src: /uploads/Countingup (1).png
-        alt: Countingup
-        width: 140
-      - src: /uploads/Seedlegals.png
-        alt: SeedLegals
-        width: 170
-      - src: /uploads/YouGov.png
-        alt: YouGov
-        width: 115
+      - src: /uploads/Kroo Bank.png
+        alt: Kroo Bank
+        width: 125
       - src: /uploads/Tembo.png
         alt: Tembo Money
         width: 130
-      - src: /uploads/XO Life.png
-        alt: XO Life
-        width: 130
-      - src: /uploads/Vizlib.png
-        alt: Vizlib
-        width: 110
-      - src: /uploads/CrossTech.svg
-        alt: CrossTech
-        width: 145
-      - src: /uploads/Abundance Investment (1).svg
-        alt: Abundance Investment
-        width: 130
-      - src: /uploads/Cytora.png
-        alt: Cytora
-        width: 110
-      - src: /uploads/SO Energy.svg
-        alt: SO Energy
-        width: 55
     _template: companies
   - body: |
       <Center>
@@ -76,9 +52,9 @@ blocks:
         ![Elvin Tsang and Tom Johnson](</uploads/Speakers July.png>)![]()
       </Center>
 
-      Elvin kicked us off with a talk on 
+      Elvin kicked us off with a talk on
 
-      Next up, Tom introduced us to his inner critic 
+      Next up, Tom introduced us to his inner critic
     _template: content
   - body: |
       <Center>
@@ -120,6 +96,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
