@@ -12,8 +12,9 @@ blocks:
 
       \
 
-      But it was another great night with top people and lots of laughter so it
-      was all worth it. Massive thank you to everyone who came along.
+      But it was another great night with top product people and lots of
+      laughter so it was all worth it. Massive thank you to everyone who came
+      along.
     _template: content
   - body: |
       ![](</uploads/ManyHands London June 2023.jpg>)
@@ -108,6 +109,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
