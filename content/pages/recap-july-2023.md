@@ -2,8 +2,8 @@
 title: ManyHands London July 2023 recap
 blocks:
   - background: bg-mimosa
-    heading: ManyHands London - June 2023
-    subtitle: "\U0001F5D3️ 7th June 2023 \U0001F4CD Uncommon, Liverpool Street"
+    heading: ManyHands London - July 2023
+    subtitle: "\U0001F5D3️ 12th July 2023 \U0001F4CD Uncommon, Liverpool Street"
     _template: basicHero
   - body: "We’re still blown away by quite how much fun and creativity happens when you get smart product people in a room and set them to work on something miles away from the day job.\L\L\n\nEveryone got on like old friends, and the ideas and beers flowed. \U0001F37B\n"
     _template: content
@@ -61,12 +61,12 @@ blocks:
     _template: companies
   - body: >
       <Center>
-        ### We learned loads from our awesome speakers
+        ### We learned loads from our speakers
       </Center>
 
 
       <Center>
-        ![](</uploads/Speakers June.png>)
+        ![Elvin Tsang and Tom Johnson](</uploads/Speakers July.png>)![]()
       </Center>
 
 
@@ -124,4 +124,5 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
