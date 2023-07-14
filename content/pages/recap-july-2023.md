@@ -5,16 +5,7 @@ blocks:
     heading: ManyHands London - July 2023
     subtitle: "\U0001F5D3️ 12th July 2023 \U0001F4CD Uncommon, Liverpool Street"
     _template: basicHero
-  - body: >
-      We had so many sign ups for our June event that we had to squeeze an extra
-      date in for July to meet demand, which was both incredibly flattering and
-      a bit hectic to arrange!\
-
-      \
-
-      But it was another great night with top product people and lots of
-      laughter so it was all worth it. Massive thank you to everyone who came
-      along.
+  - body: "It's always loads of fun to be in a room filled with product pros to work on a fictional brief. We're constantly blown away by the creativity and camaraderie that people bring to our silly product challenges. \n\nMassive thank you to everyone who came along to our July event. \U0001F64C \n"
     _template: content
   - body: |
       ![](</uploads/ManyHands London June 2023.jpg>)
@@ -56,16 +47,23 @@ blocks:
         alt: CENTURY Tech
         width: 150
     _template: companies
-  - body: |
+  - body: >
       <Center>
         ### We learned loads from our speakers
       </Center>
+
 
       <Center>
         ![Elvin Tsang and Tom Johnson](</uploads/Speakers July.png>)![]()
       </Center>
 
-      Elvin kicked us off with a talk on
+
+      Elvin kicked us off with a talk on human psychological responses to high
+      pressure situations, and how product designers can use the same 7
+      questions commanders use on battlefields to create actionable mission
+      plans to turn bad situations into good outcomes, particularly when it
+      comes to client work. 
+
 
       Next up, Tom introduced us to his inner critic
     _template: content
@@ -109,6 +107,7 @@ blocks:
       The **number one UX / UI design partner** for digital product teams
     _template: broughtToYouBy
 ---
+
 
 
 
