@@ -121,9 +121,10 @@ blocks:
   - icon: ok
     _template: hr
   - largeText: |
-      The **number one UX / UI design partner** for digital product teams
+      The **go-to UX / UI design partner** for ambitious product teams
     _template: broughtToYouBy
 ---
+
 
 
 
