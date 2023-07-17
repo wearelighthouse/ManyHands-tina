@@ -197,7 +197,11 @@ blocks:
         <Cta href="https://airtable.com/shrOh808iBDVo9Ne1" text="Join the list" />
       </Center>
     _template: content
+  - largeText: |
+      The **go-to UX / UI design partner** for ambitious product teams
+    _template: broughtToYouBy
 ---
+
 
 
 
