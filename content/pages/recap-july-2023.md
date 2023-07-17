@@ -5,7 +5,7 @@ blocks:
     heading: ManyHands London - July 2023
     subtitle: "\U0001F5D3️ 12th July 2023 \U0001F4CD Uncommon, Liverpool Street"
     _template: basicHero
-  - body: "It's always loads of fun to be in a room filled with product pros to work on a fictional brief. We're constantly blown away by the creativity and camaraderie that people bring to our silly product challenges. \n\nMassive thank you to everyone who came along to our July event. \U0001F64C \n"
+  - body: "It's always loads of fun to be in a room filled with product pros to work on a fictional brief. We're constantly blown away by the creativity and camaraderie that people bring to our silly product challenges.\n\nMassive thank you to everyone who came along to our July event. \U0001F64C\n"
     _template: content
   - body: |
       ![](</uploads/ManyHands London June 2023.jpg>)
@@ -62,7 +62,7 @@ blocks:
       pressure situations, and how product designers can use the same 7
       questions commanders use on battlefields to create actionable mission
       plans to turn bad situations into good outcomes, particularly when it
-      comes to client work. 
+      comes to client work.
 
 
       Next up, Tom introduced us to his inner critic
@@ -104,9 +104,10 @@ blocks:
   - icon: ok
     _template: hr
   - largeText: |
-      The **number one UX / UI design partner** for digital product teams
+      The **go-to UX / UI design partner** for ambitious product teams
     _template: broughtToYouBy
 ---
+
 
 
 
