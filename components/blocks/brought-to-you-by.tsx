@@ -110,11 +110,11 @@ const defaultLargeText = {
         {
           type: 'text',
           bold: true,
-          text: 'number one UX / UI design partner',
+          text: 'go-to UX / UI design partner',
         },
         {
           type: 'text',
-          text: ' for digital product teams',
+          text: ' for ambitious product teams',
         },
       ],
     },
