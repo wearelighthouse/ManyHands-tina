@@ -163,9 +163,8 @@ export default function Randomizer() {
           </div>
 
           <div className="flex flex-wrap items-end justify-end content-end gap-4 static z-10">
-            <button className="button h-10 reset">Reset</button>
-            <button className="button h-10 run">Run</button>
-            <button className="button h-10 overflow">Toggle Overflow</button>
+            <button className="button h-10 reset">◼</button>
+            <button className="button h-10 run">▶</button>
           </div>
         </div>
       </main>
