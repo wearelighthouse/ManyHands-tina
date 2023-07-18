@@ -1,7 +1,7 @@
 ---
 title: September 2023 London
-date: 2023-09-20T17:30:00.000Z
-date_end: 2023-09-20T20:30:00.000Z
+date: 2023-09-13T17:30:00.000Z
+date_end: 2023-09-13T20:30:00.000Z
 location_short: London
 location: |-
   Uncommon
@@ -201,6 +201,7 @@ blocks:
       The **go-to UX / UI design partner** for ambitious product teams
     _template: broughtToYouBy
 ---
+
 
 
 
