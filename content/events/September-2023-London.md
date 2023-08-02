@@ -14,6 +14,14 @@ blocks:
         **SPONSORED BY**
       </Center>
     _template: content
+  - logos:
+      - src: /uploads/logo-heap-1.png
+        alt: Heap logo
+        width: 180
+      - src: /uploads/logo-chemistry.png
+        alt: Cheimistry logo
+        width: 210
+    _template: companies
   - body: >
       Meet top product people from innovative organisations and get creative
 
@@ -206,6 +214,7 @@ blocks:
       The **go-to UX / UI design partner** for ambitious product teams
     _template: broughtToYouBy
 ---
+
 
 
 
