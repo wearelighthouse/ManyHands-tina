@@ -19,7 +19,7 @@ blocks:
         alt: Heap logo
         width: 180
       - src: /uploads/logo-chemistry.png
-        alt: Cheimistry logo
+        alt: Chemistry logo
         width: 210
     _template: companies
   - body: >
@@ -214,6 +214,7 @@ blocks:
       The **go-to UX / UI design partner** for ambitious product teams
     _template: broughtToYouBy
 ---
+
 
 
 
