@@ -9,8 +9,14 @@ location: |-
 status: 'border-[#FF9325] bg-[#F3EDE0]'
 sign_up_url: 'https://airtable.com/shrS63Aey48lMFhbX'
 blocks:
-  - body: |
-      ![Heap logo](/uploads/logo-heap-1.png)
+  - body: >
+      ![Heap logo](/uploads/logo-heap-1.png)![Chemistry
+      logo](/uploads/logo-chemistry.png)
+
+
+      ```html
+
+      ```
     _template: content
   - body: >
       Meet top product people from innovative organisations and get creative
@@ -204,6 +210,7 @@ blocks:
       The **go-to UX / UI design partner** for ambitious product teams
     _template: broughtToYouBy
 ---
+
 
 
 
