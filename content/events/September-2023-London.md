@@ -10,10 +10,8 @@ status: 'border-[#FF9325] bg-[#F3EDE0]'
 sign_up_url: 'https://airtable.com/shrS63Aey48lMFhbX'
 blocks:
   - body: |
-      SPONSORED BY
-
       <Center>
-        ![](/uploads/Heap.png)
+        **SPONSORED BY**
       </Center>
     _template: content
   - body: >
@@ -208,6 +206,7 @@ blocks:
       The **go-to UX / UI design partner** for ambitious product teams
     _template: broughtToYouBy
 ---
+
 
 
 
