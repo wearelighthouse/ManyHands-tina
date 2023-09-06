@@ -6,7 +6,7 @@ location_short: London
 location: |-
   Uncommon
   Liverpool St, London EC2M 7PP
-status: 'border-[#FF9325] bg-[#F3EDE0]'
+status: full
 sign_up_url: 'https://airtable.com/shrS63Aey48lMFhbX'
 blocks:
   - body: |
@@ -214,6 +214,7 @@ blocks:
       The **go-to UX / UI design partner** for ambitious product teams
     _template: broughtToYouBy
 ---
+
 
 
 
