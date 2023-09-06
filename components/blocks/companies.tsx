@@ -63,11 +63,6 @@ export const companiesBlockSchema: Template = {
           label: "Height (px)",
           type: "number",
         },
-        {
-          name: "link",
-          label: "Link / URL",
-          type: "string",
-        },
       ],
     },
   ],
