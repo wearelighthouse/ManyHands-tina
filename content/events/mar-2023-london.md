@@ -1,7 +1,7 @@
 ---
 title: March 2023 London
-date: '2023-03-22T18:00:00.000Z'
-date_end: '2023-03-22T21:00:00.000Z'
+date: 2023-03-22T18:00:00.000Z
+date_end: 2023-03-22T21:00:00.000Z
 location_short: London
 location: |-
   Uncommon
@@ -41,16 +41,20 @@ blocks:
     items:
       - icon: wave
         title: In-Person
-        text: 'Real people in real life, not just faces in a grid.'
+        text: |
+          Real people in real life, not just faces in a grid.
       - icon: scissors
         title: Talks from top pros
-        text: Learn from the industry's best and brightest.
+        text: |
+          Learn from the industry's best and brightest.
       - icon: raised
         title: Dinner's on us
-        text: Who can be creative on an empty stomach?
+        text: |
+          Who can be creative on an empty stomach?
       - icon: raised-double
         title: Still totally free
-        text: 'We want your design brain, not your ££££s.'
+        text: |
+          We want your design brain, not your ££££s.
     _template: columns
   - heading: Talks from the best in the business
     hosts:
@@ -158,7 +162,7 @@ blocks:
     _template: hr
   - body: |
       <Center>
-        [(/uploads/linkedin\(1\).png "Follow ManyHands on LinkedIn")](https://uk.linkedin.com/company/manyhands-from-lighthouse)
+        [(/uploads/linkedin(1).png "Follow ManyHands on LinkedIn")](https://uk.linkedin.com/company/manyhands-from-lighthouse)
       </Center>
     _template: content
   - background: bg-light-gray
@@ -171,7 +175,5 @@ blocks:
         <Cta text="Join the list" href="https://airtable.com/shrOh808iBDVo9Ne1" />
       </Center>
     _template: content
-  - largeText: |
-      The **number one UX / UI design partner** for digital product teams
-    _template: broughtToYouBy
 ---
+
