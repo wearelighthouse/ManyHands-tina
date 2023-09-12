@@ -5,7 +5,7 @@ blocks:
     heading: About
     subtitle: ''
     _template: basicHero
-  - body: "ManyHands is a collaborative, creative event for product people brought to you by [Lighthouse](https://wearelighthouse.com) - one of the UK’s leading UX/UI agencies.\n\nOur team felt like there was a gap in the industry for networking opportunities people actually enjoy - something that fosters real connection and community and, most importantly, is genuinely fun.\n\nWe decided to fix that, and we're still riding the high of being told that ManyHands 'doesn't feel like a work event' to this day. \U0001F389\n"
+  - body: "ManyHands is a collaborative, creative event for product people.\n\nWe felt like there was a gap in the industry for networking opportunities people actually enjoy - something that fosters real connection and community and, most importantly, is genuinely fun.\n\nWe decided to fix that, and we're still riding the high of being told that ManyHands 'doesn't feel like a work event' to this day. \U0001F389\n"
     _template: content
   - background: ''
     body: |
@@ -71,6 +71,7 @@ blocks:
   - body: "<Center>\n  ### Our corporate workshops\n</Center>\n\nAfter the massive success of our in-person events, attendees have been asking us to to bring the fun and laughter of ManyHands to their internal teams so they can experience the benefits with their colleagues.\\\n\\\nOur 'ManyHands for Teams' workshops aim to promote creativity and innovative thinking across departments in your organisation by breaking out of BAU through collaborative creative challenges.\n\nBookings are currently open - and we'll even do it for free. \U0001F918\n\n<Center>\n  <Cta text=\"Learn more\" href=\"/ManyHands-for-Teams\" />\n</Center>\n"
     _template: content
 ---
+
 
 
 
