@@ -112,7 +112,7 @@ export const eventListBlockSchema: Template = {
   ui: {
     previewSrc: "/blocks/hero.png",
     defaultItem: {
-      heading: "Next events",
+      heading: "Next-events",
     },
   },
   fields: [
