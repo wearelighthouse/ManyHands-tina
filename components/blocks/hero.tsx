@@ -2,7 +2,7 @@ import * as React from "react";
 import type { Template } from "tinacms";
 import Link from "next/link";
 import { Icon, iconSchema } from "../util/icon";
-import LighthouseLogoSvg from "../../assets/img/lighthouse-logo.svg";
+import DppLogoSvg from "../../assets/img/dpp-logo.svg";
 
 const prefix = process.env.prefix ?? '';
 
@@ -58,15 +58,13 @@ export const Hero = ({ data, parentField }) => (
         )}
 
         <div className="mt-4 tablet:mt-8 flex flex-wrap gap-x-6 gap-y-1 justify-center">
-          <span className="font-medium tablet:text-xl leading-[36px]">Brought to you by</span>
-
           <a
-            href="https://wearelighthouse.com/"
+            href="https://wearedpp.com/"
             rel="noopener"
             className="inline-flex hover:bg-white/100 -m-2 p-2 rounded transition duration-300"
           >
-            <LighthouseLogoSvg
-              aria-label="Lighthouse"
+            <DppLogoSvg
+              aria-label="by Digital Product People"
             />
           </a>
         </div>
