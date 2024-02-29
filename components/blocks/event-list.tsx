@@ -82,7 +82,7 @@ export const EventList = ({ data, parentField }) => {
                 )}
                 <div className="flex tablet:items-center ml-4 desktop:ml-6 max-tablet:ml-1 shrink-0 leading-none">
                   <Link
-                    href={`/event/${event._sys.filename}`}
+                    href={event._values.sign_up_url}
                   >
                     {event._values.status === 'full' ? (
                       <a className="button !grid !h-20 place-items-center place-content-center !bg-dark-gray-new hover:!bg-dark-gray-new/95">
