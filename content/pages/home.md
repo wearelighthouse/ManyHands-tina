@@ -135,15 +135,8 @@ blocks:
   - body: |
       <Center />
     _template: content
-  - heading: Next event
+  - heading: Next event announced soon
     _template: eventList
-  - body: |
-      <Center>
-        Our next event will be in Summer 2024.
-
-        More details coming soon!
-      </Center>
-    _template: content
   - background: bg-light-gray
     body: |
       <Center>
