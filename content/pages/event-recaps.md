@@ -28,7 +28,7 @@ blocks:
         summary: "\U0001F918Manyhands Online - November 2022\n"
         text: "**The brief we collaborated on:**\\\nTravel and Transport for Secret Agents.\U0001F575️\n\n**Attended by product pros from:**\\\nSquarespace, Shopify, Ocado Technology, Tembo Money, Tiller Technologies, Fenestra, Xceptor, and more. \U0001F929\n"
     _template: accordion
-  - heading: Our next events
+  - heading: Our next event
     _template: eventList
   - body: |
       <Center>
