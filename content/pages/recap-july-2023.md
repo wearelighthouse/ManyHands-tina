@@ -54,7 +54,7 @@ blocks:
 
 
       <Center>
-        ![Elvin Tsang and Tom Johnson](</uploads/Speakers July.png>)![]()
+        ![Luisa and Jane](</uploads/ManyHands April 2024 (1).png>)![L](</uploads/Speakers July.png>)![]()
       </Center>
 
 
@@ -107,13 +107,4 @@ blocks:
       The **go-to UX / UI design partner** for ambitious product teams
     _template: broughtToYouBy
 ---
-
-
-
-
-
-
-
-
-
 
