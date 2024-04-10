@@ -60,11 +60,9 @@ blocks:
         author: Marco Service
         jobTitle: Product Designer
     _template: quotes
-  - heading: Want to join the fun next time?
-    _template: eventList
   - icon: ok
     _template: hr
-  - background: bg-light-gray
+  - background: bg-light-pink
     body: |
       <Center>
         ### Want to get involved in the future?
