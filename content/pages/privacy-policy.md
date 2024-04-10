@@ -112,7 +112,7 @@ blocks:
 
       If you wish to access, correct, update, or request deletion of your
       personal information, you can do so at any time by emailing
-      [hello@wearelighthouse.com](mailto\:hello@wearelighthouse.com)\
+      [hello@wearedpp.com](mailto\:hello@wearelighthouse.com)\
 
       \
 
@@ -154,7 +154,7 @@ blocks:
 
       \
 
-      Email us: [hello@wearelighthouse.com](mailto\:hello@wearelighthouse.com)\
+      Email us: [hello@wearedpp.com](mailto\:hello@wearelighthouse.com)\
 
       \
 
@@ -166,15 +166,13 @@ blocks:
 
       \
 
-      Lighthouse,\
+      Digital Product People\
 
-      G13 Clerkenwell Workshops\
+      101 King's Cross Road\
 
-      27-31 Clerkenwell Close\
+      London\
 
-      London \
-
-      EC1R 0AT.
+      WC1X 9LP
     _template: content
 ---
 
