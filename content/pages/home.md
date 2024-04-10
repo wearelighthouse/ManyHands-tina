@@ -49,8 +49,6 @@ blocks:
         <Cta text="Join the list" href="https://airtable.com/shrOh808iBDVo9Ne1" />
       </Center>
     _template: content
-  - heading: Next events
-    _template: eventList
   - background: ''
     quotes:
       - quote: >-
@@ -137,5 +135,7 @@ blocks:
   - body: |
       <Center />
     _template: content
+  - heading: Next events
+    _template: eventList
 ---
 
