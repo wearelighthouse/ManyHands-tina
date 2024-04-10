@@ -188,8 +188,5 @@ blocks:
         <Cta text="Get started!" href="https://airtable.com/shr5mMIN4QEwcy324" />
       </Center>
     _template: content
-  - largeText: |
-      The **go-to UX / UI design partner** for ambitious product teams
-    _template: broughtToYouBy
 ---
 
