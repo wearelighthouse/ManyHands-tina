@@ -137,7 +137,8 @@ blocks:
     _template: content
   - heading: "Next event TBC \U0001F440"
     _template: eventList
-  - body: >
+  - background: bg-mimosa
+    body: >
       Our next event will be in the Summer 2024.
 
 
