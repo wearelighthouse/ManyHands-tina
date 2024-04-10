@@ -135,7 +135,7 @@ blocks:
   - body: |
       <Center />
     _template: content
-  - heading: Next events
+  - heading: "Next event TBC \U0001F440"
     _template: eventList
 ---
 
