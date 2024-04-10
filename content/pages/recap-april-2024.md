@@ -47,25 +47,7 @@ blocks:
         alt: CENTURY Tech
         width: 150
     _template: companies
-  - body: >
-      <Center>
-        ### We learned loads from our speakers
-      </Center>
-
-
-      <Center>
-        ![Elvin Tsang and Tom Johnson](</uploads/Speakers July.png>)![]()
-      </Center>
-
-
-      Elvin kicked us off with a talk on human psychological responses to high
-      pressure situations, and how product designers can use the same 7
-      questions commanders use on battlefields to create actionable mission
-      plans to turn bad situations into good outcomes, particularly when it
-      comes to client work.
-
-
-      Next up, Tom introduced us to his inner critic
+  - body: "<Center>\n  ### We learned loads from our speakers\n</Center>\n\n<Center>\n  ![Elvin Tsang and Tom Johnson](</uploads/Speakers July.png>)![]()\n</Center>\n\nLuisa, Product Manager at Flourish, gave an honest account of the challenges of\_deciding what to build\n\nJane, Experience Strategist at Flagstone,\_gave us the tools to break down a problem into its rawest form with 'first principle thinking'\n\n\n"
     _template: content
   - body: |
       <Center>
@@ -107,5 +89,4 @@ blocks:
       The **go-to UX / UI design partner** for ambitious product teams
     _template: broughtToYouBy
 ---
-
 
