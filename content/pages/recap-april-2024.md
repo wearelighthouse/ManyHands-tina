@@ -30,7 +30,7 @@ blocks:
     _template: content
   - body: |
       <Center>
-        ![](</uploads/ManyHands London June talks-min.png>)
+        ![](/uploads/DSCF0079.JPG)![](/uploads/DSCF0070.JPG)
       </Center>
     _template: content
   - icon: horns
