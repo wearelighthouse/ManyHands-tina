@@ -137,16 +137,15 @@ blocks:
     _template: content
   - heading: Next event
     _template: eventList
-  - background: bg-mimosa
-    body: >
-      Our next event will be in the Summer 2024.
+  - background: bg-light-gray
+    body: |
+      <Center>
+        ### Want to get involved in the future?
 
+        We'll let you know when we've set dates for upcoming events
 
-      More details coming soon!
-
-
-      <Cta text="Join the list to be the first to hear!"
-      href="https://airtable.com/appaIQ7maCdvPcOil/shrOh808iBDVo9Ne1" />
+        <Cta text="Join the list" href="https://airtable.com/shrOh808iBDVo9Ne1" />
+      </Center>
     _template: content
 ---
 
