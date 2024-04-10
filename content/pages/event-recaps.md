@@ -37,8 +37,6 @@ blocks:
         Our next event will be in the Summer 2024.
 
         More details coming soon!
-
-        <Cta text="Join the list!" href="https://airtable.com/appaIQ7maCdvPcOil/shrOh808iBDVo9Ne1" />
       </Center>
     _template: content
   - background: bg-light-gray
