@@ -6,9 +6,10 @@ blocks:
     _template: basicHero
   - body: >
       ManyHands is a creative, collaborative event for product people run by
-      [Lighthouse](https://wearedpp.com). This privacy policy sets out how The
-      Digital Product People uses and protects any information that you give
-      Digital Product People when you use the ManyHands website.
+      [Lighthouse](https://wearedpp.com "Digital Product People"). This privacy
+      policy sets out how The Digital Product People uses and protects any
+      information that you give Digital Product People when you use the
+      ManyHands website.
 
 
       Digital Product People is committed to ensuring that your privacy is
