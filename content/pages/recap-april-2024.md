@@ -58,8 +58,8 @@ blocks:
     _template: hr
   - heading: We collaborated on a fun product challenge
     items:
-      - indicator: "\U0001F9B8"
-        title: Collaboration Tool for Superheroes
+      - indicator: "\U0001F3AA"
+        title: Health and Wellbeing for Clowns
     _template: bigList
   - body: >
       With our creative brains all warmed up, we grabbed some pizza, got into
