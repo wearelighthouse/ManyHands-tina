@@ -31,10 +31,8 @@ blocks:
   - heading: Our next events
     _template: eventList
   - body: |
-      Default Text
-
       <Center>
-        Our next event will be in the Summer 2024.
+        Our next event will be in Summer 2024.
 
         More details coming soon!
       </Center>
