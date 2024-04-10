@@ -26,7 +26,7 @@ blocks:
         alt: Flagstone
         width: 180
     _template: companies
-  - body: "<Center>\n  ### We learned loads from our speakers\n</Center>\n\n<Center>\n  ![Elvin Tsang and Tom Johnson](</uploads/Speakers July.png>)![]()\n</Center>\n\nLuisa, Product Manager at Flourish, gave an honest account of the challenges of\_deciding what to build\n\nJane, Experience Strategist at Flagstone,\_gave us the tools to break down a problem into its rawest form with 'first principle thinking'\n"
+  - body: "<Center>\n  ### We learned loads from our speakers\n</Center>\n\n<Center>\n  ![Luisa and Jane](</uploads/ManyHands April 2024 (1).png> \"Luisa and Jane\")\n</Center>\n\nLuisa, Product Manager at Flourish, gave an honest account of the challenges of\_deciding what to build\n\nJane, Experience Strategist at Flagstone,\_gave us the tools to break down a problem into its rawest form with 'first principle thinking'\n"
     _template: content
   - body: |
       <Center>
