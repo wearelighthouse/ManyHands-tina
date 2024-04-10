@@ -1,5 +1,5 @@
 ---
-title: ManyHands London July 2023 recap
+title: ManyHands London April 2024 recap
 blocks:
   - background: bg-mimosa
     heading: ManyHands London - July 2023
@@ -86,7 +86,7 @@ blocks:
     _template: content
   - body: "\U0001F967 Reduce\_clown anxiety with\_Truspielot, the community app to help fellow clowns protect themselves\_from unexpected pies to the face. \"The pie is coming, are you ready?\"\_\n"
     _template: content
-  - body: "\U0001F947 Live streamed crisis fixing with a monthly leaderboard for superheroes looking to improve their global rep\n"
+  - body: "\U0001FAC2 Toddler cries\_make\_clowns feel misunderstood, leading them to become villains -\_protect Clown mental health with\_Circus, a safe space of\_community, therapy and\_coaching. \n"
     _template: content
   - body: "\U0001F4B0 Lofty financial sights with multibillion bound growth in the first year (and room to 10x by expansion across the universe)\n"
     _template: content
