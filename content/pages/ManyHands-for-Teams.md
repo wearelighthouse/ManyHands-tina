@@ -168,7 +168,7 @@ blocks:
     _template: content
   - icon: horns
     _template: hr
-  - body: "<Center>\n  ### Brought to you by Digital Product People\n</Center>\n\n[Lighthouse](https://wearedpp.com) is a specialist UX and UI design agency trusted by enterprise organisations to\_tackle their toughest product challenges.\n"
+  - body: "<Center>\n  ### Brought to you by Digital Product People\n</Center>\n\n[Digital Product People](https://wearedpp.com) is a specialist UX and UI design agency trusted by enterprise organisations to\_tackle their toughest product challenges.\n"
     _template: content
   - body: |
       ![](</uploads/Frame 1294.png>)
