@@ -6,8 +6,8 @@ blocks:
     _template: basicHero
   - body: >
       ManyHands is a creative, collaborative event for product people run by
-      [Lighthouse](https://wearelighthouse.com). This privacy policy sets out
-      how Lighthouse London Studio Ltd (“Lighthouse”) uses and protects any
+      [Lighthouse](https://wearedpp.com). This privacy policy sets out how
+      Lighthouse London Studio Ltd (“Lighthouse”) uses and protects any
       information that you give Lighthouse when you use the ManyHands website.
 
 
@@ -176,17 +176,4 @@ blocks:
       EC1R 0AT.
     _template: content
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
 
