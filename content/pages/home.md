@@ -137,5 +137,15 @@ blocks:
     _template: content
   - heading: "Next event TBC \U0001F440"
     _template: eventList
+  - body: >
+      Our next event will be in the Summer 2024.
+
+
+      More details coming soon!
+
+
+      <Cta text="Join the list to be the first to hear!"
+      href="https://airtable.com/appaIQ7maCdvPcOil/shrOh808iBDVo9Ne1" />
+    _template: content
 ---
 
