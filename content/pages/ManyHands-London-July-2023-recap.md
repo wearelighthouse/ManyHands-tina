@@ -5,7 +5,7 @@ blocks:
     heading: ManyHands London - April 2024
     subtitle: "\U0001F5D3️ 9th April 2024 \U0001F4CD Canva, Hoxton"
     _template: basicHero
-  - body: "It's always loads of fun to be in a room filled with product pros to work on a fictional brief. We're constantly blown away by the creativity and camaraderie that people bring to our silly product challenges.\n\nMassive thank you to everyone who came along to our July event. \U0001F64C\n"
+  - body: "It's always loads of fun to be in a room filled with product pros to work on a fictional brief. We're constantly blown away by the creativity and camaraderie that people bring to our silly product challenges.\n\nMassive thank you to everyone who came along to our April event. \U0001F64C\n"
     _template: content
   - body: |
       ![](</uploads/ManyHands London June 2023.jpg>)
