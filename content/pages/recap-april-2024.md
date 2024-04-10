@@ -47,7 +47,7 @@ blocks:
         alt: CENTURY Tech
         width: 150
     _template: companies
-  - body: "<Center>\n  ### We learned loads from our speakers\n</Center>\n\n<Center>\n  ![Elvin Tsang and Tom Johnson](</uploads/Speakers July.png>)![]()\n</Center>\n\nLuisa, Product Manager at Flourish, gave an honest account of the challenges of\_deciding what to build\n\nJane, Experience Strategist at Flagstone,\_gave us the tools to break down a problem into its rawest form with 'first principle thinking'\n\n\n"
+  - body: "<Center>\n  ### We learned loads from our speakers\n</Center>\n\n<Center>\n  ![Elvin Tsang and Tom Johnson](</uploads/Speakers July.png>)![]()\n</Center>\n\nLuisa, Product Manager at Flourish, gave an honest account of the challenges of\_deciding what to build\n\nJane, Experience Strategist at Flagstone,\_gave us the tools to break down a problem into its rawest form with 'first principle thinking'\n"
     _template: content
   - body: |
       <Center>
@@ -75,11 +75,11 @@ blocks:
   - background: bg-light-gray
     quotes:
       - quote: >-
-          I loved meeting new people from different industries and seeing how
-          complete strangers work in different ways to solve problems and create
-          products. 
-        author: 'Iva K. '
-        jobTitle: Senior Product Designer
+          It's just so casual and fun. Honestly, compared to other product
+          events I've been to, this is just fun and you learn something new with
+          the speakers.
+        author: Marco Service
+        jobTitle: Product Designer
     _template: quotes
   - heading: Want to join the fun next time?
     _template: eventList
