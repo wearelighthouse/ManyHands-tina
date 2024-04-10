@@ -54,7 +54,7 @@ blocks:
 
 
       <Center>
-        ![Luisa and Jane](</uploads/ManyHands April 2024 (1).png>)![L](</uploads/Speakers July.png>)![]()
+        ![L](</uploads/Speakers July.png>)![]()
       </Center>
 
 
