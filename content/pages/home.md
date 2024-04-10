@@ -39,6 +39,16 @@ blocks:
           Present your ideas back to the collective, vote on their strengths and
           celebrate
     _template: columns
+  - background: bg-light-gray
+    body: |
+      <Center>
+        ### Want to get involved in the future?
+
+        We'll let you know when we've set dates for upcoming events
+
+        <Cta text="Join the list" href="https://airtable.com/shrOh808iBDVo9Ne1" />
+      </Center>
+    _template: content
   - heading: Next events
     _template: eventList
   - background: ''
@@ -126,16 +136,6 @@ blocks:
     _template: hr
   - body: |
       <Center />
-    _template: content
-  - background: bg-light-gray
-    body: |
-      <Center>
-        ### Want to get involved in the future?
-
-        We'll let you know when we've set dates for upcoming events
-
-        <Cta text="Join the list" href="https://airtable.com/shrOh808iBDVo9Ne1" />
-      </Center>
     _template: content
 ---
 
