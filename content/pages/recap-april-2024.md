@@ -19,33 +19,12 @@ blocks:
       - src: /uploads/Canva Logo.png
         alt: Canva
         width: 100
-      - src: /uploads/Bandwidth.svg
-        alt: Bandwidth
-        width: 160
       - src: /uploads/BVNK.svg
         alt: BVNK
         width: 100
       - src: /uploads/Flagstone.svg
         alt: Flagstone
         width: 180
-      - src: /uploads/Simpplr.svg
-        alt: Simpplr
-        width: 130
-      - src: /uploads/Anna.svg
-        alt: ANNA Money
-        width: 100
-      - src: /uploads/Kroo Bank.png
-        alt: Kroo Bank
-        width: 125
-      - src: /uploads/MyTutor Logo.png
-        alt: MyTutor
-        width: 120
-      - src: /uploads/Tembo.png
-        alt: Tembo Money
-        width: 130
-      - src: /uploads/Century Tech.svg
-        alt: CENTURY Tech
-        width: 150
     _template: companies
   - body: "<Center>\n  ### We learned loads from our speakers\n</Center>\n\n<Center>\n  ![Elvin Tsang and Tom Johnson](</uploads/Speakers July.png>)![]()\n</Center>\n\nLuisa, Product Manager at Flourish, gave an honest account of the challenges of\_deciding what to build\n\nJane, Experience Strategist at Flagstone,\_gave us the tools to break down a problem into its rawest form with 'first principle thinking'\n"
     _template: content
