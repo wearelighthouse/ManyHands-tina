@@ -9,7 +9,7 @@ blocks:
       - open: true
         summary: |
           ✌️ ManyHands London - April 2024
-        text: "**The brief we collaborated on:**\\\nHealth and Wellbeing for Clowns. \U0001F3AA\\\n\\\n**Attended by product pros from:**\\\nNatWest Rooster Money, Chip, Tide, YouGov, Perkbox, So Energy, SeedLegals, Tembo Money, Countingup, CrossTech, XO Life, Abundance Investment, Cytora, Vizlib, and more. \U0001F929\n\nImperial College London, Thymia, Unify Giving, UNTIL, Ascential, BVNK, CrossTech, Silverbird, AZA Finance, Veritas Prime, EY, Juniper, Third Space Learning, \n\n[View the full recap](https://wearemanyhands.com/recap-april-2024 \"View the recap\")\n"
+        text: "**The brief we collaborated on:**\\\nHealth and Wellbeing for Clowns. \U0001F3AA\\\n\\\n**Attended by product pros from:**\\\nImperial College London, EY, Juniper, Thymia, Unify Giving, UNTIL, Ascential, BVNK, CrossTech, Silverbird, AZA Finance, Veritas Prime, Third Space Learning, and more. \U0001F929\n\n[View the full recap](https://wearemanyhands.com/recap-april-2024 \"View the recap\")\n"
       - open: false
         summary: "\U0001F918 ManyHands London - July 2023\n"
         text: "**The brief we collaborated on:**\\\nCollaboration Tool for Superheroes. \U0001F9B8\n\n**Attended by product pros from:**\\\nCanva, Tembo, Bandwidth, ANNA Money, Century Tech, BVNK, Kroo Bank, Flagstone, MyTutor, Simpplr, Beyondly, DTI, Evident Software, and more. \U0001F929\n"
