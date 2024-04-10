@@ -135,7 +135,7 @@ blocks:
 
 
       Please do not hesitate to contact us if you have any questions about
-      igital Product People's privacy policy, the data we hold on you, or you
+      Digital Product People's privacy policy, the data we hold on you, or you
       would like to exercise one of your data protection rights such as:\
 
       \
