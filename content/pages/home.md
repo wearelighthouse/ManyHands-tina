@@ -135,7 +135,7 @@ blocks:
   - body: |
       <Center />
     _template: content
-  - heading: Next event announced soon
+  - heading: Next event
     _template: eventList
   - background: bg-light-gray
     body: |
