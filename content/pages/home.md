@@ -39,10 +39,12 @@ blocks:
           Present your ideas back to the collective, vote on their strengths and
           celebrate
     _template: columns
+  - heading: Next event
+    _template: eventList
   - background: bg-light-gray
     body: |
       <Center>
-        ### Want to get involved in the future?
+        ### Can't make the next one?
 
         We'll let you know when we've set dates for upcoming events
 
@@ -135,8 +137,6 @@ blocks:
   - body: |
       <Center />
     _template: content
-  - heading: Next event
-    _template: eventList
   - background: bg-light-gray
     body: |
       <Center>
