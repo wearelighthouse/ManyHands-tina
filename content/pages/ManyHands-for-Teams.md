@@ -163,7 +163,7 @@ blocks:
     _template: accordion
   - body: |
       <Center>
-        <Cta text="Enquire now →" href="https://airtable.com/shr5mMIN4QEwcy324" />
+        <Cta text="Enquire now →" href="https://forms.zohopublic.eu/digitalproductpeople/form/ManyHandsforTeamsbyDigitalProductPeople/formperma/isMAoc7tedNilIFX4D-k6HoHLb31XOJ1p8eSH-3zbr0" />
       </Center>
     _template: content
   - icon: horns
