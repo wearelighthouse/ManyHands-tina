@@ -53,20 +53,21 @@ blocks:
       groups, and started brainstorming. An hour later, we pitched our ideas
       back to the wider group:
     _template: content
-  - body: "\U0001F967 Reduce\_clown anxiety with\_Truspielot, the community app to help fellow clowns protect themselves\_from unexpected pies to the face. \"The pie is coming, are you ready?\"\_\n"
-    _template: content
-  - body: "\U0001FAC2 Toddler cries\_make\_clowns feel misunderstood, leading them to become villains -\_protect Clown mental health with\_Circus, a safe space of\_community, therapy and\_coaching.\n"
-    _template: content
-  - body: "\U0001F9D8‍♀️ Made for clowns, by clowns, introducing\_Unmasked,\_a reddit style support group for when clowns step off the stage. Unwind & debrief\_with\_fellow verified clowns.\n"
-    _template: content
   - background: bg-light-gray
     quotes:
       - quote: >-
-          It's just so casual and fun. Honestly, compared to other product
-          events I've been to, this is just fun and you learn something new with
-          the speakers.
-        author: Marco Service
-        jobTitle: Product Designer
+          I loved the layout of the whole event from beginning to end. 
+
+
+          The two talks were very interesting, providing insight into both
+          product management and the more personal, human aspect of people and
+          products. I loved the challenge of grouping people into teams and
+          needing to put together a presentation to implement our learnings. 
+
+
+          I'd 100% come back and would recommend some colleagues join me too!
+        author: "Nawaf\tAbdulwahed"
+        jobTitle: Delivery Consultant at Mott MacDonald
     _template: quotes
   - icon: ok
     _template: hr
