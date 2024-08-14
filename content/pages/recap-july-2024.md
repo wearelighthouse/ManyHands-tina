@@ -22,15 +22,8 @@ blocks:
       </Center>
     _template: content
   - logos:
-      - src: /uploads/Canva Logo.png
-        alt: Canva
-        width: 100
-      - src: /uploads/BVNK.svg
-        alt: BVNK
-        width: 100
-      - src: /uploads/Flagstone.svg
-        alt: Flagstone
-        width: 180
+      - src: /uploads/So Energy.png
+        alt: So Energy
     _template: companies
   - body: "<Center>\n  ### We learned loads from our speakers\n</Center>\n\n<Center>\n  ![Luisa and Jane](</uploads/ManyHands April 2024 (1).png> \"Luisa and Jane\")\n</Center>\n\nLuisa, Product Manager at Flourish, gave an honest account of the challenges of\_deciding what to build.\n\nJane, Experience Strategist at Flagstone,\_gave us the tools to break down a problem into its rawest form with 'first principle thinking'\n"
     _template: content
