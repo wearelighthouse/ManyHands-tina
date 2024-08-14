@@ -34,7 +34,7 @@ blocks:
     _template: content
   - body: |
       <Center>
-        ![](/uploads/DSCF0079.JPG)
+        ![](/uploads/AP_DPP-ManyHands-67-1R9A0660-web-res.jpg)
       </Center>
 
       <Center>
