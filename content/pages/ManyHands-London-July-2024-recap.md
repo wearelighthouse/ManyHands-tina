@@ -16,6 +16,9 @@ blocks:
       </Center>
     _template: content
   - logos:
+      - src: /uploads/Intercom.png
+        alt: Intercom
+        width: 100
       - src: /uploads/Mott MacDonald.png
         alt: Mott MacDonald
         width: 100
