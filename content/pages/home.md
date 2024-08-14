@@ -39,7 +39,7 @@ blocks:
           Present your ideas back to the collective, vote on their strengths and
           celebrate
     _template: columns
-  - heading: Next event
+  - heading: Next event announced soon
     _template: eventList
   - background: bg-light-gray
     body: |
