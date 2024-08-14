@@ -44,7 +44,7 @@ blocks:
   - background: bg-light-gray
     body: |
       <Center>
-        ### Can't make the next one?
+        ### Want to come along?
 
         We'll let you know when we've set dates for upcoming events
 
