@@ -19,8 +19,8 @@ blocks:
       - src: /uploads/Mott MacDonald.png
         alt: Mott MacDonald
         width: 100
-      - src: /uploads/BVNK.svg
-        alt: BVNK
+      - src: /uploads/Worldpay.png
+        alt: Worldpay
         width: 100
       - src: /uploads/Flagstone.svg
         alt: Flagstone
