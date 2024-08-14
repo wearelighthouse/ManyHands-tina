@@ -5,7 +5,13 @@ blocks:
     heading: ManyHands London - April 2024
     subtitle: "\U0001F5D3️ 9th April 2024 \U0001F4CD Canva, Hoxton"
     _template: basicHero
-  - body: "It's always loads of fun to be in a room filled with product pros to work on a fictional brief. We're constantly blown away by the creativity and camaraderie that people bring to our silly product challenges.\n\nMassive thank you to everyone who came along to our April event. \U0001F64C\n"
+  - body: >
+      It's always loads of fun to be in a room filled with product pros to work
+      on a fictional brief. We're constantly blown away by the creativity and
+      camaraderie that people bring to our silly product challenges.
+
+
+      Massive thank you to everyone who came along to our July event. ☀️
     _template: content
   - body: |
       ![](/uploads/DSCF0114.JPG)![]()
@@ -49,12 +55,6 @@ blocks:
       groups, and started brainstorming. An hour later, we pitched our ideas
       back to the wider group:
     _template: content
-  - body: "\U0001F967 Reduce\_clown anxiety with\_Truspielot, the community app to help fellow clowns protect themselves\_from unexpected pies to the face. \"The pie is coming, are you ready?\"\_\n"
-    _template: content
-  - body: "\U0001FAC2 Toddler cries\_make\_clowns feel misunderstood, leading them to become villains -\_protect Clown mental health with\_Circus, a safe space of\_community, therapy and\_coaching.\n"
-    _template: content
-  - body: "\U0001F9D8‍♀️ Made for clowns, by clowns, introducing\_Unmasked,\_a reddit style support group for when clowns step off the stage. Unwind & debrief\_with\_fellow verified clowns.\n"
-    _template: content
   - background: bg-light-gray
     quotes:
       - quote: >-
@@ -77,6 +77,4 @@ blocks:
       </Center>
     _template: content
 ---
-
-
 
