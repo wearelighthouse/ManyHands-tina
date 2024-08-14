@@ -38,7 +38,7 @@ blocks:
       </Center>
 
       <Center>
-        ![](/uploads/DSCF0070.JPG)
+        ![](/uploads/AP_DPP-ManyHands-July-12-1R9A0456-web-res.jpg)
       </Center>
     _template: content
   - icon: horns
