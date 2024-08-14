@@ -14,10 +14,6 @@ blocks:
       </Center>
     _template: content
   - logos:
-      - src: /uploads/Heap.png
-        alt: Heap.io
-        width: 150
-        height: 100
       - src: /uploads/Canva.svg
         alt: Canva
         width: 130
@@ -71,9 +67,4 @@ blocks:
   - body: "<Center>\n  ### Our corporate workshops\n</Center>\n\nAfter the massive success of our in-person events, attendees have been asking us to to bring the fun and laughter of ManyHands to their internal teams so they can experience the benefits with their colleagues.\\\n\\\nOur 'ManyHands for Teams' workshops aim to promote creativity and innovative thinking across departments in your organisation by breaking out of BAU through collaborative creative challenges.\n\nBookings are currently open - and we'll even do it for free. \U0001F918\n\n<Center>\n  <Cta text=\"Learn more\" href=\"/ManyHands-for-Teams\" />\n</Center>\n"
     _template: content
 ---
-
-
-
-
-
 
