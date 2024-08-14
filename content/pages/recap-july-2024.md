@@ -66,7 +66,7 @@ blocks:
 
 
           I'd 100% come back and would recommend some colleagues join me too!
-        author: "Nawaf\tAbdulwahed"
+        author: Nawaf
         jobTitle: Delivery Consultant at Mott MacDonald
     _template: quotes
   - icon: ok
