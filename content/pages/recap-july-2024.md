@@ -1,5 +1,5 @@
 ---
-title: ManyHands London July 2024 Testing
+title: ManyHands London July 2024 Recap
 blocks:
   - background: bg-mimosa
     heading: ManyHands London - April 2024
