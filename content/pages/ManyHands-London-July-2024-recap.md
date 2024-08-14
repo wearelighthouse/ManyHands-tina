@@ -29,7 +29,7 @@ blocks:
         alt: So Energy
         width: 180
     _template: companies
-  - body: "<Center>\n  ### We learned loads from our speakers\n</Center>\n\n<Center>\n  ![Luisa and Jane](</uploads/ManyHands April 2024 (1).png> \"Luisa and Jane\")\n</Center>\n\nTrenton Moss, the brilliant bestselling author from [Team Sterka](https://sterka.team/) who will give us a masterclass on emotional intelligence.\n\nJessica Edwards, Creative Technologist at [Canva](https://www.canva.com/),\_gave us the tools to break down a problem into its rawest form with 'first principle thinking'\n"
+  - body: "<Center>\n  ### We learned loads from our speakers\n</Center>\n\n<Center>\n  ![Luisa and Jane](</uploads/ManyHands April 2024 (1).png> \"Luisa and Jane\")\n</Center>\n\nTrenton Moss, the brilliant bestselling author from [Team Sterka](https://sterka.team/) gave us a masterclass on emotional intelligence.\n\nJessica Edwards from [Canva](https://www.canva.com/),\_told us about 'The art of the prototype' from her interesting perspective from  software developer to creative technologist.\n"
     _template: content
   - body: |
       <Center>
