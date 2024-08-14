@@ -16,8 +16,8 @@ blocks:
       </Center>
     _template: content
   - logos:
-      - src: /uploads/Canva Logo.png
-        alt: Canva
+      - src: /uploads/Mott MacDonald.png
+        alt: Mott MacDonald
         width: 100
       - src: /uploads/BVNK.svg
         alt: BVNK
