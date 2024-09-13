@@ -39,8 +39,6 @@ blocks:
           Present your ideas back to the collective, vote on their strengths and
           celebrate
     _template: columns
-  - heading: Next event
-    _template: eventList
   - heading: Next events
     _template: eventList
   - background: bg-light-gray
