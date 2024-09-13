@@ -6,6 +6,7 @@ function removeBrackets(str: string) {
 }
 
 export const statusMap = {
+  'Tickets available soon 👀': 'border-[#FF9325] bg-[#F3EDE0]'
   'Filling up fast 🔥': 'border-[#FF9325] bg-[#F3EDE0]',
   'Last few places 😱': 'border-pink bg-[#ffdeed]',
   'Fully Booked 🎉 (waitlist)': 'border-pink bg-[#ffdeed] waitlist',
