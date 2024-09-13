@@ -41,6 +41,8 @@ blocks:
     _template: columns
   - heading: Next event
     _template: eventList
+  - heading: Next events
+    _template: eventList
   - background: bg-light-gray
     body: |
       <Center>
