@@ -14,10 +14,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Remove font file dependency by clearing contents of fonts.css
-        run: |
-          > assets/css/fonts.css
-
       - name: Lint
         run: npm run lint
 
