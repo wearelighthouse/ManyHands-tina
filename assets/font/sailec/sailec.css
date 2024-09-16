@@ -1,0 +1,54 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3793419, 2019-08-05T07:59:08-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Sailec-Bold by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/bold/
+ *
+ * Webfont: Sailec-BoldItalic by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/bold-italic/
+ * (no longer in use)
+ *
+ * Webfont: Sailec-Regular by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/regular/
+ *
+ * Webfont: Sailec-RegularItalic by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/regular-italic/
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3793419
+ * Licensed pageviews: 20,000
+ * Webfonts copyright: Copyright &#x00A9; 2014 by Type Dynamic. All rights reserved.
+ *
+ * © 2019 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url('//hello.myfonts.net/count/39e20b');
+
+@font-face {
+  font-family: 'Sailec';
+  src: url('39E20B_0_0.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sailec';
+  src: url('39E20B_2_0.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sailec';
+  src: url('39E20B_3_0.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}

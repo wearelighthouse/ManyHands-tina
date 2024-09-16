@@ -9,14 +9,12 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          - fetch-depth: 0
 
       - name: Install dependencies
         run: npm ci
-
-      - name: Remove font file dependency by clearing contents of fonts.css
-        run: |
-          > assets/css/fonts.css
 
       - name: Lint
         run: npm run lint
