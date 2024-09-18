@@ -10,8 +10,8 @@ blocks:
 
 
       Our ManyHands collaborators split into 5 groups, got stuck in, and their
-      energy was infectious. Who knew product people were such great persona
-      actors?
+      energy was infectious. Who knew product people were so good at acting out
+      their personas?
     _template: content
   - body: |
       ![](/uploads/DSCF0114.JPG)![]()
