@@ -91,7 +91,7 @@ export const EventList = ({ data, parentField }) => {
                       </a>
                     ) : (
                       <a className="button !grid !h-20 place-items-center place-content-center">
-                        <div className="text-lg">{event._values.status.includes('waitlist') ? 'Join waitlist' : 'Sign up now'}</div>
+                        <div className="text-lg">{event._values.status?.includes('waitlist') ? 'Join waitlist' : 'Sign up now'}</div>
                         <div className="uppercase text-xs">Free entry</div>
                       </a>
                     )}
