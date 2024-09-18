@@ -8,6 +8,10 @@ blocks:
   - body: "Our largest number of attendees yet! \U0001F929 The energy & enthusiasm was infectious. Who knew product people were so good at acting out user personas?\n"
     _template: content
   - body: |
+      ![](/uploads/AP_DPP-ManyHands-76-1R9A0694-web-res.jpg)
+
+      ![](/uploads/AP_DPP-ManyHands-July-36-1R9A0755-web-res.jpg)
+
       ![](/uploads/AP_DPP-ManyHands-67-1R9A0660-web-res.jpg)
     _template: content
   - body: |
