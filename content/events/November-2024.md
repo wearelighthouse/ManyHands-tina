@@ -1,8 +1,8 @@
 ---
-title: "November 2024 \U0001F30E"
+title: November 2024
 date: 2024-11-20T18:30:00.000Z
 date_end: 2024-11-20T19:30:00.000Z
-location_short: Online
+location_short: "Online \U0001F30E"
 location: |-
   Anywhere in the world
   Via Google Meet
