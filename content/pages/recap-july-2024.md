@@ -75,8 +75,8 @@ blocks:
     _template: hr
   - heading: We collaborated on a fun product challenge
     items:
-      - indicator: "\U0001F3AA"
-        title: Health and Wellbeing for Clowns
+      - indicator: "\U0001F3B8"
+        title: HR Platform for Rockstars
     _template: bigList
   - body: >
       With our creative brains all warmed up, we grabbed some pizza, got into
