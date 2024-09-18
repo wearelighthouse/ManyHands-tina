@@ -14,7 +14,7 @@ blocks:
       their personas?
     _template: content
   - body: |
-      ![]()
+      ![](/uploads/AP_DPP-ManyHands-67-1R9A0660-web-res.jpg)
     _template: content
   - body: |
       <Center>
@@ -57,7 +57,7 @@ blocks:
       [Trenton Moss](https://www.linkedin.com/in/trentonmoss/), Bestselling
       author of [Human
       Powered](https://www.amazon.co.uk/Human-Powered-Supercharge-emotional-intelligence-ebook/dp/B09D46R31Q)
-      and Founder of 
+      and Founder of
 
       [Team Sterka](https://sterka.team/) explained how to supercharge yourself
       with emotional intelligence.
