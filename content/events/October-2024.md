@@ -2,7 +2,7 @@
 title: October 2024
 date: 2024-10-30T18:30:00.000Z
 date_end: 2024-10-30T21:30:00.000Z
-location_short: London
+location_short: "London \U0001F1EC\U0001F1E7"
 location: |
   Uncommon Liverpool Street, 34-37 Liverpool St, London EC2M 7PP
 status: 'border-pink bg-[#ffdeed]'
