@@ -44,7 +44,7 @@ const Hero = (props) => {
         {props.sign_up_url && props.status !== 'full' ? (
           <div>
             <a href={props.sign_up_url} className="button !h-14 col-start-1 !text-lg !gap-3 !px-6" id="hero-sign-up">
-              <span className="leading-tight">{props.status.includes('waitlist') ? 'Join the waitlist' : 'Sign up now'}</span>
+              <span className="leading-tight">{props.status?.includes('waitlist') ? 'Join the waitlist' : 'Sign up now'}</span>
               <svg
                 className="shrink-0 arrow"
                 width="32"
