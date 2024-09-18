@@ -49,11 +49,13 @@ blocks:
       </Center>
 
 
-      Jessica, Creative Technologist at [Canva ](https://www.canva.com/) told us
-      about the art of prototyping.
+      [Jessica Edwards](https://www.linkedin.com/in/jessicace/), Creative
+      Technologist at [Canva ](https://www.canva.com/) told us about the art of
+      prototyping.
 
 
-      Trenton Moss, Bestselling author of [Human
+      [Trenton Moss](https://www.linkedin.com/in/trentonmoss/), Bestselling
+      author of [Human
       Powered](https://www.amazon.co.uk/Human-Powered-Supercharge-emotional-intelligence-ebook/dp/B09D46R31Q)
       and Founder of 
 
