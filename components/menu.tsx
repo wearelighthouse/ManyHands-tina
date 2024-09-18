@@ -22,16 +22,16 @@ const MenuLink = ({ href, asPath, tabIndex, onClick, children }) => {
   const router = useRouter();
 
   return (
-    <Link href={href}>
-      <a
-        className="whitespace-nowrap bg-light-gray rounded-full leading-7 px-4 py-1.5 underline decoration-2 decoration-transparent font-medium hover:decoration-current transition-all"
-        tabIndex={tabIndex}
-        onClick={onClick}
-        aria-current={asPath === router?.asPath || href === router?.asPath}
-      >
-        {children}
-      </a>
-    </Link>
+    (<Link
+      href={href}
+      className="whitespace-nowrap bg-light-gray rounded-full leading-7 px-4 py-1.5 underline decoration-2 decoration-transparent font-medium hover:decoration-current transition-all"
+      tabIndex={tabIndex}
+      onClick={onClick}
+      aria-current={asPath === router?.asPath || href === router?.asPath}>
+
+      {children}
+
+    </Link>)
   );
 };
 
