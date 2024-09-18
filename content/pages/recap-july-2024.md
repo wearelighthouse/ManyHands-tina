@@ -23,8 +23,9 @@ blocks:
     _template: content
   - logos:
       - src: /uploads/Intercom.png
-        width: 100
-        height: 100
+        alt: Intercom
+        width: 150
+        height: 150
       - src: /uploads/So Energy.png
         alt: So Energy
         width: 200
