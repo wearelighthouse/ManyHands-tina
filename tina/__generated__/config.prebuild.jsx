@@ -1066,7 +1066,7 @@ var queries = (client2) => {
 };
 
 // tina/__generated__/client.ts
-var client = createClient2({ cacheDir: "/home/burntcustard/Work/manyhands-tina/tina/__generated__/.cache/1726673828888", url: "https://content.tinajs.io/1.5/content/0dc8950c-2b73-482d-a8e7-d0c730449c6f/github/main", token: "da749b130d18964976c2cbfbe654a82ced677e0e", queries });
+var client = createClient2({ cacheDir: "/home/burntcustard/Work/manyhands-tina/tina/__generated__/.cache/1726674077305", url: "https://content.tinajs.io/1.5/content/0dc8950c-2b73-482d-a8e7-d0c730449c6f/github/main", token: "da749b130d18964976c2cbfbe654a82ced677e0e", queries });
 
 // components/blocks/event-list.tsx
 import Link from "next/link";
