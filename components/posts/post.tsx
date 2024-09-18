@@ -19,7 +19,7 @@ limitations under the License.
  */
 
 import React from "react";
-import format from "date-fns/format";
+import { format } from "date-fns";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { Prism } from "tinacms/dist/rich-text/prism";
 import type { TinaMarkdownContent, Components } from "tinacms/dist/rich-text";
