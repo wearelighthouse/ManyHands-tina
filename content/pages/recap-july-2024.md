@@ -6,12 +6,11 @@ blocks:
     subtitle: "\U0001F5D3️ 24th July 2024 \U0001F4CD Canva, Hoxton"
     _template: basicHero
   - body: >
-      It's always loads of fun to be in a room filled with product pros to work
-      on a fictional brief. We're constantly blown away by the creativity and
-      camaraderie that people bring to our silly product challenges.
+      Our largest group yet!
 
 
-      Massive thank you to everyone who came along to our July event. ☀️
+      We had 5 wonderful groups who got stuck in, and their energy was
+      infectious. Who knew product people were such great persona actors?
     _template: content
   - body: |
       ![](/uploads/DSCF0114.JPG)![]()
