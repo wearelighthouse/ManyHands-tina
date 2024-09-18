@@ -9,7 +9,7 @@ blocks:
       - open: true
         summary: |
           ✌️ ManyHands London - July 2024 ☀️
-        text: "**The brief we collaborated on:**\\\nHR platform for Rockstars \U0001F3B8\U0001F918\n\n**Attended by product pros from:**\\\nTwilio, British Heart Foundation, Lendable, Worldpay, So Energy, Dentsu, Pinnacle Pet Group, Pinpoint, Department for Business and Trade, DataArt, Efficio, Intercom, Planet A, Liberty Specialty Markets, Deloitte, ZenEducate, Mott MacDonald, Centrica, American Express, and more. \U0001F929\n\n[View the full recap](https://wearemanyhands.com/recap-april-2024 \"View the recap\")\n"
+        text: "**The brief we collaborated on:**\\\nHR platform for Rockstars \U0001F3B8\U0001F918\n\n**Attended by product pros from:**\\\nTwilio, British Heart Foundation, Lendable, Worldpay, So Energy, Dentsu, Pinnacle Pet Group, Pinpoint, Department for Business and Trade, DataArt, Efficio, Intercom, Planet A, Liberty Specialty Markets, Deloitte, ZenEducate, Mott MacDonald, Centrica, American Express, and more. \U0001F929\n\n[View the full recap](https://wearemanyhands.com/recap-july-2024 \"View the recap\")\n"
       - open: false
         summary: "✌️ ManyHands London - April 2024 \U0001F338\n"
         text: "**The brief we collaborated on:**\\\nHealth and Wellbeing for Clowns. \U0001F3AA\\\n\\\n**Attended by product pros from:**\\\nImperial College London, EY, Juniper, Thymia, Unify Giving, UNTIL, Ascential, BVNK, CrossTech, Silverbird, AZA Finance, Veritas Prime, Third Space Learning, and more. \U0001F929\n\n[View the full recap](https://wearemanyhands.com/recap-april-2024 \"View the recap\")\n"
