@@ -15,6 +15,7 @@ module.exports = {
   env: {
     prefix,
   },
+  output: 'export',
   async rewrites() {
     return [
       {
