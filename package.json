@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "tinacms dev -c \"next dev\"",
+    "dev": "cross-env OUTPUT=no tinacms dev -c \"next dev\"",
     "build:gh-pages": "tinacms build && cross-env PREFIX=/ManyHands-tina next build",
     "build": "tinacms build && next build",
-    "start": "tinacms build && next build && next start",
-    "export": "npm run build && next export",
+    "start": "tinacms build && next build && cross-env OUTPUT=no next start",
+    "export": "npm run build",
     "lint": "eslint . --ext .ts,.tsx"
   },
   "devDependencies": {

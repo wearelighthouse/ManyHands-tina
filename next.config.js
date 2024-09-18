@@ -1,4 +1,5 @@
 const prefix = process.env.PREFIX ?? undefined;
+const output = process.env.OUTPUT ?? undefined;
 
 module.exports = {
   webpack(config) {
@@ -15,7 +16,7 @@ module.exports = {
   env: {
     prefix,
   },
-  output: 'export',
+  output: output === 'no' ? undefined : 'export',
   async rewrites() {
     return [
       {
