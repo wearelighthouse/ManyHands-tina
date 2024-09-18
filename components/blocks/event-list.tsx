@@ -37,6 +37,7 @@ export const EventList = ({ data, parentField }) => {
             const event = eventData.node;
             const eventDateTime = new Date(event._values.date);
             if (eventDateTime < new Date()) return undefined;
+            if (event._values.status === undefined) return undefined;
             const eventDateTimeEnd = event._values.date_end ? new Date(event._values.date_end) : undefined;
             const locationParts = event._values.location?.split(/\r?\n/);
 
