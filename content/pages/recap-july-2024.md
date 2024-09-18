@@ -86,11 +86,10 @@ blocks:
   - background: bg-light-gray
     quotes:
       - quote: >-
-          It's just so casual and fun. Honestly, compared to other product
-          events I've been to, this is just fun and you learn something new with
-          the speakers.
-        author: Marco Service
-        jobTitle: Product Designer
+          I loved the layout of the whole event from beginning to end. I'd 100%
+          come back and would recommend some colleagues join me too!
+        author: Nawaf
+        jobTitle: Delivery Consultant at Mott MacDonald
     _template: quotes
   - icon: ok
     _template: hr
