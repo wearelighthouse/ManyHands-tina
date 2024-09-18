@@ -14,7 +14,7 @@ blocks:
       their personas?
     _template: content
   - body: |
-      ![](/uploads/DSCF0114.JPG)![]()
+      ![]()
     _template: content
   - body: |
       <Center>
