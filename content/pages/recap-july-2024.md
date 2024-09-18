@@ -9,8 +9,9 @@ blocks:
       Our largest group yet!
 
 
-      We had 5 wonderful groups who got stuck in, and their energy was
-      infectious. Who knew product people were such great persona actors?
+      Our ManyHands collaborators split into 5 groups, got stuck in, and their
+      energy was infectious. Who knew product people were such great persona
+      actors?
     _template: content
   - body: |
       ![](/uploads/DSCF0114.JPG)![]()
