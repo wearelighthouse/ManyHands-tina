@@ -84,7 +84,7 @@ jobs:
       - name: Rename home to index so the homepage works
         run: mv out/home.html out/index.html
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
 
