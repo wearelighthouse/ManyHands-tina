@@ -22,6 +22,10 @@ blocks:
       </Center>
     _template: content
   - logos:
+      - src: /uploads/British Heart Foundation Logo 2.png
+        alt: Worldpay
+        width: 130
+        height: 130
       - src: /uploads/Mott MacDonald.png
         alt: Mott MacDonald
         width: 150
