@@ -38,7 +38,27 @@ blocks:
         width: 200
         height: 200
     _template: companies
-  - body: "<Center>\n  ### We learned loads from our speakers\n</Center>\n\n<Center>\n  ![](</uploads/Speakers July 2025.jpg>)\n</Center>\n\nLuisa, Product Manager at Flourish, gave an honest account of the challenges of\_deciding what to build.\n\nJane, Experience Strategist at Flagstone,\_gave us the tools to break down a problem into its rawest form with 'first principle thinking'\n"
+  - body: >
+      <Center>
+        ### We learned loads from our speakers
+      </Center>
+
+
+      <Center>
+        ![](</uploads/Speakers July 2025.jpg>)
+      </Center>
+
+
+      Jessica, Creative Technologist at [Canva ](https://www.canva.com/) told us
+      about the art of prototyping.
+
+
+      Trenton Moss, Bestselling author of [Human
+      Powered](https://www.amazon.co.uk/Human-Powered-Supercharge-emotional-intelligence-ebook/dp/B09D46R31Q)
+      and Founder of 
+
+      [Team Sterka](https://sterka.team/) explained how to supercharge yourself
+      with emotional intelligence.
     _template: content
   - body: |
       <Center>
