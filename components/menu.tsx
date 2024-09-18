@@ -68,9 +68,11 @@ export const Menu = () => {
           aria-controls="menu"
           onClick={() => setOpen(!open)}
           aria-expanded={open}
+          aria-labelledby="menu-button-title"
           className="h-14 w-14 transition-colors bg-white hover:bg-light-gray rounded-[1.75rem] justify-self-end grid place-items-center [&_path]:hover:[d:path('M4_4l8_0M4_8h8M4_12l8_0')] [&_path]:aria-expanded:[d:path('M4_4l8_8M8_8h0M4_12l8-8')]"
         >
           <svg width="32" height="32" viewBox="0 0 16 16" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round">
+            <title id="menu-button-title">{open ? 'Close menu' : 'Open menu'}</title>
             <path d="M4 5l8 0M4 8h8M4 11l8 0" className="transition-all"></path>
           </svg>
         </button>
