@@ -2,8 +2,8 @@
 title: ManyHands London July 2024 recap
 blocks:
   - background: bg-mimosa
-    heading: ManyHands London - April 2024
-    subtitle: "\U0001F5D3️ 9th April 2024 \U0001F4CD Canva, Hoxton"
+    heading: ManyHands London - July 2024
+    subtitle: "\U0001F5D3️ 24th July 2024 \U0001F4CD Canva, Hoxton"
     _template: basicHero
   - body: >
       It's always loads of fun to be in a room filled with product pros to work
