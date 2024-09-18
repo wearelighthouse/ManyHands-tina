@@ -22,6 +22,9 @@ blocks:
       </Center>
     _template: content
   - logos:
+      - src: /uploads/Intercom.png
+        width: 100
+        height: 100
       - src: /uploads/So Energy.png
         alt: So Energy
     _template: companies
