@@ -11,7 +11,7 @@
     "lint": "eslint . --ext .ts,.tsx"
   },
   "devDependencies": {
-    "@svgr/webpack": "^7.0.0",
+    "@svgr/webpack": "^8.1.0",
     "@tinacms/cli": "^1.5.17",
     "@types/js-cookie": "^3.0.3",
     "@types/node": "^18.16.9",
