@@ -1,8 +1,8 @@
 ---
-title: "April 2025 \U0001F1EC\U0001F1E7"
+title: April 2025
 date: 2025-04-23T17:30:00.000Z
 date_end: 2025-04-23T20:30:00.000Z
-location_short: London
+location_short: "London \U0001F1EC\U0001F1E7"
 location: |
   Uncommon Liverpool Street, 34-37 Liverpool St, London EC2M 7PP
 status: 'border-[#FF9325] bg-[#F3EDE0]'
