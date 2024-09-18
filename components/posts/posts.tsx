@@ -10,53 +10,48 @@ import { TinaMarkdown } from "tinacms/dist/rich-text";
  */
 
 export const Posts = ({ data }) => {
-  return (
-    <>
-      {data.map((postData) => {
-        const post = postData.node;
-        return (
-          <Link
-            key={post._sys.filename}
-            href={`/post/` + post._sys.filename}
-            passHref
-          >
-            <a
-              key={post.id}
-              className=""
-            >
-              <h3
-                className={``}
-              >
-                {post._values.title}{" "}
-                <span className="">
+  return <>
+    {data.map((postData) => {
+      const post = postData.node;
+      return (
+        (<Link
+          key={post._sys.filename}
+          href={`/post/` + post._sys.filename}
+          passHref
+          className="">
 
-                </span>
-              </h3>
-              <div className="">
-                <TinaMarkdown content={post._values.excerpt} />
-              </div>
-              <div className="">
-                <div className="">
-                  <img
-                    className=""
-                    src={post?.author?.avatar}
-                    alt={post?.author?.name}
-                  />
-                </div>
-                <p className="">
-                  {post?.author?.name}
-                </p>
-                <span className="">
-                  —
-                </span>
-                <p className="">
-                  {post.date}
-                </p>
-              </div>
-            </a>
-          </Link>
-        );
-      })}
-    </>
-  );
+          <h3
+            className={``}
+          >
+            {post._values.title}{" "}
+            <span className="">
+
+            </span>
+          </h3>
+          <div className="">
+            <TinaMarkdown content={post._values.excerpt} />
+          </div>
+          <div className="">
+            <div className="">
+              <img
+                className=""
+                src={post?.author?.avatar}
+                alt={post?.author?.name}
+              />
+            </div>
+            <p className="">
+              {post?.author?.name}
+            </p>
+            <span className="">
+              —
+            </span>
+            <p className="">
+              {post.date}
+            </p>
+          </div>
+
+        </Link>)
+      );
+    })}
+  </>;
 };
