@@ -1,5 +1,5 @@
 ---
-title: January 2025
+title: "January 2025 \U0001F1EC\U0001F1E7"
 date: 2025-01-21T18:30:00.000Z
 date_end: 2025-01-21T21:30:00.000Z
 location_short: London
