@@ -1066,7 +1066,7 @@ var queries = (client2) => {
 };
 
 // tina/__generated__/client.ts
-var client = createClient2({ url: "http://localhost:4001/graphql", token: "da749b130d18964976c2cbfbe654a82ced677e0e", queries });
+var client = createClient2({ url: "http://localhost:4001/graphql", token: "undefined", queries });
 
 // components/blocks/event-list.tsx
 import Link from "next/link";
@@ -1074,7 +1074,7 @@ import Link from "next/link";
 // components/util/status.tsx
 import * as React5 from "react";
 var statusMap = {
-  "Tickets available soon \u{1F440}": "border-[#FF9325] bg-[#F3EDE0]",
+  "Tickets available soon \u{1F440}": "border-[#FF9325] bg-[#F3EDE0] soon",
   "Filling up fast \u{1F525}": "border-[#FF9325] bg-[#F3EDE0]",
   "Last few places \u{1F631}": "border-pink bg-[#ffdeed]",
   "Fully Booked \u{1F389} (waitlist)": "border-pink bg-[#ffdeed] waitlist",
