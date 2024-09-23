@@ -1066,7 +1066,7 @@ var queries = (client2) => {
 };
 
 // tina/__generated__/client.ts
-var client = createClient2({ url: "http://localhost:4001/graphql", token: "undefined", queries });
+var client = createClient2({ url: "http://localhost:4001/graphql", token: "a7cfd0e5925d0bf18f9e48201fc174e53325c39a", queries });
 
 // components/blocks/event-list.tsx
 import Link from "next/link";

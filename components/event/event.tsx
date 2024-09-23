@@ -15,7 +15,7 @@ import React, { useEffect, useState } from "react";
 import type { Components } from "tinacms/dist/rich-text";
 import { Blocks } from "../blocks-renderer";
 import { formatDate, formatTime } from "../util/date-time";
-import { Status } from "../util/status";
+import { getCtaFromStatus, Status } from "../util/status";
 const prefix = process.env.prefix ?? '';
 
 const Hero = (props) => {
@@ -44,7 +44,7 @@ const Hero = (props) => {
         {props.sign_up_url && props.status !== 'full' ? (
           <div>
             <a href={props.sign_up_url} className="button !h-14 col-start-1 !text-lg !gap-3 !px-6" id="hero-sign-up">
-              <span className="leading-tight">{props.status?.includes('waitlist') ? 'Join the waitlist' : 'Sign up now'}</span>
+              <span className="leading-tight">{getCtaFromStatus(props.status)}</span>
               <svg
                 className="shrink-0 arrow"
                 width="32"
@@ -126,7 +126,7 @@ export const Event = (props) => {
             <h2 className="max-tablet:leading-tight text-2xl tablet:text-3xl font-tiempos font-semibold translate-y-[.25rem]">Register your interest&nbsp;now</h2>
             <span className="max-tablet:mt-0.5 mobile:text-lg tablet:text-xl desktop:text-2xl tablet:translate-y-[.25rem]">Spaces are limited and seats&nbsp;fill&nbsp;up&nbsp;quick!</span>
             <a href={props.sign_up_url} className="max-mobile:w-full button !h-14 col-start-1 !text-lg !gap-3 !px-6">
-              <span>{props.status.includes('waitlist') ? 'Join the waitlist' : 'Sign up now'}</span>
+              <span>{getCtaFromStatus(props.status)}</span>
               <svg
                 className="shrink-0 arrow"
                 width="32px"
