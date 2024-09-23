@@ -16,6 +16,9 @@ module.exports = {
   env: {
     prefix,
   },
+  images: {
+    domains: ['assets.tina.io'],
+  },
   output: output === 'no' ? undefined : 'export',
   async rewrites() {
     return [
