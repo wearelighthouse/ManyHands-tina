@@ -17,7 +17,13 @@ module.exports = {
     prefix,
   },
   images: {
-    domains: ['assets.tina.io'],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "assets.tina.io",
+        port: "",
+      },
+    ],
   },
   output: output === 'no' ? undefined : 'export',
   async rewrites() {
