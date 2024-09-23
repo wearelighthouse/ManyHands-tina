@@ -38,7 +38,7 @@ const Hero = (props) => {
           className="text-5xl font-tiempos font-semibold grid col-start-1 leading-tight"
         >
           <span>ManyHands</span>
-          <span className="opacity-60">{props.location_short || 'Online'}</span>
+          <span className="text-dark-gray-new">{props.location_short || 'Online'}</span>
         </h1>
 
         {props.sign_up_url && props.status !== 'full' ? (
