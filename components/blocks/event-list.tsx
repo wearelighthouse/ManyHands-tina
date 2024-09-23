@@ -8,7 +8,7 @@ import Link from "next/link";
 
 import toKebabCase from "../util/to-kebab-case";
 import { formatDate, formatTime } from "../util/date-time";
-import { Status } from "../util/status";
+import { getCtaFromStatus, Status } from "../util/status";
 
 export const getEventData = async () => {
   const eventsListData = await client.queries.postConnection();
@@ -90,7 +90,7 @@ export const EventList = ({ data, parentField }) => {
                       </a>
                     ) : (
                       <a className="button !grid !h-20 place-items-center place-content-center">
-                        <div className="text-lg">{event._values.status?.includes('waitlist') ? 'Join waitlist' : 'Sign up now'}</div>
+                        <div className="text-lg">{getCtaFromStatus(event._values.status)}</div>
                         <div className="uppercase text-xs">Free entry</div>
                       </a>
                     )}

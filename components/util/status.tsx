@@ -11,7 +11,15 @@ export const statusMap = {
   'Last few places 😱': 'border-pink bg-[#ffdeed]',
   'Fully Booked 🎉 (waitlist)': 'border-pink bg-[#ffdeed] waitlist',
   'Fully Booked': 'full',
-}
+};
+
+export const getCtaFromStatus = (status?: string) => {
+  if (status?.includes('waitlist')) return 'Join waitlist';
+
+  if (status?.includes('soon')) return 'Get notified';
+
+  return 'Sign up now';
+};
 
 interface statusProps {
   children: string;
