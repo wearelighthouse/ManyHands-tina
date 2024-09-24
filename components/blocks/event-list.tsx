@@ -7,10 +7,7 @@ import type { Template } from "tinacms";
 import Link from "next/link";
 
 import toKebabCase from "../util/to-kebab-case";
-import {
-  formatDate//,
-  //formatTime
-} from "../util/date-time";
+import { formatDate, formatTime } from "../util/date-time";
 import { getCtaFromStatus, Status } from "../util/status";
 
 export const getEventData = async () => {
@@ -41,7 +38,7 @@ export const EventList = ({ data, parentField }) => {
             const eventDateTime = new Date(event._values.date);
             if (eventDateTime < new Date()) return undefined;
             if (event._values.status === undefined) return undefined;
-            // const eventDateTimeEnd = event._values.date_end ? new Date(event._values.date_end) : undefined;
+            const eventDateTimeEnd = event._values.date_end ? new Date(event._values.date_end) : undefined;
             const locationParts = event._values.location?.split(/\r?\n/);
 
             return (
@@ -62,7 +59,7 @@ export const EventList = ({ data, parentField }) => {
 
                     <span className="font-medium">{ formatDate(eventDateTime) }</span>
                   </div>
-                  {/* <div className="ml-11">{ formatTime(eventDateTime, eventDateTimeEnd) }</div> */}
+                  <div className="ml-11">{ formatTime(eventDateTime, eventDateTimeEnd) }</div>
                 </div>
 
                 <div className="h-full bg-gray w-0.5 mx-2 desktop:mx-5 shrink-0"/>
