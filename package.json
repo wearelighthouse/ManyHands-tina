@@ -6,8 +6,7 @@
     "dev": "cross-env OUTPUT=no tinacms dev -c \"next dev\"",
     "build:gh-pages": "tinacms build && cross-env PREFIX=/ManyHands-tina next build",
     "build": "tinacms build --partial-reindex && next build",
-    "start": "tinacms build && next build && cross-env OUTPUT=no next start",
-    "export": "npm run build",
+    "start": "next start",
     "lint": "eslint . --ext .ts,.tsx"
   },
   "devDependencies": {
