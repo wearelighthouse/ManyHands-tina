@@ -10,7 +10,7 @@ export const dateNth = (day: number): string => {
 
 export const formatDate = (dateTime: Date): string => {
   return dateTime
-    .toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'short', year: 'numeric' })
+    .toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'short', year: 'numeric', timeZone: 'Europe/London' })
     .replace(',', '')
     .replace(/\d+/, day => day + dateNth(parseInt(day)));
 }
@@ -23,12 +23,12 @@ const createEndTime = (dateTime: Date): Date => {
 
 export const formatTime = (dateTime: Date, dateTimeEnd: Date = createEndTime(dateTime)): string => {
   const start = dateTime
-    .toLocaleTimeString('en-GB', { hour: 'numeric', minute: 'numeric', hour12: true })
+    .toLocaleTimeString('en-GB', { hour: 'numeric', minute: 'numeric', hour12: true, timeZone: 'Europe/London' })
     .replace(':00', '')  // Remove unnecessary minutes if e.g. 7:00pm
     .replace(/\s/g, '')  // Remove spaces
     .replace(/[a-z]+/, '');  // Remove 'am' or 'pm' from start time
   const end = dateTimeEnd
-    .toLocaleTimeString('en-GB', { hour: 'numeric', minute: 'numeric', hour12: true })
+    .toLocaleTimeString('en-GB', { hour: 'numeric', minute: 'numeric', hour12: true, timeZone: 'Europe/London' })
     .replace(':00', '')  // Remove unnecessary minutes if e.g. 7:00pm
     .replace(/\s/g, '')  // Remove spaces
   return `${start} - ${end} (UK time)`;
