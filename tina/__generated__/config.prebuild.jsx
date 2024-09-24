@@ -1080,6 +1080,9 @@ var statusMap = {
   "Fully Booked \u{1F389} (waitlist)": "border-pink bg-[#ffdeed] waitlist",
   "Fully Booked": "full"
 };
+if ([...new Set(Object.values(statusMap))].length !== Object.keys(statusMap).length) {
+  throw new Error("Event statusMap must have unique keys and unique values");
+}
 var statusSchema = {
   type: "string",
   label: "Status",

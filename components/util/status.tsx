@@ -13,6 +13,10 @@ export const statusMap = {
   'Fully Booked': 'full',
 };
 
+if ([...new Set(Object.values(statusMap))].length !== Object.keys(statusMap).length) {
+  throw new Error('Event statusMap must have unique keys and unique values');
+}
+
 export const getCtaFromStatus = (status?: string) => {
   if (status?.includes('waitlist')) return 'Join waitlist';
 
