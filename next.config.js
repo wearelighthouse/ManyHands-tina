@@ -25,7 +25,7 @@ module.exports = {
       },
     ],
   },
-  output: output === 'no' ? undefined : 'export',
+  // output: output === 'no' ? undefined : 'export',
   async rewrites() {
     return [
       {

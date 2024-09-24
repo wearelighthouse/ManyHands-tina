@@ -12,7 +12,6 @@ limitations under the License.
 */
 
 import React, { useEffect, useState } from "react";
-import type { Components } from "tinacms/dist/rich-text";
 import { Blocks } from "../blocks-renderer";
 import { formatDate, formatTime } from "../util/date-time";
 import { getCtaFromStatus, Status } from "../util/status";
@@ -143,5 +142,3 @@ export const Event = (props) => {
     </>
   );
 };
-
-export default Components;

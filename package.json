@@ -5,18 +5,16 @@
   "scripts": {
     "dev": "cross-env OUTPUT=no tinacms dev -c \"next dev\"",
     "build:gh-pages": "tinacms build && cross-env PREFIX=/ManyHands-tina next build",
-    "build": "tinacms build && next build",
+    "build": "tinacms build --partial-reindex && next build",
     "start": "tinacms build && next build && cross-env OUTPUT=no next start",
     "export": "npm run build",
     "lint": "eslint . --ext .ts,.tsx"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",
-    "@tinacms/cli": "^1.6.4",
     "@types/js-cookie": "^3.0.3",
     "@types/node": "^22.5.5",
     "@types/react": "^18.3.7",
-    "@types/styled-components": "^5.1.34",
     "@typescript-eslint/eslint-plugin": "^8.6.0",
     "@typescript-eslint/parser": "^8.6.0",
     "cross-env": "^7.0.3",
@@ -27,14 +25,11 @@
     "tailwindcss": "^3.4.12"
   },
   "dependencies": {
-    "@headlessui/react": "^2.1.8",
+    "@tinacms/cli": "^1.6.5",
     "date-fns": "^4.1.0",
     "next": "^14.2.12",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-is": "^18.3.1",
-    "styled-components": "^6.1.13",
-    "styled-jsx": "^5.1.6",
     "tinacms": "^2.2.4",
     "typescript": "^4.9.5"
   }
