@@ -59,7 +59,7 @@ export const EventList = ({ data, parentField }) => {
 
                     <span className="font-medium">{ formatDate(eventDateTime) }</span>
                   </div>
-                  <div className="ml-11">{ formatTime(eventDateTime, eventDateTimeEnd) }</div>
+                  {/* <div className="ml-11">{ formatTime(eventDateTime, eventDateTimeEnd) }</div> */}
                 </div>
 
                 <div className="h-full bg-gray w-0.5 mx-2 desktop:mx-5 shrink-0"/>
