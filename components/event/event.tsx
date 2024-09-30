@@ -119,7 +119,7 @@ export const Event = (props) => {
 
       <Blocks {...props}/>
 
-      {props.sign_up_url && props.status && (
+      {props.sign_up_url && props.status && props.status !== 'full' && (
         <div className={`sticky left-0 right-0 bottom-0 flex tablet:m-4 px-6 z-10 transition ${isVisible ? 'opacity-0' : 'opacity-100'} ${props.location_short !== 'Online' ? 'bg-mimosa' : 'bg-iceberg'}`}>
           <div className="flex flex-wrap justify-center items-baseline text-center gap-x-16 gap-y-2 tablet:gap-y-4 mx-auto py-3">
             <h2 className="max-tablet:leading-tight text-2xl tablet:text-3xl font-tiempos font-semibold translate-y-[.25rem]">Register your interest&nbsp;now</h2>
