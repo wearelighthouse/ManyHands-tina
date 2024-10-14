@@ -3,9 +3,7 @@ title: April 2024
 date: 2024-04-09T17:30:00.000Z
 date_end: 2024-02-29T21:30:00.000Z
 location_short: London
-location: |-
-  Uncommon Liverpool Street
-  London
+location: Central London
 status: 'border-[#FF9325] bg-[#F3EDE0] soon'
 sign_up_url: 'https://www.eventbrite.co.uk/e/manyhands-april-2024-tickets-845025743747'
 blocks:
