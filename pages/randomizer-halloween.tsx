@@ -25,6 +25,15 @@ const data = {
   audiences: [
     'kids',
     'ghosts',
+    'ghost hunter',
+    'scary movie actors',
+    'alien enthusiast',
+    'aliens',
+    'haunted house tour guide',
+    'time traveller',
+    'inventor',
+    'detective',
+    'fortune teller',
   ],
 };
 
