@@ -31,7 +31,6 @@ const data = {
     'haunted house tour guide',
     'time travellers',
     'inventors',
-    'detectives',
     'fortune tellers',
     'movie villains'
     'documentary creators',
