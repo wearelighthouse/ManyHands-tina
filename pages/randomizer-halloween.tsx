@@ -32,7 +32,7 @@ const data = {
     'time travellers',
     'inventors',
     'fortune tellers',
-    'movie villains'
+    'movie villains',
     'documentary creators',
   ],
 };
