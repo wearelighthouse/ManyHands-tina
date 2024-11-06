@@ -1,5 +1,5 @@
 ---
-title: ManyHands London July 2024 recap
+title: ManyHands London October 2024 recap
 blocks:
   - background: bg-mimosa
     heading: ManyHands London - July 2024
