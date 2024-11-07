@@ -76,10 +76,12 @@ blocks:
   - background: bg-light-gray
     quotes:
       - quote: >-
-          I loved the layout of the whole event from beginning to end. I'd 100%
-          come back and would recommend some colleagues join me too!
-        author: Nawaf
-        jobTitle: Delivery Consultant at Mott MacDonald
+          By far the best product event I've attended! A mixture of talks,
+          activities, networking opportunities food and drink and great people.
+          Well organised and in a great location, my first time and most
+          definitely won't be my last, thanks for the great evening!
+        author: Peter Reeves
+        jobTitle: Senior Product Manager
     _template: quotes
   - icon: ok
     _template: hr
