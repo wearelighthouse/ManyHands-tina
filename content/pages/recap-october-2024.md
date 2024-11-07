@@ -47,18 +47,13 @@ blocks:
       </Center>
 
 
-      [Jessica Edwards](https://www.linkedin.com/in/jessicace/), Creative
-      Technologist at [Canva ](https://www.canva.com/) told us about the art of
-      prototyping.
+      Alexander Baxevanis inspired us to explore our creative potential,
+      encouraging everyone to pursue side projects that ignite their passion.
 
 
-      [Trenton Moss](https://www.linkedin.com/in/trentonmoss/), Bestselling
-      author of [Human
-      Powered](https://www.amazon.co.uk/Human-Powered-Supercharge-emotional-intelligence-ebook/dp/B09D46R31Q)
-      and Founder of
-
-      [Team Sterka](https://sterka.team/) explained how to supercharge yourself
-      with emotional intelligence.
+      Tom Shurrock gave us some much-needed real talk on how to succeed in
+      product, bonding with us over the challenges of navigating the “dark swamp
+      of despair” that many face along the way.
     _template: content
   - body: |
       <Center>
