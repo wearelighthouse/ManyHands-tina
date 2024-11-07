@@ -43,7 +43,7 @@ blocks:
 
 
       <Center>
-        ![](</uploads/Speakers July 2025.jpg>)
+        ![](/uploads/MH_GuestSpeakers.jpg)
       </Center>
 
 
