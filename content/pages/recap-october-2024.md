@@ -71,10 +71,7 @@ blocks:
       - indicator: "\U0001F608"
         title: Collaboration Tool for Movie Villains
     _template: bigList
-  - body: >
-      With our creative brains all warmed up, we grabbed some pizza, got into
-      groups, and started brainstorming. An hour later, we pitched our ideas
-      back to the wider group:
+  - body: "With our creative brains all warmed up, we grabbed some pizza, got into groups, and started brainstorming. An hour later, we pitched our ideas back to the wider group:\n\n\U0001F3AD Looking to gather a crew for your next big heist? Sin Starter connects villains with the right skills—whether it’s hacking CCTV or driving getaway cars. It’s a mix of dating apps, Fiverr, and DocuSign for those with evil plans.\n\n\U0001F37D️ Networking is key for any villain, and Devil’s Hour offers just that. Join fellow masterminds for a late-night meal at 3:33 AM, and if you're lucky, dine with the Devil’s Advocate for some premium insights.\n\n\U0001F4F2 Whether you’re planning a bank heist or an evil takeover, Partners in Crime helps you find the perfect accomplice. List your plans, match with the right talents, and make your villainous dreams come true.\n\n\U0001F579️ Want to test your evil schemes before executing them? Villain Reality lets you rehearse your plans in a safe, community-driven environment, with kill cam replays and sentiment analysis to help perfect your strategy.\n"
     _template: content
   - background: bg-light-gray
     quotes:
