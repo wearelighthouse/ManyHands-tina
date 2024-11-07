@@ -5,7 +5,7 @@ blocks:
     heading: ManyHands London - October 2024
     subtitle: "\U0001F5D3️ 30th October 2024 \U0001F4CD Canva, Hoxton"
     _template: basicHero
-  - body: "Our largest number of attendees yet! \U0001F929 The energy & enthusiasm was infectious. Who knew product people were so good at acting out user personas?\n"
+  - body: "There’s nothing quite like coming together with fellow product people to explore a theme as fun as villainy! The talent and energy everyone brought to our event truly made it a wickedly good time! \U0001F5A4\n"
     _template: content
   - body: |
       ![](/uploads/AP_DPP-ManyHands-76-1R9A0694-web-res.jpg)
