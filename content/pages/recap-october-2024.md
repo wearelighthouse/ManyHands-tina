@@ -2,7 +2,7 @@
 title: ManyHands London October 2024 recap
 blocks:
   - background: bg-mimosa
-    heading: ManyHands London - July 2024
+    heading: ManyHands London - October 2024
     subtitle: "\U0001F5D3️ 24th October 2024 \U0001F4CD Canva, Hoxton"
     _template: basicHero
   - body: "Our largest number of attendees yet! \U0001F929 The energy & enthusiasm was infectious. Who knew product people were so good at acting out user personas?\n"
