@@ -7,8 +7,12 @@ blocks:
     _template: basicHero
   - body: "There’s nothing quite like coming together with fellow product people to explore a theme as fun as villainy! The talent and energy everyone brought to our event truly made it a wickedly good time! \U0001F5A4\n"
     _template: content
-  - body: >
-      ![](/uploads/DSC_5165.jpg)![](/uploads/DSC_5870.jpg)![](/uploads/DSC_5953.jpg)
+  - body: |
+      ![](/uploads/DSC_5165.jpg)
+
+      ![](/uploads/DSC_5870.jpg)
+
+      ![](/uploads/DSC_5953.jpg)
     _template: content
   - body: |
       <Center>
