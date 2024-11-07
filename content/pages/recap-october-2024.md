@@ -7,12 +7,8 @@ blocks:
     _template: basicHero
   - body: "There’s nothing quite like coming together with fellow product people to explore a theme as fun as villainy! The talent and energy everyone brought to our event truly made it a wickedly good time! \U0001F5A4\n"
     _template: content
-  - body: |
-      ![](/uploads/AP_DPP-ManyHands-76-1R9A0694-web-res.jpg)
-
-      ![](/uploads/AP_DPP-ManyHands-July-36-1R9A0755-web-res.jpg)
-
-      ![](/uploads/AP_DPP-ManyHands-67-1R9A0660-web-res.jpg)
+  - body: >
+      ![](/uploads/DSC_5165.jpg)![](/uploads/DSC_5870.jpg)![](/uploads/DSC_5953.jpg)
     _template: content
   - body: |
       <Center>
