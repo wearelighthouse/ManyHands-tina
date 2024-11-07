@@ -68,8 +68,8 @@ blocks:
     _template: hr
   - heading: We collaborated on a fun product challenge
     items:
-      - indicator: "\U0001F3B8"
-        title: HR Platform for Rockstars
+      - indicator: "\U0001F608"
+        title: Collaboration Tool for Movie Villains
     _template: bigList
   - body: >
       With our creative brains all warmed up, we grabbed some pizza, got into
