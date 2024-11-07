@@ -6,9 +6,9 @@ blocks:
     subtitle: Want to find out what we got up to at previous events?
     _template: basicHero
   - items:
-      - open: true
+      - open: false
         summary: "✌️ ManyHands London - October 2024 \U0001F383\n"
-        text: "The brief we collaborated on:\n\n\nCollaboration Tool for Movie Villains \U0001F608\n\nAttended by product pros from:\n\n\n\\[Company List]\n\n[View the full recap](https://wearemanyhands.com/recap-july-2024)\n"
+        text: "**The brief we collaborated on: **\n\nCollaboration Tool for Movie Villains \U0001F608\n\n**Attended by product pros from:**\n\n\\[Company List]\n\n[View the full recap](https://wearemanyhands.com/recap-july-2024)\n"
       - open: true
         summary: |
           ✌️ ManyHands London - July 2024 ☀️
