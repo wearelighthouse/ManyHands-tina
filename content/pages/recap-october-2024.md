@@ -57,11 +57,11 @@ blocks:
     _template: content
   - body: |
       <Center>
-        ![](/uploads/AP_DPP-ManyHands-July-12-1R9A0456-web-res.jpg)
+        ![](/uploads/DSC_5594.jpg)
       </Center>
 
       <Center>
-        ![](/uploads/AP_DPP-ManyHands-July-07-1R9A0372-web-res.jpg)
+        ![](/uploads/DSC_5267.jpg)
       </Center>
     _template: content
   - icon: horns
