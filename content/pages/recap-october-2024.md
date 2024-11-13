@@ -80,8 +80,8 @@ blocks:
           activities, networking opportunities food and drink and great people.
           Well organised and in a great location, my first time and most
           definitely won't be my last, thanks for the great evening!
-        author: Peter Reeves
-        jobTitle: Senior Product Manager
+        author: 'Peter '
+        jobTitle: Senior Product Manager at CarWow
     _template: quotes
   - icon: ok
     _template: hr
