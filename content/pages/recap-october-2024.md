@@ -47,11 +47,11 @@ blocks:
       </Center>
 
 
-      Alexander Baxevanis inspired us to explore our creative potential,
+      **Alexander Baxevanis** inspired us to explore our creative potential,
       encouraging everyone to pursue side projects that ignite their passion.
 
 
-      Tom Shurrock gave us some much-needed real talk on how to succeed in
+      **Tom Shurrock** gave us some much-needed real talk on how to succeed in
       product, bonding with us over the challenges of navigating the “dark swamp
       of despair” that many face along the way.
     _template: content
