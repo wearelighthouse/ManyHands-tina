@@ -59,13 +59,15 @@ blocks:
       </Center>
 
 
-      **Alexander Baxevanis** inspired us to explore our creative potential,
-      encouraging everyone to pursue side projects that ignite their passion.
+      **[Alexander Baxevanis](https://www.linkedin.com/in/futureshape/)**
+      inspired us to explore our creative potential, encouraging everyone to
+      pursue side projects that ignite their passion.
 
 
-      **Tom Shurrock** gave us some much-needed real talk on how to succeed in
-      product, bonding with us over the challenges of navigating the “dark swamp
-      of despair” that many face along the way.
+      **[Tom Shurrock](https://www.linkedin.com/in/shurrock/)** gave us some
+      much-needed real talk on how to succeed in product, bonding with us over
+      the challenges of navigating the “dark swamp of despair” that many face
+      along the way.
     _template: content
   - body: |
       <Center>
