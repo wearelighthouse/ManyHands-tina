@@ -28,8 +28,8 @@ blocks:
         alt: Flagstone
         width: 204
         height: 150
-      - src: /uploads/Intercom.png
-        alt: Intercom
+      - src: /uploads/TransferGo.png
+        alt: transferGo
         width: 150
         height: 150
       - src: /uploads/So Energy.png
