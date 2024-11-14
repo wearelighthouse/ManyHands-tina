@@ -32,8 +32,8 @@ blocks:
         alt: transferGo
         width: 150
         height: 150
-      - src: /uploads/So Energy.png
-        alt: So Energy
+      - src: /uploads/Diversio.png
+        alt: Diversio
         width: 200
         height: 200
     _template: companies
