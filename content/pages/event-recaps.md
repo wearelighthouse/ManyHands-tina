@@ -6,7 +6,7 @@ blocks:
     subtitle: Want to find out what we got up to at previous events?
     _template: basicHero
   - items:
-      - open: false
+      - open: true
         summary: "✌️ ManyHands London - October 2024 \U0001F383\n"
         text: "The brief we collaborated on:\n\nCollaboration Tool for Movie Villains \U0001F608\n\nAttended by product pros from:\n\nTesco, Carwow, Moneybox, Flagstone, TransferGo, Trimble, and Diversio. \U0001F929\n\n[View the full recap](https://wearemanyhands.com/recap-october-2024)\n"
       - open: true
