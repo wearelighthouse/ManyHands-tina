@@ -8,7 +8,7 @@ blocks:
   - items:
       - open: true
         summary: "✌️ ManyHands London - October 2024 \U0001F383\n"
-        text: "The brief we collaborated on:\n\nCollaboration Tool for Movie Villains \U0001F608\n\nAttended by product pros from:\n\nTesco, Carwow, Moneybox, Flagstone, TransferGo, Trimble, and Diversio. \U0001F929\n\n[View the full recap](https://wearemanyhands.com/recap-october-2024)\n"
+        text: "**The brief we collaborated on:**\n\nCollaboration Tool for Movie Villains \U0001F608\n\n**Attended by product pros from:**\n\nTesco, Carwow, Moneybox, Flagstone, TransferGo, Trimble, and Diversio. \U0001F929\n\n[View the full recap](https://wearemanyhands.com/recap-october-2024)\n"
       - open: false
         summary: |
           ✌️ ManyHands London - July 2024 ☀️
