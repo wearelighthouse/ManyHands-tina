@@ -20,6 +20,9 @@ blocks:
       </Center>
     _template: content
   - logos:
+      - src: /uploads/Carwow.png
+        alt: CarWow
+        width: 150
       - src: /uploads/Moneybox.png
         alt: Moneybox
         width: 150
