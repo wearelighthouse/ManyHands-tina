@@ -20,6 +20,10 @@ blocks:
       </Center>
     _template: content
   - logos:
+      - src: /uploads/Trimble.png
+        alt: Trimble
+        width: 150
+        height: 150
       - src: /uploads/Carwow.png
         alt: CarWow
         width: 150
