@@ -20,6 +20,9 @@ blocks:
       </Center>
     _template: content
   - logos:
+      - src: /uploads/Moneybox.png
+        alt: Moneybox
+        width: 150
       - src: /uploads/Tesco.png
         alt: Tesco
         width: 150
