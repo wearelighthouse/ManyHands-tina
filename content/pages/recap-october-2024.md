@@ -25,7 +25,7 @@ blocks:
         width: 150
         height: 130
       - src: /uploads/Flagstone.png
-        alt: Mott MacDonald
+        alt: Flagstone
         width: 204
         height: 150
       - src: /uploads/Intercom.png
