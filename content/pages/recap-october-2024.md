@@ -23,6 +23,7 @@ blocks:
       - src: /uploads/Carwow.png
         alt: CarWow
         width: 150
+        height: 150
       - src: /uploads/Moneybox.png
         alt: Moneybox
         width: 150
