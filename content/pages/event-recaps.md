@@ -9,7 +9,7 @@ blocks:
       - open: true
         summary: "✌️ ManyHands London - October 2024 \U0001F383\n"
         text: "The brief we collaborated on:\n\nCollaboration Tool for Movie Villains \U0001F608\n\nAttended by product pros from:\n\nTesco, Carwow, Moneybox, Flagstone, TransferGo, Trimble, and Diversio. \U0001F929\n\n[View the full recap](https://wearemanyhands.com/recap-october-2024)\n"
-      - open: true
+      - open: false
         summary: |
           ✌️ ManyHands London - July 2024 ☀️
         text: "**The brief we collaborated on:**\\\nHR platform for Rockstars \U0001F3B8\U0001F918\n\n**Attended by product pros from:**\\\nTwilio, British Heart Foundation, Lendable, Worldpay, So Energy, Dentsu, Pinnacle Pet Group, Pinpoint, Department for Business and Trade, DataArt, Efficio, Intercom, Planet A, Liberty Specialty Markets, Deloitte, ZenEducate, Mott MacDonald, Centrica, American Express, and more. \U0001F929\n\n[View the full recap](https://wearemanyhands.com/recap-july-2024 \"View the recap\")\n"
