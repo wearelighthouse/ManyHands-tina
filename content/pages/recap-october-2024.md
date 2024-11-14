@@ -24,9 +24,10 @@ blocks:
         alt: Tesco
         width: 150
         height: 130
-      - src: /uploads/Mott MacDonald.png
+      - src: /uploads/Carwow.png
         alt: Mott MacDonald
         width: 150
+        height: 150
       - src: /uploads/Intercom.png
         alt: Intercom
         width: 150
