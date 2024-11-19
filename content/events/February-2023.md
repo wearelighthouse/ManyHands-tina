@@ -71,7 +71,7 @@ blocks:
       - title: "Join the fun \U0001F389"
         description: Have a fun-filled hour of problem solving with your new best mates
     _template: bigList
-  - icon: call
+  - icon: fingers-crossed
     _template: hr
   - body: |
       <Center>
