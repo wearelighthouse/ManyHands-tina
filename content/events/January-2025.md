@@ -1,7 +1,7 @@
 ---
 title: January 2025
-date: 2025-01-21T18:30:00.000Z
-date_end: 2025-01-21T21:30:00.000Z
+date: 2025-02-24T18:30:00.000Z
+date_end: 2025-02-24T21:30:00.000Z
 location_short: "London \U0001F1EC\U0001F1E7"
 location: Central London
 status: 'border-[#FF9325] bg-[#F3EDE0] soon'
