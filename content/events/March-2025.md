@@ -7,7 +7,7 @@ status: 'border-[#FF9325] bg-[#F3EDE0] soon'
 blocks:
   - background: bg-mimosa
     body: |
-      Our next event will be held in March 2025
+      Our next event will be held in March 2025.
     _template: content
 ---
 
