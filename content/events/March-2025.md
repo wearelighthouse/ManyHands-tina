@@ -1,5 +1,5 @@
 ---
-title: March 2025
+title: March 2025 (ManyHands Leaders)
 date: 2025-03-20T12:30:00.000Z
 date_end: 2025-03-20T14:30:00.000Z
 location_short: TBD
