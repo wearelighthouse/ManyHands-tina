@@ -23,12 +23,12 @@ const createEndTime = (dateTime: Date): Date => {
 
 export const formatTime = (dateTime: Date, dateTimeEnd: Date = createEndTime(dateTime)): string => {
   const start = dateTime
-    .toLocaleTimeString('en-GB', { hour: 'numeric', minute: 'numeric', hour12: true, timeZone: 'Europe/London' })
+    .toLocaleTimeString('en-GB', { hour: 'numeric', minute: 'numeric', hourCycle: 'h12', timeZone: 'Europe/London' })
     .replace(':00', '')  // Remove unnecessary minutes if e.g. 7:00pm
     .replace(/\s/g, '')  // Remove spaces
     .replace(/[a-z]+/, '');  // Remove 'am' or 'pm' from start time
   const end = dateTimeEnd
-    .toLocaleTimeString('en-GB', { hour: 'numeric', minute: 'numeric', hour12: true, timeZone: 'Europe/London' })
+    .toLocaleTimeString('en-GB', { hour: 'numeric', minute: 'numeric', hourCycle: 'h12', timeZone: 'Europe/London' })
     .replace(':00', '')  // Remove unnecessary minutes if e.g. 7:00pm
     .replace(/\s/g, '')  // Remove spaces
   return `${start} - ${end} (UK time)`;
