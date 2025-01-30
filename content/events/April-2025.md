@@ -1,7 +1,7 @@
 ---
 title: April 2025
 date: 2025-04-29T17:30:00.000Z
-date_end: 2025-02-25T21:30:00.000Z
+date_end: 2025-04-29T20:30:00.000Z
 location_short: "London \U0001F1EC\U0001F1E7"
 location: 'Uncommon, Liverpool Street, London'
 status: 'border-[#FF9325] bg-[#F3EDE0] soon'
