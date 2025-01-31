@@ -1,7 +1,7 @@
 ---
 title: June 2023 London
-date: 2023-06-07T17:30:00.000Z
-date_end: 2023-06-07T20:30:00.000Z
+date: '2023-06-07T17:30:00.000Z'
+date_end: '2023-06-07T20:30:00.000Z'
 location_short: London
 location: |-
   Uncommon
@@ -41,20 +41,16 @@ blocks:
     items:
       - icon: wave
         title: In-person
-        text: |
-          Real people in real life, not just faces in a grid.
+        text: 'Real people in real life, not just faces in a grid.'
       - icon: scissors
         title: Talks from top pros
-        text: |
-          Learn from the industry's best and brightest.
+        text: Learn from the industry's best and brightest.
       - icon: raised
         title: Dinner's on us
-        text: |
-          Who can be creative on an empty stomach?
+        text: Who can be creative on an empty stomach?
       - icon: raised-double
         title: Still totally free
-        text: |
-          We want your design brain, not your ££££s.
+        text: 'We want your design brain, not your ££££s.'
     _template: columns
   - heading: Talks from the best in the business
     hosts:
