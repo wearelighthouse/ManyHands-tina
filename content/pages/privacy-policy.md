@@ -175,7 +175,5 @@ blocks:
 
       WC1X 9LP
     _template: content
-  - icon: wave
-    _template: hr
 ---
 
