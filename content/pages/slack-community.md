@@ -53,6 +53,3 @@ blocks:
     _template: companies
 ---
 
-
-
-
