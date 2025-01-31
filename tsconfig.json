@@ -27,6 +27,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "eslint.config.mts"
+    ".forestry/types.ts",
+    ".forestry/config.ts"
   ]
 }
