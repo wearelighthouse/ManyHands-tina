@@ -1,7 +1,7 @@
 ---
 title: March 2023 London
-date: 2023-03-22T18:00:00.000Z
-date_end: 2023-03-22T21:00:00.000Z
+date: '2023-03-22T18:00:00.000Z'
+date_end: '2023-03-22T21:00:00.000Z'
 location_short: London
 location: |-
   Uncommon
@@ -176,4 +176,5 @@ blocks:
       </Center>
     _template: content
 ---
+
 
