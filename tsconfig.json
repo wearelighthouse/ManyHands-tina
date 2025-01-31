@@ -28,6 +28,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".forestry/types.ts",
-    ".forestry/config.ts"
+    ".forestry/config.ts",
+    "eslint.config.js",
   ]
 }

@@ -1,5 +1,4 @@
 const prefix = process.env.PREFIX ?? undefined;
-const output = process.env.OUTPUT ?? undefined;
 
 module.exports = {
   webpack(config) {
