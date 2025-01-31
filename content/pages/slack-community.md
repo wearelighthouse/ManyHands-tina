@@ -52,8 +52,3 @@ blocks:
         width: 130
     _template: companies
 ---
-
-
-
-
-
