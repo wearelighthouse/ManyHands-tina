@@ -1344,7 +1344,7 @@ var bigListBlockSchema = {
       list: true,
       ui: {
         itemProps: (item) => ({
-          label: (item?.indicator ? `${item?.indicator} ` : "") + item?.title
+          label: (item?.indicator ? `${item?.indicator} ` : "") + (item?.title ?? "Item")
         })
       },
       fields: [
