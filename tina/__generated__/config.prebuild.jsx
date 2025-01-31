@@ -451,6 +451,7 @@ var PostPartsFragmentDoc = gql`
       _sys {
         filename
         basename
+        hasReferences
         breadcrumbs
         path
         relativePath
@@ -730,6 +731,7 @@ var PostDocument = gql`
       _sys {
         filename
         basename
+        hasReferences
         breadcrumbs
         path
         relativePath
@@ -765,6 +767,7 @@ var PostConnectionDocument = gql`
           _sys {
             filename
             basename
+            hasReferences
             breadcrumbs
             path
             relativePath
@@ -785,6 +788,7 @@ var GlobalDocument = gql`
       _sys {
         filename
         basename
+        hasReferences
         breadcrumbs
         path
         relativePath
@@ -820,6 +824,7 @@ var GlobalConnectionDocument = gql`
           _sys {
             filename
             basename
+            hasReferences
             breadcrumbs
             path
             relativePath
@@ -840,6 +845,7 @@ var AuthorDocument = gql`
       _sys {
         filename
         basename
+        hasReferences
         breadcrumbs
         path
         relativePath
@@ -875,6 +881,7 @@ var AuthorConnectionDocument = gql`
           _sys {
             filename
             basename
+            hasReferences
             breadcrumbs
             path
             relativePath
@@ -895,6 +902,7 @@ var PageDocument = gql`
       _sys {
         filename
         basename
+        hasReferences
         breadcrumbs
         path
         relativePath
@@ -930,6 +938,7 @@ var PageConnectionDocument = gql`
           _sys {
             filename
             basename
+            hasReferences
             breadcrumbs
             path
             relativePath
@@ -950,6 +959,7 @@ var EventDocument = gql`
       _sys {
         filename
         basename
+        hasReferences
         breadcrumbs
         path
         relativePath
@@ -985,6 +995,7 @@ var EventConnectionDocument = gql`
           _sys {
             filename
             basename
+            hasReferences
             breadcrumbs
             path
             relativePath
@@ -1066,7 +1077,7 @@ var queries = (client2) => {
 };
 
 // tina/__generated__/client.ts
-var client = createClient2({ url: "http://localhost:4001/graphql", token: "a7cfd0e5925d0bf18f9e48201fc174e53325c39a", queries });
+var client = createClient2({ cacheDir: "/home/burntcustard/Work/manyhands-tina/tina/__generated__/.cache/1738300975336", url: "https://content.tinajs.io/1.5/content/0064d9a4-e65d-4a88-8310-7f469f0e00ff/github/main", token: "a7cfd0e5925d0bf18f9e48201fc174e53325c39a", queries });
 
 // components/blocks/event-list.tsx
 import Link from "next/link";
