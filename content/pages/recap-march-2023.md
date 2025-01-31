@@ -118,6 +118,3 @@ blocks:
     _template: broughtToYouBy
 ---
 
-
-
-
