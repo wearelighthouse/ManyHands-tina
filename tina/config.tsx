@@ -15,7 +15,7 @@ import { statusSchema } from "../components/util/status";
 import { basicHeroBlockSchema } from "../components/blocks/hero-basic";
 import { accordionBlockSchema } from "../components/blocks/accordion";
 
-const currentDateString = new Date().toLocaleString('default', {day: 'numeric', month: 'long', year: 'numeric'});
+const currentDateString = "31 January 2025";
 
 const config = defineStaticConfig({
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
