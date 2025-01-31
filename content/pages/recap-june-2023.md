@@ -125,9 +125,3 @@ blocks:
     _template: broughtToYouBy
 ---
 
-
-
-
-
-
-

@@ -40,7 +40,7 @@ blocks:
     _template: content
   - body: |
       <Center>
-        ### Join product pros from companies like... 
+        ### Join product pros from companies like...
       </Center>
     _template: content
   - logos:
@@ -52,7 +52,4 @@ blocks:
         width: 130
     _template: companies
 ---
-
-
-
 

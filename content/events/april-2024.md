@@ -1,7 +1,7 @@
 ---
 title: April 2024
-date: '2024-04-09T17:30:00.000Z'
-date_end: '2024-02-29T21:30:00.000Z'
+date: 2024-04-09T17:30:00.000Z
+date_end: 2024-02-29T21:30:00.000Z
 location_short: London
 location: Central London
 status: 'border-[#FF9325] bg-[#F3EDE0] soon'
