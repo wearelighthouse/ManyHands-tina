@@ -1,7 +1,7 @@
 ---
 title: July 2023 London
-date: 2023-07-12T17:30:00.000Z
-date_end: 2023-07-12T20:30:00.000Z
+date: '2023-07-12T17:30:00.000Z'
+date_end: '2023-07-12T20:30:00.000Z'
 location_short: London
 location: |-
   Uncommon
@@ -193,11 +193,4 @@ blocks:
       </Center>
     _template: content
 ---
-
-
-
-
-
-
-
 

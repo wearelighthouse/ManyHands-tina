@@ -1,9 +1,9 @@
 ---
 title: March 2025 (ManyHands Leaders)
-date: 2025-03-20T12:30:00.000Z
-date_end: 2025-03-20T14:30:00.000Z
-location_short: TBD
-location: Central London
+date: '2025-03-20T08:30:00.000Z'
+date_end: '2025-03-20T10:30:00.000Z'
+location_short: "Leaders \U0001F4AA"
+location: Covent Garden
 status: 'border-[#FF9325] bg-[#F3EDE0] soon'
 sign_up_url: 'https://zfrmz.eu/LlUcXIugWqkpMNKXsbTr?referrername=<www.wearemanyhands.com>'
 blocks:
