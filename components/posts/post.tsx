@@ -19,7 +19,6 @@ limitations under the License.
  */
 
 import React from "react";
-import { format } from "date-fns";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { Prism } from "tinacms/dist/rich-text/prism";
 import type { TinaMarkdownContent, Components } from "tinacms/dist/rich-text";
@@ -118,7 +117,12 @@ export const Post = (props) => {
   const date = new Date(props.date);
   let formattedDate = "";
   if (!isNaN(date.getTime())) {
-    formattedDate = format(date, "MMM dd, yyyy");
+    formattedDate = date.toLocaleDateString("en-GB", {
+      month: "short",
+      day: "2-digit",
+      year: "numeric",
+      timeZone: 'Europe/London',
+    });
   }
 
   return (
