@@ -1604,7 +1604,15 @@ var accordionBlockSchema = {
 };
 
 // tina/config.tsx
-var currentDateString = "31 January 2025";
+var currentDateString = (/* @__PURE__ */ new Date()).toLocaleString(
+  "en-GB",
+  {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC"
+  }
+);
 var config = defineStaticConfig({
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
   branch: process.env.NEXT_PUBLIC_TINA_BRANCH || process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF || process.env.HEAD,
