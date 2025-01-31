@@ -1,8 +1,6 @@
-import type { NextConfig } from 'next';
-
 const prefix = process.env.PREFIX ?? undefined;
 
-const nexConfig: NextConfig = {
+module.exports = {
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/i,
@@ -39,5 +37,3 @@ const nexConfig: NextConfig = {
     ];
   },
 };
-
-export default nexConfig;
