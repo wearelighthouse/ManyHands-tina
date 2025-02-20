@@ -1,6 +1,6 @@
 ---
 title: March 2025 (ManyHands Leaders)
-date: 2025-03-20T08:30:00.000Z
+date: 2025-03-20T08:00:00.000Z
 date_end: 2025-03-20T10:30:00.000Z
 location_short: "Leaders \U0001F4AA"
 location: Covent Garden
