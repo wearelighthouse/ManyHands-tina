@@ -15,15 +15,17 @@ import { statusSchema } from "../components/util/status";
 import { basicHeroBlockSchema } from "../components/blocks/hero-basic";
 import { accordionBlockSchema } from "../components/blocks/accordion";
 
-const currentDateString = new Date().toLocaleString(
-  'en-GB',
-  {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
-    timeZone: 'UTC'
-  }
-);
+// No longer used to set default date for events as it caused schema mismatch
+// when TinaCMS built the project on a separate date to last code update
+// const currentDateString = new Date().toLocaleString(
+//   'en-GB',
+//   {
+//     day: 'numeric',
+//     month: 'long',
+//     year: 'numeric',
+//     timeZone: 'UTC'
+//   }
+// );
 
 const config = defineStaticConfig({
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
@@ -291,10 +293,10 @@ const config = defineStaticConfig({
             return `/event/${document._sys.filename}`;
           },
         },
-        defaultItem: {
-          date: `${currentDateString} 6:00 PM`,
-          date_end: `${currentDateString} 7:00 PM`,
-        },
+        // defaultItem: {
+        //   date: `${currentDateString} 6:00 PM`,
+        //   date_end: `${currentDateString} 7:00 PM`,
+        // },
         fields: [
           {
             type: "string",

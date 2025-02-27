@@ -1604,15 +1604,6 @@ var accordionBlockSchema = {
 };
 
 // tina/config.tsx
-var currentDateString = (/* @__PURE__ */ new Date()).toLocaleString(
-  "en-GB",
-  {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-    timeZone: "UTC"
-  }
-);
 var config = defineStaticConfig({
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
   branch: process.env.NEXT_PUBLIC_TINA_BRANCH || process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF || process.env.HEAD,
@@ -1878,10 +1869,10 @@ var config = defineStaticConfig({
             return `/event/${document._sys.filename}`;
           }
         },
-        defaultItem: {
-          date: `${currentDateString} 6:00 PM`,
-          date_end: `${currentDateString} 7:00 PM`
-        },
+        // defaultItem: {
+        //   date: `${currentDateString} 6:00 PM`,
+        //   date_end: `${currentDateString} 7:00 PM`,
+        // },
         fields: [
           {
             type: "string",
