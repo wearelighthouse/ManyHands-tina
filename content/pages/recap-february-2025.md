@@ -26,8 +26,8 @@ blocks:
         height: 250
       - src: /uploads/Flagstone (1).png
         alt: Flagstone
-        width: 150
-        height: 150
+        width: 250
+        height: 250
       - src: /uploads/Capital on Tap.png
         alt: Capital on top
         width: 250
