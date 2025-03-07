@@ -20,6 +20,8 @@ blocks:
       </Center>
     _template: content
   - logos:
+      - src: /uploads/Charlie HR.png
+        alt: Charlie HR
       - src: /uploads/Trimble.png
         alt: Trimble
         width: 150
