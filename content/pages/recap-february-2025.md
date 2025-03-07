@@ -38,8 +38,8 @@ blocks:
         height: 200
       - src: /uploads/centrica.png
         alt: Centrica
-        width: 250
-        height: 250
+        width: 200
+        height: 200
     _template: companies
   - body: >
       <Center>
