@@ -20,24 +20,24 @@ blocks:
       </Center>
     _template: content
   - logos:
-      - src: /uploads/centrica.png
-        alt: Centrica
-        width: 150
-        height: 150
-      - src: /uploads/brarista (1).png
-        alt: Brarista
-        width: 150
-        height: 150
-      - src: /uploads/Capital on Tap.png
-        alt: Capital on top
+      - src: /uploads/Charlie HR.png
+        alt: Charlie HR
         width: 150
         height: 150
       - src: /uploads/Flagstone (1).png
         alt: Flagstone
         width: 150
         height: 150
-      - src: /uploads/Charlie HR.png
-        alt: Charlie HR
+      - src: /uploads/Capital on Tap.png
+        alt: Capital on top
+        width: 250
+        height: 250
+      - src: /uploads/brarista (1).png
+        alt: Brarista
+        width: 150
+        height: 150
+      - src: /uploads/centrica.png
+        alt: Centrica
         width: 150
         height: 150
     _template: companies
