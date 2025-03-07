@@ -48,7 +48,7 @@ blocks:
 
 
       <Center>
-        ![](/uploads/MH_GuestSpeakers.jpg)
+        ![](</uploads/MH Speakers (1).png>)
       </Center>
 
 
