@@ -1,5 +1,5 @@
 ---
-title: ManyHands London October 2024 recap
+title: ManyHands London February 2025 recap
 blocks:
   - background: bg-mimosa
     heading: "ManyHands London - February 2025 \U0001F468‍\U0001F373"
