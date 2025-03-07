@@ -7,7 +7,7 @@ blocks:
     _template: basicHero
   - items:
       - open: true
-        summary: "✌️ ManyHands London - February 2025 \U0001F9D1‍\U0001F373\n"
+        summary: "✌️ ManyHands London - February 2025 \U0001F373\n"
         text: "**The brief we collaborated on:**\\\nLearning Platform for Chefs \U0001F9D1‍\U0001F373\n\n**Attended by product pros from:**\\\nBrarista, Sainsbury's, Capital on Tap, Accurx, Centrica, Charlie HR, Singletrack, Pinpoint, British American Tobacco, Softwire, Flagstone, isUseful, Atolls, Alexandra Popa Photography. \U0001F929\n\n[View the full recap](https://wearemanyhands.com/recap-february-2025)\n"
       - open: false
         summary: "✌️ ManyHands London - October 2024 \U0001F383\n"
