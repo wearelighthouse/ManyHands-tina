@@ -20,6 +20,10 @@ blocks:
       </Center>
     _template: content
   - logos:
+      - src: /uploads/brarista (1).png
+        alt: Brarista
+        width: 150
+        height: 150
       - src: /uploads/Capital on Tap.png
         alt: Capital on top
         width: 150
