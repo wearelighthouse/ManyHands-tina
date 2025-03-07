@@ -20,6 +20,10 @@ blocks:
       </Center>
     _template: content
   - logos:
+      - src: /uploads/Flagstone (1).png
+        alt: Flagstone
+        width: 150
+        height: 150
       - src: /uploads/Charlie HR.png
         alt: Charlie HR
         width: 150
