@@ -2,13 +2,10 @@
 title: ManyHands London October 2024 recap
 blocks:
   - background: bg-mimosa
-    heading: ManyHands London - February 2025
-    subtitle: "\U0001F5D3️ 30th October 2024 \U0001F4CD Uncommon, Liverpool Street"
+    heading: "ManyHands London - February 2025 \U0001F468‍\U0001F373"
+    subtitle: "\U0001F5D3️ 25th February 2025 \U0001F4CD Uncommon, Liverpool Street"
     _template: basicHero
-  - body: >
-      There’s nothing quite like coming together with fellow product people to
-      explore a theme as fun as villainy! The talent and energy everyone brought
-      to our event truly made it a wickedly good time!
+  - body: "Bringing product minds together always sparks something great, and this event was no exception! From bold ideas to creative problem-solving, the room was buzzing with energy as teams tackled a brand-new challenge \U0001F525\n"
     _template: content
   - body: |
       ![](/uploads/DSC_5165.jpg)
@@ -62,15 +59,16 @@ blocks:
       </Center>
 
 
-      [Alexander Baxevanis](https://www.linkedin.com/in/futureshape/) inspired
-      us to explore our creative potential, encouraging everyone to pursue side
-      projects that ignite their passion.
+      [Beth Colquhoun](https://www.linkedin.com/in/beth-colquhoun/), the
+      Principal Product Manager from [Legl](https://www.legl.com/) broke down
+      the art of strategy, showing us how to cut through complexity and turn big
+      ideas into real impact.
 
 
-      [Tom Shurrock](https://www.linkedin.com/in/shurrock/) gave us some
-      much-needed real talk on how to succeed in product, bonding with us over
-      the challenges of navigating the “dark swamp of despair” that many face
-      along the way.
+      [Naji El-Arifi](https://www.linkedin.com/in/najielarifi/), Head of
+      Innocation at [VML](https://www.vml.com/) took us into the future of voice
+      technology, making the case for why voice interactions will soon be a key
+      part of how we work.
     _template: content
   - body: |
       <Center>
@@ -86,19 +84,19 @@ blocks:
   - heading: We collaborated on a fun product challenge
     items:
       - indicator: "\U0001F608"
-        title: Collaboration Tool for Movie Villains
+        title: "\U0001F468‍\U0001F373 Learning Platform for Chefs"
     _template: bigList
-  - body: "With our creative brains all warmed up, we grabbed some pizza, got into groups, and started brainstorming. An hour later, we pitched our ideas back to the wider group:\n\n\U0001F3AD Looking to gather a crew for your next big heist? Sin Starter connects villains with the right skills—whether it’s hacking CCTV or driving getaway cars. It’s a mix of dating apps, Fiverr, and DocuSign for those with evil plans.\n\n\U0001F37D️ Networking is key for any villain, and Devil’s Hour offers just that. Join fellow masterminds for a late-night meal at 3:33 AM, and if you're lucky, dine with the Devil’s Advocate for some premium insights.\n\n\U0001F4F2 Whether you’re planning a bank heist or an evil takeover, Partners in Crime helps you find the perfect accomplice. List your plans, match with the right talents, and make your villainous dreams come true.\n\n\U0001F579️ Want to test your evil schemes before executing them? Villain Reality lets you rehearse your plans in a safe, community-driven environment, with kill cam replays and sentiment analysis to help perfect your strategy.\n"
+  - body: "With our creative brains all warmed up, we grabbed some pizza, got into groups, and started brainstorming. An hour later, we pitched our ideas back to the wider group:\n\n\U0001F966 Growing a business as a chef takes more than just culinary skills. Le Menu helps chefs scale beyond the kitchen with personalised learning paths, mentorship, revenue management tools, and mental well-being support.\n\n\U0001F4F1 Every second counts when there are orders coming in every second. OnlyChefs is a voice-controlled career companion that guides chefs through their next move with step-by-step video coaching. Just place your phone in front of you, say “Next,” and keep going without interruptions.\n\n\U0001F4D6 Juggling dietary requirements can make meal planning overwhelming. Little Green Spoon makes it easier by helping parents collect recipes, build custom cookbooks, and generate shopping lists, ensuring every meal meets their family’s needs.\n"
     _template: content
   - background: bg-light-gray
     quotes:
       - quote: >-
-          By far the best product event I've attended! A mixture of talks,
-          activities, networking opportunities food and drink and great people.
-          Well organised and in a great location, my first time and most
-          definitely won't be my last, thanks for the great evening!
-        author: 'Peter '
-        jobTitle: Senior Product Manager at CarWow
+          I had a fantastic time at first Many Hands event. To start with, the
+          team at Digital People was super welcoming, warm and friendly. The
+          atmosphere was relaxed and collaborative, and the design challenge
+          very fun to be involved in. I look forward to attending the next one!
+        author: Andreea
+        jobTitle: Freelance Product Designer
     _template: quotes
   - icon: ok
     _template: hr
