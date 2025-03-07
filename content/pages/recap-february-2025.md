@@ -72,11 +72,11 @@ blocks:
     _template: content
   - body: |
       <Center>
-        ![](/uploads/DSC_5594.jpg)
+        ![](</uploads/DPP_MH_A (1).jpg>)
       </Center>
 
       <Center>
-        ![](/uploads/DSC_5267.jpg)
+        ![](</uploads/DPP_MH_E (1).jpg>)
       </Center>
     _template: content
   - icon: horns
