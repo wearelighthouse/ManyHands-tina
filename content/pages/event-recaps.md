@@ -8,7 +8,7 @@ blocks:
   - items:
       - open: true
         summary: "✌️ ManyHands London -February 2025 \U0001F383\n"
-        text: "**The brief we collaborated on:**\\\nCollaboration Tool for Movie Villains \U0001F608\n\n**Attended by product pros from:**\\\nCharlie HR, Flagstone, Capital on Top, Brarista, and Centrica. \U0001F929\n\n[View the full recap](https://wearemanyhands.com/recap-october-2024)\n"
+        text: "**The brief we collaborated on:**\\\nCollaboration Tool for Movie Villains \U0001F608\n\n**Attended by product pros from:**\\\nCharlie HR, Flagstone, Capital on Top, Brarista, and Centrica. \U0001F929\n\n[View the full recap](https://wearemanyhands.com/recap-february-2025)\n"
       - open: false
         summary: "✌️ ManyHands London - October 2024 \U0001F383\n"
         text: "**The brief we collaborated on:**\\\nCollaboration Tool for Movie Villains \U0001F608\n\n**Attended by product pros from:**\\\nTesco, Carwow, CareerFoundry, Askable, CoreBlue, Moneybox, Flagstone, TransferGo, Trimble, and Diversio, MarkAllen, 51Blocks, Countingup, ThoughBot, Voice 21, Adapt Digital Ltd, Lawhive, Shoreditch Design, and Instinet. \U0001F929\n\n[View the full recap](https://wearemanyhands.com/recap-october-2024)\n"
