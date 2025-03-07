@@ -34,7 +34,7 @@ blocks:
         height: 250
       - src: /uploads/brarista (1).png
         alt: Brarista
-        width: 250
+        width: 200
         height: 250
       - src: /uploads/centrica.png
         alt: Centrica
