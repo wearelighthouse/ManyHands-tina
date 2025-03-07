@@ -20,6 +20,10 @@ blocks:
       </Center>
     _template: content
   - logos:
+      - src: /uploads/centrica.png
+        alt: Centrica
+        width: 150
+        height: 150
       - src: /uploads/brarista (1).png
         alt: Brarista
         width: 150
