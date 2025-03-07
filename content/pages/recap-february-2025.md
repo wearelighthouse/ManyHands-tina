@@ -22,8 +22,8 @@ blocks:
   - logos:
       - src: /uploads/Charlie HR.png
         alt: Charlie HR
-        width: 150
-        height: 150
+        width: 250
+        height: 250
       - src: /uploads/Flagstone (1).png
         alt: Flagstone
         width: 150
