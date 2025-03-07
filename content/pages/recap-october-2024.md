@@ -22,33 +22,8 @@ blocks:
   - logos:
       - src: /uploads/Charlie HR.png
         alt: Charlie HR
-      - src: /uploads/Trimble.png
-        alt: Trimble
         width: 150
         height: 150
-      - src: /uploads/Carwow.png
-        alt: CarWow
-        width: 150
-        height: 150
-      - src: /uploads/Moneybox.png
-        alt: Moneybox
-        width: 150
-      - src: /uploads/Tesco.png
-        alt: Tesco
-        width: 150
-        height: 130
-      - src: /uploads/Flagstone.png
-        alt: Flagstone
-        width: 204
-        height: 150
-      - src: /uploads/TransferGo.png
-        alt: transferGo
-        width: 150
-        height: 150
-      - src: /uploads/Diversio.png
-        alt: Diversio
-        width: 200
-        height: 200
     _template: companies
   - body: >
       <Center>
