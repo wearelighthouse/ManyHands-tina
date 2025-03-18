@@ -53,7 +53,7 @@ export default function Randomizer() {
         innerElement1.style.transform = `translateY(${-2 * (data.platforms.length)}em)`;
         const selectedElement = [...innerElement1.children].find((childElement: HTMLElement) => childElement.innerText === selectedPlatform) as HTMLElement;
         selectedElement.style.transition = 'color .2s 3s';
-        selectedElement.classList.add('text-mimosa');
+        selectedElement.classList.add('text-iceberg');
       }, 0);
     }
 
@@ -63,7 +63,7 @@ export default function Randomizer() {
         innerElement2.style.transform = `translateY(${-2 * data.audiences.length}em)`;
         const selectedElement = [...innerElement2.children].find((childElement: HTMLElement) => childElement.innerText === selectedAudience) as HTMLElement;
         selectedElement.style.transition = 'color .2s 3s';
-        selectedElement.classList.add('text-mimosa');
+        selectedElement.classList.add('text-iceberg');
       }, 3500);
     }
 
@@ -79,8 +79,8 @@ export default function Randomizer() {
       innerElement2.style.transform = '';
       selectedElement1.style.transition = 'color .2s';
       selectedElement2.style.transition = 'color .2s';
-      selectedElement1.classList.remove('text-mimosa');
-      selectedElement2.classList.remove('text-mimosa');
+      selectedElement1.classList.remove('text-iceberg');
+      selectedElement2.classList.remove('text-iceberg');
     });
 
     document.querySelector('.button.run').addEventListener('click', () => {
@@ -99,7 +99,7 @@ export default function Randomizer() {
   return (
     <Layout>
       <main className="min-h-[100dvh] grid">
-        <div className="grid bg-mimosa px-6 py-14 max-tablet:pb-6 tablet:px-16 tablet:m-4 text-center">
+        <div className="grid bg-iceberg px-6 py-14 max-tablet:pb-6 tablet:px-16 tablet:m-4 text-center">
           <div className="flex justify-center items-start">
             <a href={`${prefix}/`} aria-label="Home">
               <img className="mx-auto" src={`${prefix}/assets/manyhands-logo.svg`} alt="Many Hands" width="188px" height="34px"/>
@@ -107,9 +107,9 @@ export default function Randomizer() {
           </div>
 
           <div className="max-tablet:grid content-start justify-center whitespace-nowrap self-center">
-            <span className="random inline-grid relative h-[2em] leading-loose text-xl mobile:text-2xl desktop:text-4xl font-semibold font-tiempos text-mimosa/75 bg-smoke/95 px-2 overflow-hidden tablet:text-right mx-2"><div className="inner transition-transform duration-[3s]"></div></span>
+            <span className="random inline-grid relative h-[2em] leading-loose text-xl mobile:text-2xl desktop:text-4xl font-semibold font-tiempos text-iceberg/75 bg-smoke/95 px-2 overflow-hidden tablet:text-right mx-2"><div className="inner transition-transform duration-[3s]"></div></span>
             <span className="max-w-[22rem] tablet:max-w-lg my-2 tablet:my-8 moile:text-xl desktop:text-2xl font-semibold mx-auto">for</span>
-            <span className="random inline-grid relative h-[2em] leading-loose text-xl mobile:text-2xl desktop:text-4xl font-semibold font-tiempos text-mimosa/75 bg-smoke/95 px-2 overflow-hidden tablet:text-left mx-2"><div className="inner transition-transform duration-[3s]"></div></span>
+            <span className="random inline-grid relative h-[2em] leading-loose text-xl mobile:text-2xl desktop:text-4xl font-semibold font-tiempos text-iceberg/75 bg-smoke/95 px-2 overflow-hidden tablet:text-left mx-2"><div className="inner transition-transform duration-[3s]"></div></span>
           </div>
 
           <div className="flex flex-wrap items-end justify-end content-end gap-4 static z-10">
