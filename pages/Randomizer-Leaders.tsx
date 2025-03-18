@@ -3,9 +3,7 @@ import { Layout } from "../components/layout";
 
 const data = {
   platforms: [
-    'Delivery process, accountability & governance
-name 1,
-    name 2',
+    'Delivery process, accountability & governance',
     'Leadership & team roles',    
     'Organisational alignment & changes',    
     'Speed vs. Quality Trade-off',
