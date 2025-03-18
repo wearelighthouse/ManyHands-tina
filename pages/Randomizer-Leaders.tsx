@@ -4,9 +4,12 @@ import { Layout } from "../components/layout";
 const data = {
   platforms: [
     'Delivery process, accountability & governance',
-    'Leadership & team roles',    
+    'Leadership & product team roles & responsibilities',    
     'Organisational alignment & changes',    
-    'Speed vs. Quality Trade-off',
+    'Speed vs. quality trade-off'
+    'Scaling products'
+    'Aligned organisational goals across the business',
+    'Silos across teams',
   ],
   audiences: [
     'table 1',
