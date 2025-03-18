@@ -4,7 +4,7 @@ import { Layout } from "../components/layout";
 const data = {
   platforms: [
     'Delivery process, accountability & governance',
-    'Leadership & product team roles & responsibilities',    
+    'Leadership & product team roles',    
     'Organisational alignment & changes',    
     'Speed vs. quality trade-off',
     'Scaling products',
