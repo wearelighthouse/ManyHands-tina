@@ -6,8 +6,8 @@ const data = {
     'Delivery process, accountability & governance',
     'Leadership & product team roles & responsibilities',    
     'Organisational alignment & changes',    
-    'Speed vs. quality trade-off'
-    'Scaling products'
+    'Speed vs. quality trade-off',
+    'Scaling products',
     'Aligned organisational goals across the business',
     'Silos across teams',
   ],
