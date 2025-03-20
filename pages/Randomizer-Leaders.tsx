@@ -3,9 +3,12 @@ import { Layout } from "../components/layout";
 
 const data = {
   platforms: [
-    'Delivery process, accountability & governance',
-    'Leadership & product team roles',    
-    'Organisational alignment & changes',    
+    'Embedding & scaling effective product delivery',
+    'Creating high performing product teams',
+    'Leadership & product team accountability',
+    'Keeping the product proposition competitive',
+    'Organisational alignment & changes',
+    'Managing legacy systems & technical debt',
     'Speed vs. quality trade-off',
     'Scaling products',
     'Aligned organisational goals across the business',
