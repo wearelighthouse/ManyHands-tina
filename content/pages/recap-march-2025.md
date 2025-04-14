@@ -2,7 +2,7 @@
 title: ManyHands for Leaders March 2025 recap
 blocks:
   - background: bg-mimosa
-    heading: "ManyHands for Leaders - March 2025 \U0001F468‍\U0001F373"
+    heading: ManyHands for Leaders - March 2025 ⚖️
     subtitle: "\U0001F5D3️ 25th March 2025 \U0001F4CD The Ivy Market Grill"
     _template: basicHero
   - body: "Bringing product minds together always sparks something great, and this event was no exception! From bold ideas to creative problem-solving, the room was buzzing with energy as teams tackled a brand-new challenge \U0001F525\n"
@@ -66,9 +66,9 @@ blocks:
         ![](</uploads/Speakers (1).png>)
       </Center>
     _template: content
-  - body: "[Scott Chow](https://www.linkedin.com/in/chowscott888/), Former CPO at Beamery, Starling & PayPal \n\n\U0001F4A1 Scaling Product Leadership\n\n• Great leadership is about clarity, not just speed.\n\n• Scaling requires strong alignment. Without it, teams drift into chaos.\n\n• PayPal’s biggest wins? Rooted in deep customer insights, not just bold ideas.\n"
+  - body: "[Scott Chow](https://www.linkedin.com/in/chowscott888/), Former CPO at Beamery, Starling & PayPal\n\n\U0001F4A1 Scaling Product Leadership\n\n• Great leadership is about clarity, not just speed.\n\n• Scaling requires strong alignment. Without it, teams drift into chaos.\n\n• PayPal’s biggest wins? Rooted in deep customer insights, not just bold ideas.\n"
     _template: content
-  - body: "[Joel Newman](https://www.linkedin.com/in/joelmdnewman), Senior Director of UX at Just Eat Takeaway.com \n\n\U0001F4A1 The Role of UX today\n\n• Sharp, concise research wins leadership buy-in. Keep reports under two pages.\n\n• UX isn’t an afterthought. It’s a strategic advantage when linked to business impact.\n"
+  - body: "[Joel Newman](https://www.linkedin.com/in/joelmdnewman), Senior Director of UX at Just Eat Takeaway.com\n\n\U0001F4A1 The Role of UX today\n\n• Sharp, concise research wins leadership buy-in. Keep reports under two pages.\n\n• UX isn’t an afterthought. It’s a strategic advantage when linked to business impact.\n"
     _template: content
   - body: |
       <Center>
