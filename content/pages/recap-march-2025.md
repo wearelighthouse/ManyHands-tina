@@ -2,7 +2,7 @@
 title: ManyHands for Leaders March 2025 recap
 blocks:
   - background: bg-mimosa
-    heading: "ManyHands for Leaders - March2025 \U0001F468‍\U0001F373"
+    heading: "ManyHands for Leaders - March 2025 \U0001F468‍\U0001F373"
     subtitle: "\U0001F5D3️ 25th March 2025 \U0001F4CD The Ivy Market Grill"
     _template: basicHero
   - body: "Bringing product minds together always sparks something great, and this event was no exception! From bold ideas to creative problem-solving, the room was buzzing with energy as teams tackled a brand-new challenge \U0001F525\n"
