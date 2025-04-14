@@ -84,7 +84,7 @@ blocks:
   - heading: What stuck with us
     _template: bigList
   - body: >
-      Evolving Leadership Expectations & Product Team Accountability
+      **Evolving Leadership Expectations & Product Team Accountability**
 
 
       • The challenge: Navigating evolving expectations across tech, product,
@@ -96,7 +96,7 @@ blocks:
       roles within them.
     _template: content
   - body: >
-      Organizational Alignment & Change
+      **Organizational Alignment & Change**
 
 
       • The challenge: Shifting towards a more mature, product-led organization
@@ -108,7 +108,7 @@ blocks:
       agile initiatives makes it more manageable.
     _template: content
   - body: >
-      Speed vs. Quality Trade-Off
+      **Speed vs. Quality Trade-Off**
 
 
       • The challenge: Balancing the pressure to deliver quickly while
