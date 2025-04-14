@@ -10,19 +10,21 @@ blocks:
         summary: |
           ✌️ ManyHands for Leaders - March 2025 ⚖️
         text: >
-          What we talked about:
+          **What we talked about:**
+
 
           Aligning product orgs to navigating leadership expectations and
           balancing delivery with quality.
 
 
-          Attended by product pros from:
+          **Attended by product pros from:**
+
 
           Financial Times, BBC, CarWow, Deloitte, Guardian Financial Services,
           S\&P Global, Shell Plc, JustEat, Aviva, Sedex, Softwire, Simply
           Business, Plum, Entain, Gripped, Ventrovia, Copilots AI, HFUX LLC,
           Askable, BrokerInsights, Inspiratia, Diversily, Juniper, Kurtosys,
-          Adapt Digital, UX for Change & Trustpilot and C2E. 
+          Adapt Digital, UX for Change & Trustpilot and C2E.
 
 
           [View the full recap](https://wearemanyhands.com/recap-february-2025)
