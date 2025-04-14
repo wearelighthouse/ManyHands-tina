@@ -8,7 +8,7 @@ blocks:
   - items:
       - open: true
         summary: |
-          ManyHands for Leaders - March 2025 ⚖️
+          ✌️ ManyHands for Leaders - March 2025 ⚖️
         text: >
           What we talked about:
 
