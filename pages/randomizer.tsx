@@ -25,7 +25,7 @@ const data = {
     'customer engagement platform',
     'workflow automation',
     'mindfulness platform',
-    'e-commerce platform'
+    'e-commerce platform',
   ],
   audiences: [
     'kids',
@@ -70,13 +70,13 @@ const data = {
     'fashion designers',
     'cruise ship entertainers',
     'librarians',
-    'reality TV contestants'
-    'Stand-up comedians'
-    'billionaires'
-    'dog groomers'
-    'competitive eaters'
-    'survivalists'
-    'zookeepers'
+    'reality TV contestants',
+    'Stand-up comedians',
+    'billionaires',
+    'dog groomers',
+    'competitive eaters',
+    'survivalists',
+    'zookeepers',
   ],
 };
 
