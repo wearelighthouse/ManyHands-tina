@@ -21,6 +21,11 @@ const data = {
     'marketplace',
     'food and drink',
     'technical support',
+    'data & analytics platform',
+    'customer engagement platform',
+    'workflow automation',
+    'mindfulness platform',
+    'e-commerce platform'
   ],
   audiences: [
     'kids',
@@ -53,16 +58,25 @@ const data = {
     'parents',
     'teachers',
     'freelancers',
-    'gods',
     'ghosts',
     'wrestlers',
     'olympians',
     'marines',
-    'mercenaries',
     'ninjas',
     'clowns',
     'teenagers',
     'influencers',
+    'TV presenters',
+    'fashion designers',
+    'cruise ship entertainers',
+    'librarians',
+    'reality TV contestants'
+    'Stand-up comedians'
+    'billionaires'
+    'dog groomers'
+    'competitive eaters'
+    'survivalists'
+    'zookeepers'
   ],
 };
 
