@@ -1,7 +1,7 @@
 ---
 title: October 2025
-date: 2025-10-28T18:00:00.000Z
-date_end: 2025-10-28T21:00:00.000Z
+date: 2025-10-29T18:00:00.000Z
+date_end: 2025-10-29T21:00:00.000Z
 location_short: "London \U0001F1EC\U0001F1E7"
 location: TBA
 status: 'border-[#FF9325] bg-[#F3EDE0] soon'
