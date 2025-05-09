@@ -28,7 +28,7 @@
     "next": "^15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tinacms": "^2.6.2"
+    "tinacms": "^2.7.6"
   },
   "overrides": {
     "dompurify": "^2.5.8"
