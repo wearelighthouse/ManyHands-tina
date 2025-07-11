@@ -68,12 +68,11 @@ blocks:
   - background: bg-light-gray
     quotes:
       - quote: >-
-          By far the best product event I've attended! A mixture of talks,
-          activities, networking opportunities food and drink and great people.
-          Well organised and in a great location, my first time and most
-          definitely won't be my last, thanks for the great evening!
-        author: 'Peter '
-        jobTitle: Senior Product Manager at CarWow
+          I always love coming to ManyHands. It’s great to meet new people, work
+          on something fun in a safe, low-pressure environment, and learn a few
+          things too!
+        author: Christian
+        jobTitle: Product Designer
     _template: quotes
   - icon: ok
     _template: hr
