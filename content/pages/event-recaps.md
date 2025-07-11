@@ -8,7 +8,7 @@ blocks:
   - items:
       - open: true
         summary: "✌️ ManyHands London – April 2025 \U0001F94A\n"
-        text: "**The brief we collaborated on:**\n\nData and analytics platform for TV presenters \U0001F4FA\U0001F3A4\n\n**Attended by product pros from:**\n\nAmazon, Monzo, Tesco, Natwest, UBS, Wordplay, Dentsu and more\n\n[View the full recap](https://wearemanyhands.com/recap-march-2025)\n"
+        text: "**The brief we collaborated on:**\n\nData and analytics platform for TV presenters \U0001F4FA\U0001F3A4\n\n**Attended by product pros from:**\n\nAmazon, Monzo, Tesco, Natwest, UBS, Wordplay, Dentsu and more\n\n[View the full recap](https://wearemanyhands.com/recap-april-2025)\n"
       - open: false
         summary: |
           ✌️ ManyHands for Leaders - March 2025 ⚖️
