@@ -2,8 +2,8 @@
 title: ManyHands London April 2025 recap
 blocks:
   - background: bg-mimosa
-    heading: ManyHands London - October 2024
-    subtitle: "\U0001F5D3️ 30th October 2024 \U0001F4CD Uncommon, Liverpool Street"
+    heading: "✌️ ManyHands London – April 2025 \U0001F94A"
+    subtitle: "\U0001F5D3️ 25th April 2025 \U0001F4CD Uncommon, Liverpool Street"
     _template: basicHero
   - body: "There’s nothing quite like coming together with fellow product people to explore a theme as fun as villainy! The talent and energy everyone brought to our event truly made it a wickedly good time! \U0001F5A4\n"
     _template: content
