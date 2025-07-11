@@ -34,7 +34,7 @@ blocks:
         height: 150
       - src: /uploads/Amazon 1.png
         alt: Amazon
-        width: 150
+        width: 190
         height: 150
       - src: /uploads/Monzo 1.png
         alt: Monzo
