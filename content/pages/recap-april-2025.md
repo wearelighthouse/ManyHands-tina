@@ -20,6 +20,10 @@ blocks:
       </Center>
     _template: content
   - logos:
+      - src: /uploads/UBS 1.png
+        alt: UBS
+        width: 150
+        height: 150
       - src: /uploads/Frame.png
         alt: NatWest
         width: 195
