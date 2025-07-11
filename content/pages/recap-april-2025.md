@@ -20,6 +20,10 @@ blocks:
       </Center>
     _template: content
   - logos:
+      - src: /uploads/Tesco 1.png
+        alt: Tesco
+        width: 150
+        height: 150
       - src: /uploads/Amazon 1.png
         alt: Amazon
         width: 150
