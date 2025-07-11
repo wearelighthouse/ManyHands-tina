@@ -36,15 +36,16 @@ blocks:
       </Center>
 
 
-      [Alexander Baxevanis](https://www.linkedin.com/in/futureshape/) inspired
-      us to explore our creative potential, encouraging everyone to pursue side
-      projects that ignite their passion.
+      [Ella Sloper](https://www.linkedin.com/in/ellasloper/), Head of UX
+      Research at [Mettle](https://www.mettle.co.uk/), shared how to move from
+      reactive to strategic research to craft insights that drive meaningful
+      business impact.
 
 
-      [Tom Shurrock](https://www.linkedin.com/in/shurrock/) gave us some
-      much-needed real talk on how to succeed in product, bonding with us over
-      the challenges of navigating the “dark swamp of despair” that many face
-      along the way.
+      [Katie Libby](https://www.linkedin.com/in/katielibby/), UX Researcher at
+      [Pizza Hut Digital & Technology](https://www.pizzahut.co.uk/), gave us a
+      candid look at the common failures in democratising research and how to
+      make research more inclusive across large organisations.
     _template: content
   - body: |
       <Center>
