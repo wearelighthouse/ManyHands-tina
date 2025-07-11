@@ -24,6 +24,10 @@ blocks:
         alt: Amazon
         width: 150
         height: 150
+      - src: /uploads/Monzo 1.png
+        alt: Monzo
+        width: 194
+        height: 150
     _template: companies
   - body: >
       <Center>
