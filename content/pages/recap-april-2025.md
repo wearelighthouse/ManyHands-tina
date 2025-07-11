@@ -20,6 +20,10 @@ blocks:
       </Center>
     _template: content
   - logos:
+      - src: /uploads/Monzo 1.png
+        alt: Monzo
+        width: 194
+        height: 150
       - src: /uploads/UBS 1.png
         alt: UBS
         width: 170
@@ -35,10 +39,6 @@ blocks:
       - src: /uploads/Amazon 1.png
         alt: Amazon
         width: 190
-        height: 150
-      - src: /uploads/Monzo 1.png
-        alt: Monzo
-        width: 194
         height: 150
     _template: companies
   - body: >
