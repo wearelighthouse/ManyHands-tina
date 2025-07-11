@@ -30,7 +30,7 @@ blocks:
         height: 150
       - src: /uploads/Tesco 1.png
         alt: Tesco
-        width: 150
+        width: 171
         height: 150
       - src: /uploads/Amazon 1.png
         alt: Amazon
