@@ -49,7 +49,7 @@ blocks:
     _template: content
   - body: |
       <Center>
-        ![](/uploads/DSC_5594.jpg)
+        ![](/uploads/DSC_7482.jpg)
       </Center>
 
       <Center>
