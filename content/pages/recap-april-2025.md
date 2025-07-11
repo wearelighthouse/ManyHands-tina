@@ -26,7 +26,7 @@ blocks:
         height: 150
       - src: /uploads/Frame.png
         alt: NatWest
-        width: 195
+        width: 230
         height: 150
       - src: /uploads/Tesco 1.png
         alt: Tesco
