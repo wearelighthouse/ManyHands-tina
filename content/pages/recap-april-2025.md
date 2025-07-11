@@ -8,11 +8,11 @@ blocks:
   - body: "Bringing product minds together always sparks something great, and this event was no exception! From bold ideas to creative problem-solving, the room was buzzing with energy as teams tackled a brand-new challenge \U0001F525\n"
     _template: content
   - body: |
-      ![](/uploads/DSC_5165.jpg)
+      ![](/uploads/DSC_7223.jpg)
 
-      ![](/uploads/DSC_5870.jpg)
+      ![](/uploads/DSC_7449.jpg)
 
-      ![](/uploads/DSC_5953.jpg)
+      ![](/uploads/DSC_7268.jpg)
     _template: content
   - body: |
       <Center>
