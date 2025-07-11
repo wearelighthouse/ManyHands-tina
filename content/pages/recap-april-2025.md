@@ -53,7 +53,7 @@ blocks:
       </Center>
 
       <Center>
-        ![](/uploads/DSC_5267.jpg)
+        ![](/uploads/DSC_7598.jpg)
       </Center>
     _template: content
   - icon: horns
