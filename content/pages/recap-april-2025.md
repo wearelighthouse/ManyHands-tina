@@ -22,7 +22,7 @@ blocks:
   - logos:
       - src: /uploads/UBS 1.png
         alt: UBS
-        width: 150
+        width: 170
         height: 150
       - src: /uploads/Frame.png
         alt: NatWest
