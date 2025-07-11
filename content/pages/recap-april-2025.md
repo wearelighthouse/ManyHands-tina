@@ -5,7 +5,7 @@ blocks:
     heading: "✌️ ManyHands London – April 2025 \U0001F94A"
     subtitle: "\U0001F5D3️ 25th April 2025 \U0001F4CD Uncommon, Liverpool Street"
     _template: basicHero
-  - body: "There’s nothing quite like coming together with fellow product people to explore a theme as fun as villainy! The talent and energy everyone brought to our event truly made it a wickedly good time! \U0001F5A4\n"
+  - body: "Bringing product minds together always sparks something great, and this event was no exception! From bold ideas to creative problem-solving, the room was buzzing with energy as teams tackled a brand-new challenge \U0001F525\n"
     _template: content
   - body: |
       ![](/uploads/DSC_5165.jpg)
