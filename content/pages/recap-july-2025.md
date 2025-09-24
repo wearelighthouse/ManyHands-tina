@@ -2,17 +2,17 @@
 title: ManyHands London July 2025 recap
 blocks:
   - background: bg-mimosa
-    heading: "✌️ ManyHands London – April 2025 \U0001F94A"
-    subtitle: "\U0001F5D3️ 25th April 2025 \U0001F4CD Uncommon, Liverpool Street"
+    heading: "\U0001F44B ManyHands London – July 2025 \U0001F48D"
+    subtitle: "\U0001F5D3️ 23 July 2025 \U0001F4CD Uncommon, Liverpool Street"
     _template: basicHero
-  - body: "Bringing product minds together always sparks something great, and this event was no exception! From bold ideas to creative problem-solving, the room was buzzing with energy as teams tackled a brand-new challenge \U0001F525\n"
+  - body: "Bringing product minds together always leads to magic, and our July ManyHands edition was no different! From practical launch wisdom to playful AI experiments, the night was packed with fresh ideas, fast thinking, and plenty of laughs as teams designed smarter workflow tools for wedding planners. \U0001F64C\n"
     _template: content
   - body: |
-      ![](/uploads/DSC_7223.jpg)
+      ![](/uploads/ManyHandsJulyEvent037.jpg)
 
-      ![](/uploads/DSC_7449.jpg)
+      ![](/uploads/ManyHandsJulyEvent090.jpg)
 
-      ![](/uploads/DSC_7268.jpg)
+      ![](/uploads/ManyHandsJulyEvent069.jpg)
     _template: content
   - body: |
       <Center>
