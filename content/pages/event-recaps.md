@@ -8,7 +8,26 @@ blocks:
   - items:
       - open: true
         summary: "ManyHands London – July 2025 \U0001F48D\n"
-        text: ''
+        text: >
+          The brief we collaborated on:
+
+
+          Design a smarter workflow tool for wedding planners that streamlines
+          planning, enhances creativity, and makes the process more enjoyable
+          for clients and vendors alike.
+
+
+          Attended by product pros from:
+
+
+          Jenvey Consulting Ltd, Ovo, Jo Malone London, Sedex, Chip, Homesearch,
+          Rezolve Ai, Strategyzer, Palme Rainbow, Triad Group Plc, BBC, Looking
+          for a new role, Zilch, Chip, Calo, Flo Health, Griffin, ZFX, Bud,
+          University of Liverpool, Sky, Capital on Tap, New Look, ANZ Bank,
+          Student at Kingston University, Freelance
+
+
+          [View the full recap](https://wearemanyhands.com/recap-july-2025)
       - open: true
         summary: "✌️ ManyHands London – April 2025 \U0001F94A\n"
         text: "**The brief we collaborated on:**\n\nData and analytics platform for TV presenters \U0001F4FA\U0001F3A4\n\n**Attended by product pros from:**\n\nAmazon, Monzo, Tesco, Natwest, UBS, Wordplay, Dentsu and more\n\n[View the full recap](https://wearemanyhands.com/recap-april-2025)\n"
