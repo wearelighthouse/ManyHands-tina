@@ -48,7 +48,7 @@ blocks:
 
 
       <Center>
-        ![](</uploads/The speakers.png>)
+        ![](</uploads/The speakers - July 2025.png>)
       </Center>
 
 
@@ -76,18 +76,15 @@ blocks:
     _template: hr
   - heading: We collaborated on a fun product challenge
     items:
-      - indicator: "\U0001F4FA "
-        title: Data & Analytics Platform for TV Presenters
+      - indicator: "\U0001F48D"
+        title: Workflow Tool for Wedding Planners
     _template: bigList
-  - body: "With our creative brains all warmed up, we grabbed some pizza, got into groups, and started brainstorming. An hour later, we pitched our ideas back to the wider group:\n\n\U0001F94A Presenters are performers, and performers are competitive. Rivals.tv taps into that energy with a platform that helps presenters understand their audience, monitor the competition, and win the ratings game. From leaderboard-driven incentives to a “quirkimeter” for tone of voice, it even came with a clickable prototype. A well-deserved winner.\n\n\U0001FA84 Ever panicked mid-broadcast with nothing to say? Streamster ensures presenters never run out of ideas. It analyses trending content, social data, and comments to serve up ready-to-roll scripts and smart prompts. Built for internet streamers and TV personalities alike, it helps keep the spotlight on.\n\n\U0001F336️ Choosing the right guest can make or break a segment. Tasty Talent is a guest-suggestion tool that lets you dial up the drama or go full feel-good. Whether you're after a baddie with a tabloid past or a hero with a halo, it helps presenters build the perfect guest line-up.\n\n\U0001F3A5 With so much content out there, how do you make sure your documentary gets watched? Lean Filming uses A/B testing and social media insights to test early cuts and improve discoverability. Created with indie filmmakers in mind, it’s a data-driven approach to storytelling that meets audiences where they are.\n"
+  - body: "With our creative brains all warmed up, we grabbed some pizza, split into groups, and got to work. An hour later, we pitched our ideas back to the wider group:\n\n\U0001F947 Happily Never After – A planning platform that helps couples co-create their entire wedding vision. A free AI-powered version partners with select venues for revenue, while a premium tier offers full-service tools for professional planners.\n\n\U0001F48D Knot Ready – A playful app that fills virtual wedding bands as the big day approaches. Vendors recommend it to couples and earn commissions, while sponsors can feature in curated categories. It’s “The Knot” without losing the plot.\n\n\U0001F4E6 VR (Very Romantic) Wedding in a Box – A portable VR experience that lets couples visualise their big day down to the chairs and cake (yes, you can taste it). Pitched for wedding fairs and surprise marketing drops, the concept’s motto is simple: seeing is believing.\n\n\U0001F916 AI-SLE Assistant – From dream to done, this AI tool generates complete wedding plans based on budget and preferences, tracks dependencies, and sends automated reminders. Premium upgrades and affiliate links keep it sustainable.\n"
     _template: content
   - background: bg-light-gray
     quotes:
-      - quote: >-
-          I always love coming to ManyHands. It’s great to meet new people, work
-          on something fun in a safe, low-pressure environment, and learn a few
-          things too!
-        author: Christian
+      - quote: "Had such a great time at the ManyHands event in London! \n\nThe format encouraged playful exploration, from designing a wedding planning workflow tool to planning for product marketing.\n\nI especially loved how much we all achieved - in just one hour. A solid crash course in collaboration, designing, and pitching!\n\nGrateful to have shared the space with such thoughtful, energetic designers. Thanks Shelley Malham for curating the event, and ProtoPie for the pizza \U0001F355\nAnd it's always great to meet the PD Ladies \U0001F4AB\n\nLooking forward to the next one!"
+        author: Purva Chawan
         jobTitle: Product Designer
     _template: quotes
   - icon: ok
