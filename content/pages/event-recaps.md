@@ -9,7 +9,7 @@ blocks:
       - open: true
         summary: "ManyHands London – July 2025 \U0001F48D\n"
         text: >
-          The brief we collaborated on:
+          **The brief we collaborated on:**
 
 
           Design a smarter workflow tool for wedding planners that streamlines
@@ -17,7 +17,7 @@ blocks:
           for clients and vendors alike.
 
 
-          Attended by product pros from:
+          **Attended by product pros from:**
 
 
           Jenvey Consulting Ltd, Ovo, Jo Malone London, Sedex, Chip, Homesearch,
