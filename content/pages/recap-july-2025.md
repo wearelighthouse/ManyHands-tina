@@ -41,35 +41,15 @@ blocks:
         width: 190
         height: 150
     _template: companies
-  - body: >
-      <Center>
-        ### We learned loads from our speakers
-      </Center>
-
-
-      <Center>
-        ![](</uploads/The speakers - July 2025.png>)
-      </Center>
-
-
-      [Ella Sloper](https://www.linkedin.com/in/ellasloper/), Head of UX
-      Research at [Mettle](https://www.mettle.co.uk/), shared how to move from
-      reactive to strategic research to craft insights that drive meaningful
-      business impact.
-
-
-      [Katie Libby](https://www.linkedin.com/in/katielibby/), UX Researcher at
-      [Pizza Hut Digital & Technology](https://www.pizzahut.co.uk/), gave us a
-      candid look at the common failures in democratising research and how to
-      make research more inclusive across large organisations.
+  - body: "<Center>\n  ### We learned loads from our speakers\n</Center>\n\n<Center>\n  ![](</uploads/The speakers - July 2025.png>)\n</Center>\n\n\U0001F3A4 [Harshitha Shetty](https://www.linkedin.com/in/harshithashetty/), Fractional Product Leader (ex-[Wayfair](https://www.linkedin.com/company/wayfair/), [Dentsu](https://www.linkedin.com/company/dentsu/), [Hive](https://www.linkedin.com/company/hive-centrica-hive-limited/)), who shared a practical framework to reduce launch stress and improve outcomes.\n\n\U0001F3A4 [Khan Asghar](https://www.linkedin.com/in/khan-asghar-49b43180/), Product Lead at [Deloitte Digital](https://www.linkedin.com/company/deloitte-digital/), who challenged traditional ideas in product and shared how AI is Reshaping Product Management.\n"
     _template: content
   - body: |
       <Center>
-        ![](/uploads/DSC_7482.jpg)
+        ![](/uploads/ManyHandsJulyEvent082.jpg)
       </Center>
 
       <Center>
-        ![](/uploads/DSC_7598.jpg)
+        ![](/uploads/ManyHandsJulyEvent113.jpg)
       </Center>
     _template: content
   - icon: horns
