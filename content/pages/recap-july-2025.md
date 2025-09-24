@@ -20,25 +20,25 @@ blocks:
       </Center>
     _template: content
   - logos:
-      - src: /uploads/Monzo 1.png
-        alt: Monzo
-        width: 194
+      - src: /uploads/21.png
+        alt: The AA
+        width: 133
+        height: 107
+      - src: /uploads/20.png
+        alt: Universal Music
+        width: 250
         height: 150
-      - src: /uploads/UBS 1.png
-        alt: UBS
-        width: 170
+      - src: /uploads/18.png
+        alt: Sainsburys
+        width: 202
+        height: 145
+      - src: /uploads/19.png
+        alt: Ticketmaster
+        width: 208
         height: 150
-      - src: /uploads/Frame.png
-        alt: NatWest
-        width: 230
-        height: 150
-      - src: /uploads/Tesco 1.png
-        alt: Tesco
-        width: 171
-        height: 150
-      - src: /uploads/Amazon 1.png
-        alt: Amazon
-        width: 190
+      - src: /uploads/22.png
+        alt: Tripadvisor
+        width: 200
         height: 150
     _template: companies
   - body: "<Center>\n  ### We learned loads from our speakers\n</Center>\n\n<Center>\n  ![](</uploads/The speakers - July 2025.png>)\n</Center>\n\n\U0001F3A4 [Harshitha Shetty](https://www.linkedin.com/in/harshithashetty/), Fractional Product Leader (ex-[Wayfair](https://www.linkedin.com/company/wayfair/), [Dentsu](https://www.linkedin.com/company/dentsu/), [Hive](https://www.linkedin.com/company/hive-centrica-hive-limited/)), who shared a practical framework to reduce launch stress and improve outcomes.\n\n\U0001F3A4 [Khan Asghar](https://www.linkedin.com/in/khan-asghar-49b43180/), Product Lead at [Deloitte Digital](https://www.linkedin.com/company/deloitte-digital/), who challenged traditional ideas in product and shared how AI is Reshaping Product Management.\n"
