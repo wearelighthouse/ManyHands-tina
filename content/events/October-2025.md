@@ -1,11 +1,11 @@
 ---
-title: October 2025
-date: 2025-11-06T18:00:00.000Z
+title: November 2025
+date: 2025-11-20T18:00:00.000Z
 date_end: 2025-11-06T21:00:00.000Z
 location_short: "London \U0001F1EC\U0001F1E7"
 location: |-
-  Uncommon Liverpool Street
-  34-37 Liverpool St, London EC2M 7PP
+  Work.Life
+  6-7 St Cross St, London EC1N 8UB
 status: 'border-[#FF9325] bg-[#F3EDE0] soon'
 sign_up_url: 'https://zfrmz.eu/LlUcXIugWqkpMNKXsbTr'
 blocks:
