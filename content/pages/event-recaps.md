@@ -93,7 +93,7 @@ blocks:
 
         We'll let you know when we've set dates for upcoming events
 
-        <Cta href="https://forms.zohopublic.eu/digitalproductpeople/form/MHForm/formperma/GcWttUF7XjsnjK31wvy_ot1wFtIMeLPo1Dzgpd06DZA" text="Join the list" />
+        <Cta href="https://tinyurl.com/manyhands-get-notified" text="Join the list" />
       </Center>
     _template: content
 ---
