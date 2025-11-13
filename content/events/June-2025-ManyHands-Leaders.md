@@ -1,5 +1,5 @@
 ---
-title: June 2025 (ManyHands Leaders)
+title: June 2026 (ManyHands Leaders)
 date: 2026-06-17T07:30:00.000Z
 date_end: 2026-06-17T10:00:00.000Z
 location_short: "Leaders \U0001F4AA"
