@@ -1,7 +1,7 @@
 ---
 title: October 2026
 date: 2026-10-28T18:00:00.000Z
-date_end: 2026-10-28T21:00:00.000Z
+date_end: 2026-10-29T21:00:00.000Z
 location_short: "London \U0001F1EC\U0001F1E7"
 location: Central London
 status: 'border-[#FF9325] bg-[#F3EDE0] soon'
