@@ -45,7 +45,9 @@ blocks:
     _template: content
   - body: |
       <Center>
-        ![](/uploads/ManyHandsJulyEvent082.jpg)
+        ![](</uploads/Michaela Dixon.jpg>)
+
+        ![](</uploads/Tom Howes.jpg>)
       </Center>
 
       <Center>
