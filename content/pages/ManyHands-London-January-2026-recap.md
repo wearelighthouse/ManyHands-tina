@@ -20,10 +20,9 @@ blocks:
       </Center>
     _template: content
   - logos:
-      - src: /uploads/Puma.png
+      - src: /uploads/Puma 1.png
         alt: Puma
-        width: 400
-        height: 145
+        width: 300
       - src: /uploads/H&B.png
         alt: Holland & Barrett
         width: 500
