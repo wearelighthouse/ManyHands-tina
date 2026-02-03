@@ -7,6 +7,8 @@ blocks:
     _template: basicHero
   - items:
       - open: true
+        summary: "ManyHands London – November 2025 \U0001F9D1‍\U0001F37C\n"
+      - open: true
         summary: "ManyHands London – January 2026 \U0001F92D\n"
         text: |
           **The brief we collaborated on:**
