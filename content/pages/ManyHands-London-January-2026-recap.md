@@ -5,7 +5,7 @@ blocks:
     heading: "\U0001F44B ManyHands London – January 2026 \U0001F92D"
     subtitle: "\U0001F5D3️ 28 January 2026 \U0001F4CD Uncommon, Liverpool Street"
     _template: basicHero
-  - body: "Bringing product minds together always leads to magic, and our July ManyHands edition was no different! From practical launch wisdom to playful AI experiments, the night was packed with fresh ideas, fast thinking, and plenty of laughs as teams designed smarter workflow tools for wedding planners. \U0001F64C\n"
+  - body: "❄️ Our January event was just what we needed in the middle of winter; a joyful evening filled with collaboration and plenty of laughs! We kicked things off with two inspiring talks about curating personalised AI workflows and exploring the power of Vibe design. The fun continued with teams presenting a task manager for stand-up comedians. \U0001F602\n"
     _template: content
   - body: |
       ![](/uploads/ManyHandsJulyEvent037.jpg)
