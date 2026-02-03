@@ -23,12 +23,13 @@ blocks:
       - src: /uploads/H&B.png
         alt: Holland & Barrett
         width: 500
-      - src: /uploads/Puma.png
-        alt: Puma
-        width: 300
       - src: /uploads/Ticketmaster.png
         alt: Ticketmaster
-        width: 500
+        width: 600
+        height: 145
+      - src: /uploads/Puma.png
+        alt: Puma
+        width: 400
         height: 145
     _template: companies
   - body: "<Center>\n  ### We learned loads from our speakers\n</Center>\n\n<Center>\n  ![](</uploads/Speakers Jan 2026 from ManyHands.png>)\n</Center>\n\n\U0001F3A4 [Micaela Dixon](https://www.linkedin.com/in/micaelacdixon/): Senior Product Designer at[ Picsart](https://www.linkedin.com/company/picsart/) who shared her insights on using AI to curate your own workflow. By walking us through her own toolkit and workflow, Micaela shared how she separates AI noise from real, practical action - helping us to move away from chasing tools or trends, and towards workflows that actually work.\n\n\U0001F3A4 [Tom Howes](https://www.linkedin.com/in/tomanthowes/), Product Director at [Picsart](https://www.linkedin.com/company/picsart/) who gave us a HIIT session on Vive Design. He covered what GenAI for image and video can do for product people, share real-life examples, and introduce prompt patterns to support content creation.\_\n"
