@@ -87,9 +87,9 @@ blocks:
       - quote: Top notch speeches that helped me understand the struggles of user research better
         author: Marco Service
         jobTitle: Product Manager
-      - quote: 'I always love coming to ManyHands. It’s great to meet new people, work on something fun in a safe, low-pressure environment, and learn a few things too!'
-        author: Christian
-        jobTitle: Product Designer
+      - quote: I loved the user research talks - I took away tangible learnings to bring back to my team! Thank you for a fantastic event!
+        author: Amy
+        jobTitle: Senior User Researcher
     _template: quotes
   - icon: ok
     _template: hr
