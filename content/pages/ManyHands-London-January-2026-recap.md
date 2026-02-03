@@ -21,6 +21,8 @@ blocks:
     _template: content
   - logos:
       - src: /uploads/Puma.png
+        alt: Puma
+        width: 300
       - src: /uploads/18.png
         alt: Sainsburys
         width: 202
