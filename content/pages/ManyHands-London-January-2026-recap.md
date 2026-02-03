@@ -8,11 +8,11 @@ blocks:
   - body: "❄️ Our January event was just what we needed in the middle of winter; a joyful evening filled with collaboration and plenty of laughs! We kicked things off with two inspiring talks about curating personalised AI workflows and exploring the power of Vibe design. The fun continued with teams presenting a task manager for stand-up comedians. \U0001F602\n"
     _template: content
   - body: |
-      ![](/uploads/ManyHandsJulyEvent037.jpg)
+      ![](</uploads/ManyHands 104.jpg>)
 
-      ![](/uploads/ManyHandsJulyEvent090.jpg)
+      ![](</uploads/ManyHands 117.jpg>)
 
-      ![](/uploads/ManyHandsJulyEvent069.jpg)
+      ![](</uploads/ManyHands 113.jpg>)
     _template: content
   - body: |
       <Center>
