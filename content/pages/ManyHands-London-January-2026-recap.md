@@ -49,10 +49,6 @@ blocks:
 
         ![](</uploads/Tom Howes.jpg>)
       </Center>
-
-      <Center>
-        ![](/uploads/ManyHandsJulyEvent113.jpg)
-      </Center>
     _template: content
   - icon: horns
     _template: hr
