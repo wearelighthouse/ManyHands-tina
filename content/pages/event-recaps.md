@@ -7,25 +7,17 @@ blocks:
     _template: basicHero
   - items:
       - open: true
+        summary: "ManyHands London – January 2026 \U0001F92D\n"
+      - open: true
         summary: "ManyHands London – July 2025 \U0001F48D\n"
-        text: >
+        text: |
           **The brief we collaborated on:**
 
-
-          Design a smarter workflow tool for wedding planners that streamlines
-          planning, enhances creativity, and makes the process more enjoyable
-          for clients and vendors alike.
-
+          Design a smarter workflow tool for wedding planners that streamlines planning, enhances creativity, and makes the process more enjoyable for clients and vendors alike.
 
           **Attended by product pros from:**
 
-
-          Jenvey Consulting Ltd, Ovo, Jo Malone London, Sedex, Chip, Homesearch,
-          Rezolve Ai, Strategyzer, Palme Rainbow, Triad Group Plc, BBC, Looking
-          for a new role, Zilch, Chip, Calo, Flo Health, Griffin, ZFX, Bud,
-          University of Liverpool, Sky, Capital on Tap, New Look, ANZ Bank,
-          Student at Kingston University, Freelance
-
+          Jenvey Consulting Ltd, Ovo, Jo Malone London, Sedex, Chip, Homesearch, Rezolve Ai, Strategyzer, Palme Rainbow, Triad Group Plc, BBC, Looking for a new role, Zilch, Chip, Calo, Flo Health, Griffin, ZFX, Bud, University of Liverpool, Sky, Capital on Tap, New Look, ANZ Bank, Student at Kingston University, Freelance
 
           [View the full recap](https://wearemanyhands.com/recap-july-2025)
       - open: false
@@ -34,23 +26,14 @@ blocks:
       - open: false
         summary: |
           ✌️ ManyHands for Leaders - March 2025 ⚖️
-        text: >
+        text: |
           **What we talked about:**
 
-
-          Aligning product orgs to navigating leadership expectations and
-          balancing delivery with quality.
-
+          Aligning product orgs to navigating leadership expectations and balancing delivery with quality.
 
           **Attended by product pros from:**
 
-
-          Financial Times, BBC, CarWow, Deloitte, Guardian Financial Services,
-          S\&P Global, Shell Plc, JustEat, Aviva, Sedex, Softwire, Simply
-          Business, Plum, Entain, Gripped, Ventrovia, Copilots AI, HFUX LLC,
-          Askable, BrokerInsights, Inspiratia, Diversily, Juniper, Kurtosys,
-          Adapt Digital, UX for Change & Trustpilot and C2E.
-
+          Financial Times, BBC, CarWow, Deloitte, Guardian Financial Services, S\&P Global, Shell Plc, JustEat, Aviva, Sedex, Softwire, Simply Business, Plum, Entain, Gripped, Ventrovia, Copilots AI, HFUX LLC, Askable, BrokerInsights, Inspiratia, Diversily, Juniper, Kurtosys, Adapt Digital, UX for Change & Trustpilot and C2E.
 
           [View the full recap](https://wearemanyhands.com/recap-march-2025)
       - open: false
