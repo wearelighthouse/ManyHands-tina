@@ -10,16 +10,7 @@ blocks:
         summary: "ManyHands London – November 2025 \U0001F9D1‍\U0001F37C\n"
       - open: true
         summary: "ManyHands London – January 2026 \U0001F92D\n"
-        text: |
-          **The brief we collaborated on:**
-
-          xxx
-
-          **Attended by product pros from:**
-
-          xxx
-
-          [View the full recap](https://wearemanyhands.com/recap-july-2025)
+        text: "**The brief we collaborated on:**\n\nTravel planner for parents \U0001F9D1‍\U0001F37C\n\n**Attended by product pros from:**\n\nxx\n\n[View the full recap](https://wearemanyhands.com/recap-april-2025)\n"
       - open: true
         summary: "ManyHands London – July 2025 \U0001F48D\n"
         text: |
