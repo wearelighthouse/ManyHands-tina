@@ -51,9 +51,9 @@ blocks:
     _template: content
   - background: bg-light-gray
     quotes:
-      - quote: "Had such a great time at the ManyHands event in London! \n\nThe format encouraged playful exploration, from designing a wedding planning workflow tool to planning for product marketing.\n\nI especially loved how much we all achieved - in just one hour. A solid crash course in collaboration, designing, and pitching!\n\nGrateful to have shared the space with such thoughtful, energetic designers. Thanks Shelley Malham for curating the event, and ProtoPie for the pizza \U0001F355\nAnd it's always great to meet the PD Ladies \U0001F4AB\n\nLooking forward to the next one!"
-        author: Purva Chawan
-        jobTitle: Product Designer
+      - quote: 'I really enjoyed the event - loved meeting new people from the industry, taking part in design exercises, and seeing fresh ideas from different perspectives was really exciting.'
+        author: Fiona
+        jobTitle: Senior Designer at Zed Pods
     _template: quotes
   - icon: ok
     _template: hr
