@@ -74,6 +74,9 @@ blocks:
     _template: content
   - background: bg-light-gray
     quotes:
+      - quote: I loved the user research talks - I took away tangible learnings that I'm excited to bring back to my team! Thank you for a fantastic event!
+        author: Amy
+        jobTitle: Senior User Researcher
       - quote: |-
           I loved everything! I loved the theme of user research, and how it was talked about from two different angles. 
 
@@ -87,9 +90,6 @@ blocks:
       - quote: Top notch speeches that helped me understand the struggles of user research better
         author: Marco Service
         jobTitle: Product Manager
-      - quote: I loved the user research talks - I took away tangible learnings to bring back to my team! Thank you for a fantastic event!
-        author: Amy
-        jobTitle: Senior User Researcher
     _template: quotes
   - icon: ok
     _template: hr
