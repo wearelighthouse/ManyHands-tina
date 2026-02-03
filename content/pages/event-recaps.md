@@ -8,6 +8,16 @@ blocks:
   - items:
       - open: true
         summary: "ManyHands London – January 2026 \U0001F92D\n"
+        text: |
+          **The brief we collaborated on:**
+
+          xxx
+
+          **Attended by product pros from:**
+
+          xxx
+
+          [View the full recap](https://wearemanyhands.com/recap-july-2025)
       - open: true
         summary: "ManyHands London – July 2025 \U0001F48D\n"
         text: |
