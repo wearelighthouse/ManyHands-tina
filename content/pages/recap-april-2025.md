@@ -85,7 +85,7 @@ blocks:
           I love the badges and the icebreaker cards with prompts.
 
           I love the chilled environment of doing something fun, meeting new people and no pressure when presenting.
-        author: Christian Harris
+        author: Christian
         jobTitle: Senior Product Designer
       - quote: Top notch speeches that helped me understand the struggles of user research better
         author: Marco Service
