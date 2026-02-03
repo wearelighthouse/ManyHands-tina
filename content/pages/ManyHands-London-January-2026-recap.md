@@ -20,14 +20,7 @@ blocks:
       </Center>
     _template: content
   - logos:
-      - src: /uploads/21.png
-        alt: The AA
-        width: 133
-        height: 107
-      - src: /uploads/20.png
-        alt: Universal Music
-        width: 250
-        height: 150
+      - src: /uploads/Puma.png
       - src: /uploads/18.png
         alt: Sainsburys
         width: 202
