@@ -56,8 +56,8 @@ blocks:
     _template: hr
   - heading: We collaborated on a fun product challenge
     items:
-      - indicator: "\U0001F48D"
-        title: Workflow Tool for Wedding Planners
+      - indicator: "\U0001F92D"
+        title: Task manager for Comedians
     _template: bigList
   - body: "With our creative brains all warmed up, we grabbed some pizza, split into groups, and got to work. An hour later, we pitched our ideas back to the wider group:\n\n\U0001F947 Happily Never After – A planning platform that helps couples co-create their entire wedding vision. A free AI-powered version partners with select venues for revenue, while a premium tier offers full-service tools for professional planners.\n\n\U0001F48D Knot Ready – A playful app that fills virtual wedding bands as the big day approaches. Vendors recommend it to couples and earn commissions, while sponsors can feature in curated categories. It’s “The Knot” without losing the plot.\n\n\U0001F4E6 VR (Very Romantic) Wedding in a Box – A portable VR experience that lets couples visualise their big day down to the chairs and cake (yes, you can taste it). Pitched for wedding fairs and surprise marketing drops, the concept’s motto is simple: seeing is believing.\n\n\U0001F916 AI-SLE Assistant – From dream to done, this AI tool generates complete wedding plans based on budget and preferences, tracks dependencies, and sends automated reminders. Premium upgrades and affiliate links keep it sustainable.\n"
     _template: content
