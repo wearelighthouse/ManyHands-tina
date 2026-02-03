@@ -2,8 +2,8 @@
 title: ManyHands London January 2026 recap
 blocks:
   - background: bg-mimosa
-    heading: "\U0001F44B ManyHands London – July 2025 \U0001F48D"
-    subtitle: "\U0001F5D3️ 23 July 2025 \U0001F4CD Uncommon, Liverpool Street"
+    heading: "\U0001F44B ManyHands London – January 2026 \U0001F92D"
+    subtitle: "\U0001F5D3️ 28 January 2026 \U0001F4CD Uncommon, Liverpool Street"
     _template: basicHero
   - body: "Bringing product minds together always leads to magic, and our July ManyHands edition was no different! From practical launch wisdom to playful AI experiments, the night was packed with fresh ideas, fast thinking, and plenty of laughs as teams designed smarter workflow tools for wedding planners. \U0001F64C\n"
     _template: content
