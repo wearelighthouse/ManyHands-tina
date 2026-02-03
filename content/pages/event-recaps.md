@@ -12,7 +12,7 @@ blocks:
         text: "**The brief we collaborated on:**\n\nTask manager for comedians \U0001F92D\n\n**Attended by product pros from:**\n\nPuma, Ticketmaster and Holland & Barrett\n\n[View the full recap](https://wearemanyhands.com/recap-january-2026)\n"
       - open: false
         summary: "✌️ ManyHands London – November 2025 \U0001F9D1‍\U0001F37C\n"
-        text: "**The brief we collaborated on:**\n\nTravel planner for parents \U0001F9D1‍\U0001F37C\n\n**Attended by product pros from:**\n\nxx\n\n[View the full recap](https://wearemanyhands.com/recap-april-2025)\n"
+        text: "**The brief we collaborated on:**\n\nTravel planner for parents \U0001F9D1‍\U0001F37C\n\n**Attended by product pros from:**\n\nVirgin Media, Tesco, EY and Moonpig\n"
       - open: false
         summary: "✌️ ManyHands London – July 2025 \U0001F48D\n"
         text: |
