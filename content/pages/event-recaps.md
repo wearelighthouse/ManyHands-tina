@@ -10,7 +10,7 @@ blocks:
         summary: "✌️ ManyHands London – January 2026 \U0001F92D\n"
         text: "**The brief we collaborated on:**\n\nTask manager for comedians \U0001F92D\n\n**Attended by product pros from:**\n\nxx\n\n[View the full recap](https://wearemanyhands.com/recap-april-2025)\n"
       - open: true
-        summary: "ManyHands London – November 2025 \U0001F9D1‍\U0001F37C\n"
+        summary: "✌️ ManyHands London – November 2025 \U0001F9D1‍\U0001F37C\n"
         text: "**The brief we collaborated on:**\n\nTravel planner for parents \U0001F9D1‍\U0001F37C\n\n**Attended by product pros from:**\n\nxx\n\n[View the full recap](https://wearemanyhands.com/recap-april-2025)\n"
       - open: true
         summary: "✌️ ManyHands London – July 2025 \U0001F48D\n"
