@@ -41,27 +41,18 @@ blocks:
         width: 190
         height: 150
     _template: companies
-  - body: >
+  - body: |
       <Center>
         ### We learned loads from our speakers
       </Center>
-
 
       <Center>
         ![](</uploads/The speakers.png>)
       </Center>
 
+      [Ella Sloper](https://www.linkedin.com/in/ellasloper/), Head of UX Research at [Mettle](https://www.mettle.co.uk/), shared how to move from reactive to strategic research to craft insights that drive meaningful business impact.
 
-      [Ella Sloper](https://www.linkedin.com/in/ellasloper/), Head of UX
-      Research at [Mettle](https://www.mettle.co.uk/), shared how to move from
-      reactive to strategic research to craft insights that drive meaningful
-      business impact.
-
-
-      [Katie Libby](https://www.linkedin.com/in/katielibby/), UX Researcher at
-      [Pizza Hut Digital & Technology](https://www.pizzahut.co.uk/), gave us a
-      candid look at the common failures in democratising research and how to
-      make research more inclusive across large organisations.
+      [Katie Libby](https://www.linkedin.com/in/katielibby/), UX Researcher at [Pizza Hut Digital & Technology](https://www.pizzahut.co.uk/), gave us a candid look at the common failures in democratising research and how to make research more inclusive across large organisations.
     _template: content
   - body: |
       <Center>
@@ -83,10 +74,20 @@ blocks:
     _template: content
   - background: bg-light-gray
     quotes:
-      - quote: >-
-          I always love coming to ManyHands. It’s great to meet new people, work
-          on something fun in a safe, low-pressure environment, and learn a few
-          things too!
+      - quote: |-
+          I loved everything! I loved the theme of user research, and how it was talked about from two different angles. 
+
+          I love the pizza and fancy drinks.
+
+          I love the badges and the icebreaker cards with prompts.
+
+          I love the chilled environment of doing something fun, meeting new people and no pressure when presenting.
+        author: Christian Harris
+        jobTitle: Senior Product Designer
+      - quote: Top notch speeches that helped me understand the struggles of user research better
+        author: Marco Service
+        jobTitle: Product Manager
+      - quote: 'I always love coming to ManyHands. It’s great to meet new people, work on something fun in a safe, low-pressure environment, and learn a few things too!'
         author: Christian
         jobTitle: Product Designer
     _template: quotes
