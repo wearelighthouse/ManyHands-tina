@@ -23,9 +23,9 @@ blocks:
       - src: /uploads/Puma.png
         alt: Puma
         width: 300
-      - src: /uploads/18.png
-        alt: Sainsburys
-        width: 202
+      - src: /uploads/Ticketmaster.png
+        alt: Ticketmaster
+        width: 500
         height: 145
       - src: /uploads/19.png
         alt: Ticketmaster
