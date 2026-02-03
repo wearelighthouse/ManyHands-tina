@@ -2,7 +2,7 @@
 title: ManyHands London January 2026 recap
 blocks:
   - background: bg-mimosa
-    heading: "\U0001F44B ManyHands London – January 2026 \U0001F92D"
+    heading: "\U0001F44B ManyHands London – January 2026 ❄️"
     subtitle: "\U0001F5D3️ 28 January 2026 \U0001F4CD Uncommon, Liverpool Street"
     _template: basicHero
   - body: "❄️ Our January event was just what we needed in the middle of winter; a joyful evening filled with collaboration and plenty of laughs! We kicked things off with two inspiring talks about curating personalised AI workflows and exploring the power of Vibe design. The fun continued with teams presenting a task manager for stand-up comedians. \U0001F602\n"
