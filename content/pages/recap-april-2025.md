@@ -88,7 +88,7 @@ blocks:
         author: Christian
         jobTitle: Senior Product Designer
       - quote: Top notch speeches that helped me understand the struggles of user research better
-        author: Marco Service
+        author: Marco
         jobTitle: Product Manager
     _template: quotes
   - icon: ok
